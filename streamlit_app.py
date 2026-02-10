@@ -105,7 +105,7 @@ def image_to_base64(img: Image.Image) -> str:
     return base64.b64encode(buffer.read()).decode("utf-8")
 
 
-def generate_image_with_nano_banana(prompt: str, negative_prompt: str, size: str, reference_image: Image.Image):
+def generate_image_with_nano_banana(prompt: str, negative_prompt: str, size: str, reference_image: Image.Image, additional_reference: Optional[Image.Image] = None):
     """Generate image using Nano Banana Pro (Gemini 3 Pro Image) with reference image."""
     try:
         from google import genai
@@ -132,6 +132,10 @@ def generate_image_with_nano_banana(prompt: str, negative_prompt: str, size: str
             aspect_ratio = "1:1"
 
         # Build prompt with photoreal mascot style and character reference
+        additional_ref_note = ""
+        if additional_reference:
+            additional_ref_note = "\n\nADDITIONAL REFERENCE: Use the second reference image for scene/style inspiration while keeping TAL's identity from the first reference."
+
         full_prompt = f"""Photorealistic lifestyle photograph of TAL, a 3D mascot character, in a real-world location.
 
 CHARACTER LOCK (identity must match reference image exactly):
@@ -147,16 +151,17 @@ PHOTOGRAPHY STYLE:
 - Shot on DSLR, 35mm lens, shallow depth of field, subtle film grain
 - High-end brand mascot photography feel (like a real mascot photographed on location)
 - Realistic textures: detailed fur, fabric weave, natural shadow falloff
-- NOT a cartoon frame or animated movie still - this should look like a REAL photograph of a mascot"""
+- NOT a cartoon frame or animated movie still - this should look like a REAL photograph of a mascot{additional_ref_note}"""
+
+        # Build contents list with reference images
+        contents = [full_prompt, reference_image]
+        if additional_reference:
+            contents.append(additional_reference)
 
         # Use Nano Banana Pro with reference image
-        # Reference images are passed directly in contents list
         response = client.models.generate_content(
             model="gemini-2.0-flash-exp-image-generation",  # Model with image generation support
-            contents=[
-                full_prompt,
-                reference_image,  # TAL reference image
-            ],
+            contents=contents,
             config=types.GenerateContentConfig(
                 response_modalities=["TEXT", "IMAGE"],
             )
@@ -430,6 +435,30 @@ def main():
             disabled=not enhance_prompting,
         )
 
+    # Additional Reference Image Section
+    with st.expander("🖼️ Add Reference Image (Optional)", expanded=False):
+        st.caption("Upload or paste an image to use as additional style/scene reference")
+
+        ref_col1, ref_col2 = st.columns([2, 1])
+
+        with ref_col1:
+            uploaded_ref = st.file_uploader(
+                "Drop image here or click to upload",
+                type=["png", "jpg", "jpeg", "webp"],
+                help="This image will be used as additional reference for the scene/style",
+                label_visibility="collapsed",
+            )
+
+        with ref_col2:
+            if uploaded_ref:
+                ref_image = Image.open(uploaded_ref).convert("RGB")
+                st.image(ref_image, caption="Reference", width=150)
+                use_reference = st.checkbox("Use this reference", value=True)
+            else:
+                use_reference = False
+                ref_image = None
+                st.info("No reference added")
+
     # Generate button
     col_btn1, col_btn2, col_btn3 = st.columns([1, 2, 1])
     with col_btn2:
@@ -525,6 +554,7 @@ def main():
                     negative_prompt=prompt_package["negative_prompt"],
                     size=size,
                     reference_image=tal_image,
+                    additional_reference=ref_image if use_reference else None,
                 )
 
                 if img:
