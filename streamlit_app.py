@@ -409,9 +409,74 @@ def get_linkedin_user_info(access_token: str) -> Tuple[Optional[dict], Optional[
         return None, str(e)
 
 
-def post_to_linkedin(access_token: str, user_urn: str, text: str, image_url: Optional[str] = None) -> Tuple[bool, str]:
-    """Post content to LinkedIn personal profile."""
+def upload_image_to_linkedin(access_token: str, user_urn: str, img: Image.Image) -> Tuple[Optional[str], Optional[str]]:
+    """Upload image to LinkedIn and get asset URN."""
     try:
+        # Step 1: Register the upload
+        register_data = {
+            "registerUploadRequest": {
+                "recipes": ["urn:li:digitalmediaRecipe:feedshare-image"],
+                "owner": user_urn,
+                "serviceRelationships": [{
+                    "relationshipType": "OWNER",
+                    "identifier": "urn:li:userGeneratedContent"
+                }]
+            }
+        }
+
+        register_response = requests.post(
+            f"{LINKEDIN_API_BASE}/assets?action=registerUpload",
+            json=register_data,
+            headers={
+                "Authorization": f"Bearer {access_token}",
+                "Content-Type": "application/json",
+            },
+            timeout=30,
+        )
+
+        if register_response.status_code not in [200, 201]:
+            return None, f"Register failed: {register_response.status_code}"
+
+        register_result = register_response.json()
+        upload_url = register_result["value"]["uploadMechanism"]["com.linkedin.digitalmedia.uploading.MediaUploadHttpRequest"]["uploadUrl"]
+        asset_urn = register_result["value"]["asset"]
+
+        # Step 2: Upload the image binary
+        buffer = BytesIO()
+        if img.mode == "RGBA":
+            img = img.convert("RGB")
+        img.save(buffer, format="PNG")
+        buffer.seek(0)
+        image_bytes = buffer.read()
+
+        upload_response = requests.put(
+            upload_url,
+            data=image_bytes,
+            headers={
+                "Authorization": f"Bearer {access_token}",
+                "Content-Type": "image/png",
+            },
+            timeout=60,
+        )
+
+        if upload_response.status_code in [200, 201]:
+            return asset_urn, None
+        return None, f"Upload failed: {upload_response.status_code}"
+
+    except Exception as e:
+        return None, str(e)
+
+
+def post_to_linkedin(access_token: str, user_urn: str, text: str, img: Optional[Image.Image] = None) -> Tuple[bool, str]:
+    """Post content to LinkedIn personal profile with native image upload."""
+    try:
+        # Upload image first if provided
+        asset_urn = None
+        if img:
+            asset_urn, error = upload_image_to_linkedin(access_token, user_urn, img)
+            if error:
+                return False, f"Image upload failed: {error}"
+
         # Build the post payload
         post_data = {
             "author": user_urn,
@@ -421,7 +486,7 @@ def post_to_linkedin(access_token: str, user_urn: str, text: str, image_url: Opt
                     "shareCommentary": {
                         "text": text
                     },
-                    "shareMediaCategory": "NONE"
+                    "shareMediaCategory": "NONE" if not asset_urn else "IMAGE"
                 }
             },
             "visibility": {
@@ -429,12 +494,11 @@ def post_to_linkedin(access_token: str, user_urn: str, text: str, image_url: Opt
             }
         }
 
-        # If image URL provided, add it to the post
-        if image_url:
-            post_data["specificContent"]["com.linkedin.ugc.ShareContent"]["shareMediaCategory"] = "ARTICLE"
+        # Add image if uploaded
+        if asset_urn:
             post_data["specificContent"]["com.linkedin.ugc.ShareContent"]["media"] = [{
                 "status": "READY",
-                "originalUrl": image_url,
+                "media": asset_urn,
             }]
 
         response = requests.post(
@@ -929,15 +993,13 @@ def main():
 
                 if post_li_clicked:
                     with st.spinner("Posting to LinkedIn..."):
-                        # Upload image first
                         selected_li_img = images[li_image_idx]
-                        image_url, err = upload_image_to_hosting(selected_li_img)
 
                         success, message = post_to_linkedin(
                             st.session_state.linkedin_token,
                             st.session_state.linkedin_urn,
                             li_caption.strip(),
-                            image_url if not err else None,
+                            selected_li_img,  # Native image upload
                         )
 
                         if success:
