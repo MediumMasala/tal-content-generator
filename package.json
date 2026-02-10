@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "ts-node server/index.ts",
-    "start": "node dist/server/index.js",
+    "start": "ts-node server/index.ts",
+    "start:prod": "node dist/server/index.js",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
