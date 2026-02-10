@@ -203,7 +203,7 @@ def check_instagram_configured() -> bool:
 
 
 def upload_image_to_hosting(img: Image.Image) -> Tuple[Optional[str], Optional[str]]:
-    """Upload image to hosting service (required by Instagram API)."""
+    """Upload image to imgur for hosting (required by Instagram API)."""
     try:
         # Convert image to base64
         buffer = BytesIO()
@@ -213,20 +213,23 @@ def upload_image_to_hosting(img: Image.Image) -> Tuple[Optional[str], Optional[s
         buffer.seek(0)
         img_base64 = base64.b64encode(buffer.read()).decode("utf-8")
 
-        # Use Cloudinary unsigned upload (free tier)
+        # Use imgur API (anonymous upload)
         response = requests.post(
-            "https://api.cloudinary.com/v1_1/demo/image/upload",
+            "https://api.imgur.com/3/image",
+            headers={
+                "Authorization": "Client-ID 546c25a59c58ad7",
+            },
             data={
-                "file": f"data:image/jpeg;base64,{img_base64}",
-                "upload_preset": "docs_upload_example_us_preset",
+                "image": img_base64,
+                "type": "base64",
             },
             timeout=60,
         )
 
         if response.status_code == 200:
             data = response.json()
-            if "secure_url" in data:
-                return data["secure_url"], None
+            if data.get("success") and data.get("data", {}).get("link"):
+                return data["data"]["link"], None
             return None, "No URL in response"
 
         return None, f"HTTP {response.status_code}: {response.text[:100]}"
