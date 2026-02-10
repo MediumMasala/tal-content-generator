@@ -12,6 +12,7 @@ import express, { Request, Response } from "express";
 import cors from "cors";
 import { executeFlow, flowMetadata } from "../mastra/flow";
 import { isGeminiAvailable } from "../mastra/gemini/client";
+import { generateCaption } from "../mastra/tools/caption_generator";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -67,6 +68,52 @@ app.get("/flow", (_req: Request, res: Response) => {
     ...flowMetadata,
     gemini_available: isGeminiAvailable(),
   });
+});
+
+// Caption generator endpoint
+app.post("/caption", async (req: Request, res: Response) => {
+  const startTime = Date.now();
+
+  try {
+    console.log("\n" + "=".repeat(60));
+    console.log("[Server] POST /caption received");
+    console.log("[Server] Body:", JSON.stringify(req.body, null, 2));
+
+    const { image_context, mood, topic } = req.body;
+
+    if (!image_context) {
+      res.status(400).json({
+        status: "error",
+        error: "image_context is required",
+      });
+      return;
+    }
+
+    const result = await generateCaption({
+      image_context,
+      mood,
+      topic,
+    });
+
+    const duration = Date.now() - startTime;
+    console.log(`[Server] Caption generated in ${duration}ms`);
+    console.log("=".repeat(60) + "\n");
+
+    res.json({
+      status: "ok",
+      ...result,
+    });
+  } catch (error) {
+    const duration = Date.now() - startTime;
+    console.error(`[Server] Caption error after ${duration}ms:`, error);
+
+    const errorMessage = error instanceof Error ? error.message : "Unknown error";
+
+    res.status(400).json({
+      status: "error",
+      error: errorMessage,
+    });
+  }
 });
 
 // Start server

@@ -290,6 +290,29 @@ def publish_instagram_media(container_id: str) -> Tuple[Optional[str], Optional[
         return None, str(e)
 
 
+def generate_tal_caption(image_context: str, mood: Optional[str] = None) -> Tuple[Optional[str], Optional[str]]:
+    """Generate a TAL-style caption using the backend."""
+    try:
+        response = requests.post(
+            f"{BACKEND_URL}/caption",
+            json={
+                "image_context": image_context,
+                "mood": mood,
+            },
+            timeout=30,
+        )
+
+        if response.status_code == 200:
+            data = response.json()
+            if data.get("status") == "ok":
+                return data.get("full_caption"), None
+            return None, data.get("error", "Unknown error")
+        return None, f"HTTP {response.status_code}"
+
+    except Exception as e:
+        return None, str(e)
+
+
 def post_to_instagram(img: Image.Image, caption: str) -> Tuple[bool, str]:
     """Full flow: Upload image → Create container → Publish to Instagram."""
 
@@ -587,13 +610,49 @@ def main():
                 format_func=lambda x: f"Image #{x+1}",
             )
 
-            # Caption input
-            default_caption = f"✨ {st.session_state.prompt_package.get('assumptions', ['TAL content'])[0] if st.session_state.prompt_package.get('assumptions') else 'New TAL content!'}\n\n#TAL #AI #ContentCreator #DigitalArt"
+            # Caption generation
+            st.markdown("**Caption**")
+
+            # Initialize caption in session state if not present
+            if "generated_caption" not in st.session_state:
+                st.session_state.generated_caption = ""
+
+            col_cap1, col_cap2 = st.columns([3, 1])
+
+            with col_cap1:
+                caption_context = st.text_input(
+                    "What's happening in this image?",
+                    placeholder="e.g., TAL chilling at a cafe, TAL crushing it at work...",
+                    label_visibility="collapsed",
+                )
+
+            with col_cap2:
+                generate_caption_clicked = st.button(
+                    "🎤 Generate Caption",
+                    width="stretch",
+                    help="Generate a TAL-style caption using AI",
+                )
+
+            if generate_caption_clicked and caption_context:
+                with st.spinner("TAL is cooking up a caption..."):
+                    # Use the user's original request as context
+                    context = caption_context or st.session_state.prompt_package.get("assumptions", ["TAL content"])[0]
+                    generated, error = generate_tal_caption(context)
+
+                    if generated:
+                        st.session_state.generated_caption = generated
+                        st.success("Caption generated!")
+                    else:
+                        st.error(f"Caption generation failed: {error}")
+
+            # Caption text area
+            default_caption = st.session_state.generated_caption or f"another day another chaos. you know how it is.\n\n#TAL #BangaloreTech #TechLife #ContentCreator #Vibes"
             caption = st.text_area(
-                "Caption",
+                "Edit Caption",
                 value=default_caption,
-                height=100,
-                help="Write your Instagram caption. Hashtags recommended!",
+                height=120,
+                help="Edit the caption or generate a new one with TAL's voice",
+                label_visibility="collapsed",
             )
 
             col_post1, col_post2 = st.columns([2, 1])
@@ -617,6 +676,8 @@ def main():
                     if success:
                         st.success(f"🎉 {message}")
                         st.balloons()
+                        # Clear generated caption after successful post
+                        st.session_state.generated_caption = ""
                     else:
                         st.error(f"❌ {message}")
 

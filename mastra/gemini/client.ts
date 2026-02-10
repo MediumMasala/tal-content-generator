@@ -165,3 +165,43 @@ export async function callGemini(input: GeminiCallInput): Promise<PromptPackage>
 export function isGeminiAvailable(): boolean {
   return Boolean(GEMINI_API_KEY);
 }
+
+/**
+ * Generic Gemini call that returns raw JSON (for captions, etc.)
+ */
+export async function callGeminiRaw<T>(input: GeminiCallInput): Promise<T> {
+  if (!GEMINI_API_KEY) {
+    throw new Error("No GEMINI_API_KEY found");
+  }
+
+  const { GoogleGenerativeAI } = await import("@google/generative-ai");
+  const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
+  const model = genAI.getGenerativeModel({ model: GEMINI_MODEL });
+
+  const result = await model.generateContent({
+    contents: [
+      {
+        role: "user",
+        parts: [{ text: `${input.systemPrompt}\n\n${input.userMessage}` }],
+      },
+    ],
+    generationConfig: {
+      temperature: 0.8,
+      maxOutputTokens: 1000,
+    },
+  });
+
+  const responseText = result.response.text();
+
+  // Clean markdown if present
+  let cleanText = responseText.trim();
+  if (cleanText.startsWith("```")) {
+    cleanText = cleanText.split("```")[1];
+    if (cleanText.startsWith("json")) {
+      cleanText = cleanText.slice(4);
+    }
+    cleanText = cleanText.trim();
+  }
+
+  return JSON.parse(cleanText) as T;
+}
