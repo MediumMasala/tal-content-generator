@@ -467,7 +467,7 @@ def main():
             st.image(tal_img, width=100)
     with col_title:
         st.title("🎭 Tal Studios")
-        st.caption("AI-powered content generation with TAL character consistency")
+        st.caption("Welcome most sought after team of India!")
 
     st.divider()
 
