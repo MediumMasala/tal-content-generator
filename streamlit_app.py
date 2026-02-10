@@ -31,6 +31,14 @@ INSTAGRAM_BUSINESS_ACCOUNT_ID = os.environ.get("INSTAGRAM_BUSINESS_ACCOUNT_ID")
 GRAPH_API_VERSION = "v19.0"
 GRAPH_API_BASE = f"https://graph.facebook.com/{GRAPH_API_VERSION}"
 
+# LinkedIn API Configuration
+LINKEDIN_CLIENT_ID = os.environ.get("LINKEDIN_CLIENT_ID")
+LINKEDIN_CLIENT_SECRET = os.environ.get("LINKEDIN_CLIENT_SECRET")
+LINKEDIN_REDIRECT_URI = os.environ.get("LINKEDIN_REDIRECT_URI", "https://tal-content-generator.onrender.com")
+LINKEDIN_AUTH_URL = "https://www.linkedin.com/oauth/v2/authorization"
+LINKEDIN_TOKEN_URL = "https://www.linkedin.com/oauth/v2/accessToken"
+LINKEDIN_API_BASE = "https://api.linkedin.com/v2"
+
 # Page config
 st.set_page_config(
     page_title="Tal Studios",
@@ -339,6 +347,115 @@ def post_to_instagram(img: Image.Image, caption: str) -> Tuple[bool, str]:
     return True, f"Posted successfully! Media ID: {media_id}"
 
 
+# ============== LinkedIn Integration ==============
+
+def check_linkedin_configured() -> bool:
+    """Check if LinkedIn credentials are configured."""
+    return bool(LINKEDIN_CLIENT_ID and LINKEDIN_CLIENT_SECRET)
+
+
+def get_linkedin_auth_url() -> str:
+    """Generate LinkedIn OAuth authorization URL."""
+    import urllib.parse
+    params = {
+        "response_type": "code",
+        "client_id": LINKEDIN_CLIENT_ID,
+        "redirect_uri": LINKEDIN_REDIRECT_URI,
+        "scope": "openid profile w_member_social",
+        "state": "tal_studios_linkedin",
+    }
+    return f"{LINKEDIN_AUTH_URL}?{urllib.parse.urlencode(params)}"
+
+
+def exchange_linkedin_code(code: str) -> Tuple[Optional[str], Optional[str]]:
+    """Exchange authorization code for access token."""
+    try:
+        response = requests.post(
+            LINKEDIN_TOKEN_URL,
+            data={
+                "grant_type": "authorization_code",
+                "code": code,
+                "redirect_uri": LINKEDIN_REDIRECT_URI,
+                "client_id": LINKEDIN_CLIENT_ID,
+                "client_secret": LINKEDIN_CLIENT_SECRET,
+            },
+            headers={"Content-Type": "application/x-www-form-urlencoded"},
+            timeout=30,
+        )
+
+        if response.status_code == 200:
+            data = response.json()
+            return data.get("access_token"), None
+        return None, f"HTTP {response.status_code}: {response.text[:200]}"
+
+    except Exception as e:
+        return None, str(e)
+
+
+def get_linkedin_user_info(access_token: str) -> Tuple[Optional[dict], Optional[str]]:
+    """Get LinkedIn user profile info."""
+    try:
+        response = requests.get(
+            "https://api.linkedin.com/v2/userinfo",
+            headers={"Authorization": f"Bearer {access_token}"},
+            timeout=30,
+        )
+
+        if response.status_code == 200:
+            return response.json(), None
+        return None, f"HTTP {response.status_code}"
+
+    except Exception as e:
+        return None, str(e)
+
+
+def post_to_linkedin(access_token: str, user_urn: str, text: str, image_url: Optional[str] = None) -> Tuple[bool, str]:
+    """Post content to LinkedIn personal profile."""
+    try:
+        # Build the post payload
+        post_data = {
+            "author": user_urn,
+            "lifecycleState": "PUBLISHED",
+            "specificContent": {
+                "com.linkedin.ugc.ShareContent": {
+                    "shareCommentary": {
+                        "text": text
+                    },
+                    "shareMediaCategory": "NONE"
+                }
+            },
+            "visibility": {
+                "com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC"
+            }
+        }
+
+        # If image URL provided, add it to the post
+        if image_url:
+            post_data["specificContent"]["com.linkedin.ugc.ShareContent"]["shareMediaCategory"] = "ARTICLE"
+            post_data["specificContent"]["com.linkedin.ugc.ShareContent"]["media"] = [{
+                "status": "READY",
+                "originalUrl": image_url,
+            }]
+
+        response = requests.post(
+            f"{LINKEDIN_API_BASE}/ugcPosts",
+            json=post_data,
+            headers={
+                "Authorization": f"Bearer {access_token}",
+                "Content-Type": "application/json",
+                "X-Restli-Protocol-Version": "2.0.0",
+            },
+            timeout=30,
+        )
+
+        if response.status_code in [200, 201]:
+            return True, "Posted to LinkedIn!"
+        return False, f"HTTP {response.status_code}: {response.text[:200]}"
+
+    except Exception as e:
+        return False, str(e)
+
+
 def main():
     """Main application entry point."""
 
@@ -363,7 +480,7 @@ def main():
     api_ok = bool(api_key)
 
     # Status display
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
     with col1:
         if backend_ok:
             gemini_status = "Connected" if health.get("gemini_available") else "Mock Mode"
@@ -383,6 +500,14 @@ def main():
             st.success("✓ Instagram: Connected")
         else:
             st.warning("⚠️ Instagram: Not configured")
+
+    with col4:
+        if "linkedin_token" in st.session_state:
+            st.success("✓ LinkedIn: Connected")
+        elif check_linkedin_configured():
+            st.info("○ LinkedIn: Ready to connect")
+        else:
+            st.warning("⚠️ LinkedIn: Not configured")
 
     if not backend_ok:
         st.stop()
@@ -734,6 +859,103 @@ def main():
                         st.session_state.generated_caption = ""
                     else:
                         st.error(f"❌ {message}")
+
+        # LinkedIn Posting Section
+        st.divider()
+        st.subheader("💼 Post to LinkedIn")
+
+        if not check_linkedin_configured():
+            st.warning("LinkedIn not configured. Add LINKEDIN_CLIENT_ID and LINKEDIN_CLIENT_SECRET to .env")
+        else:
+            # Handle OAuth callback
+            query_params = st.query_params
+            if "code" in query_params and query_params.get("state") == "tal_studios_linkedin":
+                with st.spinner("Connecting to LinkedIn..."):
+                    code = query_params["code"]
+                    token, error = exchange_linkedin_code(code)
+
+                    if token:
+                        st.session_state.linkedin_token = token
+                        # Get user info
+                        user_info, err = get_linkedin_user_info(token)
+                        if user_info:
+                            st.session_state.linkedin_user = user_info
+                            st.session_state.linkedin_urn = f"urn:li:person:{user_info.get('sub')}"
+                        st.query_params.clear()
+                        st.rerun()
+                    else:
+                        st.error(f"LinkedIn auth failed: {error}")
+                        st.query_params.clear()
+
+            # Check if connected
+            if "linkedin_token" in st.session_state:
+                user = st.session_state.get("linkedin_user", {})
+                st.success(f"✅ Connected as: {user.get('name', 'LinkedIn User')}")
+
+                # Select image for LinkedIn
+                li_image_idx = st.selectbox(
+                    "Select image for LinkedIn",
+                    options=range(len(images)),
+                    format_func=lambda x: f"Image #{x+1}",
+                    key="linkedin_image_select",
+                )
+
+                # LinkedIn caption
+                li_caption = st.text_area(
+                    "LinkedIn Post",
+                    value=caption if 'caption' in dir() else "another day another chaos. you know how it is.",
+                    height=120,
+                    key="linkedin_caption",
+                    help="Write your LinkedIn post content",
+                )
+
+                col_li1, col_li2 = st.columns([2, 1])
+
+                with col_li1:
+                    post_li_clicked = st.button(
+                        "📤 Post to LinkedIn",
+                        type="primary",
+                        width="stretch",
+                        disabled=not li_caption.strip(),
+                        key="post_linkedin_btn",
+                    )
+
+                with col_li2:
+                    if st.button("🔓 Disconnect", key="disconnect_linkedin"):
+                        for key in ["linkedin_token", "linkedin_user", "linkedin_urn"]:
+                            if key in st.session_state:
+                                del st.session_state[key]
+                        st.rerun()
+
+                if post_li_clicked:
+                    with st.spinner("Posting to LinkedIn..."):
+                        # Upload image first
+                        selected_li_img = images[li_image_idx]
+                        image_url, err = upload_image_to_hosting(selected_li_img)
+
+                        success, message = post_to_linkedin(
+                            st.session_state.linkedin_token,
+                            st.session_state.linkedin_urn,
+                            li_caption.strip(),
+                            image_url if not err else None,
+                        )
+
+                        if success:
+                            st.success(f"🎉 Maalik Aap Great Ho! Posted to LinkedIn!")
+                            st.balloons()
+                        else:
+                            st.error(f"❌ {message}")
+            else:
+                # Show connect button
+                auth_url = get_linkedin_auth_url()
+                st.markdown(f"""
+                    <a href="{auth_url}" target="_self">
+                        <button style="background-color:#0077B5;color:white;padding:10px 20px;border:none;border-radius:5px;cursor:pointer;font-size:16px;">
+                            🔗 Connect LinkedIn Account
+                        </button>
+                    </a>
+                """, unsafe_allow_html=True)
+                st.caption("Click to authorize TAL Studios to post on your behalf")
 
 
 if __name__ == "__main__":
