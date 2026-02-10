@@ -394,6 +394,13 @@ def main():
         label_visibility="collapsed",
     )
 
+    # Enhance Prompting Toggle
+    enhance_prompting = st.toggle(
+        "✨ Enhance Prompting",
+        value=True,
+        help="When ON: AI enhances your prompt for better results. When OFF: Uses your prompt directly."
+    )
+
     # Settings row
     col1, col2, col3, col4 = st.columns(4)
 
@@ -420,6 +427,7 @@ def main():
             "Style",
             options=[None, "cinematic", "bright_cheerful", "moody_artistic", "minimalist", "vintage"],
             format_func=lambda x: "Default" if x is None else x.replace("_", " ").title(),
+            disabled=not enhance_prompting,
         )
 
     # Generate button
@@ -440,35 +448,51 @@ def main():
 
         with st.status("🎨 Generating TAL images...", expanded=True) as status:
 
-            # Step 1: Enhance prompt
-            st.write("✨ **Step 1:** Enhancing prompt with Gemini...")
-            try:
-                result = get_enhanced_prompt(
-                    user_request=user_request.strip(),
-                    size=size,
-                    seed=int(seed) if seed else None,
-                    style_preset=style_preset,
-                )
+            # Step 1: Enhance prompt OR use regular query
+            if enhance_prompting:
+                st.write("✨ **Step 1:** Enhancing prompt with Gemini...")
+                try:
+                    result = get_enhanced_prompt(
+                        user_request=user_request.strip(),
+                        size=size,
+                        seed=int(seed) if seed else None,
+                        style_preset=style_preset,
+                    )
 
-                if result.get("status") != "ok":
-                    st.error(f"Prompt enhancement failed: {result.get('error', 'Unknown error')}")
+                    if result.get("status") != "ok":
+                        st.error(f"Prompt enhancement failed: {result.get('error', 'Unknown error')}")
+                        status.update(label="❌ Failed", state="error")
+                        return
+
+                    prompt_package = result["streamlit_payload"]["prompt_package"]
+                    st.success(f"Enhanced prompt ready ({len(prompt_package['final_prompt'])} chars)")
+
+                except Exception as e:
+                    st.error(f"Backend error: {e}")
                     status.update(label="❌ Failed", state="error")
                     return
 
-                prompt_package = result["streamlit_payload"]["prompt_package"]
-                st.success(f"Enhanced prompt ready ({len(prompt_package['final_prompt'])} chars)")
-
-            except Exception as e:
-                st.error(f"Backend error: {e}")
-                status.update(label="❌ Failed", state="error")
-                return
-
-            # Show enhanced prompt
-            with st.expander("📝 View Enhanced Prompt"):
-                st.markdown(f"**Original:** {user_request.strip()}")
-                st.markdown(f"**Enhanced:** {prompt_package['final_prompt'][:300]}...")
-                if prompt_package.get("policy_notes"):
-                    st.warning(f"Policy notes: {', '.join(prompt_package['policy_notes'])}")
+                # Show enhanced prompt
+                with st.expander("📝 View Enhanced Prompt"):
+                    st.markdown(f"**Original:** {user_request.strip()}")
+                    st.markdown(f"**Enhanced:** {prompt_package['final_prompt'][:300]}...")
+                    if prompt_package.get("policy_notes"):
+                        st.warning(f"Policy notes: {', '.join(prompt_package['policy_notes'])}")
+            else:
+                # Regular query - use user's prompt directly
+                st.write("📝 **Step 1:** Using your prompt directly...")
+                prompt_package = {
+                    "final_prompt": user_request.strip(),
+                    "negative_prompt": "blurry, low quality, distorted, watermark, text, logo",
+                    "reference_image_ids": ["TAL_ANCHOR_IMAGE"],
+                    "reference_strength": 0.9,
+                    "size": size,
+                    "n": 1,
+                    "seed": int(seed) if seed else None,
+                    "assumptions": ["Using direct prompt without enhancement"],
+                    "policy_notes": [],
+                }
+                st.success("Using your prompt directly")
 
             # Step 2: Load TAL reference
             st.write("🐕 **Step 2:** Loading TAL reference image...")
