@@ -698,7 +698,7 @@ def main():
                     success, message = post_to_instagram(selected_img, caption.strip())
 
                     if success:
-                        st.success(f"🎉 {message}")
+                        st.success(f"🎉 Maalik Aap Great Ho!")
                         st.balloons()
                         # Clear generated caption after successful post
                         st.session_state.generated_caption = ""
