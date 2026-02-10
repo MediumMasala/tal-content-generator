@@ -33,7 +33,7 @@ GRAPH_API_BASE = f"https://graph.facebook.com/{GRAPH_API_VERSION}"
 
 # Page config
 st.set_page_config(
-    page_title="TAL - Cabal of Strangers",
+    page_title="Tal Studios",
     page_icon="🎭",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -321,8 +321,8 @@ def main():
         if tal_img:
             st.image(tal_img, width=100)
     with col_title:
-        st.title("🎭 TAL - Cabal of Strangers")
-        st.caption("Photorealistic image generation with TAL character consistency")
+        st.title("🎭 Tal Studios")
+        st.caption("AI-powered content generation with TAL character consistency")
 
     st.divider()
 
