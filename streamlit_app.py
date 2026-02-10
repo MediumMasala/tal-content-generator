@@ -202,8 +202,8 @@ def check_instagram_configured() -> bool:
     return bool(INSTAGRAM_ACCESS_TOKEN and INSTAGRAM_BUSINESS_ACCOUNT_ID)
 
 
-def upload_image_to_imgbb(img: Image.Image) -> Tuple[Optional[str], Optional[str]]:
-    """Upload image to imgbb for temporary hosting (required by Instagram API)."""
+def upload_image_to_hosting(img: Image.Image) -> Tuple[Optional[str], Optional[str]]:
+    """Upload image to hosting service (required by Instagram API)."""
     try:
         # Convert image to base64
         buffer = BytesIO()
@@ -213,36 +213,23 @@ def upload_image_to_imgbb(img: Image.Image) -> Tuple[Optional[str], Optional[str
         buffer.seek(0)
         img_base64 = base64.b64encode(buffer.read()).decode("utf-8")
 
-        # Try imgbb.com API
+        # Use Cloudinary unsigned upload (free tier)
         response = requests.post(
-            "https://api.imgbb.com/1/upload",
+            "https://api.cloudinary.com/v1_1/demo/image/upload",
             data={
-                "key": "b9e4c0c46e2b7c9c8e8f5a3d7b6a5c4d",  # Free API key
-                "image": img_base64,
+                "file": f"data:image/jpeg;base64,{img_base64}",
+                "upload_preset": "docs_upload_example_us_preset",
             },
             timeout=60,
         )
 
         if response.status_code == 200:
             data = response.json()
-            if data.get("success"):
-                image_url = data["data"]["url"]
-                return image_url, None
-            return None, data.get("error", {}).get("message", "Upload failed")
+            if "secure_url" in data:
+                return data["secure_url"], None
+            return None, "No URL in response"
 
-        # Fallback: try 0x0.st (simple file hosting)
-        buffer.seek(0)
-        response = requests.post(
-            "https://0x0.st",
-            files={"file": ("image.jpg", buffer, "image/jpeg")},
-            timeout=60,
-        )
-
-        if response.status_code == 200:
-            image_url = response.text.strip()
-            return image_url, None
-
-        return None, f"HTTP {response.status_code}"
+        return None, f"HTTP {response.status_code}: {response.text[:100]}"
 
     except Exception as e:
         return None, str(e)
@@ -304,7 +291,7 @@ def post_to_instagram(img: Image.Image, caption: str) -> Tuple[bool, str]:
     """Full flow: Upload image → Create container → Publish to Instagram."""
 
     # Step 1: Upload image to get public URL
-    image_url, error = upload_image_to_imgbb(img)
+    image_url, error = upload_image_to_hosting(img)
     if error:
         return False, f"Image upload failed: {error}"
 
