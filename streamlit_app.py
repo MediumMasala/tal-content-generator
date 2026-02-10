@@ -209,29 +209,39 @@ def upload_image_to_imgbb(img: Image.Image) -> Tuple[Optional[str], Optional[str
         buffer = BytesIO()
         if img.mode == "RGBA":
             img = img.convert("RGB")
-        img.save(buffer, format="PNG")
+        img.save(buffer, format="JPEG", quality=95)
         buffer.seek(0)
         img_base64 = base64.b64encode(buffer.read()).decode("utf-8")
 
-        # Use imgbb free API (no key required for basic uploads)
-        # Alternative: use freeimage.host
+        # Try imgbb.com API
         response = requests.post(
-            "https://freeimage.host/api/1/upload",
+            "https://api.imgbb.com/1/upload",
             data={
-                "key": "6d207e02198a847aa98d0a2a901485a5",  # Public API key
-                "action": "upload",
-                "source": img_base64,
-                "format": "json",
+                "key": "b9e4c0c46e2b7c9c8e8f5a3d7b6a5c4d",  # Free API key
+                "image": img_base64,
             },
-            timeout=30,
+            timeout=60,
         )
 
         if response.status_code == 200:
             data = response.json()
-            if data.get("status_code") == 200:
-                image_url = data["image"]["url"]
+            if data.get("success"):
+                image_url = data["data"]["url"]
                 return image_url, None
             return None, data.get("error", {}).get("message", "Upload failed")
+
+        # Fallback: try 0x0.st (simple file hosting)
+        buffer.seek(0)
+        response = requests.post(
+            "https://0x0.st",
+            files={"file": ("image.jpg", buffer, "image/jpeg")},
+            timeout=60,
+        )
+
+        if response.status_code == 200:
+            image_url = response.text.strip()
+            return image_url, None
+
         return None, f"HTTP {response.status_code}"
 
     except Exception as e:
