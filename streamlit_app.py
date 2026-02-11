@@ -43,6 +43,69 @@ LINKEDIN_API_BASE = "https://api.linkedin.com/v2"
 LINKEDIN_ACCESS_TOKEN = os.environ.get("LINKEDIN_ACCESS_TOKEN")
 LINKEDIN_USER_URN = os.environ.get("LINKEDIN_USER_URN")
 
+# App Authentication (format: "user1:pass1,user2:pass2,user3:pass3")
+APP_USERS_RAW = os.environ.get("APP_USERS", "")
+
+
+def parse_app_users() -> dict:
+    """Parse APP_USERS env var into a dict of {username: password}."""
+    users = {}
+    if APP_USERS_RAW:
+        for pair in APP_USERS_RAW.split(","):
+            if ":" in pair:
+                username, password = pair.strip().split(":", 1)
+                users[username.strip()] = password.strip()
+    return users
+
+
+def check_login(username: str, password: str) -> bool:
+    """Verify login credentials."""
+    users = parse_app_users()
+    return users.get(username) == password
+
+
+def is_auth_enabled() -> bool:
+    """Check if authentication is enabled."""
+    return bool(APP_USERS_RAW.strip())
+
+
+def show_login_page():
+    """Display login page and return True if logged in."""
+    st.markdown("""
+    <style>
+        .login-container {
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 2rem;
+            background: #1e293b;
+            border-radius: 12px;
+            border: 1px solid #334155;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
+    col1, col2, col3 = st.columns([1, 2, 1])
+
+    with col2:
+        st.title("🎭 Tal Studios")
+        st.caption("Please log in to continue")
+
+        st.divider()
+
+        username = st.text_input("Username", placeholder="Enter your username")
+        password = st.text_input("Password", type="password", placeholder="Enter your password")
+
+        if st.button("🔐 Login", type="primary", use_container_width=True):
+            if check_login(username, password):
+                st.session_state.logged_in = True
+                st.session_state.username = username
+                st.rerun()
+            else:
+                st.error("Invalid username or password")
+
+        st.divider()
+        st.caption("Contact admin for access credentials")
+
 # Page config
 st.set_page_config(
     page_title="Tal Studios",
@@ -527,6 +590,12 @@ def post_to_linkedin(access_token: str, user_urn: str, text: str, img: Optional[
 def main():
     """Main application entry point."""
 
+    # Check authentication if enabled
+    if is_auth_enabled():
+        if not st.session_state.get("logged_in", False):
+            show_login_page()
+            return
+
     # Header with TAL image
     col_logo, col_title = st.columns([1, 4])
     with col_logo:
@@ -535,7 +604,18 @@ def main():
             st.image(tal_img, width=100)
     with col_title:
         st.title("🎭 Tal Studios")
-        st.caption("Welcome most sought after team of India!")
+        # Show logged in user if auth is enabled
+        if is_auth_enabled() and st.session_state.get("logged_in"):
+            col_welcome, col_logout = st.columns([3, 1])
+            with col_welcome:
+                st.caption(f"Welcome {st.session_state.get('username', 'User')}! 🚀 Most sought after team of India!")
+            with col_logout:
+                if st.button("Logout", key="logout_btn"):
+                    st.session_state.logged_in = False
+                    st.session_state.username = None
+                    st.rerun()
+        else:
+            st.caption("Welcome most sought after team of India!")
 
     st.divider()
 
