@@ -180,6 +180,63 @@ def image_to_base64(img: Image.Image) -> str:
     return base64.b64encode(buffer.read()).decode("utf-8")
 
 
+def generate_image_with_openai(prompt: str, size: str, reference_image: Image.Image) -> Tuple[Optional[Image.Image], Optional[str]]:
+    """Generate image using OpenAI DALL-E 3."""
+    try:
+        from openai import OpenAI
+
+        api_key = os.environ.get("OPENAI_API_KEY")
+        if not api_key:
+            return None, "No OPENAI_API_KEY found"
+
+        client = OpenAI(api_key=api_key)
+
+        # Map size to DALL-E supported sizes
+        if "1024" in size:
+            dalle_size = "1024x1024"
+        elif "1792" in size or "1080" in size:
+            dalle_size = "1024x1024"  # DALL-E 3 supports 1024x1024, 1792x1024, 1024x1792
+        else:
+            dalle_size = "1024x1024"
+
+        # Build prompt with TAL character description
+        full_prompt = f"""Photorealistic lifestyle photograph of TAL, a 3D mascot character (cute Shiba Inu dog), in a real-world location.
+
+CHARACTER DESCRIPTION (must match exactly):
+- TAL is a cute 3D Shiba Inu dog mascot with orange/golden fur with cream markings
+- Wears a beige t-shirt, dark brown vest, black pants, orange sneakers, black smartwatch
+- Friendly, approachable expression with big expressive eyes
+- 3D rendered character but photographed in real environment
+
+Scene: {prompt}
+
+PHOTOGRAPHY STYLE:
+- Real-world location with natural lighting + realistic shadows
+- Shot on DSLR, 35mm lens, shallow depth of field, subtle film grain
+- High-end brand mascot photography feel (like a real mascot photographed on location)
+- This should look like a REAL photograph of a 3D mascot character"""
+
+        response = client.images.generate(
+            model="dall-e-3",
+            prompt=full_prompt,
+            size=dalle_size,
+            quality="hd",
+            n=1,
+        )
+
+        # Get image URL and download
+        image_url = response.data[0].url
+        img_response = requests.get(image_url, timeout=60)
+        if img_response.status_code == 200:
+            pil_image = Image.open(BytesIO(img_response.content)).convert("RGB")
+            return pil_image, None
+
+        return None, f"Failed to download image: {img_response.status_code}"
+
+    except Exception as e:
+        return None, str(e)
+
+
 def generate_image_with_nano_banana(prompt: str, negative_prompt: str, size: str, reference_image: Image.Image, additional_reference: Optional[Image.Image] = None):
     """Generate image using Nano Banana Pro (Gemini 3 Pro Image) with reference image."""
     try:
@@ -623,9 +680,9 @@ def main():
     health = check_backend_health()
     backend_ok = health is not None
 
-    # Check API key
-    api_key = os.environ.get("GOOGLE_API_KEY")
-    api_ok = bool(api_key)
+    # Check API keys
+    google_api_key = os.environ.get("GOOGLE_API_KEY")
+    openai_api_key = os.environ.get("OPENAI_API_KEY")
 
     # Status display
     col1, col2, col3, col4 = st.columns(4)
@@ -638,10 +695,15 @@ def main():
             st.code("npm run dev")
 
     with col2:
-        if api_ok:
-            st.success(f"✓ Google Imagen: Ready")
+        models_ready = []
+        if google_api_key:
+            models_ready.append("Nano Banana")
+        if openai_api_key:
+            models_ready.append("DALL-E")
+        if models_ready:
+            st.success(f"✓ Models: {', '.join(models_ready)}")
         else:
-            st.warning("⚠️ No API key - placeholder images only")
+            st.warning("⚠️ No API keys configured")
 
     with col3:
         if check_instagram_configured():
@@ -682,27 +744,35 @@ def main():
     )
 
     # Settings row
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3, col4, col5 = st.columns(5)
 
     with col1:
+        image_model = st.selectbox(
+            "Model",
+            options=["Nano Banana", "OpenAI DALL-E"],
+            index=0,
+            help="Nano Banana: Google Gemini with reference image support\nOpenAI DALL-E: DALL-E 3 (no reference image)",
+        )
+
+    with col2:
         size = st.selectbox(
             "Size",
             options=["1024x1024", "1080x1080"],
             index=0,
         )
 
-    with col2:
+    with col3:
         num_images = st.selectbox(
             "Images",
             options=[1, 2, 3, 4],
             index=0,
         )
 
-    with col3:
+    with col4:
         use_seed = st.checkbox("Use seed")
         seed = st.number_input("Seed", value=42, disabled=not use_seed, label_visibility="collapsed") if use_seed else None
 
-    with col4:
+    with col5:
         style_preset = st.selectbox(
             "Style",
             options=[None, "cinematic", "bright_cheerful", "moody_artistic", "minimalist", "vintage"],
@@ -808,7 +878,8 @@ def main():
             st.success("TAL reference loaded")
 
             # Step 3: Generate images
-            st.write(f"🎨 **Step 3:** Generating {num_images} image(s) with Google Imagen...")
+            model_name = "Google Imagen" if image_model == "Nano Banana" else "OpenAI DALL-E 3"
+            st.write(f"🎨 **Step 3:** Generating {num_images} image(s) with {model_name}...")
 
             generated_images = []
             errors = []
@@ -824,13 +895,20 @@ def main():
                 elif i == 3:
                     variant_prompt += " Dynamic side angle."
 
-                img, error = generate_image_with_nano_banana(
-                    prompt=variant_prompt,
-                    negative_prompt=prompt_package["negative_prompt"],
-                    size=size,
-                    reference_image=tal_image,
-                    additional_reference=ref_image if use_reference else None,
-                )
+                if image_model == "Nano Banana":
+                    img, error = generate_image_with_nano_banana(
+                        prompt=variant_prompt,
+                        negative_prompt=prompt_package["negative_prompt"],
+                        size=size,
+                        reference_image=tal_image,
+                        additional_reference=ref_image if use_reference else None,
+                    )
+                else:
+                    img, error = generate_image_with_openai(
+                        prompt=variant_prompt,
+                        size=size,
+                        reference_image=tal_image,
+                    )
 
                 if img:
                     generated_images.append(img)
