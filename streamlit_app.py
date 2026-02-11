@@ -39,6 +39,10 @@ LINKEDIN_AUTH_URL = "https://www.linkedin.com/oauth/v2/authorization"
 LINKEDIN_TOKEN_URL = "https://www.linkedin.com/oauth/v2/accessToken"
 LINKEDIN_API_BASE = "https://api.linkedin.com/v2"
 
+# Pre-configured LinkedIn credentials (for shared access)
+LINKEDIN_ACCESS_TOKEN = os.environ.get("LINKEDIN_ACCESS_TOKEN")
+LINKEDIN_USER_URN = os.environ.get("LINKEDIN_USER_URN")
+
 # Page config
 st.set_page_config(
     page_title="Tal Studios",
@@ -566,7 +570,9 @@ def main():
             st.warning("⚠️ Instagram: Not configured")
 
     with col4:
-        if "linkedin_token" in st.session_state:
+        if LINKEDIN_ACCESS_TOKEN and LINKEDIN_USER_URN:
+            st.success("✓ LinkedIn: TAL's Account")
+        elif "linkedin_token" in st.session_state:
             st.success("✓ LinkedIn: Connected")
         elif check_linkedin_configured():
             st.info("○ LinkedIn: Ready to connect")
@@ -928,7 +934,18 @@ def main():
         st.divider()
         st.subheader("💼 Post to LinkedIn")
 
-        if not check_linkedin_configured():
+        # Check for pre-configured LinkedIn credentials (shared access mode)
+        if LINKEDIN_ACCESS_TOKEN and LINKEDIN_USER_URN:
+            # Use pre-configured credentials - no OAuth needed
+            if "linkedin_token" not in st.session_state:
+                st.session_state.linkedin_token = LINKEDIN_ACCESS_TOKEN
+                st.session_state.linkedin_urn = LINKEDIN_USER_URN
+                # Try to get user info
+                user_info, _ = get_linkedin_user_info(LINKEDIN_ACCESS_TOKEN)
+                if user_info:
+                    st.session_state.linkedin_user = user_info
+
+        if not check_linkedin_configured() and not LINKEDIN_ACCESS_TOKEN:
             st.warning("LinkedIn not configured. Add LINKEDIN_CLIENT_ID and LINKEDIN_CLIENT_SECRET to .env")
         else:
             # Handle OAuth callback
@@ -945,8 +962,18 @@ def main():
                         if user_info:
                             st.session_state.linkedin_user = user_info
                             st.session_state.linkedin_urn = f"urn:li:person:{user_info.get('sub')}"
+
+                        # Show credentials for permanent setup
+                        st.success("✅ LinkedIn connected!")
+                        st.info(f"""
+**To make this permanent (for shared access), add these to Render environment variables:**
+
+```
+LINKEDIN_ACCESS_TOKEN={token}
+LINKEDIN_USER_URN={st.session_state.linkedin_urn}
+```
+                        """)
                         st.query_params.clear()
-                        st.rerun()
                     else:
                         st.error(f"LinkedIn auth failed: {error}")
                         st.query_params.clear()
@@ -954,7 +981,9 @@ def main():
             # Check if connected
             if "linkedin_token" in st.session_state:
                 user = st.session_state.get("linkedin_user", {})
-                st.success(f"✅ Connected as: {user.get('name', 'LinkedIn User')}")
+                is_shared_account = bool(LINKEDIN_ACCESS_TOKEN and LINKEDIN_USER_URN)
+                account_label = "TAL's Account" if is_shared_account else user.get('name', 'LinkedIn User')
+                st.success(f"✅ Connected as: {account_label}")
 
                 # Select image for LinkedIn
                 li_image_idx = st.selectbox(
@@ -985,11 +1014,15 @@ def main():
                     )
 
                 with col_li2:
-                    if st.button("🔓 Disconnect", key="disconnect_linkedin"):
-                        for key in ["linkedin_token", "linkedin_user", "linkedin_urn"]:
-                            if key in st.session_state:
-                                del st.session_state[key]
-                        st.rerun()
+                    # Only show disconnect if not using shared credentials
+                    if not (LINKEDIN_ACCESS_TOKEN and LINKEDIN_USER_URN):
+                        if st.button("🔓 Disconnect", key="disconnect_linkedin"):
+                            for key in ["linkedin_token", "linkedin_user", "linkedin_urn"]:
+                                if key in st.session_state:
+                                    del st.session_state[key]
+                            st.rerun()
+                    else:
+                        st.caption("Using TAL's shared account")
 
                 if post_li_clicked:
                     with st.spinner("Posting to LinkedIn..."):
