@@ -665,14 +665,14 @@ def main():
         if is_auth_enabled() and st.session_state.get("logged_in"):
             col_welcome, col_logout = st.columns([3, 1])
             with col_welcome:
-                st.caption(f"Welcome {st.session_state.get('username', 'User')}! 🚀 Most sought after team of India!")
+                st.caption(f"Welcome {st.session_state.get('username', 'User')}! 🚀 Welcome to the most exciting year of your life!")
             with col_logout:
                 if st.button("Logout", key="logout_btn"):
                     st.session_state.logged_in = False
                     st.session_state.username = None
                     st.rerun()
         else:
-            st.caption("Welcome most sought after team of India!")
+            st.caption("Welcome to the most exciting year of your life!")
 
     st.divider()
 
