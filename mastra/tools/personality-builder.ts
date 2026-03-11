@@ -124,7 +124,7 @@ Remember: If fewer than 3 posts are available, set writingStyle.available = fals
   try {
     // Call OpenAI GPT 5.2 with system and user prompts
     const completion = await openai.chat.completions.create({
-      model: process.env.OPENAI_MODEL || "gpt-4.1",
+      model: process.env.OPENAI_MODEL || "gpt-5.2",
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: userPrompt },
