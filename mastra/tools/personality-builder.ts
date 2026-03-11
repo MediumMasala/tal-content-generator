@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { GoogleGenerativeAI } from "@google/generative-ai";
+import OpenAI from "openai";
 import {
   loadProfile,
   loadPersonality,
@@ -17,7 +17,7 @@ import { PERSONALITY_ANALYSIS_PROMPT, PROFILE_ONLY_PERSONALITY_PROMPT } from "..
 // Tool output schema - flexible to accept the comprehensive analysis
 export const PersonalityBuilderOutputSchema = z.object({
   username: z.string(),
-  analysis: z.any(), // The full comprehensive analysis from Gemini
+  analysis: z.any(), // The full comprehensive analysis from OpenAI
   storagePath: z.string(),
   generatedAt: z.string(),
 });
@@ -74,20 +74,13 @@ export async function buildPersonality(
   console.log(`[personality-builder] Mode: ${profileOnlyMode ? 'PROFILE-ONLY (zero posts)' : 'FULL (with posts)'}`);
   console.log(`[personality-builder] Raw data available: profile=${!!rawProfile}, posts=${!!rawPosts}`);
 
-  // Initialize Gemini client
-  const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
+  // Initialize OpenAI client
+  const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) {
-    throw new Error("GEMINI_API_KEY or GOOGLE_API_KEY environment variable is required");
+    throw new Error("OPENAI_API_KEY environment variable is required");
   }
 
-  const genAI = new GoogleGenerativeAI(apiKey);
-  const model = genAI.getGenerativeModel({
-    model: process.env.GEMINI_MODEL || "gemini-2.5-pro",
-    generationConfig: {
-      temperature: 0.7,
-      responseMimeType: "application/json",
-    },
-  });
+  const openai = new OpenAI({ apiKey });
 
   // Build the prompt with profile data
   const profileSummary = buildProfileSummary(profile);
@@ -129,12 +122,18 @@ Please analyze this profile and return a JSON object matching the schema provide
 Remember: If fewer than 3 posts are available, set writingStyle.available = false.`;
 
   try {
-    // Combine system prompt and user prompt for Gemini
-    const fullPrompt = `${systemPrompt}\n\n---\n\nNow analyze this profile:\n\n${userPrompt}`;
+    // Call OpenAI GPT 5.2 with system and user prompts
+    const completion = await openai.chat.completions.create({
+      model: process.env.OPENAI_MODEL || "gpt-4.1",
+      messages: [
+        { role: "system", content: systemPrompt },
+        { role: "user", content: userPrompt },
+      ],
+      temperature: 0.7,
+      response_format: { type: "json_object" },
+    });
 
-    const result = await model.generateContent(fullPrompt);
-    const response = result.response;
-    const responseText = response.text() || "{}";
+    const responseText = completion.choices[0]?.message?.content || "{}";
     let parsed;
 
     try {
@@ -145,7 +144,7 @@ Remember: If fewer than 3 posts are available, set writingStyle.available = fals
       if (jsonMatch) {
         parsed = JSON.parse(jsonMatch[0]);
       } else {
-        throw new Error("Failed to parse Gemini response as JSON");
+        throw new Error("Failed to parse OpenAI response as JSON");
       }
     }
 
