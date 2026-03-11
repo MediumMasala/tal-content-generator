@@ -180,6 +180,41 @@ export async function executeContentGeneration(
     };
   }
 
+  // Check for zero posts - return early without running personality/generation
+  const postCount = extractionResult.profile.posts?.length || 0;
+  if (postCount === 0) {
+    console.log(`[workflow] User ${username} has zero posts - skipping personality and generation`);
+    const totalMs = Date.now() - startTime;
+    return {
+      success: true,
+      personName: extractionResult.profile.name,
+      currentRole: extractionResult.profile.currentRole || null,
+      currentCompany: extractionResult.profile.currentCompany || null,
+      username,
+      content: "",
+      altVersion: "",
+      angleUsed: "",
+      personalizationNotes: "",
+      confidenceScore: 0,
+      writingStyleAvailable: false,
+      postCount: 0,
+      personality: null,
+      knowledgeGraph: null,
+      writingStyle: null,
+      storagePaths: {
+        profile: extractionResult.storagePath,
+        personality: "",
+        generated: "",
+      },
+      timing: {
+        extractionMs,
+        personalityMs: 0,
+        generationMs: 0,
+        totalMs,
+      },
+    };
+  }
+
   // Step 2: Build personality profile
   console.log(`[workflow] Step 2/3: Building personality profile...`);
   const personalityStart = Date.now();

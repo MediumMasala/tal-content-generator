@@ -47,6 +47,21 @@ app.post('/api/generate', async (req, res) => {
       });
     }
 
+    // Check if user has zero posts - return early with special response
+    if (result.postCount === 0) {
+      console.log(`[API] User ${result.username} has zero posts - returning early`);
+      return res.json({
+        success: true,
+        hasNoPosts: true,
+        personName: result.personName,
+        currentRole: result.currentRole,
+        currentCompany: result.currentCompany,
+        username: result.username,
+        postCount: 0,
+        message: "This profile doesn't have any LinkedIn posts yet. We're working on supporting profiles without posts soon!",
+      });
+    }
+
     // Step 4: LinkedIn Friendly optimization
     console.log(`[API] Running viral optimization...`);
     const friendlyResult = await generateLinkedInFriendly({
