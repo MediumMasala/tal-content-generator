@@ -243,11 +243,11 @@ export async function extractLinkedIn(
     const profileData = parseProfileData(rawProfileData);
     console.log(`[linkedin-extractor] Got profile data for ${profileData.name}`);
 
-    // Step 2: Scrape posts
+    // Step 2: Scrape posts (up to 75, returns whatever is available)
     console.log(`[linkedin-extractor] Scraping posts with ${postsActorId}...`);
     const postsRun = await client.actor(postsActorId).call({
       username: username,
-      limit: 50,
+      limit: 75,
       proxyConfiguration: {
         useApifyProxy: true,
       },
