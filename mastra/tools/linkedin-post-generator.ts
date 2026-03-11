@@ -126,21 +126,27 @@ Do not overuse this. Only use this angle if it strongly fits the person's profil
 Inspiration: "someone I know in the space showed me this.", "got an early look at this from someone on the team."
 
 CORE TASK 2: THE HOOK, CONSEQUENCE, AND GROUNDING
+
 Strong, Authentic Hook: The first line must grab attention while sounding exactly like the person. It should be a sharp observation, a candid realization, or a specific frustration—not a generic "creator" template.
 
-Thematic Focus: The Value of Brutal Honesty: Your post must center on the idea that Tal's feedback is valuable because it is direct, unfiltered, and sometimes harsh. Frame this not as a negative, but as a refreshing and necessary alternative to polite but unhelpful feedback. The underlying message should be that real career growth requires honesty, not just encouragement.
+LET THE PERSONALITY DRIVE THE ANGLE:
+Do NOT force a specific theme. Instead, let the person's personalityGraph and writingStyleGraph naturally determine what aspect of Tal they would find interesting and worth sharing.
 
-Advanced Angle: Contrasting with 'AI Slop' (CONDITIONAL):
-If the user's personalityGraph suggests they are tech-savvy, a founder, a builder, or someone who uses direct, slightly cynical, insider language, you have the option to frame Tal's value by contrasting it with generic "AI slop." This is a powerful angle that suggests Tal feels more human and less robotic.
+- A data-driven engineer might focus on the specificity and precision of the feedback.
+- A busy founder might focus on how it cuts through noise and saves time.
+- A skeptical senior professional might focus on how it feels less like typical AI fluff.
+- A job seeker might focus on encouragement or practical job search help.
+- A recruiter might focus on the candidate-side perspective it provides.
 
-Examples: "A welcome break from the usual AI slop...", "Finally, an AI that doesn't feel like a generic chatbot.", "It feels like talking to a person, not a prompt."
+The angle should feel like an inevitable conclusion of WHO THIS PERSON IS.
 
-Use this angle only when it genuinely matches the user's likely voice. Do not force it.
+THE TONE CONSTRAINT:
+- Must be POSITIVE (they found something genuinely useful)
+- Must NOT be boastful, salesy, or over-the-top enthusiastic
+- Must NOT sound like an endorsement or testimonial
+- Must sound like a natural observation from someone with their specific background
 
-Focus on Human Consequence: Translate the chosen theme/angle into a human outcome by highlighting one of Tal's TAL Powers.
-
-Example: "its salary feedback is the kind of reality check that stings a little, but ultimately helps you negotiate better."
-Example: "it gives the kind of direct feedback on a resume that most colleagues are too polite to say."
+Focus on Human Consequence: Translate the observation into a human outcome by highlighting one of Tal's TAL Powers. What did it DO for them, not what it IS.
 
 Functional Grounding Rule: You must only mention capabilities that are explicitly provided to you in the TAL Powers or sample chat context. Do not invent or hallucinate features.
 
@@ -161,8 +167,8 @@ Before producing the final post, you must internally check your own work against
 1. VARIATION COMPLIANCE: Did you follow the specific MOOD, STRUCTURE, and FOCUS AREA instructions? This is mandatory for output diversity.
 2. Authenticity: Does this sound exactly like them? Is the capitalization, punctuation, and emoji usage a perfect mirror of their writingStyleGraph?
 3. Creativity: Is this hook creative and genuinely different from a common pattern? Is the discovery narrative fresh and not one of the overused examples?
-4. Thematic Focus: Does the post clearly and compellingly center on the theme of "brutal honesty" being valuable?
-5. Personality Alignment: If the advanced "AI slop" angle was used, is it a perfect and undeniable fit for the user's inferred personality? If not, was it correctly avoided?
+4. Personality-Driven Angle: Does the angle feel like a natural conclusion of THIS PERSON's background and values? Would someone with their specific career find this aspect genuinely interesting?
+5. Tone Balance: Is it positive but NOT boastful? Is it appreciative but NOT salesy? Does it sound like an observation, not an endorsement?
 6. Factual Grounding: Is the capability mentioned (the TAL Power) real and based only on the provided context? Has anything been invented or exaggerated?
 7. Context: Does the post contain the mandatory 'AI career agent' descriptor (or a close, natural variant)?
 8. Substance: Does the post focus on a single, sharp human consequence instead of listing features or capabilities?
