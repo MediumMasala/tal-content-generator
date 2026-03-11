@@ -307,7 +307,7 @@ export async function executeContentGeneration(
 
   // Load full personality data for response
   const fullPersonalityData = loadPersonality(username);
-  const postCount = extractionResult.profile.posts?.length || 0;
+  // postCount already declared earlier when checking for zero posts
 
   return {
     success: true,
