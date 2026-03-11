@@ -33,6 +33,7 @@ export const LinkedInPostGeneratorInputSchema = z.object({
     .object({
       targetWordCount: z.number().optional(), // Override calculated word count
       customContext: z.string().optional(),
+      profileOnlyMode: z.boolean().optional(), // For users with zero posts
     })
     .optional(),
 });
@@ -397,7 +398,9 @@ export async function generateLinkedInPost(
 ): Promise<LinkedInPostGeneratorOutput> {
   const { personality, tal, rawPosts, options } = input;
 
+  const profileOnlyMode = options?.profileOnlyMode || false;
   console.log(`[linkedin-post-generator] Generating for ${personality.username}`);
+  console.log(`[linkedin-post-generator] Mode: ${profileOnlyMode ? 'PROFILE-ONLY (zero posts)' : 'FULL (with posts)'}`);
 
   // Calculate target word count from user's posts
   const wordCountStats = calculateWordCountFromPosts(rawPosts || []);

@@ -180,39 +180,12 @@ export async function executeContentGeneration(
     };
   }
 
-  // Check for zero posts - return early without running personality/generation
+  // Check post count - determines which prompts to use
   const postCount = extractionResult.profile.posts?.length || 0;
-  if (postCount === 0) {
-    console.log(`[workflow] User ${username} has zero posts - skipping personality and generation`);
-    const totalMs = Date.now() - startTime;
-    return {
-      success: true,
-      personName: extractionResult.profile.name,
-      currentRole: extractionResult.profile.currentRole || null,
-      currentCompany: extractionResult.profile.currentCompany || null,
-      username,
-      content: "",
-      altVersion: "",
-      angleUsed: "",
-      personalizationNotes: "",
-      confidenceScore: 0,
-      writingStyleAvailable: false,
-      postCount: 0,
-      personality: null,
-      knowledgeGraph: null,
-      writingStyle: null,
-      storagePaths: {
-        profile: extractionResult.storagePath,
-        personality: "",
-        generated: "",
-      },
-      timing: {
-        extractionMs,
-        personalityMs: 0,
-        generationMs: 0,
-        totalMs,
-      },
-    };
+  const hasNoPosts = postCount === 0;
+
+  if (hasNoPosts) {
+    console.log(`[workflow] User ${username} has zero posts - using profile-only analysis flow`);
   }
 
   // Step 2: Build personality profile
@@ -224,6 +197,7 @@ export async function executeContentGeneration(
     personalityResult = await buildPersonality({
       username,
       forceRefresh: input.forceRefresh,
+      profileOnlyMode: hasNoPosts, // Use profile-only analysis for zero-posts users
     });
     personalityMs = Date.now() - personalityStart;
     console.log(`[workflow] Personality built (${personalityMs}ms)`);
@@ -273,6 +247,7 @@ export async function executeContentGeneration(
       rawPosts: rawPosts?.data || [],
       options: {
         customContext: input.customContext,
+        profileOnlyMode: hasNoPosts, // Use profile-only generation for zero-posts users
       },
     };
 

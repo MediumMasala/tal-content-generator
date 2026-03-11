@@ -9,7 +9,7 @@ import {
   loadRawProfile,
   loadRawPosts,
 } from "../storage/local-storage";
-import { PERSONALITY_ANALYSIS_PROMPT } from "../context/tal-context";
+import { PERSONALITY_ANALYSIS_PROMPT, PROFILE_ONLY_PERSONALITY_PROMPT } from "../context/tal-context";
 
 // The new comprehensive personality analysis output schema
 // This is a flexible schema that accepts the rich output from the new prompt
@@ -28,6 +28,7 @@ export type PersonalityBuilderOutput = z.infer<typeof PersonalityBuilderOutputSc
 export const PersonalityBuilderInputSchema = z.object({
   username: z.string(),
   forceRefresh: z.boolean().optional().default(false),
+  profileOnlyMode: z.boolean().optional().default(false), // For users with zero posts
 });
 
 export type PersonalityBuilderInput = z.infer<typeof PersonalityBuilderInputSchema>;
@@ -41,7 +42,7 @@ export type PersonalityBuilderInput = z.infer<typeof PersonalityBuilderInputSche
 export async function buildPersonality(
   input: PersonalityBuilderInput
 ): Promise<PersonalityBuilderOutput> {
-  const { username, forceRefresh } = input;
+  const { username, forceRefresh, profileOnlyMode } = input;
 
   // Check cache unless force refresh
   if (!forceRefresh && personalityExists(username)) {
@@ -70,6 +71,7 @@ export async function buildPersonality(
   const rawPosts = loadRawPosts(username);
 
   console.log(`[personality-builder] Analyzing personality for ${username}`);
+  console.log(`[personality-builder] Mode: ${profileOnlyMode ? 'PROFILE-ONLY (zero posts)' : 'FULL (with posts)'}`);
   console.log(`[personality-builder] Raw data available: profile=${!!rawProfile}, posts=${!!rawPosts}`);
 
   // Initialize OpenAI client
@@ -86,7 +88,26 @@ export async function buildPersonality(
   const rawDataSummary = buildRawDataSummary(rawProfile?.data);
   const rawPostsSummary = buildRawPostsSummary(rawPosts?.data);
 
-  const userPrompt = `## PROFILE DATA
+  // Select prompt based on mode
+  const systemPrompt = profileOnlyMode
+    ? PROFILE_ONLY_PERSONALITY_PROMPT
+    : PERSONALITY_ANALYSIS_PROMPT;
+
+  // Build user prompt based on mode
+  const userPrompt = profileOnlyMode
+    ? `## PROFILE DATA
+${profileSummary}
+
+## EXTENDED PROFILE DATA (from raw scrape)
+${rawDataSummary}
+
+## FEED CONTEXT
+Topics they engage with: ${(profile.feedTopics || []).join(", ") || "Not available"}
+
+NOTE: This user has NO LinkedIn posts. Build personality entirely from their profile, experience, headline, about section, skills, and network context.
+Please analyze this profile and return a JSON object matching the schema provided.
+Set writingStyle.available = false since there are no posts to analyze.`
+    : `## PROFILE DATA
 ${profileSummary}
 
 ## EXTENDED PROFILE DATA (from raw scrape)
@@ -107,7 +128,7 @@ Remember: If fewer than 3 posts are available, set writingStyle.available = fals
       messages: [
         {
           role: "system",
-          content: PERSONALITY_ANALYSIS_PROMPT,
+          content: systemPrompt,
         },
         {
           role: "user",

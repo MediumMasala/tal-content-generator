@@ -18,8 +18,7 @@ type AppState = 'idle' | 'thinking' | 'completed';
 // API response type
 interface GenerationResult {
   success: boolean;
-  hasNoPosts?: boolean;
-  message?: string;
+  profileOnlyMode?: boolean; // true if user had zero posts
   personName: string;
   currentRole: string | null;
   currentCompany: string | null;
@@ -284,40 +283,13 @@ function App() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.3 }}
             >
-              {/* Zero Posts State */}
-              {results.hasNoPosts ? (
-                <motion.div
-                  className="text-center py-16"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5 }}
-                >
-                  <div className="glass rounded-2xl p-8 border border-white/10 max-w-lg mx-auto">
-                    <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-violet-500/20 flex items-center justify-center">
-                      <svg className="w-8 h-8 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                      </svg>
-                    </div>
-                    <h3 className="text-xl font-medium text-white mb-3">
-                      No Posts Found
-                    </h3>
-                    <p className="text-white/50 text-sm leading-relaxed mb-6">
-                      {results.personName} hasn't published any LinkedIn posts yet.
-                      Our personality analysis and content generation works best with users who have an active posting history.
-                    </p>
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-500/10 border border-violet-500/20">
-                      <span className="w-2 h-2 rounded-full bg-violet-400 animate-pulse"></span>
-                      <span className="text-violet-300 text-sm">We're working on supporting these profiles</span>
-                    </div>
-                  </div>
-                </motion.div>
-              ) : (
-              <>
               {/* Personality Profile */}
               <div className="mb-12">
                 <SectionHeader
                   title="Personality Profile"
-                  subtitle={`Analysis based on ${results.postCount} LinkedIn posts`}
+                  subtitle={results.profileOnlyMode
+                    ? "Analysis based on profile data (no posts available)"
+                    : `Analysis based on ${results.postCount} LinkedIn posts`}
                 />
                 <PersonalityCard
                   postCount={results.postCount}
@@ -390,8 +362,6 @@ function App() {
                     {results.personalityNotes}
                   </p>
                 </motion.div>
-              )}
-              </>
               )}
 
               {/* Footer attribution */}

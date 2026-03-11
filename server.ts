@@ -47,19 +47,10 @@ app.post('/api/generate', async (req, res) => {
       });
     }
 
-    // Check if user has zero posts - return early with special response
-    if (result.postCount === 0) {
-      console.log(`[API] User ${result.username} has zero posts - returning early`);
-      return res.json({
-        success: true,
-        hasNoPosts: true,
-        personName: result.personName,
-        currentRole: result.currentRole,
-        currentCompany: result.currentCompany,
-        username: result.username,
-        postCount: 0,
-        message: "This profile doesn't have any LinkedIn posts yet. We're working on supporting profiles without posts soon!",
-      });
+    // Track if this is a profile-only analysis (zero posts)
+    const isProfileOnlyMode = result.postCount === 0;
+    if (isProfileOnlyMode) {
+      console.log(`[API] User ${result.username} has zero posts - using profile-only analysis`);
     }
 
     // Step 4: LinkedIn Friendly optimization
@@ -74,6 +65,7 @@ app.post('/api/generate', async (req, res) => {
     // Build response
     const response = {
       success: true,
+      profileOnlyMode: isProfileOnlyMode, // true if user had zero posts
       personName: result.personName,
       currentRole: result.currentRole,
       currentCompany: result.currentCompany,
