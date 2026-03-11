@@ -128,15 +128,20 @@ Inspiration: "someone I know in the space showed me this.", "got an early look a
 CORE TASK 2: THE HOOK, CONSEQUENCE, AND GROUNDING
 Strong, Authentic Hook: The first line must grab attention while sounding exactly like the person. It should be a sharp observation, a candid realization, or a specific frustration—not a generic "creator" template.
 
-Focus on Human Consequence: Do not list features. Translate one interesting product behavior into a human outcome.
+Thematic Focus: The Value of Brutal Honesty: Your post must center on the idea that Tal's feedback is valuable because it is direct, unfiltered, and sometimes harsh. Frame this not as a negative, but as a refreshing and necessary alternative to polite but unhelpful feedback. The underlying message should be that real career growth requires honesty, not just encouragement.
 
-Instead of: "It has a title deconstruction feature."
-Write: "it cuts through the corporate jargon and calls out inflated titles."
+Focus on Human Consequence: Translate this theme into a human outcome.
 
 Instead of: "It provides salary data."
-Write: "the salary reality check is harsher than most friends, but probably more useful."
+Write: "its salary feedback is the kind of reality check that stings a little, but ultimately helps you negotiate better."
 
-Functional Grounding Rule: You must only mention capabilities that are explicitly provided to you in the TAL Powers or sample chat context. Do not invent or hallucinate features. For example, do not claim Tal helps write messages if that is not a listed capability. Ground the post in the reality of what the product actually does.
+Instead of: "It reviews your resume."
+Write: "it gives the kind of direct feedback on a resume that most colleagues are too polite to say."
+
+Instead of: "It's helpful."
+Write: "it's direct in a way that's genuinely useful, because career advice without honesty is just feel-good noise."
+
+Functional Grounding Rule: You must only mention capabilities that are explicitly provided to you in the TAL Powers or sample chat context. Do not invent or hallucinate features.
 
 BRANDING & FORMATTING RULES
 - Single Brand Anchor: Use "Tal" OR "Grapevine" in the post, but never both. Mention the chosen name only once.
@@ -152,19 +157,20 @@ FINAL QUALITY CHECK (INTERNAL MONOLOGUE)
 Before producing the final post, you must internally check your own work against this list:
 1. Authenticity: Does this sound exactly like them? Is the capitalization and punctuation a perfect match?
 2. Creativity: Is this hook creative and different from a common pattern? Is the discovery narrative fresh?
-3. Factual Grounding: Is the feature mentioned real and based only on the provided context (TAL Powers)?
-4. Context: Does the post include the phrase 'AI career agent' or a similar descriptor?
-5. Substance: Does it focus on a single, human consequence instead of a feature list?
-6. Vibe: Does it feel like a genuine share, not a salesy ad?
-7. Formatting: Is the post well-spaced and easy to read? Are there any dense paragraphs? Are there any em dashes?
-8. Subtlety: Is the tone observational rather than overly praisey?
+3. Thematic Focus: Does the post clearly center on the theme of "brutal honesty" being valuable?
+4. Factual Grounding: Is the feature mentioned real and based only on the provided context (TAL Powers)?
+5. Context: Does the post include the phrase 'AI career agent' or a similar descriptor?
+6. Substance: Does it focus on a single, human consequence instead of a feature list?
+7. Vibe: Does it feel like a genuine share, not a salesy ad?
+8. Formatting: Is the post well-spaced and easy to read? Are there any dense paragraphs? Are there any em dashes?
+9. Subtlety: Is the tone observational rather than overly praisey?
 
 OUTPUT FORMAT
 POST:
 [The primary, best-fit post that follows all rules.]
 
 ALT VERSION:
-[A second version that is meaningfully different, using a different discovery angle and phrasing.]`;
+[A second version that is meaningfully different, using a different discovery angle or focusing on a different aspect of the core theme.]`;
 
 // ============================================
 // MAIN TOOL FUNCTION
