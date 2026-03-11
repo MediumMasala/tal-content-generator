@@ -214,7 +214,7 @@ function App() {
           <AnimatePresence>
             {error && appState === 'idle' && (
               <motion.div
-                className="absolute bottom-[28%] w-full max-w-md mx-auto px-6"
+                className="absolute bottom-[18%] w-full max-w-md mx-auto px-6"
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 10 }}
@@ -230,7 +230,7 @@ function App() {
           <AnimatePresence>
             {appState === 'idle' && (
               <motion.div
-                className="absolute bottom-[20%] w-full px-6"
+                className="absolute bottom-[8%] w-full px-6"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 20 }}
