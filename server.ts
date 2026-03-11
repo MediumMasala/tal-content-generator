@@ -3,6 +3,7 @@ import express from 'express';
 import cors from 'cors';
 import { executeContentGeneration } from './mastra/workflows/content-generation';
 import { generateLinkedInFriendly } from './mastra/tools/linkedin-friendly';
+import { logGenerationToSheet, GenerationLogEntry } from './mastra/storage/google-sheets';
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -118,6 +119,33 @@ app.post('/api/generate', async (req, res) => {
     };
 
     console.log(`[API] Generation complete for ${result.username}`);
+
+    // Log to Google Sheets (async, don't block response)
+    const logEntry: GenerationLogEntry = {
+      timestamp: new Date().toISOString(),
+      personName: result.personName || '',
+      username: result.username,
+      linkedinUrl,
+      currentRole: result.currentRole,
+      currentCompany: result.currentCompany,
+      postCount: result.postCount,
+      profileOnlyMode: isProfileOnlyMode,
+      originalPost: result.content,
+      altPost: result.altVersion,
+      optimizedPost1: friendlyResult.optimizedPost || '',
+      optimizedPost2: friendlyResult.altOptimizedPost || '',
+      personalityTraits: result.personality?.traits?.join(', ') || '',
+      topics: result.knowledgeGraph?.topics?.join(', ') || '',
+      totalTimeSeconds: Math.round((result.timing?.totalMs || 0) / 1000),
+      vote: '',
+      notes: '',
+    };
+
+    // Fire and forget - don't wait for sheet logging
+    logGenerationToSheet(logEntry).catch(err => {
+      console.error('[API] Sheet logging failed:', err);
+    });
+
     res.json(response);
   } catch (error) {
     console.error('[API] Error:', error);
