@@ -426,7 +426,7 @@ function detectPersonaType(personality: any): string {
   return "default";
 }
 
-function selectChatsForPersonality(allChats: any[], personality: any, count: number = 8): any[] {
+function selectChatsForPersonality(allChats: any[], personality: any, count: number = 50): any[] {
   // Extract themes from all chats
   const chatsWithThemes = allChats.map(chat => extractChatThemes(chat));
 
@@ -454,10 +454,11 @@ function selectChatsForPersonality(allChats: any[], personality: any, count: num
   // Sort by score descending
   scored.sort((a, b) => b.score - a.score);
 
-  // Take top matches but add some randomization
-  const topMatches = scored.slice(0, Math.min(20, scored.length));
+  // Take top matches (more than requested to allow randomization)
+  const poolSize = Math.min(count * 2, scored.length);
+  const topMatches = scored.slice(0, poolSize);
 
-  // Shuffle the top matches
+  // Shuffle the top matches for variety
   for (let i = topMatches.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [topMatches[i], topMatches[j]] = [topMatches[j], topMatches[i]];
@@ -705,7 +706,7 @@ Use natural phrases instead: "tried", "used", "checked out", "spent time with", 
 
   // Add PERSONALITY-MATCHED sample chats (uses all chats, selects based on persona)
   if (tal.sampleChats && tal.sampleChats.length > 0) {
-    const matchedChats = selectChatsForPersonality(tal.sampleChats, personality, 8);
+    const matchedChats = selectChatsForPersonality(tal.sampleChats, personality, 50);
 
     sections.push(`\n## TAL CONVERSATIONS (matched to this person's likely interests)`);
 
