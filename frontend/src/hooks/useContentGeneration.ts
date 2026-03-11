@@ -36,9 +36,6 @@ interface UseContentGenerationReturn {
   reset: () => void;
 }
 
-// API base URL - configure based on environment
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:4000';
-
 export function useContentGeneration(): UseContentGenerationReturn {
   const [isLoading, setIsLoading] = useState(false);
   const [progress, setProgress] = useState<GenerationProgress | null>(null);

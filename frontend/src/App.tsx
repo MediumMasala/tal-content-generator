@@ -9,7 +9,6 @@ import {
   SectionHeader,
   MainRecommendationCard,
   RecommendationTypeCard,
-  ImageSuggestionCard,
   PersonalityCard,
 } from './components';
 
@@ -236,7 +235,7 @@ function App() {
               >
                 <InputPanel
                   onSubmit={handleAnalyze}
-                  isLoading={appState === 'thinking'}
+                  isLoading={false}
                 />
               </motion.div>
             )}
