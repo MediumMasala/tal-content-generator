@@ -427,14 +427,24 @@ function detectPersonaType(personality: any): string {
 }
 
 function selectChatsForPersonality(allChats: any[], personality: any, count: number = 50): any[] {
+  // Strategy: Mix of themed chats (30%) + purely random chats (70%)
+  // This ensures variety while maintaining some relevance
+
+  const themedCount = Math.floor(count * 0.3); // ~15 themed chats
+  const randomCount = count - themedCount;      // ~35 random chats
+
   // Extract themes from all chats
-  const chatsWithThemes = allChats.map(chat => extractChatThemes(chat));
+  const chatsWithThemes = allChats.map((chat, index) => ({
+    ...extractChatThemes(chat),
+    originalIndex: index
+  }));
 
   // Get persona type and matching themes
   const personaType = detectPersonaType(personality);
   const preferredThemes = PERSONA_THEME_MAP[personaType] || PERSONA_THEME_MAP["default"];
 
-  console.log(`[linkedin-post-generator] Persona type: ${personaType}, Preferred themes: ${preferredThemes.join(", ")}`);
+  console.log(`[linkedin-post-generator] Persona type: ${personaType}`);
+  console.log(`[linkedin-post-generator] Selection strategy: ${themedCount} themed + ${randomCount} random = ${count} total`);
 
   // Score chats by theme overlap
   const scored = chatsWithThemes.map(cwt => {
@@ -444,33 +454,46 @@ function selectChatsForPersonality(allChats: any[], personality: any, count: num
         score += 2;
       }
     }
-    // Bonus for brutal-honesty (always valuable)
     if (cwt.themes.includes("brutal-honesty")) {
       score += 1;
     }
+    // Add random jitter to break ties and add variety
+    score += Math.random() * 0.5;
     return { ...cwt, score };
   });
 
-  // Sort by score descending
-  scored.sort((a, b) => b.score - a.score);
+  // PART 1: Get themed chats (top scorers, shuffled)
+  const sortedByScore = [...scored].sort((a, b) => b.score - a.score);
+  const topThemed = sortedByScore.slice(0, Math.min(themedCount * 3, sortedByScore.length));
 
-  // Take top matches (more than requested to allow randomization)
-  const poolSize = Math.min(count * 2, scored.length);
-  const topMatches = scored.slice(0, poolSize);
-
-  // Shuffle the top matches for variety
-  for (let i = topMatches.length - 1; i > 0; i--) {
+  // Shuffle themed pool
+  for (let i = topThemed.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [topMatches[i], topMatches[j]] = [topMatches[j], topMatches[i]];
+    [topThemed[i], topThemed[j]] = [topThemed[j], topThemed[i]];
+  }
+  const selectedThemed = topThemed.slice(0, themedCount);
+  const themedIndices = new Set(selectedThemed.map(s => s.originalIndex));
+
+  // PART 2: Get random chats (from remaining pool, fully random)
+  const remainingChats = scored.filter(s => !themedIndices.has(s.originalIndex));
+
+  // True random shuffle of all remaining chats
+  for (let i = remainingChats.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [remainingChats[i], remainingChats[j]] = [remainingChats[j], remainingChats[i]];
+  }
+  const selectedRandom = remainingChats.slice(0, randomCount);
+
+  // Combine and shuffle final selection
+  const combined = [...selectedThemed, ...selectedRandom];
+  for (let i = combined.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [combined[i], combined[j]] = [combined[j], combined[i]];
   }
 
-  // Return requested count
-  const selected = topMatches.slice(0, count).map(s => s.chat);
+  const selected = combined.map(s => s.chat);
 
-  console.log(`[linkedin-post-generator] Selected ${selected.length} random chats for ${personality.username}:`);
-  selected.forEach((chat, i) => {
-    console.log(`  ${i + 1}. ${chat.filename || 'unknown'}`);
-  });
+  console.log(`[linkedin-post-generator] Selected ${selected.length} chats for ${personality.username} (${themedCount} themed, ${selectedRandom.length} random)`);
 
   return selected;
 }
