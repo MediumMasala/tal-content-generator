@@ -134,6 +134,12 @@ app.post('/api/generate', async (req, res) => {
       altPost: result.altVersion,
       optimizedPost1: friendlyResult.optimizedPost || '',
       optimizedPost2: friendlyResult.altOptimizedPost || '',
+      // Personality Analysis (NEW)
+      signalMode: result.rawAnalysis?.signalMode || '',
+      personalityBlurb: result.rawAnalysis?.personalityBlurb || '',
+      writingStyleSummary: result.rawAnalysis?.writingStyleSummary || '',
+      talResonationAngle: result.rawAnalysis?.talResonationAngle || '',
+      // Legacy
       personalityTraits: result.personality?.traits?.join(', ') || '',
       topics: result.knowledgeGraph?.topics?.join(', ') || '',
       totalTimeSeconds: Math.round((result.timing?.totalMs || 0) / 1000),

@@ -1,5 +1,5 @@
 import { z } from "zod";
-import OpenAI from "openai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 import {
   loadProfile,
   loadPersonality,
@@ -17,7 +17,7 @@ import { PERSONALITY_ANALYSIS_PROMPT, PROFILE_ONLY_PERSONALITY_PROMPT } from "..
 // Tool output schema - flexible to accept the comprehensive analysis
 export const PersonalityBuilderOutputSchema = z.object({
   username: z.string(),
-  analysis: z.any(), // The full comprehensive analysis from GPT
+  analysis: z.any(), // The full comprehensive analysis from Gemini
   storagePath: z.string(),
   generatedAt: z.string(),
 });
@@ -74,14 +74,20 @@ export async function buildPersonality(
   console.log(`[personality-builder] Mode: ${profileOnlyMode ? 'PROFILE-ONLY (zero posts)' : 'FULL (with posts)'}`);
   console.log(`[personality-builder] Raw data available: profile=${!!rawProfile}, posts=${!!rawPosts}`);
 
-  // Initialize OpenAI client
-  const apiKey = process.env.OPENAI_API_KEY;
+  // Initialize Gemini client
+  const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
   if (!apiKey) {
-    throw new Error("OPENAI_API_KEY environment variable is required");
+    throw new Error("GEMINI_API_KEY or GOOGLE_API_KEY environment variable is required");
   }
 
-  const openai = new OpenAI({ apiKey });
-  const model = process.env.OPENAI_MODEL || "gpt-5.2";
+  const genAI = new GoogleGenerativeAI(apiKey);
+  const model = genAI.getGenerativeModel({
+    model: process.env.GEMINI_MODEL || "gemini-2.5-pro",
+    generationConfig: {
+      temperature: 0.7,
+      responseMimeType: "application/json",
+    },
+  });
 
   // Build the prompt with profile data
   const profileSummary = buildProfileSummary(profile);
@@ -123,23 +129,12 @@ Please analyze this profile and return a JSON object matching the schema provide
 Remember: If fewer than 3 posts are available, set writingStyle.available = false.`;
 
   try {
-    const response = await openai.chat.completions.create({
-      model,
-      messages: [
-        {
-          role: "system",
-          content: systemPrompt,
-        },
-        {
-          role: "user",
-          content: userPrompt,
-        },
-      ],
-      response_format: { type: "json_object" },
-      temperature: 0.7,
-    });
+    // Combine system prompt and user prompt for Gemini
+    const fullPrompt = `${systemPrompt}\n\n---\n\nNow analyze this profile:\n\n${userPrompt}`;
 
-    const responseText = response.choices[0]?.message?.content || "{}";
+    const result = await model.generateContent(fullPrompt);
+    const response = result.response;
+    const responseText = response.text() || "{}";
     let parsed;
 
     try {
@@ -150,7 +145,7 @@ Remember: If fewer than 3 posts are available, set writingStyle.available = fals
       if (jsonMatch) {
         parsed = JSON.parse(jsonMatch[0]);
       } else {
-        throw new Error("Failed to parse GPT response as JSON");
+        throw new Error("Failed to parse Gemini response as JSON");
       }
     }
 

@@ -103,6 +103,13 @@ export const ContentGenerationOutputSchema = z.object({
       usesLineBreaks: z.boolean(),
     }).nullable(),
   }).nullable(),
+  // Raw analysis for logging (NEW)
+  rawAnalysis: z.object({
+    signalMode: z.string().nullable(),
+    personalityBlurb: z.string().nullable(),
+    writingStyleSummary: z.string().nullable(),
+    talResonationAngle: z.string().nullable(),
+  }).nullable(),
   storagePaths: z.object({
     profile: z.string(),
     personality: z.string(),
@@ -312,6 +319,13 @@ export async function executeContentGeneration(
       voiceSummary: fullPersonalityData.analysis.autoWritingGraph.writingAlignmentGuidance || null,
       toneAttributes: fullPersonalityData.analysis.autoWritingGraph.toneProfile || [],
       formattingPatterns: fullPersonalityData.analysis.autoWritingGraph.lexicalFormattingHabits || null,
+    } : null,
+    // Raw analysis for logging (NEW schema)
+    rawAnalysis: fullPersonalityData?.analysis ? {
+      signalMode: fullPersonalityData.analysis.signalAnalysis?.mode || null,
+      personalityBlurb: fullPersonalityData.analysis.personalityGraph?.dominantPersonalityBlurb || null,
+      writingStyleSummary: fullPersonalityData.analysis.writingStyleGraph?.styleSummary || null,
+      talResonationAngle: fullPersonalityData.analysis.talCompatibilityLayer?.resonationAngle || null,
     } : null,
     storagePaths: {
       profile: extractionResult.storagePath,
