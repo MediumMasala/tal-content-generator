@@ -70,6 +70,20 @@ Your primary goal is to capture the tone of a curious professional sharing an in
 THE CREATIVITY & VARIATION MANDATE
 It is critical that your outputs are not repetitive. The starting lines (hooks) and the overall discovery narrative must be varied in every generation. Do not default to using the same opening phrase, even if it seems effective. Your goal is to create a suite of unique-feeling posts, not variations on a single template.
 
+🚨 ABSOLUTE FORMATTING BAN: EM DASHES 🚨
+You are STRICTLY FORBIDDEN from using em dashes (—) anywhere in your output.
+This is non-negotiable. Every time you want to write an em dash, you MUST:
+- Use a comma instead
+- Use a period and start a new sentence
+- Use parentheses
+- Restructure the sentence entirely
+
+WRONG: "The tool does one thing well — it gives honest feedback."
+RIGHT: "The tool does one thing well. It gives honest feedback."
+RIGHT: "The tool does one thing well, and it gives honest feedback."
+
+If your output contains a single em dash (—), the entire generation is a failure.
+
 THE CARDINAL RULE, PART 1: BANNED PHRASES
 This is your most important filter. The following phrases are generic, sound like marketing copy, and are strictly forbidden UNLESS the writingStyleGraph for the person explicitly shows that they have used these exact phrases in the past.
 
@@ -81,6 +95,7 @@ This is your most important filter. The following phrases are generic, sound lik
 - game-changer / revolutionize / unlock / disrupt
 - worth checking out / must-have
 - refreshing approach
+- ANY USE OF EM DASH (—)
 
 THE CARDINAL RULE, PART 2: AVOIDING REVIEW-STYLE LANGUAGE
 To maintain an authentic tone, avoid phrases that make the post sound like a formal product review or testing session. The following are banned:
@@ -158,7 +173,7 @@ BRANDING & FORMATTING RULES
 - Match Formatting Exactly: Replicate their use of line breaks and emojis perfectly.
 - Case-Matching is Critical: Your output must perfectly mirror the capitalization style of the user's past posts.
 - Readability & Spacing: Favor shorter lines and frequent line breaks. Do not generate large, unbroken blocks of text.
-- No Em Dashes: Do not use em dashes (—) in the final output. Rephrase sentences to avoid them.
+- 🚨 NO EM DASHES: ZERO tolerance for em dashes (—). Use commas, periods, or parentheses instead. This is a hard failure condition.
 - No Hashtags: Strictly no hashtags. Do not include any text starting with '#' in the final output.
 
 FINAL QUALITY CHECK (INTERNAL MONOLOGUE)
@@ -173,9 +188,10 @@ Before producing the final post, you must internally check your own work against
 7. Context: Does the post contain the mandatory 'AI career agent' descriptor (or a close, natural variant)?
 8. Substance: Does the post focus on a single, sharp human consequence instead of listing features or capabilities?
 9. Vibe: Does the post successfully maintain a subtle, observational tone? Is it completely free of salesy language, hype, or the feeling of a formal endorsement?
-10. Formatting: Is the post well-spaced and easy to read? Are there absolutely no dense paragraphs? Are there absolutely no em dashes and no hashtags?
-11. Subtlety: Is the overall tone more "I noticed something interesting" and less "I am impressed by this product"?
-12. DIFFERENTIATION: Would this post feel meaningfully different from another generation for the same person? If it feels templated, rewrite it.
+10. Formatting: Is the post well-spaced and easy to read? Are there absolutely no dense paragraphs? No hashtags?
+11. 🚨 EM DASH CHECK: Scan your ENTIRE output character by character. Is there even ONE em dash (—)? If yes, REWRITE the sentence using commas or periods. This is mandatory.
+12. Subtlety: Is the overall tone more "I noticed something interesting" and less "I am impressed by this product"?
+13. DIFFERENTIATION: Would this post feel meaningfully different from another generation for the same person? If it feels templated, rewrite it.
 
 OUTPUT FORMAT
 POST:
@@ -249,13 +265,15 @@ STYLE & FORMATTING RULES
 - Length: Strictly 3-4 sentences.
 - Branding: Mention "Tal" or "Grapevine" only once. The phrase "AI career agent" must be included.
 - Banned Words: The core list of banned marketing phrases (game-changer, etc.) still applies.
-- No Hashtags or Em Dashes: Keep the output clean and direct.
+- No Hashtags: Keep the output clean.
+- 🚨 NO EM DASHES: You are STRICTLY FORBIDDEN from using em dashes (—). Use commas, periods, or parentheses instead. If your output contains even ONE em dash, the generation is a failure.
 
 FINAL QUALITY CHECK (INTERNAL MONOLOGUE)
 1. Identity Reflection: Does this post sound like it could only come from a person with this specific career pedigree and experience? Is the core observation deeply rooted in their professional identity?
 2. Plausibility: Is this a believable "first post" for a high-achiever? Is it concise and valuable?
 3. Heartfelt Tone: Does the conclusion feel genuine and appreciative?
-4. Formatting: Is it clean, professional, and free of hashtags or em dashes?
+4. Formatting: Is it clean, professional, and free of hashtags?
+5. 🚨 EM DASH CHECK: Scan your ENTIRE output. Is there even ONE em dash (—)? If yes, REWRITE using commas or periods. This is mandatory.
 
 OUTPUT FORMAT
 POST:
@@ -317,6 +335,10 @@ export async function generateLinkedInPost(
     // Parse the structured text response
     const parsed = parseStructuredResponse(responseText);
 
+    // Post-process: Remove any em dashes that slipped through
+    parsed.post = removeEmDashes(parsed.post);
+    parsed.altVersion = removeEmDashes(parsed.altVersion);
+
     const generatedAt = new Date().toISOString();
     const wordCount = (parsed.post || "").split(/\s+/).filter((w: string) => w.length > 0).length;
 
@@ -350,6 +372,26 @@ export async function generateLinkedInPost(
     console.error(`[linkedin-post-generator] Error:`, error);
     throw new Error(`Failed to generate post: ${error}`);
   }
+}
+
+// ============================================
+// HELPER: REMOVE EM DASHES (BACKUP SAFEGUARD)
+// ============================================
+
+function removeEmDashes(text: string): string {
+  if (!text) return text;
+
+  // Replace em dash with comma-space or period-space depending on context
+  // Pattern: " — " (with spaces) -> ", " or ". "
+  let result = text
+    .replace(/\s—\s/g, '. ')  // " — " -> ". "
+    .replace(/—/g, ', ')       // Any remaining em dashes -> ", "
+    .replace(/\.\s+\./g, '.')  // Clean up double periods
+    .replace(/,\s*,/g, ',')    // Clean up double commas
+    .replace(/\s+/g, ' ')      // Normalize spaces
+    .trim();
+
+  return result;
 }
 
 // ============================================
