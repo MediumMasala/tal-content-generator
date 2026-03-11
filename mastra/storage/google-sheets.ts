@@ -70,7 +70,7 @@ export async function logGenerationToSheet(entry: GenerationLogEntry): Promise<b
     return false;
   }
 
-  const sheetName = process.env.GOOGLE_SHEETS_SHEET_NAME || 'Generations';
+  const sheetName = process.env.GOOGLE_SHEETS_SHEET_NAME || 'Sheet1';
 
   // Prepare row data
   const rowData = [
@@ -121,7 +121,7 @@ export async function initializeSheetHeaders(): Promise<boolean> {
   const spreadsheetId = process.env.GOOGLE_SHEETS_SPREADSHEET_ID;
   if (!spreadsheetId) return false;
 
-  const sheetName = process.env.GOOGLE_SHEETS_SHEET_NAME || 'Generations';
+  const sheetName = process.env.GOOGLE_SHEETS_SHEET_NAME || 'Sheet1';
 
   const headers = [
     'Timestamp',
