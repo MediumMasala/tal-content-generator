@@ -104,9 +104,9 @@ INPUTS YOU WILL RECEIVE
 - talCompatibilityLayer: How they would likely perceive Tal.
 - Context about Tal: Lore, sample chats, TAL Powers, and system prompts to understand the product.
 
-WEIGHTING: WRITING STYLE IS KING
-- 70% Weight: The writingStyleGraph is your bible. Sentence structure, case (lowercase/title case), emoji usage, punctuation, and paragraph breaks must be replicated precisely.
-- 30% Weight: The personalityGraph and knowledgeGraph inform the substance of the post—the angle, the observation, and what they would find interesting.
+WEIGHTING: STYLE GUIDES, PERSONALITY INFORMS (60/40 RULE)
+- 60% Weight: The writingStyleGraph is your primary guide. Sentence structure, case, emoji usage, and punctuation must closely follow the user's documented style.
+- 40% Weight: The personalityGraph and knowledgeGraph inform the substance and angle of the post—what they would find interesting, what they would care about, and the worldview they would bring to their observation.
 
 If the person has no posts, you must rely 100% on the personalityGraph to infer a plausible, understated writing style.
 
@@ -156,17 +156,18 @@ BRANDING & FORMATTING RULES
 - No Hashtags: Strictly no hashtags. Do not include any text starting with '#' in the final output.
 
 FINAL QUALITY CHECK (INTERNAL MONOLOGUE)
-Before producing the final post, you must internally check your own work against this list:
-1. Authenticity: Does this sound exactly like them? Is the capitalization and punctuation a perfect match?
-2. Creativity: Is this hook creative and different from a common pattern? Is the discovery narrative fresh?
-3. Thematic Focus: Does the post clearly center on the theme of "brutal honesty" being valuable?
-4. Personality Alignment: If the "AI slop" angle was used, does it genuinely fit the user's inferred personality?
-5. Factual Grounding: Is the feature mentioned real and based only on the provided context (TAL Powers)?
-6. Context: Does the post include the phrase 'AI career agent' or a similar descriptor?
-7. Substance: Does it focus on a single, human consequence instead of a feature list?
-8. Vibe: Does it feel like a genuine share, not a salesy ad?
-9. Formatting: Is the post well-spaced and easy to read? Are there any dense paragraphs? Are there any em dashes or hashtags?
-10. Subtlety: Is the tone observational rather than overly praisey?
+Before producing the final post, you must internally check your own work against this comprehensive 10-point list:
+
+1. Authenticity: Does this sound exactly like them? Is the capitalization, punctuation, and emoji usage a perfect mirror of their writingStyleGraph?
+2. Creativity: Is this hook creative and genuinely different from a common pattern? Is the discovery narrative fresh and not one of the overused examples?
+3. Thematic Focus: Does the post clearly and compellingly center on the theme of "brutal honesty" being valuable?
+4. Personality Alignment: If the advanced "AI slop" angle was used, is it a perfect and undeniable fit for the user's inferred personality? If not, was it correctly avoided?
+5. Factual Grounding: Is the capability mentioned (the TAL Power) real and based only on the provided context? Has anything been invented or exaggerated?
+6. Context: Does the post contain the mandatory 'AI career agent' descriptor (or a close, natural variant)?
+7. Substance: Does the post focus on a single, sharp human consequence instead of listing features or capabilities?
+8. Vibe: Does the post successfully maintain a subtle, observational tone? Is it completely free of salesy language, hype, or the feeling of a formal endorsement?
+9. Formatting: Is the post well-spaced and easy to read? Are there absolutely no dense paragraphs? Are there absolutely no em dashes and no hashtags?
+10. Subtlety: Is the overall tone more "I noticed something interesting" and less "I am impressed by this product"?
 
 OUTPUT FORMAT
 POST:
@@ -578,12 +579,12 @@ const OPENER_VARIANTS = [
   "the team at Grapevine has been building something",
   "tried this for a few minutes",
   "used this for a bit",
-  "checked out Tal",
   "saw this recently",
   "got shown this by a friend",
   "a friend working on this sent it over",
   "shoutout to the team building this",
-  "spent some time with Tal"
+  "came across an AI career agent",
+  "saw a new tool called Tal"
 ];
 
 function getRandomPowers(username: string): { selectedPowers: string[], openerHint: string } {
@@ -724,8 +725,8 @@ Other strong openers (pick ONE, do NOT start with "someone"):
 - "tried this for a few minutes"
 - "the team at Grapevine has been building something"
 - "shoutout to the team behind this"
-- "checked out Tal"
-- "spent some time with Tal"
+- "came across an AI career agent"
+- "saw a new tool called Tal"
 
 Do NOT start with:
 - "someone showed me..."
@@ -742,8 +743,10 @@ BANNED UNNATURAL PHRASES (NEVER use any variation of these):
 - "dove into" / "diving into"
 - "had a chance to explore"
 - "been exploring"
+- "spent time with" / "spent some time with"
+- "checked out"
 
-Use natural phrases instead: "tried", "used", "checked out", "spent time with", "saw"`);
+Use natural phrases instead: "tried", "used", "saw", "came across"`);
 
   // Add PERSONALITY-MATCHED sample chats (uses all chats, selects based on persona)
   // When regenerating, force completely random chat selection for variety
