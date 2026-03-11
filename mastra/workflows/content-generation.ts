@@ -73,6 +73,8 @@ export type ContentGenerationInput = z.infer<typeof ContentGenerationInputSchema
 export const ContentGenerationOutputSchema = z.object({
   success: z.boolean(),
   personName: z.string().nullable(),
+  currentRole: z.string().nullable(),
+  currentCompany: z.string().nullable(),
   username: z.string(),
   content: z.string(),
   altVersion: z.string(),
@@ -275,6 +277,8 @@ export async function executeContentGeneration(
   return {
     success: true,
     personName: extractionResult.profile.name,
+    currentRole: extractionResult.profile.currentRole || null,
+    currentCompany: extractionResult.profile.currentCompany || null,
     username,
     content: generationResult.content,
     altVersion: generationResult.altVersion,

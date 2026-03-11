@@ -19,6 +19,8 @@ type AppState = 'idle' | 'thinking' | 'completed';
 interface GenerationResult {
   success: boolean;
   personName: string;
+  currentRole: string | null;
+  currentCompany: string | null;
   username: string;
   writingStyleAvailable: boolean;
   postCount: number;
@@ -256,6 +258,11 @@ function App() {
                 <p className="text-white/90 text-lg font-medium mt-1">
                   {results.personName}
                 </p>
+                {(results.currentRole || results.currentCompany) && (
+                  <p className="text-white/50 text-sm mt-1">
+                    {results.currentRole}{results.currentRole && results.currentCompany ? ' at ' : ''}{results.currentCompany}
+                  </p>
+                )}
                 {results.timing && (
                   <p className="text-white/30 text-xs mt-1">
                     Generated in {Math.round(results.timing.totalMs / 1000)}s

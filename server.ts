@@ -60,6 +60,8 @@ app.post('/api/generate', async (req, res) => {
     const response = {
       success: true,
       personName: result.personName,
+      currentRole: result.currentRole,
+      currentCompany: result.currentCompany,
       username: result.username,
       writingStyleAvailable: result.writingStyleAvailable,
       postCount: result.postCount,
