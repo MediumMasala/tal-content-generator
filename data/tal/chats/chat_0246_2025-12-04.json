@@ -1,0 +1,39 @@
+{
+  "thread_id": "917753960383_chat",
+  "date": "2025-12-04",
+  "message_count": 8,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ashish"
+    },
+    {
+      "role": "assistant",
+      "content": "ashish... that's a name that gets things done. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "In social.media industry as sde 2"
+    },
+    {
+      "role": "assistant",
+      "content": "sde 2 in social media... that's where all the drama happens. building the platforms where people argue about everything.\n\nfound ashish ashish on linkedin - software engineer. this you? https://www.linkedin.com/in/ashishseattle"
+    },
+    {
+      "role": "user",
+      "content": "Nope"
+    },
+    {
+      "role": "assistant",
+      "content": "getting the same result... which company you at? or just drop your linkedin url so i can find the right ashish"
+    }
+  ]
+}

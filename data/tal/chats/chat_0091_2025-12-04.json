@@ -1,0 +1,35 @@
+{
+  "thread_id": "919782300375_chat",
+  "date": "2025-12-04",
+  "message_count": 7,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Aditya"
+    },
+    {
+      "role": "assistant",
+      "content": "aditya... solid name. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "InteractGenAI"
+    },
+    {
+      "role": "assistant",
+      "content": "interactgenai... ai startup building chatbot platforms i'm guessing? can't find you on linkedin though. got a different company name or can you drop your linkedin url?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey aditya, was just thinking about your ai startup work at interactgenai... what kind of roles are you actually looking for?"
+    }
+  ]
+}

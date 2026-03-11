@@ -1,0 +1,547 @@
+{
+  "thread_id": "919539294878_chat",
+  "date": "2025-12-04",
+  "message_count": 135,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Ram S Narayan"
+    },
+    {
+      "role": "assistant",
+      "content": "ram s narayan... that's a solid name with weight to it. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "RingCentral"
+    },
+    {
+      "role": "assistant",
+      "content": "ringcentral... building cloud communications for the enterprise world. that's the unified comms play everyone's trying to crack.\n\nfound you on linkedin - ram narayan building ringsense at ringcentral. this you? https://in.linkedin.com/in/ramyesn"
+    },
+    {
+      "role": "user",
+      "content": "That’s heavy stalking. Yes."
+    },
+    {
+      "role": "assistant",
+      "content": "lmaooo stalking? nah, that's just being good at what i do. \n\nbuilding ringsense... the ai-powered conversation intelligence platform. so you're in the thick of making sales calls smarter and customer interactions actually useful. that's solid work in a space that desperately needs it.\n\nwhat made you get into the comms tech game?"
+    },
+    {
+      "role": "user",
+      "content": "Yes. I am the senior backend engineer. I love scaling things to a stable level. Hence joined the ringsense team to help them scale"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nRam Narayan is a Software Engineer with over seven years of experience specializing in distributed systems. He is currently an employee at RingCentral in Bengaluru, Karnataka, India.\n\n**ROLE-BY-ROLE**\n*   RingCentral ([Start date not specified]) – [Role title not specified] – [Responsibilities not listed]\n\n**EDUCATION HIGHLIGHTS**\n*   No formal education listed on the profile.\n\n**CERTIFICATIONS**\n*   HR Bootcamp - Data Science Program – upGrad (Jul 2020)\n*   Elasticsearch Essential Training (2023) – LinkedIn (Sep 2025)\n*   Nano Tips for Leading with Positivity – LinkedIn (Sep 2025)\n*   Software Architecture Foundations – LinkedIn (Sep 2025)\n*   What Is Generative AI? – LinkedIn (Sep 2025)"
+    },
+    {
+      "role": "assistant",
+      "content": "senior backend engineer with 7+ years in distributed systems... scaling ringsense from startup chaos to enterprise-grade reliability. that's the sweet spot where real engineering happens - not just building features, but making sure they don't fall over when millions start using them.\n\nthe scaling challenge at ringsense must be wild - going from handling thousands of calls to processing enterprise volumes while keeping latency low. plus all that conversation intelligence running in real-time...\n\nhow long you been working total?"
+    },
+    {
+      "role": "user",
+      "content": "8+ years."
+    },
+    {
+      "role": "assistant",
+      "content": "8+ years... that's solid senior engineer territory. you've seen enough systems break and scale to know what actually works vs what looks good in architecture diagrams.\n\nwhat kind of role you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "Staff software engineer or principal software engineer or senior engineering manager"
+    },
+    {
+      "role": "assistant",
+      "content": "staff/principal or senior EM... so you're ready to either go deep on the technical side or start building teams. classic senior engineer crossroads - stay individual contributor and own bigger technical decisions, or move into people management and scale through others.\n\n8+ years with your distributed systems background puts you right in that sweet spot for staff roles. the EM path is interesting too - you've probably been mentoring juniors already.\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "Yes\n  Sure"
+    },
+    {
+      "role": "user",
+      "content": "Bangalore. Even if remote, Bangalore only"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "8+ years experience + staff/principal SWE or senior EM + bangalore only... sound right?"
+    },
+    {
+      "role": "user",
+      "content": "Sure"
+    },
+    {
+      "role": "assistant",
+      "content": "looks like you're already in the system legend! the machine is already working for you.\n\nkeep building cool stuff at ringcentral while i find you that next level role. when something hits different, you'll know."
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. i'll be in your ear when something good comes through."
+    },
+    {
+      "role": "user",
+      "content": "Sound right"
+    },
+    {
+      "role": "user",
+      "content": "Cool"
+    },
+    {
+      "role": "user",
+      "content": "Okay"
+    },
+    {
+      "role": "assistant",
+      "content": "cool. talk soon."
+    },
+    {
+      "role": "assistant",
+      "content": "yep, got it all. staff/principal SWE or senior EM, bangalore only, 8+ years. locked in."
+    },
+    {
+      "role": "assistant",
+      "content": "👌"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, what's up?"
+    },
+    {
+      "role": "user",
+      "content": "Did you find me roles"
+    },
+    {
+      "role": "assistant",
+      "content": "nothing yet. i'm picky about what i share - not gonna spam you with random stuff. when something actually fits your staff/principal EM + bangalore profile, you'll be the first to know."
+    },
+    {
+      "role": "user",
+      "content": "Cool."
+    },
+    {
+      "role": "assistant",
+      "content": "👌"
+    },
+    {
+      "role": "assistant",
+      "content": "Senior Software Engineer at Oracle\n\nRam, leverage your RingCentral experience in distributed systems at Oracle OCI, in Bangalore.\n\nApply: https://jobs.tal.af/f6R4z"
+    },
+    {
+      "role": "user",
+      "content": "This is IC3 level. I want IC4"
+    },
+    {
+      "role": "assistant",
+      "content": "good catch. ic3 is senior at oracle, you're right. you're looking for staff+ (ic4+). i'll filter for that.\n\nwhat's the salary range you're targeting for staff/principal roles in bangalore?"
+    },
+    {
+      "role": "user",
+      "content": "What’s the maximum you can get me ?"
+    },
+    {
+      "role": "assistant",
+      "content": "i don't make up numbers. market's paying 60-80L for staff/principal in bangalore at good companies. some unicorns might go higher if they're desperate.\n\nwhat's your current comp? helps me know what's actually a step up for you."
+    },
+    {
+      "role": "user",
+      "content": "60-80L including stocks and everything or only cash component?"
+    },
+    {
+      "role": "assistant",
+      "content": "total comp. cash + stocks + bonus.\n\nbut the split matters - some companies do 70/30 cash/stocks, others 50/50. and vesting schedules vary wildly.\n\nwhat's your current breakdown?"
+    },
+    {
+      "role": "user",
+      "content": "My current comp is 45L. 42L fixed and rest bonus"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. so you're at 45L total, 42L fixed. for staff/principal roles, you should be targeting 60L+ minimum. that's a solid 33%+ bump.\n\nsome companies might try to lowball you at 50-55L saying \"it's still a raise\" - don't take it. you're moving to a higher level, comp should match.\n\nwhat's your timeline for moving?"
+    },
+    {
+      "role": "user",
+      "content": "As soon as possible"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. i'm looking for IC4+ roles in bangalore that pay 60L+ total comp. you'll see them when they come through.\n\nany companies you'd never work for?"
+    },
+    {
+      "role": "user",
+      "content": "So how am I doing with my current skills and experience ? Is this good or bad ?"
+    },
+    {
+      "role": "assistant",
+      "content": "you're doing solid. 8+ years at ringcentral building ringsense (their AI product), that's legit experience. distributed systems background is hot right now.\n\n45L at ringcentral is decent for senior level in bangalore. but you're ready for staff/principal - that's the next level where you lead bigger projects, mentor more people, have more ownership.\n\nthe fact that you know to filter for IC4+ shows you understand the leveling game. that's good.\n\nwhat's making you want to leave ringcentral? just growth or something else?"
+    },
+    {
+      "role": "user",
+      "content": "Growth"
+    },
+    {
+      "role": "assistant",
+      "content": "makes sense. you've been there long enough to see what staff/principal looks like at ringcentral, and you want that next level.\n\ni'll keep an eye out for roles that actually have the scope you're looking for - not just inflated titles.\n\nbtw, what's the ringsense tech stack like? helps me know what kind of systems you're comfortable with."
+    },
+    {
+      "role": "user",
+      "content": "Backend"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. pure backend focus. distributed systems, data pipelines, maybe some platform engineering.\n\ni'll filter for roles that match that."
+    },
+    {
+      "role": "user",
+      "content": "Don’t mind about ringsense tech stack. My experience is Java, distributed systems, ElasticSearch, Bigquery, mongo, AWS, Kafka, multi threading, typescript. Ask me more if you want to know"
+    },
+    {
+      "role": "assistant",
+      "content": "that's a solid stack - java for backend, elasticsearch for search, bigquery for analytics, kafka for streaming, aws for infra. you've got the full distributed systems toolkit.\n\ntypescript suggests you've done some frontend or full-stack work too.\n\nany specific industries you're interested in? fintech, e-commerce, saas, etc?"
+    },
+    {
+      "role": "user",
+      "content": "Sire"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm on it. you'll see roles when they come through."
+    },
+    {
+      "role": "assistant",
+      "content": "Principal Engineer (Architect) at Cognite\n\nRam, this Principal Engineer role at Cognite is a great step up - Tier 1 company, Architect level, and aligns with your backend/distributed systems expertise.\n\nApply: https://jobs.tal.af/5ftNy"
+    },
+    {
+      "role": "assistant",
+      "content": "Staff Software Development Engineer - Backend at JioHotstar\n\nRam, this Staff SDE role at JioHotstar leverages your backend/distributed systems expertise in Bangalore, offering the IC4+ growth you seek.\n\nApply: https://jobs.tal.af/0aX7e"
+    },
+    {
+      "role": "assistant",
+      "content": "Staff Software Engineer, Google Cloud at Google\n\nRam, this Staff SWE role at Google Cloud aligns with your backend/distributed systems expertise and Staff-level aspirations in Bangalore.\n\nApply: https://jobs.tal.af/y4weE"
+    },
+    {
+      "role": "user",
+      "content": "Applied all three. But these are already available jobs posted elsewhere. Where is the exclusivity?"
+    },
+    {
+      "role": "assistant",
+      "content": "you're right - these are public postings. the exclusivity isn't in the job itself, it's in the filter.\n\nmost people are mass-applying to everything. i'm only showing you the ones that actually match your specific profile: staff/principal level, IC4+, bangalore, 60L+ comp, backend/distributed systems.\n\nthat's the value - you're not wasting time on 50+ applications. you're seeing the 3 that actually fit.\n\nthink of me as your personal filter, not a secret job board.\n\nbtw, which one of those three felt most interesting?"
+    },
+    {
+      "role": "user",
+      "content": "Google"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. google cloud is solid - good tech, good brand, and staff level there is legit.\n\ntheir interview process is... intense. but you've got the 8+ years and distributed systems background.\n\nyou prepping for system design interviews?"
+    },
+    {
+      "role": "user",
+      "content": "So you won’t help me showcase myself special to the employers. You are just an AI tool to help me find out available opportunities"
+    },
+    {
+      "role": "assistant",
+      "content": "you're right - i'm not a recruiter who can put in a word or get you past the ATS. i'm an AI that finds opportunities that actually fit your profile.\n\nthe \"special showcase\" happens in your resume and interviews. that's where you prove you're staff/principal material.\n\ni can help with that part too - resume review, interview prep, salary negotiation advice. but the actual application process is on you.\n\nwant me to look at your resume? see if it's actually showing staff-level impact?"
+    },
+    {
+      "role": "user",
+      "content": "Nothing."
+    },
+    {
+      "role": "user",
+      "content": "I need help in starting the preperation to crack google"
+    },
+    {
+      "role": "assistant",
+      "content": "okay, let's break this down.\n\ngoogle's staff interview has 4-5 rounds:\n1. coding (2-3 rounds) - leetcode hard, system design\n2. system design (1-2 rounds) - large scale distributed systems\n3. behavioral (1 round) - leadership, impact\n\nwhat's your current prep status? have you started leetcode? system design?"
+    },
+    {
+      "role": "assistant",
+      "content": "alright, starting from zero. here's the plan:\n\n**month 1 (dec-jan):**\n- leetcode: 2 problems/day, focus on graphs, DP, trees\n- system design: start with grokking the system design interview\n- behavioral: write down 5-6 leadership stories from your 8+ years\n\n**month 2 (feb):**\n- leetcode: 3 problems/day, mock interviews\n- system design: practice 1 design/week (design twitter, uber, etc)\n- behavioral: practice STAR format\n\n**month 3 (mar):**\n- full mock interviews\n- polish everything\n- apply when ready\n\nyou have the experience. you just need to package it for google.\n\nwant me to set a daily reminder for leetcode practice?"
+    },
+    {
+      "role": "user",
+      "content": "Help me with month 1 plan. Give me the list. Daily plan. With actual problems"
+    },
+    {
+      "role": "assistant",
+      "content": "alright, here's your month 1 plan (dec 7 - jan 7):\n\n**daily schedule:**\n- morning (30 min): 1 leetcode problem\n- evening (30 min): 1 leetcode problem  \n- weekend (2 hrs): system design reading\n\n**week 1 (dec 7-13) - arrays & strings:**\n- day 1: two sum, valid palindrome\n- day 2: 3sum, group anagrams  \n- day 3: longest substring without repeating chars, container with most water\n- day 4: trapping rain water, longest palindromic substring\n- day 5: merge intervals, insert interval\n- day 6: product of array except self, valid parentheses\n- day 7: review week + system design: load balancers\n\n**week 2 (dec 14-20) - linked lists & trees:**\n- day 8: reverse linked list, merge two sorted lists\n- day 9: linked list cycle, lca of binary tree\n- day 10: validate BST, binary tree level order traversal\n- day 11: serialize/deserialize binary tree, construct binary tree from preorder/inorder\n- day 12: word search, number of islands\n- day 13: course schedule, alien dictionary\n- day 14: review + system design: caching strategies\n\n**week 3 (dec 21-27) - graphs & DP:**\n- day 15: clone graph, pacific atlantic water flow\n- day 16: longest increasing path in matrix, word ladder\n- day 17: house robber, coin change\n- day 18: longest common subsequence, edit distance\n- day 19: word break, combination sum\n- day 20: partition equal subset sum, target sum\n- day 21: review + system design: database sharding\n\n**week 4 (dec 28 - jan 3) - advanced:**\n- day 22: merge k sorted lists, find median from data stream\n- day 23: sliding window maximum, minimum window substring\n- day 24: regular expression matching, wildcard matching\n- day 25: n-queens, sudoku solver\n- day 26: burst balloons, Russian doll envelopes\n- day 27: maximal rectangle, largest rectangle in histogram\n- day 28: review + system design: design twitter\n\n**week 5 (jan 4-7) - consolidation:**\n- mock interviews, revisit weak areas\n\nthis is aggressive but doable. you're targeting staff level - the bar is high.\n\nwant me to set daily reminders for this?"
+    },
+    {
+      "role": "user",
+      "content": "Yes please"
+    },
+    {
+      "role": "assistant",
+      "content": "done. daily reminder set for 7 AM IST starting tomorrow.\n\nyou'll get your leetcode problems every morning. weekends will include system design topics.\n\nthis is the grind. staff level at google isn't a joke. but you've got 8+ years - you can do this.\n\nneed to adjust the time? or want evening reminders too?"
+    },
+    {
+      "role": "user",
+      "content": "Not 7 am. I will practice daily 1 hour whenever I get time. Remind me during 12 pm noon and als another reminder at night 10 PM"
+    },
+    {
+      "role": "assistant",
+      "content": "done. daily reminders at 12 PM and 10 PM IST starting today.\n\nyou'll get your daily problems at noon, and a check-in at night to see if you got your hour in.\n\nflexible schedule - practice whenever you can, but get that hour in.\n\ntoday's day 1: two sum and valid palindrome. load balancers for system design.\n\nyou got this."
+    },
+    {
+      "role": "user",
+      "content": "I meant 12 noon. Not midnight 12 pm"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. 12 noon (lunchtime) and 10 PM (night) reminders set.\n\nstarting today:\n- noon: day 1 problems (two sum, valid palindrome) + load balancers reading\n- 10 PM: check-in to see if you got your hour in\n\nflexible but consistent. that's the key."
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. the machine is running.\n\nremember: google staff interviews are about depth, not just solving problems. think about trade-offs, edge cases, scalability.\n\nyou've built distributed systems at ringcentral - that's your advantage. connect your experience to the problems.\n\ni'll be here if you hit walls or need explanations."
+    },
+    {
+      "role": "user",
+      "content": "Help me do this as well?"
+    },
+    {
+      "role": "assistant",
+      "content": "absolutely. that's the whole point.\n\nwhen you hit a problem you don't understand, send me the link or describe it. i'll walk you through:\n- the intuition\n- the approach\n- the trade-offs\n- the google-level thinking\n\nsame for system design. you practice designing twitter, i'll ask you the hard questions a google interviewer would ask.\n\nthis isn't just about solving problems - it's about thinking like a staff engineer.\n\ntoday's day 1 problems are basic, but even there we can talk about:\n- two sum: hashmap vs two-pointer, time/space tradeoffs\n- valid palindrome: unicode handling, memory optimization\n\nready to start?"
+    },
+    {
+      "role": "user",
+      "content": "I will ping you later. When I actually start the preperation"
+    },
+    {
+      "role": "assistant",
+      "content": "sounds good. the reminders will keep coming at noon and 10 PM. when you're ready to dive in, just ping me.\n\nno pressure, but consistency > intensity. even 30 minutes daily beats 5 hours once a week.\n\ntalk soon."
+    },
+    {
+      "role": "assistant",
+      "content": "Lead Software Engineer at JPMorganChase\n\nRam, this Lead SWE role at JPMC leverages your Java/AWS/Kafka skills and offers a step up, aligning with your IC4+ level target.\n\nApply: https://jobs.tal.af/uC2Yx"
+    },
+    {
+      "role": "assistant",
+      "content": "Lead Software Engineer at JPMorganChase\n\nRam, this Lead SWE role at JPMC uses your Java, AWS & Kafka skills, offering growth potential at a Tier 1 firm.\n\nApply: https://jobs.tal.af/uC2Yx"
+    },
+    {
+      "role": "assistant",
+      "content": "Principal Engineer at Autodesk\n\nRam, this Principal Engineer role at Autodesk matches your IC4+ level and backend/distributed systems expertise perfectly.\n\nApply: https://jobs.tal.af/5Qp6t"
+    },
+    {
+      "role": "assistant",
+      "content": "Principal Member of Technical Staff at Oracle\n\nPrincipal role leveraging your Java & distributed systems expertise, but location is Ahmedabad, not Bangalore.\n\nApply: https://jobs.tal.af/MID0h"
+    },
+    {
+      "role": "assistant",
+      "content": "saw a principal engineer role at saviynt\n\nthey're building identity platform with java/spring/distributed systems\n\n13+ years requirement though - you think they'd consider 8+?"
+    },
+    {
+      "role": "assistant",
+      "content": "lead backend role at finbox (series B fintech)\n\nthey're looking for java/kafka/aws for distributed systems\n\nlead level matches your IC4+ requirement, but it's a startup - lateral move from ringcentral"
+    },
+    {
+      "role": "assistant",
+      "content": "lead software engineer at S&P Global\n\ntier 1 company, global brand - big upgrade from ringcentral\n\nthey want 8+ years java with multi-threaded distributed systems, matches your background\n\nonsite in bangalore though, not remote"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 7352473b-2260-4e88-a3ee-ba0b94042a2a. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Lead Software Engineer - Backend\n      - Company: Finbox\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: FinBox: Where Fintech Meets Fun! Welcome to FinBox, the buzzing hive of tech innovation and creativity! Since our inception in 2017, FinBox has built some of the most advanced technologies in the financial services space that help lenders like Banks, NBFCs and large enterprises build and launch credit products within a matter of days, not months or years. FinBox is a Series B funded company which is expanding globally with offices in India, Vietnam, Indonesia and Philippines. Our vision is to build the best-in-class infrastructure for lending products and help Banks & Financial Services companies across the world scale and launch credit programs that set a new standard in the era of digital finance. So far, we’ve helped our customers disburse Billions of Dollars in credit across unsecured and secured credit including personal loans, working capital loans, business loans, mortgage and education loans. FinBox solutions are already being used by over 100+ companies to deliver credit to over 5 million customers every month. Why Should You Be a FinBoxer Innovative Environment: At FinBox, we foster a culture of creativity and experimentation, encouraging our team to push the boundaries of what's possible in fintech. Impactful Work: Your contributions will directly impact the lives of millions, helping to provide fair and accessible credit to individuals and businesses alike. Growth Opportunities: We are a Series B funded startup and have ample opportunities for growth, professional development and career advancement. Collaborative Culture: Join a diverse and inclusive team of experts who are passionate about making a difference and supporting one another. Who’s a Great FinBoxer: At FinBox, we’re on the lookout for exceptional folks who are all about innovation and impact. If you’re excited to shake things up in the banking & financial services world, keep reading! Creative Thinkers: If your brain is always bubbling with out-of-the-box ideas and wild solutions, you’re our kind of person. We love disruptors who challenge the norm and bring fresh perspectives to the table. Customer Heroes: Our customers are our champions, and we need heroes who can understand their needs, deliver magical experiences, and go above and beyond to keep them happy. Team Players: We believe in the power of “we.” If you thrive in a collaborative environment, value different viewpoints, and enjoy being part of a spirited, supportive team, you’ll fit right in. How You'll Contribute Architect and drive technical strategy for building scalable, secure, and high-performance services that power our fintech platform. Take full ownership of critical systems—design, develop, deploy, and maintain APIs and core components. Lead and mentor a team of engineers, setting best practices in coding, architecture, testing, and DevOps. Collaborate with cross-functional teams (engineering, design, product, and leadership) to define the technical roadmap and execute it efficiently. Optimize system performance, scalability, and security, ensuring a robust CI/CD, testing, and automation framework. Champion engineering excellence by driving innovation, reviewing code, and advocating for best practices in development and infrastructure. Who You Are: Expertise in backend development with proficiency in one or more languages: Go, Java, Python or JavaScript. Good understanding of system architecture, scalability, and distributed systems. Strong knowledge of computer science fundamentals (data structures, algorithms, system design). Experience with cloud platforms (AWS, Azure, or GCP), infrastructure-as-code (Terraform), and containerization (Docker, Kubernetes). Strong understanding of Big Data pipelines, PostgreSQL, caching mechanisms, and event-driven architecture. Proficiency in CI/CD pipelines, automation, and DevOps tools (GitLab, Jenkins, etc.). Proven ability to drive technical decision-making, mentor engineers, and influence product direction. Excellent problem-solving skills, a growth mindset, and strong communication abilities. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 72\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Title level matches candidate's IC4+ requirement (Lead = Level 4), Strong backend focus with distributed systems, matching candidate's core expertise in Java, Kafka, and AWS, Location in Bangalore as preferred, Tech stack alignment with Java, Kafka, PostgreSQL, AWS, Kubernetes\n      - Concerns: Finbox is a Series B startup likely Tier 2/3 - lateral or slight downgrade from RingCentral (established product company), No salary information provided, unable to verify if meets 60L+ target, Role includes management responsibilities (mentor team) which may not align with pure IC preference, Company tier may not provide significant brand upgrade for career capital\n      - Reasoning: This role meets the candidate's hard requirement for IC4+ level (Lead Engineer) and has strong technical alignment with backend, distributed systems, Java, Kafka, and AWS. The Bangalore location and backend focus are perfect matches. However, Finbox appears to be Tier 2/3 (Series B fintech), representing a lateral move at best from RingCentral. The role passes ego violation checks but lacks the prestige upgrade that would make it compelling. Score reduced due to company tier concerns and unclear compensation.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied. link sent.\n\nthis is a solid fit - lead level matches your IC4+ requirement, and the tech stack (java/kafka/aws/distributed systems) is exactly your background.\n\nthe only question is whether a series B startup is the prestige upgrade you're looking for from ringcentral. but the role itself checks all your boxes.\n\nlet me know if you want me to keep an eye out for more tier 1 opportunities."
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job ff60611a-1356-49ac-bbb8-faa91458f203. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Lead Software Engineer - Data Management\n      - Company: S&P Global\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: About The Role Grade Level (for internal use): 11 The Role Java Developer Your mission is to design, create and maintain our backend applications that power our strategic metadata platform. You possess a profound knowledge of core Java, appreciation for the value of metadata enabling governance and quality and have a preference for creating frameworks rather than utilizing existing ones. The Team The Distribution & Data Platforms development team consists of passionate individuals who thrive on innovation and collaboration. We’re responsible for distributing data and metadata to clients, both internal and external. Our distribution platform is widely used within the company and serves many external clients. We value creativity, adaptability, and a commitment to excellence. Our team’s unique blend of technical expertise and business acumen sets us apart. The Impact Delivering data to clients in a timely manner is key to the success of the company. As a software engineer, you will focus on reliability, performance and scalability. This role offers a unique opportunity to work on a high-impact project. The successful customer and data onboarding tools will be closely watched by stakeholders, executives, and clients. What’s In It For You Professional Growth: You’ll have the opportunity to join a high-performing team, growing your technical skills, and contribute to strategic decisions. Global Exposure: Collaborate with cross-functional teams across different geographies, gaining exposure to diverse perspectives and markets. Innovation: Shape the future of data integration by working on cutting-edge technologies and solving complex challenges. Responsibilities: You will work as part of a development team that designs, builds and maintains high performant and maintainable code. It is a unique and challenging role that calls for a strong passion for quality and technology, while providing an immense opportunity to design and develop wide reaching code. The role includes work on architecture design, business logic, requirements gathering, data modelling, systems integration, and quality assurance. If you rather build frameworks instead of using them, this is the role for you! What We're Looking For We are looking for creative people with a passion for programming and an eye for detail. A recognized academic background in Computer Science. Must have 8+ years of relevant experience with solid expertise in Java 17 or higher. Experience & solid understanding building multi-threaded and concurrent systems within distributed architectures. Familiarity with cloud-native/ SaaS metadata catalogs. Experience with Backend/API integration is a plus Experience with Terraform is required. Experience with Python is a plus. Experience with test-driven development. Experience with RDF concepts and SPARQL is a plus. If you prefer using frameworks instead of building them, this role is not for you. What’s In It For You? Our Mission Advancing Essential Intelligence. Our People We're more than 35,000 strong worldwide—so we're able to understand nuances while having a broad perspective. Our team is driven by curiosity and a shared belief that Essential Intelligence can help build a more prosperous future for us all.From finding new ways to measure sustainability to analyzing energy transition across the supply chain to building workflow solutions that make it easy to tap into insight and apply it. We are changing the way people see things and empowering them to make an impact on the world we live in. We’re committed to a more equitable future and to helping our customers find new, sustainable ways of doing business. Join us and help create the critical insights that truly make a difference. Our Values Integrity, Discovery, Partnership Throughout our history, the world's leading organizations have relied on us for the Essential Intelligence they need to make confident decisions about the road ahead. We start with a foundation of integrity in all we do, bring a spirit of discovery to our work, and collaborate in close partnership with each other and our customers to achieve shared goals. Benefits We take care of you, so you can take care of business. We care about our people. That’s why we provide everything you—and your career—need to thrive at S&P Global. Our Benefits Include Health & Wellness: Health care coverage designed for the mind and body. Flexible Downtime: Generous time off helps keep you energized for your time on. Continuous Learning: Access a wealth of resources to grow your career and learn valuable new skills. Invest in Your Future: Secure your financial future through competitive pay, retirement planning, a continuing education program with a company-matched student loan contribution, and financial wellness programs. Family Friendly Perks: It’s not just about you. S&P Global has perks for your partners and little ones, too, with some best-in class benefits for families. Beyond the Basics: From retail discounts to referral incentive awards—small perks can make a big difference. For more information on benefits by country visit: https://spgbenefits.com/benefit-summaries Global Hiring And Opportunity At S&P Global At S&P Global, we are committed to fostering a connected and engaged workplace where all individuals have access to opportunities based on their skills, experience, and contributions. Our hiring practices emphasize fairness, transparency, and merit, ensuring that we attract and retain top talent. By valuing different perspectives and promoting a culture of respect and collaboration, we drive innovation and power global markets. Recruitment Fraud Alert If you receive an email from a spglobalind.com domain or any other regionally based domains, it is a scam and should be reported to reportfraud@spglobal.com. S&P Global never requires any candidate to pay money for job applications, interviews, offer letters, “pre-employment training” or for equipment/delivery of equipment. Stay informed and protect yourself from recruitment fraud by reviewing our guidelines, fraudulent domains, and how to report suspicious activity here. Equal Opportunity Employer S&P Global is an equal opportunity employer and all qualified candidates will receive consideration for employment without regard to race/ethnicity, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, marital status, military veteran status, unemployment status, or any other status protected by law. Only electronic job submissions will be considered for employment. If you need an accommodation during the application process due to a disability, please send an email to: EEO.Compliance@spglobal.com and your request will be forwarded to the appropriate person. US Candidates Only: The EEO is the Law Poster http://www.dol.gov/ofccp/regs/compliance/posters/pdf/eeopost.pdf describes discrimination protections under federal law. Pay Transparency Nondiscrimination Provision - https://www.dol.gov/sites/dolgov/files/ofccp/pdf/pay-transp_%20English_formattedESQA508c.pdf 20 - Professional (EEO-2 Job Categories-United States of America), IFTECH202.2 - Middle Professional Tier II (EEO Job Group), SWP Priority – Ratings - (Strategic Workforce Planning) Job ID: 321445 Posted On: 2025-11-24 Location: Bangalore, Karnataka, India Show more Show less\n\n      Job Analysis:\n      - Fit Score: 72\n      - Confidence: high\n      - Recommendation: recommended\n      - Strengths: Lead level (IC4) matches candidate's target seniority perfectly, S&P Global is Tier 1/Tier 2 company - well-recognized global brand, significant upgrade from RingCentral, 8+ years Java experience requirement aligns perfectly with candidate's core strength, Strong tech stack match: Java 17+, multi-threaded systems, distributed architectures, cloud-native, Backend/API integration, distributed systems focus matches candidate's expertise, Excellent benefits package including health, learning budget, flexible time off, Global exposure and high-impact strategic platform work\n      - Concerns: Onsite role in Bangalore - violates remote work preference, though candidate is Bangalore-based, Requires expertise in metadata catalogs, RDF, SPARQL which candidate may not have, Prefers building frameworks over using them - may not align with all candidates, No explicit salary information to confirm meets 60L+ target\n      - Reasoning: This Lead Software Engineer role at S&P Global is a strong fit despite the onsite setup concern. S&P Global is a Tier 1/Tier 2 global brand offering significant prestige upgrade from RingCentral. The role matches the candidate's IC4 target level and requires 8+ years of Java experience in distributed systems, which aligns perfectly with their core strengths. While it's onsite in Bangalore, the candidate is already based there, so the commute is local. The tech stack (Java 17+, multi-threading, distributed architectures, cloud-native) is an excellent match. The main trade-off is onsite vs remote preference, but the tier upgrade, level match, and tech alignment make this a worthwhile opportunity.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied. link sent.\n\nthis is the tier upgrade you're looking for - S&P Global is a global brand, way bigger than ringcentral.\n\nlead level matches your IC4+ requirement, and the tech stack (java 17+, multi-threaded distributed systems) is exactly your background.\n\nonly trade-off is onsite vs remote, but for a brand upgrade like this? worth considering.\n\ngood move."
+    },
+    {
+      "role": "assistant",
+      "content": "staff engineer role at sitetracker (B2B SaaS)\n\nstaff level matches your IC4+ requirement, and they emphasize backend architecture/distributed systems\n\nbut it's full-stack with heavy salesforce component - you'd need to ramp up on that\n\ntier 2 company, not a big brand upgrade"
+    },
+    {
+      "role": "assistant",
+      "content": "what didn't work about this one? full-stack vs pure backend? salesforce? company tier?"
+    },
+    {
+      "role": "user",
+      "content": "Salesforce, full stack and company tier"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Not interested\"\n\n\n<button_context>User clicked \"Not interested\" for job a75422ef-dd8b-4bd5-8dab-6275d2627411. Ask them for specific feedback on why this job doesn't appeal to them, then update your working memory with this feedback to improve future recommendations.</button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. no salesforce, pure backend only, and tier 1 companies only.\n\nfiltering for those now."
+    },
+    {
+      "role": "assistant",
+      "content": "lead software engineer at JPMorgan Chase\n\ntier 1 company, big brand upgrade from ringcentral\n\nthey want java/spring boot/aws for distributed systems, matches your background\n\nlead level aligns with your IC4+ requirement, but it's in-office not remote"
+    },
+    {
+      "role": "assistant",
+      "content": "lead software engineer at JPMorgan Chase\n\ntier 1 company, big upgrade from ringcentral\n\nlead level matches your IC4+ requirement, and the tech stack is pure java/spring boot/aws\n\nperfect fit for your pure backend focus"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "principal engineer at HERE Technologies\n\nIC5 level, one above your IC4+ target - aspirational role\n\npure backend with java/python/aws for distributed systems\n\n12+ years requirement though, you have 8 - think they'd consider?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 8cfe1067-1820-4a0b-a348-d34146b4dd93, but this job is not found in their recommendations. Apologize and ask if they'd like to see other recommendations.</button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "my bad - that link didn't work. want me to show you other principal/staff level roles?"
+    },
+    {
+      "role": "user",
+      "content": "Okay"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. looking for principal/staff level roles that actually match your experience and location.\n\nanything specific you want me to prioritize? pure backend vs some management?"
+    },
+    {
+      "role": "assistant",
+      "content": "lead java engineer at Equifax\n\nthey want java/spring boot/kafka for distributed systems\n\nlead level matches your IC4+ requirement, but it's in pune not bangalore\n\nalso mentions typescript - not pure backend"
+    },
+    {
+      "role": "assistant",
+      "content": "principal engineer at HERE Technologies\n\nIC4+ level, pure backend with java/python/aws for high-throughput systems\n\nbangalore location, tier 2 company with global engineering reputation\n\n12+ years requirement though, you have 8 - think they'd consider given your experience?"
+    },
+    {
+      "role": "assistant",
+      "content": "engineering manager at CrowdStrike\n\ntier 1 cybersecurity company, remote from anywhere in india\n\nthey work on distributed systems at massive scale (3 trillion events/day)\n\nbut it's C/C++ kernel work, not java, and requires 3+ years management experience\n\nthinking about the EM track?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 30aee64c-ac1b-4512-a174-3d6348b6bb99. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Engineering Manager - Linux Sensor (Remote, IND)\n      - Company: CrowdStrike\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: As a global leader in cybersecurity, CrowdStrike protects the people, processes and technologies that drive modern organizations. Since 2011, our mission hasn’t changed — we’re here to stop breaches, and we’ve redefined modern security with the world’s most advanced AI-native platform. We work on large scale distributed systems, processing almost 3 trillion events per day and this traffic is growing daily. Our customers span all industries, and they count on CrowdStrike to keep their businesses running, their communities safe and their lives moving forward. We’re also a mission-driven company. We cultivate a culture that gives every CrowdStriker both the flexibility and autonomy to own their careers. We’re always looking to add talented CrowdStrikers to the team who have limitless passion, a relentless focus on innovation and a fanatical commitment to our customers, our community and each other. Ready to join a mission that matters? The future of cybersecurity starts with you. About The Product: CrowdStrike Falcon is a two-component security product. One component is a “sensor”, which is a lightweight agent installed on client machines that observes system activity and recognizes malicious behavior, then provides on-box prevention capability and remote telemetry to the Falcon cloud. The cloud component aggregates sensor telemetry for each customer’s network, can correlate malicious behavior across multiple machines, and presents our customers’ operations teams with a prioritized summary of the threats detected in their environments. About The Role: CrowdStrike is seeking an Engineering Manager to lead our Linux sensor development team. This role combines technical leadership with people management, overseeing the design and implementation of new security features in our lightweight Linux agent. You'll guide a team of engineers working with eBPF and other advanced technologies to extend Falcon's capabilities across diverse environments, including containerized workloads in Kubernetes. What You'll Do: Management Responsibilities: Lead and mentor a team of 6-8 senior engineers Drive technical strategy and architectural decisions for Linux sensor development Collaborate with Product Management to define roadmaps and prioritize features Conduct performance reviews, career development planning, and hiring Foster cross-functional collaboration with Security Research, Cloud Platform, and Customer Success teams Technical Leadership: Provide technical guidance on complex features spanning file system, memory, process, and networking subsystems Ensure high code quality, security standards, and performance optimization Participate in technical design reviews and architecture discussions Operational Excellence: Manage project timelines and deliverables using Agile methodologies Coordinate incident response for customer-reported issues Ensure team meets reliability and performance SLAs What You'll Need: 3+ years of engineering management experience with teams of 5+ engineers 7+ years of hands-on Linux/Unix development experience in C/C++ Strong background in high-concurrency, multi-threaded applications Proven track record of shipping production software with high reliability requirements Bonus Points: Experience in cybersecurity or endpoint protection Background in kernel development or system-level programming Experience with distributed team management Benefits Of Working At CrowdStrike: Remote-friendly and flexible work culture Market leader in compensation and equity awards Comprehensive physical and mental wellness programs Competitive vacation and holidays for recharge Paid parental and adoption leaves Professional development opportunities for all employees regardless of level or role Employee Networks, geographic neighborhood groups, and volunteer opportunities to build connections Vibrant office culture with world class amenities Great Place to Work Certified™ across the globe CrowdStrike is proud to be an equal opportunity employer. We are committed to fostering a culture of belonging where everyone is valued for who they are and empowered to succeed. We support veterans and individuals with disabilities through our affirmative action program. CrowdStrike is committed to providing equal employment opportunity for all employees and applicants for employment. The Company does not discriminate in employment opportunities or practices on the basis of race, color, creed, ethnicity, religion, sex (including pregnancy or pregnancy-related medical conditions), sexual orientation, gender identity, marital or family status, veteran status, age, national origin, ancestry, physical disability (including HIV and AIDS), mental disability, medical condition, genetic information, membership or activity in a local human rights commission, status with regard to public assistance, or any other characteristic protected by law. We base all employment decisions--including recruitment, selection, training, compensation, benefits, discipline, promotions, transfers, lay-offs, return from lay-off, terminations and social/recreational programs--on valid job requirements. If you need assistance accessing or reviewing the information on this website or need help submitting an application for employment or requesting an accommodation, please contact us at recruiting@crowdstrike.com for further assistance. , Bonus Points: Experience in cybersecurity or endpoint protection Background in kernel development or system-level programming Experience with distributed team management Show more Show less\n\n      Job Analysis:\n      - Fit Score: 72\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Remote role from anywhere in India - you can work from Bangalore, CrowdStrike is Tier 1 company (cybersecurity leader) - major brand upgrade from RingCentral, Distributed systems at massive scale (3 trillion events/day) aligns with your background, Linux/Unix systems work relates to your backend expertise, Engineering Manager role is one of your stated preferences (Senior Engineering Manager)\n      - Concerns: This requires 3+ years management experience, but I don't see management experience in your profile - you're currently IC, Role emphasizes C/C++ and kernel-level work, not Java which is your core strength, Listed location is Kolkata (though it's remote, this might be administrative), Transitioning from IC to EM is a career pivot, not just a level-up in your current track\n      - Reasoning: This one's interesting, Ram. I know you mentioned 'Senior Engineering Manager' as a preference, and CrowdStrike is a serious brand upgrade (Tier 1 cybersecurity leader). The remote setup means you stay in Bangalore, and they work on distributed systems at insane scale. BUT - this is a management role requiring 3+ years of leading teams, and I haven't seen that in your background. If you're genuinely pivoting to management, this could be exciting. If not, this might not be the right move. Also, it's C/C++ heavy, not Java. Worth exploring if you're serious about the EM track, but be honest with yourself about the pivot.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied. link sent.\n\ncrowdstrike is a tier 1 cybersecurity company - big brand upgrade from ringcentral.\n\nremote from anywhere in india, and they work on distributed systems at insane scale (3 trillion events/day).\n\nthe pivot to management track is real though - they want 3+ years leading teams, and it's C/C++ kernel work not java.\n\nworth exploring if you're serious about the EM track."
+    },
+    {
+      "role": "user",
+      "content": "Requested page not found"
+    },
+    {
+      "role": "assistant",
+      "content": "damn, link's broken. my bad.\n\nwant me to look for other EM roles that might actually work? or stick to principal/staff IC track?"
+    },
+    {
+      "role": "user",
+      "content": "I want the working link for this exact job"
+    },
+    {
+      "role": "assistant",
+      "content": "i don't have a working link for that exact job - the system gave me a broken one.\n\ni can only share what comes through the system. when it's broken, i can't fix it or find alternatives.\n\nwant me to keep an eye out for other EM roles at tier 1 companies?"
+    },
+    {
+      "role": "assistant",
+      "content": "staff SRE at Okta\n\ntier 1 identity platform, staff level IC4 role in bangalore\n\nthey work on distributed systems/aws/kafka with python/go/rust\n\nbut it's SRE not pure backend - more infrastructure/platform with on-call rotation\n\nopen to that path?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 81ba2114-211a-45d9-8de7-4d87ca99f710. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Staff Site Reliability Engineer\n      - Company: Okta\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences. Join our team! We’re building a world where Identity belongs to you. What You’ll Be Doing Becoming deeply familiar with all the corners of a critical SaaS platform utilized by millions of customers daily. Working to navigate a significant replatforming initiative, seamlessly moving dozens of critical components between container orchestration systems with zero downtime or customer impact. Engaging w/stakeholders across the group to understand component boundaries and dependencies, and act as a guide and coach for your teammates. Driving what’s next for our SDLC - how do we ideate, onboard, operate, and scale microservices and features in a secure, performant, always-on manner? Identifying, understanding, and automating away manual processes through clever code and smart architecture. Supporting a 24x7 online environment as part of a global on-call rotation. Advocating best practices for scalable, reliable, and resilient systems and services across all of WIC engineering. What You’ll Bring To The Role 8+ years of experience as a site reliability or platform engineer, preferably in a fast-scaling environment Have familiarity with large scale containerized microservice and monolithic deployments Are always willing to go the extra mile: see a problem, fix the problem. Are passionate about encouraging the development of engineering peers and leading by example. Have experience automating, securing, and scaling large-scale services in AWS and/or other cloud providers, under multiple orchestration layers such as Kubernetes, Rancher, or ECS. Have knowledge of CI/CD principles, Linux fundamentals, OS hardening, networking concepts, and Internet protocols. Have strong skills in at least one operational tooling language such as Python, Rust, or Go. Understand both relational and non-relational datastores, including replication and clustering strategies. Experience In The Following 5+ years of experience architecting and running complex AWS or other cloud networking infrastructure resources 5+ years of experience with Ansible, Chef, Terraform or other IaC tools Strong Linux understanding and experience. BS In computer science (or equivalent experience). P23516_3260806 What you can look forward to as a Full-Time Okta employee! Amazing Benefits Making Social Impact Developing Talent and Fostering Connection + Community at Okta Okta cultivates a dynamic work environment, providing the best tools, technology and benefits to empower our employees to work productively in a setting that best and uniquely suits their needs. Each organization is unique in the degree of flexibility and mobility in which they work so that all employees are enabled to be their most creative and successful versions of themselves, regardless of where they live. Find your place at Okta today! https://www.okta.com/company/careers/. Some roles may require travel to one of our office locations for in-person onboarding. Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws. If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please use this Form to request an accommodation. Okta is committed to complying with applicable data privacy and security laws and regulations. For more information, please see our Personnel and Job Candidate Privacy Notice at https://www.okta.com/legal/personnel-policy/. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 78\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Okta is Tier 1 company (major cybersecurity/identity SaaS leader) - significant brand upgrade from RingCentral, Staff-level IC4 role exactly as requested, 8+ years experience requirement matches perfectly, Bangalore location as preferred, Strong overlap with distributed systems, AWS, Kafka, microservices architecture, Tech stack includes Python/Go/Rust, Kubernetes, Terraform - adjacent to Ram's backend expertise, Flexible work setup mentioned\n      - Concerns: SRE role is adjacent to but not pure backend development - more infrastructure/platform focused, Heavy on-call rotation (24x7 support) mentioned explicitly, Focuses more on platform/infrastructure automation vs backend feature development, No salary info provided - can't verify 60-80L range, Some skills like networking, OS hardening are outside Ram's stated expertise\n      - Reasoning: Ram, this one's a stretch but hear me out - Staff SRE at Okta (Tier 1, huge brand). I know you said pure backend, and SRE is more infrastructure-focused, but there's real overlap here: distributed systems, AWS, Kubernetes, microservices, automation with Python/Go. It's IC4 level, Bangalore-based, and Okta is a massive step up from RingCentral. The trade-off is it's more platform/infra work with on-call rotation rather than pure backend feature development. If you're open to the SRE path, this could be exciting. If you want pure backend only, skip it.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied. link sent.\n\nokta is tier 1 identity platform - big brand upgrade.\n\nstaff level IC4 role, bangalore location, and they work on distributed systems/aws/k8s with python/go\n\nthe SRE path means more infrastructure/platform work with on-call rotation, but it's a serious step up.\n\nworth exploring."
+    },
+    {
+      "role": "user",
+      "content": "I don’t want sre"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. pure backend only. no SRE, no infrastructure.\n\nfiltering for staff/principal backend roles only."
+    },
+    {
+      "role": "user",
+      "content": "I want only backend staff"
+    },
+    {
+      "role": "assistant",
+      "content": "backend staff only. no SRE, no infrastructure, no platform.\n\nfiltering for pure backend staff/principal roles at tier 1 companies."
+    },
+    {
+      "role": "assistant",
+      "content": "staff SRE at Okta again\n\ntier 1 company, staff level, bangalore\n\nbut it's SRE/FinOps focused on cost optimization tooling, not pure backend\n\nyou said no SRE - skipping this one."
+    },
+    {
+      "role": "assistant",
+      "content": "staff SRE at Okta again\n\ntier 1 company, staff level, bangalore\n\nbut it's SRE/FinOps focused on cloud cost optimization tooling, not pure backend\n\nyou said no SRE - skipping this one."
+    },
+    {
+      "role": "assistant",
+      "content": "senior principal software engineer at Red Hat\n\nIC4+ level, tier 1 company, bangalore location\n\nbut it's AI/GenAI focused with langchain/rag - not your current skill set\n\n12+ years requirement vs your 8, and not explicitly remote\n\nworth exploring if you're open to AI pivot?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job cc9e30de-d58c-4bc4-922b-7c2830d536e7. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Senior Principal Software Engineer-AI\n      - Company: Red Hat\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: About The Job The Digital workforce team is part of Red Hat’s Data and AI organization. The team is focused on building and delivering strategic AI agents designed to augment human capabilities, accelerate workflows, and scale operations across the enterprise. In this role, you will work as a member of a highly dynamic, and fast-paced team. As part of the development team, you’ll need to be creative, motivated, and proficient in architecting and designing cutting-edge applications that leverage Generative AI. You will work closely with different teams, stakeholders, product owners, and program managers to design, document, and develop solutions. We are seeking talented engineers to spearhead the technology and design of key components within Red Hat's Digital Workforce, shaping the future of digital agents. The ideal candidate will possess strong technical abilities, a commitment to quality and open source, a drive for innovation, excellent communication and teamwork skills, and will excel in a dynamic, startup-like setting. What will you do? Architect, design, document, and develop applications in Python and frameworks like LangChain, LangGraph, LLamaStack. Architect and lead the implementation of Agentic AI applications. Architect and lead the implementation of scalable open-source solutions with distributed computing capabilities using Machine Learning models, running on OpenShift AI Architect and design new features with RAG, RAFT, GraphRAG, InstructLab, and their pipelines Develop and optimize retrieval-augmented generation (RAG) pipelines Collaborate with product owners, program managers, different teams, and engineering managers to analyze and clarify business requirements to implement data models and business logic Mentor, influence, and coach a distributed team of engineers Effectively communicate to stakeholders and project team members to ensure proper visibility of development efforts Review code merge requests from other team members for new features Build and deploy applications to Red Hat OpenShift Platform-as-a-Service (PaaS), public clouds, i.e., Google Cloud Platform, AWS, etc. Ensure non-functional requirements, including performance, scalability, resiliency, maintainability, security, etc., are met according to defined standards Resolve bugs, performance problems, and other issues with production applications What will you bring? Strong experience in a software engineering role Bachelor's degree in Computer Science, Computer Engineering or related field 12+ years of professional coding, at least 3 years using Python Excellent communication skills, solid written and verbal communication skills in English; ability to communicate effectively in a global team Demonstrated expertise in designing large scale distributed systems, cloud-native architectures, and enterprise-grade applications Problem-solving and troubleshooting skills including performing root cause analysis Understanding of web application infrastructure and fundamentals like REST and HTTP Understanding of public cloud concepts and development practices Experience with LangGraph, LangChain, Autogen and/or Python/Java-based AI libraries for GenAI applications Experience with continuous delivery (CD) like to build and deploy pipelines like Jenkins, Platform-as-a-Service (PaaS) like OpenShift/Kubernetes Presentations skills and public speaking skills for conferences and demos Enjoys solving challenging problems and working with emerging technologies The Following Are Considered a Plus Experience with AI Agentic frameworks Experience with MCP servers Experience working with LLMs Experience in building Chatbots with Slack Personal Qualities And Communication Communicate and influence for impact by bringing data to life via clear narratives and/or storytelling Communication skills and experience in interacting with cross functional business and engineering teams Capability in undertaking business needs analysis in direct consultation. Be a self-starter, displaying initiative in seeing needs, building functionality and leading insights for organizational change. Capability to develop a detailed understanding of our business requirements. Excellent communication, presentation, and writing skills About Red Hat Red Hat is the world’s leading provider of enterprise open source software solutions, using a community-powered approach to deliver high-performing Linux, cloud, container, and Kubernetes technologies. Spread across 40+ countries, our associates work flexibly across work environments, from in-office, to office-flex, to fully remote, depending on the requirements of their role. Red Hatters are encouraged to bring their best ideas, no matter their title or tenure. We're a leader in open source because of our open and inclusive environment. We hire creative, passionate people ready to contribute their ideas, help solve complex problems, and make an impact. Inclusion at Red Hat Red Hat’s culture is built on the open source principles of transparency, collaboration, and inclusion, where the best ideas can come from anywhere and anyone. When this is realized, it empowers people from different backgrounds, perspectives, and experiences to come together to share ideas, challenge the status quo, and drive innovation. Our aspiration is that everyone experiences this culture with equal opportunity and access, and that all voices are not only heard but also celebrated. We hope you will join our celebration, and we welcome and encourage applicants from all the beautiful dimensions that compose our global village. Equal Opportunity Policy (EEO) Red Hat is proud to be an equal opportunity workplace and an affirmative action employer. We review applications for employment without regard to their race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, citizenship, age, veteran status, genetic information, physical or mental disability, medical condition, marital status, or any other basis prohibited by law. Red Hat does not seek or accept unsolicited resumes or CVs from recruitment agencies. We are not responsible for, and will not pay, any fees, commissions, or any other payment related to unsolicited resumes or CVs except as required in a written contract between Red Hat and the recruitment agency or party requesting payment of a fee. Red Hat supports individuals with disabilities and provides reasonable accommodations to job applicants. If you need assistance completing our online job application, email application-assistance@redhat.com. General inquiries, such as those regarding the status of a job application, will not receive a reply. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 72\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Red Hat is a solid Tier 1 brand that would look excellent on your resume, Role is at IC4+ level (Senior Principal) which matches your requirement for Staff/Principal level, Located in Bangalore which fits your city preference perfectly, Strong backend and distributed systems alignment with your AWS, Kafka background, Python-heavy tech stack matches your expertise\n      - Concerns: 12+ years experience requirement when you have 8+ years - this is a stretch, Heavy AI/GenAI focus (LangChain, LangGraph, RAG) which isn't in your current skill set, Role appears to be in-office (not explicitly remote), which conflicts with your remote preference, Salary not listed, unclear if it meets your 60-80L target\n      - Reasoning: I'm sharing this because Red Hat is a top-tier brand and the Senior Principal title is exactly the IC4+ level you want. The experience gap (12+ vs your 8) is a real stretch, but here's the thing—your distributed systems and backend chops with Java, Kafka, AWS are solid foundations. The AI/GenAI heavy focus is new territory for you, so you'd need to frame your Elasticsearch/data work as transferable. It's not a slam dunk, but it's the kind of reach that could elevate your career if you can make the case. The main concern is it doesn't look explicitly remote, so you'd need to clarify that.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied. link sent.\n\nred hat is tier 1, senior principal level matches IC4+, bangalore location\n\nbut it's AI/GenAI focused with langchain/rag - new territory for you\n\n12+ years requirement vs your 8, and not explicitly remote\n\nworth exploring if you're open to AI pivot."
+    },
+    {
+      "role": "assistant",
+      "content": "technical director at LoglineAI\n\ndirector level role, remote, 8-12 years experience matches yours\n\nbut it's a tier 3 AI startup focused on media/VFX - brand downgrade from ringcentral\n\nheavy GenAI focus in new domain, and comp unclear\n\nworth exploring if you're open to startup risk?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 1566ae18-b9f6-44c4-985a-7e469b3fe28a. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Technical Director - Head of Generative Engineering\n      - Company: LoglineAI\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Technical Director / Head of Generative Engineering Location: Remote (India) Level: Director / Head (8–12+ years) About the role LoglineAI is building a “Studio OS” that converts scripts, briefs, and assets into shots, sequences, and finished films using GenAI, 3D, and VFX. This role owns the overall architecture and technical direction of that platform. The focus is on designing and operating production-grade systems that combine AI models, media pipelines, and cloud infrastructure into a reliable, scalable environment for internal and external users. The Technical Director / Head of Generative Engineering will lead a team, define technical standards, and work closely with production and creative stakeholders. The role requires experience with high-scale backend systems and familiarity with media/VFX or real-time graphics environments. Responsibilities Design and own the architecture of Logline’s generative production platform: APIs, workflow engine, model gateway, render orchestration, and asset/metadata systems. Lead and mentor a team of pipeline engineers, tools engineers, and ML engineers; define coding standards and best practices. Translate requirements from producers, directors, and GenAI artists into robust, repeatable pipelines. Integrate external AI services (e.g., Veo, Kling, Runway, SD/ComfyUI, upscalers, QC models) into a single coherent system. Define and implement observability and reliability: logging, metrics, tracing, error budgets, incident response. Partner with the founder on the technical roadmap for the Studio OS and its evolution into a SaaS product. Requirements 8–12+ years building production-grade systems (media, VFX, gaming, SaaS, or other high-scale backend domains), including 3+ years leading small, senior teams. Strong hands-on experience with Python or TypeScript, cloud platforms (GCP/AWS), containers, queues, and microservices. Experience with media/VFX/animation or real-time engines (Unreal, Blender, Nuke, Resolve, etc.) is preferred. Demonstrated ability to work with both technical and creative stakeholders. Track record of delivering systems from initial version to stable, scalable production. Ideal Candidate The ideal candidate comes from industries such as VFX, animation, post-production, gaming, real-time 3D, or high-scale SaaS/cloud platforms that manage intensive media, GPU, or distributed workloads. A strong candidate brings a blend of systems design expertise, scalable platform thinking, and an understanding of creative production workflows, enabling them to bridge engineering, creators, and product teams effectively. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 68\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Remote role based in Mumbai/India which fits your Bangalore preference (you can work from anywhere), Director/Head level with 8-12+ years ask matches your 8+ experience perfectly, Strong backend systems focus with Python/TypeScript, cloud (GCP/AWS), microservices aligns with your skills, IC4+ level role that would be a clear step up in scope and leadership, Early-stage AI startup with potential for high equity upside\n      - Concerns: LoglineAI is likely Tier 3 (unknown AI startup) - brand downgrade from RingCentral, Heavy GenAI/media/VFX focus which is completely new domain for you, No salary information - unclear if they can meet your 60-80L target, Startup risk/instability vs established company, Required experience with VFX/media pipelines which you don't have\n      - Reasoning: This one's interesting but comes with trade-offs. It's a Director-level role that matches your experience range (8-12 years) and is fully remote. The backend systems work—Python, cloud, microservices, distributed systems—lines up with what you do. The catch is LoglineAI is an unknown AI startup (Tier 3), so you'd be trading RingCentral's brand for a Director title and potentially more ownership/equity. The GenAI/media/VFX angle is new for you, but if you're open to pivoting into AI leadership, this could be an interesting bet. Just need to verify comp meets your 60-80L expectations.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied. link sent.\n\ndirector level role, remote, 8-12 years experience matches yours\n\nbut it's a tier 3 AI startup focused on media/VFX - brand downgrade from ringcentral\n\nheavy GenAI focus in new domain, and comp unclear\n\nworth exploring if you're open to startup risk?"
+    },
+    {
+      "role": "assistant",
+      "content": "java lead / VP at Morgan Stanley\n\ntier 1 company, VP level matches IC4+, bangalore location\n\nperfect tech stack match: java/spring/microservices/kafka - exactly what you do\n\n10+ years requirement vs your 8+ is a stretch but not absurd\n\nworth exploring for the brand upgrade alone"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 7814464b-666e-4ef5-8c96-9fc1c63de4c1. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Java Lead / Software Designing Engineer - Vice President - Software Engineering\n      - Company: Morgan Stanley\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Profile Description We’re seeking someone to join our Institutional Securities Technology team as a Java System Designing Lead, in PWM Asia Tech to work on System or Application Designing with good exposure on DSA, Springboot and microservices About Super Department Private Wealth Management Asia Technology (PWM Asia Tech) is responsible for providing front to back technology services to businesses that manage the Firm's high-net-worth clients in Asia and Australia, managing the technology platform that covers customer on-boarding, order management, on-going client service and reporting. In the Technology division, we leverage innovation to build the connections and capabilities that power our Firm, enabling our clients and colleagues to redefine markets and shape the future of our communities. This is a Lead Software Engineer position at Vice President Level, which is part of the job family responsible for developing and maintains software solutions that support business needs. Since 1935, Morgan Stanley is known as a global leader in financial services, always evolving and innovating to better serve our clients and our communities in more than 40 countries around the world. What You’ll Do In The Role Strong technologist with passion for high quality engineering and problem solving. Good collaboration with team members and stakeholders across the globe. Agile development principle, methodologies and devops adoption of CI/CD/CM. Participating in Requirement Analysis, Design, Architecture, Development and Code reviews. Guide team members in design and development and partner with fellow colleagues/leads on moving platform forward across the entire PWM technology footprint. Self-Starter mindset with strong leadership skills and team-oriented goals What You’ll Bring To The Role 10+ years experience working in System or Application Designing. Hands-on Java and open-source server-side technologies development experience. Strong fundamentals of object-oriented design and event/message driven architecture. (MQs, Kafka etc) Strong experience with Data Structure Algorithm, Design Patterns. Good experience with Architecture and providing solutions. Hands-on with Java, Spring and other open-source server-side technologies and microservices. Domain driven design and Event/Message based architectures. Matured devops and Internal cloud deployments. Partial external cloud deployments. UI - Angular, C#, Mobile and REST services. Microservices and Caching technologies. Relational and document Databases with high volume of data processing. At least 6 years' relevant experience would generally be expected to find the skills required for this role What You Can Expect From Morgan Stanley We are committed to maintaining the first-class service and high standard of excellence that have defined Morgan Stanley for over 89 years. Our values - putting clients first, doing the right thing, leading with exceptional ideas, committing to diversity and inclusion, and giving back - aren’t just beliefs, they guide the decisions we make every day to do what's best for our clients, communities and more than 80,000 employees in 1,200 offices across 42 countries. At Morgan Stanley, you’ll find an opportunity to work alongside the best and the brightest, in an environment where you are supported and empowered. Our teams are relentless collaborators and creative thinkers, fueled by their diverse backgrounds and experiences. We are proud to support our employees and their families at every point along their work-life journey, offering some of the most attractive and comprehensive employee benefits and perks in the industry. There’s also ample opportunity to move about the business for those who show passion and grit in their work. To learn more about our offices across the globe, please copy and paste https://www.morganstanley.com/about-us/global-offices into your browser. Morgan Stanley is an equal opportunities employer. We work to provide a supportive and inclusive environment where all individuals can maximize their full potential. Our skilled and creative workforce is comprised of individuals drawn from a broad cross section of the global communities in which we operate and who reflect a variety of backgrounds, talents, perspectives, and experiences. Our strong commitment to a culture of inclusion is evident through our constant focus on recruiting, developing, and advancing individuals based on their skills and talents. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 78\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Morgan Stanley is Tier 1 company - significant brand upgrade from RingCentral, VP level role is IC4+ equivalent, matches your requirement to level up, Perfect tech stack match: Java, Spring, microservices, Kafka, distributed systems - exactly what you do, Location is Bangalore which is your preference, 10+ years experience ask with you at 8+ is a reasonable stretch - close enough to not be absurd, PWM Asia Tech role focused on high-scale client platforms aligns with your backend/distributed systems expertise\n      - Concerns: Role mentions 'Lead' and 'guide team members' heavily - seems to have people management expectations, unclear if this is pure IC4 or has management responsibilities, Experience gap of 2+ years (asks 10+, you have 8+) is on the edge of being too much, Not explicitly marked as remote - says in Bangalore but doesn't confirm remote option, Salary not listed, unclear if it meets your 60-80L target for staff/principal roles\n      - Reasoning: I'm sharing this because it's a legitimate shot at a Tier 1 company (Morgan Stanley) at the VP level, which is IC4+ equivalent. The tech stack is a perfect match - Java, Spring, microservices, Kafka, exactly what you're doing now. You're at 8+ years and they want 10+, which is a stretch but not absurd. My only hesitation is whether this is pure IC or has people management mixed in - worth clarifying in the interview. The brand upgrade alone makes this worth exploring.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied. link sent.\n\nmorgan stanley is tier 1, VP level matches IC4+, bangalore location\n\nperfect tech stack match: java/spring/microservices/kafka - exactly what you do\n\n10+ years requirement vs your 8+ is a stretch but not absurd\n\nworth exploring for the brand upgrade alone"
+    }
+  ]
+}

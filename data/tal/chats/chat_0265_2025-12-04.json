@@ -1,0 +1,195 @@
+{
+  "thread_id": "917743960763_chat",
+  "date": "2025-12-04",
+  "message_count": 47,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Ashutosh"
+    },
+    {
+      "role": "assistant",
+      "content": "ashutosh... that's a name that means business. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Even healthcare"
+    },
+    {
+      "role": "assistant",
+      "content": "even healthcare... building the platform that's trying to fix healthcare payments in india. ambitious stuff.\n\nfound ashutosh singh at even healthcare. this you? https://www.linkedin.com/in/ashutosh-singh-a69170170/"
+    },
+    {
+      "role": "user",
+      "content": "Yup"
+    },
+    {
+      "role": "assistant",
+      "content": "even healthcare to making payments less painful for patients and providers... that's some solid mission-driven work right there. the healthcare fintech space is heating up and you're right in the thick of it.\n\nwhat got you into the healthcare payments game? seems like a pretty specific pivot to make."
+    },
+    {
+      "role": "user",
+      "content": "I wanted to be a doctor, but I'm color blind and not eligible to be one. So chose the next closest thing."
+    },
+    {
+      "role": "assistant",
+      "content": "damn, that's actually beautiful. couldn't heal people directly so you chose to fix the system that's supposed to help them. honestly more impactful than most doctors will ever be - you're touching every patient transaction instead of just the ones in your clinic.\n\nhow long you been working total?"
+    },
+    {
+      "role": "user",
+      "content": "3 yr 6 months"
+    },
+    {
+      "role": "assistant",
+      "content": "3.5 years... you're hitting that sweet spot where you actually know what you're doing but still hungry enough to level up. \n\nwhat kind of role you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "Software engineer"
+    },
+    {
+      "role": "assistant",
+      "content": "software engineer... staying in your lane but ready to explore. smart move at 3.5 years.\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "Open to anywhere, but banglore is first prefey"
+    },
+    {
+      "role": "assistant",
+      "content": "3.5 years + software engineer + bangalore first (but flexible)... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yup"
+    },
+    {
+      "role": "assistant",
+      "content": "yooooo ashutosh! you're officially in the tal family now 🔥\n\nget ready because when the right bangalore software engineering role drops, it's coming straight to your chat. no more scrolling through linkedin job posts like a lost soul.\n\nwe're talking real roles at real companies that actually pay software engineers what they're worth. not those \"we're a family\" startups that pay in equity and pizza parties.\n\ntime to level up that career, legend!"
+    },
+    {
+      "role": "assistant",
+      "content": "yo, commure is looking for a backend engineer\n\nthey're building healthcare infrastructure backed by sequoia and YC - basically the exact mission you were talking about\n\nmountain view though, not bangalore. worth a look?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job c0d5c2ce-9f5c-493d-a84b-0b1c12f0511e. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Backend Engineer\n      - Company: Commure\n      - Location: Not specified\n      - Salary Range: ₹120000L - ₹150000L\n      - Experience Required: Not specified\n      - Job Description: At Commure, our mission is to simplify healthcare. We have bold ambitions to reimagine the healthcare experience, setting a new standard for how care is delivered and experienced across the industry. Our growing suite of AI solutions spans ambient AI clinical documentation, provider copilots, autonomous coding, revenue cycle management and more — all designed for providers & administrators to focus on what matters most: providing care. Healthcare is a $4.5 trillion industry with more than $500 billion spent annually on administrative costs, and Commure is at the heart of transforming it. We power over 500,000 clinicians across hundreds of care sites nationwide – more than $10 billion flows through our systems and we support over 100 million patient interactions. With new product launches on the horizon, expansion into additional care segments, and a bold vision to tackle healthcare's most pressing challenges, our ambition is to move from upstart innovator to the industry standard over the next few years. Commure was recently named to Fortune’s Future 50 list for 2025 and is backed by world-class investors including General Catalyst, Sequoia, Y Combinator, Lux, Human Capital, 8VC, Greenoaks Capital, Elad Gil, and more. Commure has achieved over 300% year-over-year growth for the past two years and this is only the beginning. Healthcare's moment for AI-powered transformation is here, and we're building the technology to power it. Come join us in shaping the future of healthcare. About The Role At Commure, our engineering team is at the forefront of revolutionizing healthcare technology by building and scaling the systems powering our suite of healthcare products. We are looking for a talented Backend Engineer to help us craft user-friendly, responsive, and secure interfaces that operate reliably at scale and enhance the healthcare experience for both providers and patients. If you are a builder and love working on important, exciting problems in healthcare and love shipping quickly, come join us! What You’ll Do Design, implement, and maintain our backend architecture for scalable, AI-powered healthcare solutions Be a part of a tremendously fast-paced team that celebrates large ambition and making decisions quickly Work across the entire technology stack, including but not limited to Python, Go, FastAPI, Flask, and other frameworks Collaborate with product managers, designers, and clinical experts to translate requirements into intuitive and efficient UI solutions Work directly with customers to solve their issues daily What You Have Bachelor’s or Master’s degree in Computer Science, Engineering, or a related field, or equivalent extensive experience 2+ years of professional experience in software development industry experience Strong Backend Programming Skills (We use Python and Go) General Understanding of Containers and Cloud (Docker, Kubernetes) Experience in environments where you have to ship quickly. We move fast and deploy daily. Excitement to work in a high-impact field with a builder attitude! Attention to detail around user experience and customer needs Growth mindset and a motivation to grow Commure is committed to creating and fostering a diverse team. We are open to all backgrounds and levels of experience, and believe that great people can always find a place. We are committed to providing reasonable accommodations to all applicants throughout the application process. Please be aware that all official communication from us will come exclusively from email addresses ending in @ getathelas.com , @ commure.com or @ augmedix.com . Any emails from other domains are not affiliated with our organization. Employees will act in accordance with the organization’s information security policies, to include but not limited to protecting assets from unauthorized access, disclosure, modification, destruction or interference nor execute particular security processes or activities. Employees will report to the information security office any confirmed or potential events or other risks to the organization. Employees will be required to attest to these requirements upon hire and on an annual basis. Compensation Range: $120K - $150K Show more Show less\n\n      Job Analysis:\n      - Fit Score: 78\n      - Confidence: high\n      - Recommendation: recommended\n      - Strengths: Perfect domain alignment - healthcare tech matches candidate's mission-driven career choice and personal connection to healthcare, Strong company tier - Commure is Tier 1/2 (backed by Sequoia, YC, General Catalyst, 300% YoY growth, Fortune Future 50), Exact tech stack match - Python, Go, Docker, Kubernetes align with modern backend engineering skills, Healthcare impact mission aligns with candidate's backstory of wanting to be a doctor\n      - Concerns: Location mismatch - job is in Mountain View, CA (not remote), while candidate prefers Bangalore and wants remote work, Entry/Junior level designation might be slightly below candidate's 3.5 years experience, though 2+ years requirement fits, US-based role may have visa/relocation complexity not discussed in candidate preferences\n      - Reasoning: This is a strong fit on mission, domain, and technical skills. Commure is a high-tier company (Sequoia/YC backed, Fortune Future 50) in healthcare tech, perfectly matching the candidate's passion. The 2+ years requirement fits their 3.5 years experience. However, the location is a significant concern - the role is onsite in Mountain View, CA, not remote or in Bangalore. If the candidate is open to relocation or this changes, it's an excellent opportunity. The slight title concern (Entry/Junior label) is offset by the company tier and mission alignment.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "sent! that's a solid mission match - healthcare tech with your doctor backstory, backed by sequoia and YC, growing 300% year over year.\n\nlocation's the only real question mark since it's mountain view not bangalore... but the mission alignment is too perfect to ignore.\n\ngood luck with the application!"
+    },
+    {
+      "role": "user",
+      "content": "This application would never be accepted because of US government sponsorship rules"
+    },
+    {
+      "role": "assistant",
+      "content": "you're right, that's the reality check. US roles without explicit visa sponsorship are basically dead ends for international applicants.\n\nso what's your actual salary range? and are you looking for bangalore-based roles only, or open to remote international companies that hire globally?"
+    },
+    {
+      "role": "user",
+      "content": "Open for remote too"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. bangalore first, remote second. that opens up way more options.\n\nwhat's your current salary and what are you targeting?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "found a fullstack role at uplers working with medblocks - they're building open-source healthcare software\n\nremote from bangalore, 3+ years experience matches yours, and it's healthcare tech which you're passionate about\n\nthey want someone who can do content creation and mentoring too"
+    },
+    {
+      "role": "assistant",
+      "content": "found a backend engineer role at BON Credit through Uplers\n\nit's fully remote and fintech - matches what you mentioned\n\nearly stage startup building consumer credit products, could be interesting"
+    },
+    {
+      "role": "assistant",
+      "content": "yo, sollu is hiring a full stack engineer for their healthcare communication platform\n\nthey work with 250+ hospitals to improve patient access - basically the exact mission you were talking about with your doctor backstory\n\nchennai location but remote/hybrid, 3+ years experience matches yours perfectly"
+    },
+    {
+      "role": "user",
+      "content": "Chennai won't do"
+    },
+    {
+      "role": "assistant",
+      "content": "chennai's out. got it.\n\nbangalore or remote only. narrowing the search.\n\nwhat's your current salary and what are you targeting? need that to filter out the lowball offers"
+    },
+    {
+      "role": "user",
+      "content": "Current is 30LPA, targeting close to 38"
+    },
+    {
+      "role": "assistant",
+      "content": "30 to 38... that's a solid jump but realistic for 3.5 years in bangalore. you're not asking for the moon, just what you're actually worth.\n\ni'll keep that in mind when filtering. anything else that's a dealbreaker?"
+    },
+    {
+      "role": "user",
+      "content": "6 days workweek"
+    },
+    {
+      "role": "assistant",
+      "content": "6 day workweek is a hard no. that's just exploitation with extra steps.\n\nso to recap: backend engineer, 3.5 years, bangalore or remote, 30→38LPA, healthcare/fintech, 5 day week only\n\nanything else you're avoiding? specific companies or industries?"
+    },
+    {
+      "role": "user",
+      "content": "That's all. Also, my primary experience is in app (flutter) but I'm interested in backend too since I have fullstack experience"
+    },
+    {
+      "role": "assistant",
+      "content": "alright, you're locked in. flutter app dev with fullstack experience, targeting backend roles in healthcare/fintech, bangalore or remote, 30→38LPA, 5 day week only.\n\ni'm picky about what i share, so when something actually fits, you'll see it here.\n\nbtw... what's making you want to leave even healthcare anyway? just growth or something else?"
+    },
+    {
+      "role": "user",
+      "content": "Growth, ready for new challenges"
+    },
+    {
+      "role": "assistant",
+      "content": "growth and new challenges... that's the 3.5 year itch. you've learned what you can where you are, time to level up.\n\nmakes sense. i'll keep an eye out for roles that actually push you forward, not just sideways moves.\n\nanything specific you want to learn or work on next?"
+    },
+    {
+      "role": "assistant",
+      "content": "found another uplers role - fullstack engineer for an insurtech startup\n\nremote from bangalore, building AI-native healthcare-adjacent products, node.js + postgresql backend\n\nthey want 4+ years but you're close at 3.5, and it's seed-stage so real challenges for growth\n\nsalary is confidential though, so not sure about the 38 target"
+    },
+    {
+      "role": "assistant",
+      "content": "scoutit has a full stack engineer role in bangalore\n\n30-35L range, 2+ years experience, node.js/express backend with react frontend\n\nthey're a staffing company though, so you'd be working for their client"
+    },
+    {
+      "role": "assistant",
+      "content": "another uplers role for medblocks - open-source healthcare software\n\nremote, 3+ years experience matches yours perfectly, node.js/python/react stack\n\nbut salary is 15-20LPA vs your 38 target, and it's heavy on teaching/mentoring content creation\n\nthe healthcare mission is exactly your story though"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Not interested\"\n\n\n<button_context>User clicked \"Not interested\" for job 7a3e0ccf-aed3-4d9d-a55f-5925ad178831. Ask them for specific feedback on why this job doesn't appeal to them, then update your working memory with this feedback to improve future recommendations.</button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "fair enough, that salary gap is brutal. 15-20LPA when you're targeting 38 is basically a slap in the face.\n\nwhat specifically turned you off? just the salary or something else about the role?"
+    },
+    {
+      "role": "user",
+      "content": "No compromise in compensation\n  Okay with compromising industry or field"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. compensation is non-negotiable - 38LPA or bust.\n\nindustry/field is flexible though. that opens up way more options.\n\nso we're hunting for backend/fullstack roles in bangalore or remote, 3.5 years experience, 38LPA target, 5 day week only\n\nanything else you'd compromise on? tech stack, company size, etc?"
+    }
+  ]
+}

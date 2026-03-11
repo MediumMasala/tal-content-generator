@@ -1,0 +1,55 @@
+{
+  "thread_id": "917380499005_chat",
+  "date": "2025-12-04",
+  "message_count": 12,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Axiamatic"
+    },
+    {
+      "role": "assistant",
+      "content": "axiamatic... that's the ai/automation play right? building the future of work or whatever they're calling it these days.\n\nfound Bob Beler - VP of Channels for Ceragon Networks on linkedin. this you? https://www.linkedin.com/in/bob-beler-9b04233"
+    },
+    {
+      "role": "user",
+      "content": "Bob\n  ??"
+    },
+    {
+      "role": "assistant",
+      "content": "bob... solid name. short, direct, no nonsense. \n\nwhere you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Axiamatic"
+    },
+    {
+      "role": "assistant",
+      "content": "axiamatic... that's the ai/automation play right? building the future of work or whatever they're calling it these days.\n\nfound Irfan Khan - Software Engineer @ Axiamatic | Ex- leadsquared on linkedin. this you? https://in.linkedin.com/in/irfan--khan"
+    },
+    {
+      "role": "user",
+      "content": "My name is Irfan khan"
+    },
+    {
+      "role": "assistant",
+      "content": "irfan khan... now we're talking. much better than bob lol\n\nwhere you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "software engineer at axiamatic... building ai automation tools while coming from leadsquared. that's a solid jump from sales tech to the future of work automation. what made you make that switch?"
+    }
+  ]
+}

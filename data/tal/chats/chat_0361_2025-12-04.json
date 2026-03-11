@@ -1,0 +1,47 @@
+{
+  "thread_id": "919591198893_chat",
+  "date": "2025-12-04",
+  "message_count": 10,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "assistant",
+      "content": "nisarg varma... solid name. has that \"i've got my life figured out\" energy to it.\n\nwhere you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Nisarg Varma"
+    },
+    {
+      "role": "user",
+      "content": "Airbus"
+    },
+    {
+      "role": "assistant",
+      "content": "airbus... building planes that actually fly, not just burning money like most startups. respect.\n\nfound you on linkedin - Nisarg Varma, Technical Lead at Airbus doing embedded systems and C/C++. this you? https://in.linkedin.com/in/nisarg-varma-5569a675"
+    },
+    {
+      "role": "user",
+      "content": "Yes!"
+    },
+    {
+      "role": "assistant",
+      "content": "technical lead at airbus... embedded systems, c/c++, the whole aerospace stack. from building flight software to making sure planes don't fall out of the sky. that's some serious engineering right there.\n\nwhat made you get into aerospace? most engineers chase fintech money, you chose rockets and wings."
+    },
+    {
+      "role": "assistant",
+      "content": "hey nisarg, i was just thinking about your aerospace background - most engineers chase fintech money, you chose rockets and wings. what made you get into that?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey nisarg, quick question - what's your ideal next role? i want to make sure i'm showing you opportunities you'll actually be excited about 🎯"
+    }
+  ]
+}

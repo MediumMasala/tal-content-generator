@@ -1,0 +1,39 @@
+{
+  "thread_id": "919875552141_chat",
+  "date": "2025-12-04",
+  "message_count": 8,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "assistant",
+      "content": "manish kumar... that's a name that shows up in every company directory from bangalore to san francisco\n\nwhere you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Manish Kumar"
+    },
+    {
+      "role": "user",
+      "content": "Concentric AI"
+    },
+    {
+      "role": "assistant",
+      "content": "concentric ai... the data security startup that's making enterprises actually care about where their sensitive data lives. smart play in the zero trust world.\n\nfound you on linkedin - manish kumar building concentric.ai, ex walmart and amazon. this you? https://in.linkedin.com/in/mrmnzz"
+    },
+    {
+      "role": "user",
+      "content": "Yes, it's me."
+    },
+    {
+      "role": "assistant",
+      "content": "walmart to amazon to building concentric... you've been on quite the journey from retail giants to data security. that's a solid pivot into one of the hottest spaces right now. what made you jump from big tech to the startup grind?"
+    }
+  ]
+}

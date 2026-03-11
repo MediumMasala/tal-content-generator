@@ -1,0 +1,47 @@
+{
+  "thread_id": "918900597959_chat",
+  "date": "2025-12-04",
+  "message_count": 10,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "yo! friend is a solid name... very mysterious 😏\n\nbut fr, i need your actual name to find you roles. what should i call you?"
+    },
+    {
+      "role": "user",
+      "content": "Dolon"
+    },
+    {
+      "role": "assistant",
+      "content": "dolon... that's actually a beautiful name. love it.\n\nwhere you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Razorpay"
+    },
+    {
+      "role": "assistant",
+      "content": "razorpay... building the payment backbone that half of india runs on. solid choice.\n\nfound you on linkedin - dolon biswas, student at narula institute of technology. this you? https://in.linkedin.com/in/dolon-biswas-99283826b"
+    },
+    {
+      "role": "user",
+      "content": "No\n  You can search for ripla"
+    },
+    {
+      "role": "assistant",
+      "content": "found leigh ann ripka - leader | problem solver | philanthropist. this you? https://www.linkedin.com/in/leigh-ann-ripka-5858a420"
+    },
+    {
+      "role": "user",
+      "content": "Ripla not ripka"
+    },
+    {
+      "role": "assistant",
+      "content": "can't find you with ripla either. getting the same result.\n\ncan you drop your linkedin url directly? or send me your resume? i need at least one to find you proper roles"
+    }
+  ]
+}

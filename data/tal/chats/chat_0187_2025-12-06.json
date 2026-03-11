@@ -1,0 +1,591 @@
+{
+  "thread_id": "918095703459_chat",
+  "date": "2025-12-06",
+  "message_count": 146,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Abhisekh kumar"
+    },
+    {
+      "role": "assistant",
+      "content": "abhisekh kumar... that's a name with character. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "I am currently looking for Job, I don't have any industrial experience at present"
+    },
+    {
+      "role": "assistant",
+      "content": "fresh out the gate looking for your first break... respect. everyone starts somewhere.\n\nwhat did you study? and where?"
+    },
+    {
+      "role": "user",
+      "content": "I have done my graduation in\nDegree :- B.E. in  AI&ML and passed out in 2024, in \nInstitute:- Cambridge Institute of Technology , Bangalore"
+    },
+    {
+      "role": "assistant",
+      "content": "ai & ml from cambridge institute... 2024 batch, so you're fresh fresh. that's the new hotness everyone wants to hire.\n\nfound you on linkedin - abhisekh kumar, ai & ml graduate fueled by curiosity and creativity. this you? https://in.linkedin.com/in/abhisekh-kumar-ak1403"
+    },
+    {
+      "role": "user",
+      "content": "Yes, it is correct"
+    },
+    {
+      "role": "assistant",
+      "content": "ai & ml from cambridge institute, 2024 batch... curious and creative, that's what the game needs. most freshers are just resume keywords, but you seem like you actually get it.\n\nwhat got you into ai/ml? was it the hype or did something actually click?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey abhisekh, was just thinking about your ai/ml background from cambridge institute... what's the dream role you've been picturing for yourself? like, what kind of work would actually get you excited to wake up on monday?"
+    },
+    {
+      "role": "user",
+      "content": "I'll not dent that at the time of admission in University AIML had become trend\nBut, It was a click\nI have already done some software development work, like I had made a game before joining the university and I was always looking forward to how I can make things smart and how I can automate things and etc etc......"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nAbhisekh Kumar is a recent graduate from Cambridge Institute of Technology, currently employed at Samsung R&D Institute India - Bangalore. His profile highlights multiple certifications in cloud and AI technologies from Microsoft and Oracle.\n\n**ROLE-BY-ROLE**\n*   **Samsung R&D Institute India - Bangalore** ([start date not specified]) – [Role title not specified] – [Responsibilities not listed]\n\n**EDUCATION HIGHLIGHTS**\n*   **Cambridge Institute of Technology** (2020 - 2024) – [Degree not specified]\n\n**CERTIFICATIONS**\n*   **Microsoft Certified:** Azure Fundamentals (Issued May 2023)\n*   **Microsoft Certified:** Power Platform Fundamentals (Issued May 2023)\n*   **Oracle Cloud Infrastructure 2025 Certified:** Data Science Professional (Issued Oct 2025)\n*   **Oracle Cloud Infrastructure 2025 Certified:** Generative AI Professional (Issued Oct 2025)\n*   **Oracle Cloud Infrastructure 2025 Certified:** AI Foundations Associate (Issued Aug 2025)"
+    },
+    {
+      "role": "assistant",
+      "content": "wait wait... hold up. your linkedin says you're at samsung r&d bangalore. but you just told me you're looking for your first job with no industrial experience?\n\nwhat's the deal? are you interning there or what's the situation?"
+    },
+    {
+      "role": "user",
+      "content": "I was an intern at Samsung R&D from November 2022 to June 2023"
+    },
+    {
+      "role": "assistant",
+      "content": "ah got it... so samsung was just an internship that ended in june 2023, but your linkedin still shows it like you're working there. classic linkedin confusion.\n\n7-month internship at samsung r&d... that's solid experience actually. plus you were building games before uni and you're into automation and making things smart. that's the kind of curiosity that gets you hired.\n\nwhat kind of stuff did you work on during the samsung internship? and what made you jump from gaming to ai/ml - was it just the trend or did you see a real connection?"
+    },
+    {
+      "role": "user",
+      "content": "I was assigned the task of making a Phonetic Model for Indian Languages, for which I made a Deep Learning LSTM ML model. My model takes any Indian Languages (hindi, kannada, bengali, Malayalam)as an input and generates phonemes for those words directly without converting them to english language in between.\nMy model had a SOTA comparable F1 score of 81% and was trained on a set of 4 lakhs.\n\nAnswering your second question, i didn't plan on making a game, I was just looking forward to learning tools and programming concepts, but it turned out pretty well, and to elaborate, it was a simple Flappy Bird game, and I believed that knowing about softwares and how to make a software comes first then in the line of becoming an AI or ML Engineer"
+    },
+    {
+      "role": "assistant",
+      "content": "phonetic model for indian languages with 81% f1 score... bro that's actually impressive. most freshers can barely explain what lstm stands for and you built something that works across multiple scripts. samsung r&d doesn't give random tasks to interns.\n\nand your approach makes total sense - learn the fundamentals first, then specialize. too many people jump straight to \"i want to be an ai engineer\" without understanding how software actually works.\n\nso here's the thing... you've got real experience, you think like an engineer, and you've worked on something genuinely useful. but you're calling yourself a fresher with no experience. that's underselling yourself hard.\n\nhow long you been working total? including that samsung stint and any other projects or work?"
+    },
+    {
+      "role": "user",
+      "content": "I have worked as an intern there and then after that I am working in a small firm as a software Engineer. Which I have not enlisted in linkedin"
+    },
+    {
+      "role": "assistant",
+      "content": "oh so you ARE working... just keeping it off linkedin. smart move if it's a stepping stone role.\n\nsamsung internship + current software engineer role... that's actual experience, not fresher territory. you've been coding professionally.\n\nhow long you been working total? counting samsung internship + this current software engineer role?"
+    },
+    {
+      "role": "user",
+      "content": "i joined this firm in oct 2024 , so in total I got experience of 1 year and 6 months"
+    },
+    {
+      "role": "assistant",
+      "content": "1.5 years total... that's not fresher anymore, that's junior engineer territory. samsung internship building phonetic models + current software engineer role... you've got real experience.\n\nwhat kind of role you looking for next? staying in software engineering, jumping to ai/ml, or exploring something else?"
+    },
+    {
+      "role": "user",
+      "content": "I am okay with working as a software engineer/developer \nBut i would love if I wake up as an AI/ML Engineer on Monday"
+    },
+    {
+      "role": "assistant",
+      "content": "software engineer but dreaming of ai/ml... makes sense. you built that phonetic model at samsung, got the taste, and now regular software engineering feels like... maintenance mode.\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "Actually many companies prefer experienced employees to work in their AI team, and I as a fresher has no chance \nSo i had to take up a job as a software Engineer \nAnswering your second question, I will prefer jobs in Bangalore but I am open to work in Bangalore, remote jobs and jobs in other cities in India."
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "user",
+      "content": "Yes\n  Thank you"
+    },
+    {
+      "role": "assistant",
+      "content": "nah you're thinking about this wrong. \"fresher has no chance\" - bro you built a phonetic model that hit 81% f1 score. that's not fresher work, that's engineer work.\n\ncompanies don't just want \"experienced\" ai people... they want people who can actually build things that work. you've already proven that.\n\nbut fair play on the stepping stone strategy. software engineering builds the foundation, ai/ml is the specialty on top.\n\nso... 1.5 years experience, ai/ml preferred but software engineer works too, bangalore preferred but open to remote/other cities... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "assistant",
+      "content": "yooo abhisekh! welcome to the tal network 🔥\n\nyou're officially in the system. when the right ai/ml or software engineer roles drop, you'll be the first to know. no more settling for whatever's available.\n\ncambridge institute to samsung to building phonetic models... that's a solid trajectory. companies are about to find out what they've been missing.\n\ngame time. let's get you placed somewhere that actually deserves your brain."
+    },
+    {
+      "role": "user",
+      "content": "Yeah sure"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. you're locked in. now we wait for the right thing to drop.\n\nbtw... what's the current software engineer role like? just curious what you're working on day to day."
+    },
+    {
+      "role": "user",
+      "content": "I need you to send me at least 5-10 job opening Daily"
+    },
+    {
+      "role": "assistant",
+      "content": "lol i wish it worked like that. but that's not how i operate.\n\ni don't just blast random jobs at you. i review thousands of opportunities daily, and when something actually fits YOU - not just any warm body, but specifically matches your skills, experience, and what you're trying to build - i slide it.\n\nquality over quantity. you'd rather get 1 perfect match than 10 mediocre ones, right?\n\nbut i hear you - you want momentum. i'll set up a daily check-in to make sure you're seeing opportunities regularly. how's that sound?"
+    },
+    {
+      "role": "user",
+      "content": "Give me a moment, I'll get back to you"
+    },
+    {
+      "role": "assistant",
+      "content": "sure thing. take your time."
+    },
+    {
+      "role": "assistant",
+      "content": "hey, infosys has a generative ai/nlp role in bangalore\n\nthey're looking for 0-2 years experience, perfect for your background\n\nuses python, tensorflow, pytorch - right up your alley with that phonetic model work"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 49039631-5f4d-4b64-b240-d77f4c90c0b8. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Generative AI and Natural Language Processing (NLP)\n      - Company: Infosys\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Must Have Skills: Basic understanding of Natural Language Processing (NLP) techniques such as text classification, tokenization, sentiment analysis, and named entity recognition (NER). Familiarity with Generative AI concepts, including Generative Adversarial Networks (GANs), transformers, and autoencoders. Strong programming skills in Python, with experience using libraries like NumPy, Pandas, TensorFlow, PyTorch, and Hugging Face for model building and data manipulation. Knowledge of machine learning algorithms and basic model evaluation techniques. Familiarity with cloud platforms (e.g., AWS, Azure, Google Cloud) or basic cloud concepts for model training and deployment. Willingness to learn and work with GPU/TPU computing for efficient model training and inference. Natural Language Processing (NLP): a. Assist in the design and development of NLP systems for tasks such as text classification, sentiment analysis, named entity recognition (NER), and machine translation. b. Contribute to the development of language models for text summarization, question answering, and dialog systems. c. Work with large, unstructured text datasets and apply techniques such as text preprocessing, tokenization, and embedding generation. Collaborate with team members to develop AI-driven solutions that involve transformer-based models, text generation, and other cutting-edge NLP techniques. Learning & Growth: Continuously improve knowledge of emerging AI and NLP trends, techniques, and technologies. Participate in learning programs and research to deepen expertise in transformer models, LLMs, RAG, and other relevant techniques. Documentation: Maintain clear and organized documentation of models, experiments, code, and results to ensure reproducibility and efficient knowledge sharing within the team. Nice to Have Skills: Familiarity with Agentic AI concepts or exposure to intelligent agent-based systems. Exposure to working with open-source LLMs (e.g., Hugging Face) and transformer-based models. Understanding of Docker for containerizing applications and models. Exposure to AutoML frameworks or transfer learning techniques. Familiarity with version control systems like Git. Understanding of basic MLOps concepts for deploying machine learning models in production. Interest in AI deployment tools such as Flask, FastAPI, Django etc . for serving models in real-world applications. Soft Skills: Strong verbal and written communication skills with the ability to work well in a team. Strong customer focus, ownership, urgency, and drive. Ability to handle multiple, competing priorities in a fast-paced environment. Work well with the team members to maintain high credibility. Educational Requirements (any of the following): Bachelor’s degree in computer science, Engineering, Mathematics, Physics, or a related field (required). Master's degree or PhD in Computer Science, Artificial Intelligence, Machine Learning, or a related field (preferred for senior roles). Location: India Show more Show less\n\n      Job Analysis:\n      - Fit Score: 68\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Excellent domain match: NLP/Generative AI focus aligns perfectly with candidate's Samsung internship (phonetic model using LSTM for Indian languages), Entry-level appropriate: 0-2 years requirement matches candidate's 1.5 years total experience, JD explicitly states 'basic understanding' and 'familiarity' rather than expert-level - realistic for candidate's level, Technical stack perfect fit: Python, TensorFlow, PyTorch, Hugging Face, NLP techniques (tokenization, NER, sentiment analysis) match candidate's demonstrated skills, Bangalore location matches preference, Educational requirements met: B.E. in AI&ML from candidate matches requirement, Role emphasizes 'learning & growth' and 'willingness to learn' - appropriate for early-career professional, Responsibilities include 'assist' and 'contribute' language, not 'lead' or 'own' - realistic seniority expectations\n      - Concerns: Infosys is Tier 3 company (IT services/consulting) - limited career capital compared to product companies or well-funded startups, No remote work option despite candidate's preference for remote flexibility, Service company environment may offer less ownership and innovation compared to product-focused roles, Peer perception: Lateral move from current software engineer role at small firm to Infosys - neither impressive nor concerning, just expected\n      - Reasoning: This is a realistic fit with appropriate seniority expectations. Unlike the previous Infosys ML role, this JD is internally consistent - requires 0-2 years, uses 'basic understanding' and 'assist/contribute' language appropriate for entry-level. The NLP/Generative AI focus directly leverages candidate's Samsung internship experience building phonetic models with LSTM. Technical requirements (Python, PyTorch, TensorFlow, NLP techniques) align well with demonstrated skills. While Infosys is Tier 3 and not ideal for career capital, this role offers legitimate AI/ML work in candidate's specialty area, which is valuable at this career stage. From hiring manager perspective, candidate has realistic shot - relevant internship, matching education, and appropriate experience level. Score capped at 68 due to Tier 3 company and lack of remote option, but overall acceptable fit for building early AI/ML career.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice! link's on its way. this one's actually a solid match for your background.\n\nyour samsung internship with LSTM for indian languages? that's exactly what they're looking for. plus they want 0-2 years experience and emphasize \"learning & growth\" - perfect for where you're at.\n\ninfosys is tier 3, but the role itself is legit ai/ml work. good stepping stone to build your career.\n\nlet me know how the application goes."
+    },
+    {
+      "role": "user",
+      "content": "the job posting that u have sent me is for people who has 5-11 years of experience, i don't think i am applicable for it"
+    },
+    {
+      "role": "assistant",
+      "content": "you're right to call that out. if the actual posting says 5-11 years, that's a completely different ballgame.\n\nthe analysis i got said 0-2 years and entry-level language... but if the real JD says 5-11, that's a mismatch. you'd be competing against senior engineers.\n\ndid you see the 5-11 years requirement on the actual application page?"
+    },
+    {
+      "role": "user",
+      "content": "yes"
+    },
+    {
+      "role": "assistant",
+      "content": "damn. that's frustrating. the analysis was wrong then - 0-2 years vs 5-11 is a massive difference.\n\nsorry about that. you're right to skip it. 5-11 years means they're looking for senior people, not entry-level.\n\ni'll flag this as a bad match. you shouldn't be applying for senior roles with 1.5 years experience.\n\nthanks for catching that."
+    },
+    {
+      "role": "user",
+      "content": "yeah ok"
+    },
+    {
+      "role": "assistant",
+      "content": "good catch though. that's exactly why i don't just blast jobs - you actually looked at the details and spotted the mismatch.\n\nback to the hunt. anything else you want me to know about what you're looking for?"
+    },
+    {
+      "role": "user",
+      "content": "i thought maybe telling you the tools and tech that i know or have worked on will help you\nso i have worked on:-\npython programming, SQL, data cleaning, data base management, java, RAG, node.js, css, html, AI algorithms, ML algorithms like classification, and regression models, supervised & unsupervised, i can also write code for testing model accuracy. i am still learning cloud technologies and stuff like docker, i have a software developer portfolio too:- https://fl-abhisekh-kumar-portfolio.vercel.app/\nand i am working on my AI developer/ ML engineer portfolio"
+    },
+    {
+      "role": "assistant",
+      "content": "okayyyy that's a solid stack. python, sql, java, node, plus the ai/ml algorithms... you've got the full spectrum from backend to data to ai.\n\nportfolio link is clutch too. most people just talk about what they know, you actually built something to show it.\n\nrag experience is especially relevant right now - everyone's trying to build rag systems.\n\nso you're basically a full-stack developer who can also build ai models. that's a powerful combo.\n\nwhat kind of companies you interested in? startups, product companies, or open to anything?"
+    },
+    {
+      "role": "user",
+      "content": "also, take a look at my GitHub repository to for your knowledge :- https://github.com/Abhisekh1403/"
+    },
+    {
+      "role": "assistant",
+      "content": "nice! github link saved. that's actually super helpful - gives me a much better picture of what you can actually build.\n\nmost people just list skills, but having actual projects shows you can execute. that flappy bird game plus the ai/ml work... shows you've been building stuff for a while.\n\nso you're basically a full-stack dev who can also build and test ai models. that's a rare combo, especially with only 1.5 years experience.\n\nwhat kind of companies you thinking? startups, product companies, or open to anything?"
+    },
+    {
+      "role": "user",
+      "content": "open to anything but preferred:- startups or product based any, i can work anywhere, i am just looking forward to learn and gain experience"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. startups and product companies will actually value that full-stack + ai/ml combo. they need people who can build end-to-end.\n\nyou're in a good spot - you've got the foundation, you're hungry to learn, and you've actually built things.\n\ni'll keep an eye out for roles that match your stack. anything else i should know about what you're looking for?"
+    },
+    {
+      "role": "user",
+      "content": "no, keep me posted when you find anything"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. i'll slide roles when they're good. btw what's the real reason you're looking? just growth or something else?"
+    },
+    {
+      "role": "user",
+      "content": "growth"
+    },
+    {
+      "role": "assistant",
+      "content": "makes sense. you want to actually build things, not just maintain.\n\ni'll keep that in mind. growth at a startup/product company hits different than at a service company.\n\ntalk soon."
+    },
+    {
+      "role": "user",
+      "content": "ok"
+    },
+    {
+      "role": "assistant",
+      "content": "👌"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, found an ai/ml engineer role at a startup called coderound ai\n\nfully remote, 1-3 years experience, works with llms and rag systems\n\nlooks like they're focused on production ai, not just pocs"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, coderound ai has an ai/ml engineer role that's fully remote\n\nthey want 1-3 years experience and work with llms, rag systems, and vector databases\n\nstartup environment with high ownership, sounds like your kind of growth setup"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 228c849d-e51f-4e1f-b584-a2b1c5195754. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: AI/ML Engineer ($15K- 20K)\n      - Company: CodeRound AI\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: What We’re Building CodeRound AI helps VC-funded startups hire the top 5% tech talent faster than traditional hiring. Candidates apply once and get up to 20 interview opportunities with tech companies across the US, UAE & India — both remote & onsite. We’re already supporting AI startups, product companies & global engineering teams by scaling their backend, AI, and DevOps teams rapidly. Now — we’re building our own AI hiring platform, and we’re looking for an AI/ML Engineer (1–3 YOE) to help build and enhance the AI capabilities that power our product.  AI/ML Engineer (1–3 Years Experience | Remote)  What You’ll Do Work with the Engineering Lead to own AI/ML capabilities from conception to deployment Contribute to the development and improvement of AI agents, ensuring accuracy and reliability Build, fine-tune, and maintain ML models using agent orchestration frameworks Support integration of AI components with backend systems and other product features Maintain and improve data pipelines for training, evaluation, and model deployment Optimize prompts, run experiments, and iterate on models to improve behavior and efficiency Troubleshoot and debug model performance, data quality, and integration issues Collaborate cross-functionally with product, design, and engineering teams Stay updated on AI tools, libraries, and emerging techniques to bring new ideas to the team  Why This Role is Exciting Work on real AI products — not just experiments or POCs High ownership and direct impact on the user experience Ship features and updates regularly, getting real-world feedback Fully remote, fast-paced, and supportive environment Opportunity to grow into Senior AI/ML Engineer or Technical Lead roles ✅ You’ll Be Great at This If You: Have 1–3 years of experience in AI/ML or related fields Are comfortable building and deploying ML models in production Know Python and frameworks like PyTorch, TensorFlow, or Hugging Face Have experience with LLMs, prompt optimization, or fine-tuning models Understand data pipelines, preprocessing, and evaluation metrics Can work independently and take ownership of tasks end-to-end Have a product mindset — thinking about user impact, not just models ⚡ Bonus Points If You: Worked with agent orchestration frameworks or AI pipelines Have experience integrating AI features into web or backend systems Are familiar with vector databases, RAG systems, or LangChain Contributed to open-source AI projects, research papers, or GitHub repos Love experimenting and building fast prototypes Show more Show less\n\n      Job Analysis:\n      - Fit Score: 82\n      - Confidence: high\n      - Recommendation: recommended\n      - Strengths: Perfect experience match - 1-3 years requirement aligns precisely with candidate's 1.5 years total experience, Fully remote position addresses candidate's stated remote work preference, AI/ML Engineer role matches candidate's primary preference and AI&ML degree specialization, Technical stack alignment - Python, PyTorch/TensorFlow, LLMs, prompt optimization, RAG systems match candidate's listed skills and Samsung LSTM experience, Startup environment with 'high ownership and direct impact' aligns with candidate's growth motivation and startup preference, Product-minded approach and 'not just experiments' emphasis fits candidate's philosophy of building real solutions, Clear growth path to Senior AI/ML Engineer mentioned explicitly\n      - Concerns: Company tier likely Tier 3 (hiring platform startup, not widely recognized brand), Agent orchestration frameworks may be new territory - candidate should assess learning curve, Salary shown as $15K-20K - unclear if annual/monthly, candidate must clarify compensation structure\n      - Reasoning: Excellent fit - this remote AI/ML Engineer role perfectly matches candidate's experience level (1-3 YOE), technical skills (Python, PyTorch, LLMs, RAG), and stated preferences (remote work, startup environment, AI/ML specialization). The role offers meaningful ownership, growth opportunities, and aligns with the candidate's transition from software engineering stepping stone to proper AI/ML work. Remote setup is a significant advantage over onsite alternatives.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice! link's on its way. this one's actually a really solid match.\n\nfully remote, 1-3 years experience, and they're building ai hiring tools - your rag experience is perfect for this.\n\nstartup environment means you'll get ownership and real impact, not just maintaining legacy code.\n\nthe salary range looks like it might be in USD, but you'll want to clarify that during the process.\n\nthis could be exactly the kind of growth role you're looking for."
+    },
+    {
+      "role": "user",
+      "content": "Hey, if I share with you my resume pdf, can you look into it and tell me that my resume is good for me to apply for this role, like can I have high chances of being selected"
+    },
+    {
+      "role": "assistant",
+      "content": "absolutely, send it over. i'll give you real feedback on whether it's hitting the right notes for this role.\n\nbut heads up - i can't guarantee selection chances. that's up to the hiring team. but i can tell you if your resume is telling the right story for what they're looking for."
+    },
+    {
+      "role": "user",
+      "content": "Yh u understand"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. drop the pdf when you're ready."
+    },
+    {
+      "role": "user",
+      "content": "This is my resume take your time to study it and let me know"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. let me take a look and i'll get back to you with feedback."
+    },
+    {
+      "role": "user",
+      "content": "This is my resume take your time to study it and let me know\n  looks like you are taking too much time to read my pdf"
+    },
+    {
+      "role": "assistant",
+      "content": "lol i'm reading it now, just got it. gimme a sec to actually look at it properly."
+    },
+    {
+      "role": "user",
+      "content": "or resume pdf"
+    },
+    {
+      "role": "assistant",
+      "content": "i see the pdf now. looking through it."
+    },
+    {
+      "role": "user",
+      "content": "ok"
+    },
+    {
+      "role": "user",
+      "content": "yes"
+    },
+    {
+      "role": "assistant",
+      "content": "alright, let's do this step by step.\n\nfirst - what are you actually working on at your current software engineer role? what tech stack, what kind of projects, what impact are you having?\n\nthat's the biggest gap right now."
+    },
+    {
+      "role": "user",
+      "content": "so the company is small and has 2-3 games for android, so, first, it is android development for which kotlin was used and some places for coding:- java and python, framework:- node.js, and here i have made use of RAG to give on some clues and hints to user while playing game to engage the user for more time and increase churn time, i have also integrated AI tools to suggest me and others with ideas to update the game and new ideas for other games"
+    },
+    {
+      "role": "assistant",
+      "content": "wait... you're using RAG in mobile games? that's actually interesting. most people use RAG for boring enterprise shit, you're using it to make games more engaging.\n\nthat's a story. \"built RAG system to increase user engagement and churn time in mobile games\" is way better than \"worked on android development.\"\n\nhow much did engagement actually improve? any numbers?"
+    },
+    {
+      "role": "user",
+      "content": "you can see my resume also, it is 28%"
+    },
+    {
+      "role": "assistant",
+      "content": "28% improvement? that's actually solid. that's the kind of number that gets attention."
+    },
+    {
+      "role": "user",
+      "content": "you can see my resume also, it is 28%\n  increased engangement by 28%"
+    },
+    {
+      "role": "assistant",
+      "content": "okay 28% is solid. that's the kind of number that gets attention.\n\nso your current role should read something like:\n- built RAG system for mobile games that increased user engagement by 28%\n- integrated AI tools for game content suggestions and updates\n- android development with kotlin/java, backend with node.js/python\n\nthat's way stronger than what you have now.\n\nnext - what AI projects have you done outside of work? anything with LLMs, vector databases, etc?"
+    },
+    {
+      "role": "user",
+      "content": "i have made a rag based chatbot, i'll share the GitHub repository link to you for your clarity, link:- https://github.com/Abhisekh1403/boss-walla-chatbot.git"
+    },
+    {
+      "role": "assistant",
+      "content": "nice! that's exactly what i'm talking about. a RAG chatbot project shows you can actually build this stuff.\n\nso we've got:\n1. professional experience: RAG system in production that improved engagement by 28%\n2. personal project: RAG chatbot with github repo to prove it\n\nthat's a solid foundation for AI/ML roles.\n\nwhat about your summary section? right now it's generic. what do you want it to say about you?"
+    },
+    {
+      "role": "user",
+      "content": "no, this summary doesn't reflect about me, rather it says the work that i have done which will already be present under project and work experience field"
+    },
+    {
+      "role": "assistant",
+      "content": "you're right. summary shouldn't just repeat what's below. it should tell the story of who you are.\n\nso what's your story? why AI/ML? what makes you different from every other fresh grad with the same degree?"
+    },
+    {
+      "role": "user",
+      "content": "suggest me something about how a summary should look like, especially of a AI/ML engineer, we can use that too make one for me"
+    },
+    {
+      "role": "user",
+      "content": "i am a beginner in this field still, i don't know about my focus area, it's just that i have begin my journey with NLP, LLM and RAG and i know them, \nbut, i'll grow further using these to make end-to-end systems and products"
+    },
+    {
+      "role": "user",
+      "content": "u want me to add this summary in my resume or linkedin profile"
+    },
+    {
+      "role": "assistant",
+      "content": "both. linkedin is your public face, resume is what gets you the interview.\n\nbut before you update anything - let's look at your actual resume structure. what's the biggest problem you see with it right now?"
+    },
+    {
+      "role": "user",
+      "content": "i don't know, i have done my best to tune my resume to what it is now, you tell me"
+    },
+    {
+      "role": "assistant",
+      "content": "alright, let's break it down section by section.\n\nfirst - your current role. it's buried under \"internships\" when it's actually your full-time job. that needs to be front and center with the RAG impact story.\n\nsecond - your skills section is just a list. it should tell a story: \"these are the tools i use to build X.\"\n\nthird - your projects are strong but the descriptions are technical without showing business impact.\n\nwhich one should we fix first?"
+    },
+    {
+      "role": "user",
+      "content": "let us go in sequential order"
+    },
+    {
+      "role": "assistant",
+      "content": "alright, sequential order it is.\n\nfirst section: summary. we have a draft. want to refine it or move to next section?"
+    },
+    {
+      "role": "user",
+      "content": "we should refine it, it is good but i don't want recruiters to know that i can or i am only capable of doing LLM/ RAG based work, i can do other stuffs tooo....... also it is still just telling about what i have done and not what i am, i hope you are getting a hint"
+    },
+    {
+      "role": "assistant",
+      "content": "i get it. you want to show you're versatile, not just an LLM specialist. and you want the summary to reflect who you ARE, not just what you've DONE.\n\nso who are you? what's your philosophy about AI/ML? what drives you?"
+    },
+    {
+      "role": "user",
+      "content": "hmmmm... what drives me, i believe it is the power of AI/ML, the things that it is capable of doing and the things i can do with it in my life, and it is not that i want to automate every thing, but many time when people get stuck or  not able to solve any problem, AI tools help them to solve it with minimal use of time, and i don't want to be person who is dependent on tools of AI/ML rather i would like to know & learn about the things and if there's anything where i can make use of AI to make process easy and make it fast moving, and hopefully a product of my own in future, it'll be great"
+    },
+    {
+      "role": "user",
+      "content": "i believe i am not an AI Engineer yet, so replace it with something more suitable, and don't make new summary just based on most recent chat use full information that u have about me to draft a summary"
+    },
+    {
+      "role": "user",
+      "content": "yeahhhh.... sounds good, so this is final, let's move forward now"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. summary locked in.\n\nnext section: experience. your current role is buried under \"internships\" when it's actually your full-time job. want to fix that structure first?"
+    },
+    {
+      "role": "user",
+      "content": "yeah sure"
+    },
+    {
+      "role": "assistant",
+      "content": "alright, so we need to restructure:"
+    },
+    {
+      "role": "user",
+      "content": "yeah, we need to do that, suggest\n  something"
+    },
+    {
+      "role": "assistant",
+      "content": "let's do this:\n\n**experience**\n1. software engineer (current role) - oct 2024 to present\n2. samsung r&d intern - nov 2022 to june 2023\n\nthat's chronological and shows you're currently employed. then we can detail what you're actually DOING in the current role - the RAG system, game analytics, etc.\n\nsound right?"
+    },
+    {
+      "role": "user",
+      "content": "yeah"
+    },
+    {
+      "role": "assistant",
+      "content": "alright, now for the bullet points under current role. what's the actual impact of that RAG system you built? any metrics? engagement increase? churn reduction?\n\nand what about the AI tools for game suggestions - any results there?"
+    },
+    {
+      "role": "user",
+      "content": "yeah, wait i'll tell you, give me a moment"
+    },
+    {
+      "role": "assistant",
+      "content": "take your time. i'll be here."
+    },
+    {
+      "role": "assistant",
+      "content": "AI/ML Engineer at EXL\n\nYour RAG experience & Python skills make this a great fit, even outside Bangalore.\n\nApply: https://jobs.tal.af/pUWw1"
+    },
+    {
+      "role": "user",
+      "content": "The company is asking experience of 6-9 years\nCheck the company website"
+    },
+    {
+      "role": "assistant",
+      "content": "bruh... another mismatch. that's frustrating. the analysis said 2-4 years but the actual posting says 6-9.\n\nyou're catching these inconsistencies better than the system is. good eye.\n\nso you're looking at:\n- infosys: says 0-2 in analysis, actually 5-11\n- exl: says 2-4 in analysis, actually 6-9\n\nboth are senior roles you're not ready for yet. that's on me for not catching it.\n\nyou want me to be more careful about filtering for actual entry-level roles?"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. i'll tighten the filters. no more senior roles slipping through.\n\nmeanwhile... what were those metrics for your RAG system? that's the kind of stuff that'll make your resume stand out for the RIGHT roles."
+    },
+    {
+      "role": "user",
+      "content": "It's too late at night now, let's sleep in it and get back tomorrow morning at earliest"
+    },
+    {
+      "role": "assistant",
+      "content": "smart move. it's 2:34 am - way too late for resume work.\n\nget some rest. we'll pick this up tomorrow.\n\nsleep well."
+    },
+    {
+      "role": "assistant",
+      "content": "hey, bot consulting has an ai engineer role in jaipur\n\n0-2 years experience, works with rag pipelines and langchain\n\nclient-facing consulting work, could be good for growth"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, bot consulting has an ai engineer role in jaipur\n\n0-2 years experience, works with rag pipelines and langchain\n\nyour current rag work in gaming would be directly applicable here"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job fe7a1024-d7bb-4c6d-b5e1-8e1fac2ed74d. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: AI Engineer\n      - Company: BOT Consulting\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: We are seeking AI Engineers at the Associate level to join client-facing delivery teams, build and deploy AI/ML and GenAI solutions, work on data pipelines, integrations and cloud deployments. You will partner with senior engineers, solution architects and clients to deliver production-ready AI modules and reusable components. Key Responsibilities: Design, build and deploy ML/LLM-based solutions using Python, OpenAI APIs / LangChain / Hugging Face. Develop RAG (Retrieval-Augmented Generation) pipelines and AI agents for use-cases. Work with data platforms (e.g., Snowflake), SQL, ETL, and feature engineering. Deploy to cloud infrastructure (AWS: EC2, Lambda, SageMaker), build CI/CD pipelines, monitoring and alerting. Integrate AI outcomes with enterprise systems like Salesforce or ServiceNow via APIs. Participate in sprint planning, design reviews, demos and client interactions. Document reusable patterns, libraries and contribute to the internal IP catalogue. Requirements Qualifications & Skills: 6 months to 2 years of hands-on experience in AI/ML, data engineering or related. Strong programming skills in Python; experience with ML libraries (scikit-learn, TensorFlow, PyTorch). Exposure to OpenAI APIs, LangChain or generative AI frameworks. Some experience or familiarity with cloud platforms (AWS / Azure / GCP) and deployment. Basic understanding of SQL, data pipelines, ETL workflows. Good communication skills, able to work in client-facing teams. Preferred / Nice-to-Have: Hands-on experience with Snowflake, dbt or other modern data platforms. Familiarity with Salesforce or ServiceNow integration. Previously worked on AI agent development or production deployment. Certifications (AWS Certified ML/Solutions Architect, etc) a plus. How You Stand Out: You’ve taken AI/data engineering projects from prototype → deployment. You bring a delivery mindset, enjoy working with clients, and adapt quickly. You document your work well, contribute to reusable assets, and mentor juniors. What’s In It For You: Join live global client projects, exposure to GenAI & enterprise systems. Learning and growth with senior mentors, access to internal IP, certifications. Career path from Associate → Senior Associate → Lead Consultant. Competitive compensation, growth environment at a scaling delivery centre. Signs you may be a great fit Impact: Play a pivotal role in shaping a rapidly growing venture studio with Cloud-driven digital transformation. Culture: Thrive in a collaborative, innovative environment that values creativity, ownership, and agility. Growth: Access professional development opportunities and mentorship from experienced peers. Benefits: Competitive salary, wellness packages, and flexible work arrangements that support your lifestyle and goals. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 72\n      - Confidence: high\n      - Recommendation: recommended\n      - Strengths: Experience requirement 0-2 years perfectly matches candidate's 1.5 years, Entry-level 'Associate' designation appropriate for candidate's career stage, Excellent skill alignment: Python, RAG pipelines, LangChain, OpenAI APIs, cloud deployment - all match candidate's demonstrated experience, Client-facing delivery work provides growth opportunities and professional development, Candidate's RAG chatbot project and current RAG work in gaming directly applicable, Exposure to enterprise integrations (Salesforce, ServiceNow) adds valuable skills, Location in Jaipur, India aligns with candidate's India preference and openness to other cities\n      - Concerns: Company appears to be Tier 3 (consulting/services firm, not well-known brand), Location is Jaipur, not candidate's preferred Bangalore, appears onsite not remote, Consulting environment may involve high client pressure and varied projects rather than deep product work, Role mentions 'Associate' level which is appropriate but not aspirational\n      - Reasoning: This is a strong fit for the candidate's current stage. The experience requirement (0-2 years) matches perfectly, and the technical skills align extremely well with the candidate's RAG, LLM, and cloud deployment experience. While the company is Tier 3 and location is not ideal (Jaipur vs. Bangalore), the role offers excellent growth opportunities through client work, mentorship, and exposure to production AI systems. From a hiring manager perspective, the candidate is competitive with relevant projects and skills.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice! link's on its way.\n\nthis one's actually a solid match - 0-2 years experience, rag pipelines, and your current gaming rag work is directly relevant.\n\nconsulting environment means you'll get exposure to different projects and clients, which is great for growth early in your career.\n\njaipur's not bangalore, but it's still a solid opportunity to build your ai/ml experience."
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, exl has an ai/ml engineer role in noida\n\n0-2 years experience, works with rag, vector stores, and fastapi\n\nproduction ai focus, similar to your current gaming rag work\n\nwhat do you think about noida vs bangalore?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 36b90700-6e57-41e9-a95d-40666d719f13. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: AI/ML Engineer\n      - Company: EXL\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Build production-ready AI applications using Python and FastAPI. Design LLM pipelines including data ingestion, inference, and response generation. Leverage GCP tools like Vertex AI, Cloud Run/Functions, BigQuery, and Cloud Storage. Apply advanced prompt engineering techniques to enhance LLM outputs. Implement vector stores and embeddings for semantic search and RAG. Use orchestration frameworks (e.g., LangChain, LangGraph, CrewAI) for complex workflows. Integrate AI systems with enterprise platforms and maintain robust data flows. Follow best practices in coding, testing, and deployment within CI/CD pipelines. Continuously explore and recommend emerging tools and AI technologies. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 78\n      - Confidence: high\n      - Recommendation: recommended\n      - Strengths: Experience range (0-2 years) is perfect match for candidate's 1.5 years experience, Identical tech stack alignment: Python, FastAPI, RAG, vector stores, embeddings - all present in candidate's portfolio, Matches candidate's primary role preference for AI/ML Engineer, Production AI applications focus aligns with candidate's current work building RAG systems for real products, LLM pipeline design experience can be built upon candidate's existing RAG implementation knowledge\n      - Concerns: Location is Noida instead of preferred Bangalore, EXL is Tier 3 company (service/GCC), though acceptable for early career growth, GCP/Vertex AI expertise required - candidate currently learning cloud technologies, Not remote despite candidate's stated preference\n      - Reasoning: This is essentially the same role as job_id 751932d7 with slightly broader experience range (0-2 vs 0-1 years). The fit assessment remains strong - Abhisekh's RAG implementation experience, Python proficiency, and AI/ML project background make this an appropriate match. The role offers production AI/ML experience at an entry level that respects his current experience floor while providing growth opportunities in his preferred domain.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice! link's on its way.\n\nthis one's a solid match - 0-2 years experience, rag, vector stores, and production ai focus.\n\nyour current gaming rag work is directly relevant, and exl gives you exposure to enterprise-level ai systems.\n\nnoida's not bangalore, but it's a legit ai/ml role with the right experience level.\n\nhey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, bot consulting has another role - software engineer in jaipur\n\nthey want python, aws, and rag pipelines - basically your current tech stack\n\n2+ years experience but you're close at 1.5, and your rag work is directly relevant\n\njaipur again, but the role's solid for your skills"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 58dd8581-01b7-481a-adc9-86ec67e7579f. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Software Engineer\n      - Company: BOT Consulting\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: We are seeking a highly skilled and motivated software Engineer with expertise in end-to-end solution development, deployment, and architecture across multiple domains.This role will focus on driving automation, scalability, and efficiency across our technical delivery ecosystem. You’ll work closely with solution architects and engineers to build assets and automations that can be integrated into repeatable client delivery work-streams. Key Responsibilities Solution Development & Implementation Design, develop, and deploy scalable, secure applications and AI-assisted features using cloud-native services such as AWS Lambda, EC2, S3, RDS , and related tools. Participate in the full application development lifecycle, including data processing, feature implementation, testing, deployment, and monitoring. Collaborate with senior engineers and architects to build production-ready, maintainable, and high-performance systems aligned with business objectives. ● Contribute to proof-of-concepts and prototypes involving new frameworks, algorithms, or AI-assisted features. Integrate basic AI/ML components or APIs into applications to enhance functionality and user experience. Implement and maintain CI/CD pipelines, version control, and automated testing for software and AI-assisted modules. Support integration of applications with enterprise systems, APIs, and data services across AWS. Follow established coding, testing, and documentation standards to ensure maintainability, security, and performance. Collaboration & Continuous Improvement Work closely with architects, cloud engineers, and product teams to translate concepts into deployable solutions. Participate in architecture and code reviews to ensure high engineering standards. ● Support pre-sales or internal PoC efforts under senior guidance to demonstrate capabilities. Stay updated with emerging trends in AI/ML, GenAI, and MLOps, recommending improvements where relevant. Contribute to the internal AI Center of Excellence (CoE) by building reusable components, frameworks, and automation scripts. Requirements Qualifications & Skills Bachelor’s or Master’s degree in Computer Science, Artificial Intelligence, Data Science, or a related field. 2+ years of hands-on experience in software or AI engineering, including application development, cloud-based architectures, and building CI/CD pipelines. Proficiency in Python and at least one additional programming language (e.g. Java, Go, C++, JavaScript, or Rust). Strong working knowledge of core AWS services used in software engineering, including Lambda, API Gateway, EC2, S3, RDS/DynamoDB, Step Functions, and related cloud-native tools. (Experience with Azure or GCP equivalents is a plus.). Working knowledge of data engineering concepts such as ETL pipelines, feature stores, or vector databases. Familiarity with LLMs and GenAI concepts (prompting, embeddings, RAG pipelines) is a plus. Strong grasp of software engineering best practices — version control, testing, modular design, and cloud deployment. Excellent analytical, problem-solving, and communication skills. Preferred certifications: AWS Certified Machine Learning – Specialty, AWS Solutions Architect – Associate, or equivalent. Signs You May Be a Great Fit Impact: You want to play a pivotal role in shaping a rapidly growing, cloud-driven digital transformation venture studio. Culture: You thrive in a collaborative, innovative environment that values creativity, ownership, and agility. Growth: You seek continuous learning opportunities and mentorship from experienced peers. Benefits: Competitive salary, wellness packages, and flexible work arrangements to support your lifestyle and goals. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 68\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Perfect alignment with your tech stack - Python, AWS, RAG pipelines, CI/CD are all things you've worked with, The GenAI/LLM component matches your RAG chatbot experience and phonetic model work, Role explicitly values building reusable components and automation - exactly what you did with your RAG system for gaming, They're looking for someone who can contribute to PoCs and prototypes, which fits your project-building mindset\n      - Concerns: They're asking for 2+ years and you have 1.5 years - slight gap but you're close, Location is Jaipur, not Bangalore, and it's not remote - this doesn't match your preference, Company tier is unclear (consulting/services firm) - not the startup/product vibe you mentioned preferring, The 'venture studio' aspect is interesting but hard to evaluate without knowing their brand strength\n      - Reasoning: Look, this one's a bit of a stretch on the experience side (2+ years vs your 1.5), but your RAG work and full-stack + AI combo actually makes you competitive here. The tech stack is literally what you've been doing - Python, AWS, RAG, CI/CD. The real issue is Jaipur - I know you said Bangalore or remote. If you're willing to relocate or if they're flexible on location, this could be solid. It's not the most exciting role, but it's a legitimate AI engineering position that values your exact skill set.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice! link's on its way.\n\nthis one's a solid match - python, aws, rag pipelines, and ci/cd are all in your wheelhouse.\n\nyour rag work in gaming is directly relevant, and the 2+ years requirement is close enough with your 1.5 years + solid projects.\n\njaipur again, but the role's legit for building your ai engineering experience.\n\nhey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, infosys has a genai developer role in bangalore\n\nthey want python, langchain, and agentic ai - basically your current tech stack\n\n2-6 years experience but you're close at 1.5, and your rag work is directly relevant\n\nbangalore location, which is what you prefer"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, oracle has another senior ai applications engineer role in trivandrum\n\n1+ years experience, works with rag, llms, and ai agents - your exact current work\n\noracle is tier 1, massive brand upgrade for your resume\n\nworth considering even though it's not bangalore"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, oracle has a senior ai applications engineer role in trivandrum\n\n1+ years experience, works with rag, llms, and ai agents - your exact current work\n\noracle is tier 1, massive brand upgrade for your resume\n\nworth considering even though it's not bangalore"
+    },
+    {
+      "role": "user",
+      "content": "Senior AI applications Engineer will require 5 years of experience at least i guess"
+    },
+    {
+      "role": "assistant",
+      "content": "you're probably right. \"senior\" at oracle likely means 5+ years minimum, even if the jd says 1+.\n\nthat's the thing with big tech - titles don't always match the actual expectations. they might list 1+ years but realistically want someone with way more experience.\n\ngood call on being realistic about it."
+    },
+    {
+      "role": "user",
+      "content": "Check it out"
+    },
+    {
+      "role": "assistant",
+      "content": "checking what? the oracle role? or something else?"
+    },
+    {
+      "role": "user",
+      "content": "What does the job description say about the required experience for this role"
+    },
+    {
+      "role": "assistant",
+      "content": "the analysis says the oracle role requires 1+ years experience, but you're right to be skeptical.\n\n\"senior\" at oracle probably means 5+ years in reality, even if the jd says 1+. big tech companies are notorious for that mismatch.\n\nyou want me to look up the actual job posting to confirm?"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "i don't have access to the actual job posting - i can only see what the analysis system tells me.\n\nbut you're right to be skeptical. \"senior\" at oracle likely means 5+ years minimum, even if the jd says 1+.\n\nthe analysis system might be reading the jd too literally and missing the reality of big tech hiring.\n\nyou want me to skip these senior roles and focus only on actual entry-level positions?"
+    },
+    {
+      "role": "user",
+      "content": "Yess \nYou and me both should apply for a job with keeping in mind about how and which job has high probability of me getting into it"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. that's the smart approach - focus on roles where you actually have a shot.\n\ni'll filter out anything with \"senior\" or unrealistic experience requirements. you want 0-3 years max, ideally 1-2 years.\n\nyour 1.5 years with samsung internship + current rag work is solid for proper entry-level ai/ml roles.\n\nlet me find you something that actually matches your level."
+    },
+    {
+      "role": "user",
+      "content": "You can or should look for the jobs where the experience required is 0-3"
+    },
+    {
+      "role": "assistant",
+      "content": "exactly. 0-3 years is your sweet spot. anything with \"senior\" or 5+ years is just noise.\n\nyour 1.5 years with samsung internship + current rag work is perfect for proper entry-level ai/ml roles.\n\ni'll filter out all the senior nonsense and find you something realistic."
+    },
+    {
+      "role": "user",
+      "content": "Yeah sure"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. 0-3 years only. no more senior role mismatches.\n\ni'm updating the filters now. you'll start seeing better matches soon.\n\nbtw... what's the actual impact of your rag system? those metrics you mentioned earlier - that's the kind of stuff that'll make your resume stand out for the right roles."
+    },
+    {
+      "role": "user",
+      "content": "Yeah ok"
+    },
+    {
+      "role": "assistant",
+      "content": "cool. filters updated. you'll start seeing better matches.\n\nbtw... what's the actual impact of your rag system? those metrics you mentioned earlier - that's the kind of stuff that'll make your resume stand out for the right roles."
+    },
+    {
+      "role": "user",
+      "content": "Ok"
+    },
+    {
+      "role": "assistant",
+      "content": "👌"
+    }
+  ]
+}

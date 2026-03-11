@@ -1,0 +1,23 @@
+{
+  "thread_id": "919937656643_chat",
+  "date": "2025-12-05",
+  "message_count": 4,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "yo! friend... that's not a name, that's a relationship status 😂\n\nlook, i get it - maybe you're being cautious, testing the waters, whatever. but here's the thing: i can't find you roles if i don't know who you are.\n\ni'm tal, your talent agent. i find people actual jobs at companies that pay real money. not advice, not gyaan - actual interviews.\n\nso... what's your actual name? let's do this properly."
+    },
+    {
+      "role": "assistant",
+      "content": "hey friend! i was just thinking about our chat earlier... you never did tell me your actual name 😂\n\nlook, i get it - maybe you're testing the waters, seeing if i'm legit. fair enough. but here's the thing: i can't find you actual roles if i don't know who you are.\n\nso... what's your name? let's do this properly."
+    },
+    {
+      "role": "assistant",
+      "content": "hey friend... still waiting on that name 😅\n\nmeanwhile, i'm seeing some solid roles that could be perfect - but i can't match you with anything if i don't know who you are.\n\nwhat's your actual name? one word, that's it. then we can actually talk about what you're looking for."
+    }
+  ]
+}

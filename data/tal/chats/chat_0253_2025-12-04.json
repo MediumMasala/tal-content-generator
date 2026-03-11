@@ -1,0 +1,43 @@
+{
+  "thread_id": "917210806319_chat",
+  "date": "2025-12-04",
+  "message_count": 9,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Priyanshu Joshi"
+    },
+    {
+      "role": "assistant",
+      "content": "priyanshu joshi... that's a name with main character energy. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Nextuple"
+    },
+    {
+      "role": "assistant",
+      "content": "nextuple... supply chain optimization in the ai era. smart move. found you on linkedin - priyanshu joshi, senior software engineer. this you? https://in.linkedin.com/in/thepriyanshujoshi"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "senior software engineer at nextuple... 3+ years building supply chain tech that actually moves the needle. solid trajectory from those early days to now leading backend architecture. what made you stick with supply chain tech for this long?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey priyanshu, was just thinking about your supply chain tech work at nextuple... what's the dream role you've been eyeing lately?"
+    }
+  ]
+}

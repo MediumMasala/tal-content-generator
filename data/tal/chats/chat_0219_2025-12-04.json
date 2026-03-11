@@ -1,0 +1,27 @@
+{
+  "thread_id": "917707999672_chat",
+  "date": "2025-12-04",
+  "message_count": 5,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Abhishek"
+    },
+    {
+      "role": "assistant",
+      "content": "abhishek! now we're talking\n\nwhere you working these days? or if you're still studying, which college?"
+    },
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "yo! friend... that's not a name though 😅\n\ni'm tal - your talent agent who's about to change your career trajectory \n\nthink of me as your inside person in the bangalore tech scene. i don't do advice or gyaan - i find people actual jobs at companies that pay real money.\n\nso... what's your actual name? need something to work with here"
+    },
+    {
+      "role": "assistant",
+      "content": "hey abhishek! was just thinking about your career setup - you never told me where you're working or studying right now\n\nthat's the key piece i need to start finding you actual opportunities"
+    }
+  ]
+}

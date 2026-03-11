@@ -1,0 +1,23 @@
+{
+  "thread_id": "919763036878_chat",
+  "date": "2025-12-04",
+  "message_count": 4,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "user",
+      "content": "None of your business"
+    },
+    {
+      "role": "user",
+      "content": "Let's talk my name later. Help me find a senior role in MLE at some crazy good startup"
+    },
+    {
+      "role": "assistant",
+      "content": "hey there - quick check-in. what's your ideal next role? i want to make sure i'm showing you opportunities you'll actually be excited about 🎯"
+    }
+  ]
+}

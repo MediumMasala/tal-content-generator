@@ -1,0 +1,47 @@
+{
+  "thread_id": "918052245188_chat",
+  "date": "2025-12-04",
+  "message_count": 10,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "yo! \n\ni'm tal - your talent agent who's about to change your career game\n\nthink of me as your inside person in the bangalore tech scene. i don't do generic advice or gyaan. i find people actual jobs at companies that pay well.\n\none of these days, i might slide a role right here in chat. the kind that feels like your calling.\n\nso... what's your full name?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey there! \n\nyou started telling me your name earlier but never finished... what should i call you?"
+    },
+    {
+      "role": "user",
+      "content": "pratham singh"
+    },
+    {
+      "role": "assistant",
+      "content": "pratham singh... that's a name that gets noticed. solid choice by your parents.\n\nwhere you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "capslock marketplaces, a startup in hsr"
+    },
+    {
+      "role": "assistant",
+      "content": "capslock marketplaces in hsr... that's the e-commerce play connecting brands with retailers right? interesting space.\n\nfound you on linkedin - pratham singh at capslock. this you? https://in.linkedin.com/in/pratham-s"
+    },
+    {
+      "role": "user",
+      "content": "nah it’s different\n  yup"
+    },
+    {
+      "role": "assistant",
+      "content": "business development at capslock... building the bridge between brands and retailers. that's solid work. what made you get into the bd game?"
+    },
+    {
+      "role": "user",
+      "content": "nah it’s different"
+    }
+  ]
+}

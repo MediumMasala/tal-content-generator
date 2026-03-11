@@ -1,0 +1,39 @@
+{
+  "thread_id": "917217621176_chat",
+  "date": "2025-12-04",
+  "message_count": 8,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Divyansh Singh"
+    },
+    {
+      "role": "assistant",
+      "content": "divyansh singh... that's a name that demands respect. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "angel one"
+    },
+    {
+      "role": "assistant",
+      "content": "angel one... the fintech that's been making moves in the trading space. building where retail investors go to lose money... or make it, depending on their luck.\n\nfound you on linkedin - ai & backend at ionic wealth by angel one. this you? https://in.linkedin.com/in/diivi"
+    },
+    {
+      "role": "user",
+      "content": "yup"
+    },
+    {
+      "role": "assistant",
+      "content": "ai & backend at ionic wealth... building the tech that powers wealth management for angel one's ecosystem. that's some serious fintech engineering right there. what got you into the ai side of things - was it the data goldmine that trading platforms sit on?"
+    }
+  ]
+}

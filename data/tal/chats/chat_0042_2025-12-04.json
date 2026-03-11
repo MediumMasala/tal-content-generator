@@ -1,0 +1,407 @@
+{
+  "thread_id": "917727049331_chat",
+  "date": "2025-12-04",
+  "message_count": 100,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "yo! \n\ni'm tal - your talent agent who finds people jobs that actually pay\n\nnot here for small talk though... i'm here to slide you roles that feel like your calling\n\nso... what's your full name?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey there! \n\ni was just thinking about your background... what's the dream role you've been eyeing lately?"
+    },
+    {
+      "role": "user",
+      "content": "So I am a frontend developer with skills in reactjs , node js, next js, html ,css ,js, tailwind css, and tech stack related to it"
+    },
+    {
+      "role": "assistant",
+      "content": "frontend with react, next, node... solid stack. that's basically the holy trinity of modern web dev\n\nbut yo, i still need your actual name to find you the right roles. what should i call you?"
+    },
+    {
+      "role": "user",
+      "content": "My name is vandit kala"
+    },
+    {
+      "role": "assistant",
+      "content": "vandit kala... that's a name with character. frontend dev with the full modern stack too\n\nwhere you working these days? or if you're a student, which college?"
+    },
+    {
+      "role": "user",
+      "content": "I am currently working at northstarz.ai since past 3 months and have an experience of 1.6 months at red baton"
+    },
+    {
+      "role": "assistant",
+      "content": "northstarz.ai... ai startup life, building the future one react component at a time. red baton before that, so you're getting around the startup scene\n\nfound you on linkedin - vandit kala, software developer at northstarz.ai. this you? https://in.linkedin.com/in/vandit-kala-8293b4200"
+    },
+    {
+      "role": "user",
+      "content": "Yes it is me"
+    },
+    {
+      "role": "assistant",
+      "content": "northstarz.ai to red baton... you're bouncing around the ai and startup world fast. 3 months here, 1.6 months there - either you're really picky or these places aren't living up to the hype. what made you make that jump from red baton to northstarz?"
+    },
+    {
+      "role": "user",
+      "content": "So red baton was a service based startup and I felt like my growth was plateaued there"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nVandit Kala is a programmer and coder currently with Northstarz.Ai. He is a 2023 graduate of Jain (Deemed-to-be University).\n\n**ROLE-BY-ROLE**\n*   Northstarz.Ai ([Start date not specified]) – [Role title not specified] – [Responsibilities not listed]\n\n**EDUCATION HIGHLIGHTS**\n*   Jain (Deemed-to-be University) (2019–2023) – [Degree not specified]\n\n**CERTIFICATIONS**\n*   Connecting to a MongoDB Database (MongoDB, Mar 2023)\n*   Introduction to MongoDB Data Modeling (MongoDB, Feb 2023)\n*   M103: Basic Cluster Administration (MongoDB, Feb 2023)\n*   Object-Oriented Programming with Java (LinkedIn, Feb 2021)"
+    },
+    {
+      "role": "assistant",
+      "content": "ah the classic service company trap. red baton had you building the same crud apps over and over while they billed clients 10x what you were learning. smart move jumping to product.\n\njain university 2023 batch, so you're fresh but hungry. northstarz doing ai stuff has to be way more interesting than whatever red baton had you doing. how long you been working total?"
+    },
+    {
+      "role": "user",
+      "content": "For total I have been working for almost 2years now"
+    },
+    {
+      "role": "assistant",
+      "content": "2 years total... so you've been grinding since college. that's the hustle i like to see\n\nwhat kind of role you looking for next? frontend, full-stack, or something else?"
+    },
+    {
+      "role": "user",
+      "content": "I am looking for frontend developer roles"
+    },
+    {
+      "role": "assistant",
+      "content": "frontend it is. react + next.js puts you in a good spot - that's what everyone's hiring for these days\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "Remote would be my preference, I can go for Bangalore, dehli, gurgaon, ncr or jaipur"
+    },
+    {
+      "role": "assistant",
+      "content": "2 years experience + frontend developer + remote/bangalore/delhi/gurgaon/ncr/jaipur... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "welcome to the family vandit! \n\nyou're officially in the tal network now. frontend roles that actually pay well are about to start sliding into your chat\n\nno more bouncing between startups that don't know what they're doing. time to find you something that actually matches your skills and pays what you're worth\n\nthe game begins now legend 🔥"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, found a react dev role at enterprise minds in bangalore\n\nthey're building cutting-edge products with a strong learning culture\n\ncould be a good step up from service companies"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "Frontend Developer ($15K - $25K) at CodeRound AI\n\nFounding Frontend role at AI startup, fully remote, aligns with your React/Next.js skills and offers growth beyond service-based work.\n\nApply: https://jobs.tal.af/j0ihY"
+    },
+    {
+      "role": "assistant",
+      "content": "Frontend Developer ($15K - $25K) at CodeRound AI\n\nFounding Frontend role using your React/Next.js skills, shaping a new AI platform with high ownership and growth.\n\nApply: https://jobs.tal.af/erZ8Q"
+    },
+    {
+      "role": "assistant",
+      "content": "Frontend Developer (JavaScript, TypeScript & NextJS) at Acowale\n\nReact/Next.js role at Acowale aligns with your skills; opportunity to grow in a fast-paced environment.\n\nApply: https://jobs.tal.af/nGa8V"
+    },
+    {
+      "role": "assistant",
+      "content": "Frontend Developer (SDE-1) at Limechat\n\nLimechat's React-focused frontend role aligns with your skills & offers growth, though it's based in Bangalore.\n\nApply: https://jobs.tal.af/Xn4ud"
+    },
+    {
+      "role": "assistant",
+      "content": "Frontend Developer (SDE-1) at Limechat\n\nLimeChat aligns with your frontend skills & offers significant growth beyond your current service-based role.\n\nApply: https://jobs.tal.af/YgP7T"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Not interested\"\n\n\n<button_context>User clicked \"Not interested\" for job bb6c224e-fe0b-4b06-a843-eeca2c6e932d. Ask them for specific feedback on why this job doesn't appeal to them, then update your working memory with this feedback to improve future recommendations.</button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "what didn't click with this one? was it the company, the location, or something else?"
+    },
+    {
+      "role": "user",
+      "content": "The pay I saw on Glassdoor is low my current CTC is 14 lpa"
+    },
+    {
+      "role": "assistant",
+      "content": "14 lpa at 2 yoe... yeah enterprise minds was definitely not hitting that. good to know your floor\n\nwhat's your target range for the next move?"
+    },
+    {
+      "role": "user",
+      "content": "Somewhere above 18lpa"
+    },
+    {
+      "role": "assistant",
+      "content": "18+ lpa at 2 yoe... that's ambitious but doable with the right product company. you're not wrong to aim there\n\nwhat kind of companies you thinking? startups, mid-size, or bigger tech?"
+    },
+    {
+      "role": "user",
+      "content": "Anything would work I already have startup experience I can take others too"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. you're flexible on company type but firm on that 18+ lpa target. that's smart - you know your worth after seeing both service and product sides\n\ni'll keep that in mind as i scan for roles that actually pay what you deserve. anything else i should know about what you're looking for?"
+    },
+    {
+      "role": "user",
+      "content": "Well let's go ahead with this"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. you're locked in vandit.\n\ni'm scanning for frontend roles that actually pay 18+ lpa for 2 yoe. remote or bangalore/delhi/gurgaon/ncr/jaipur. startups, mid-size, or bigger tech - you're open to all.\n\nwhen something actually fits, i'll slide it right here. no more enterprise minds-level pay.\n\nbtw... what's making you want to leave northstarz after just 3 months? same growth plateau feeling as red baton?"
+    },
+    {
+      "role": "user",
+      "content": "No it just has very unorganised management which makes me feel like they can close this company any time"
+    },
+    {
+      "role": "assistant",
+      "content": "ah the \"we're flying by the seat of our pants\" startup management style. that's a legit reason to bounce - especially when you're worried about job security.\n\nyou've seen both extremes now: red baton was too structured (service company), northstarz is too chaotic (unorganized ai startup). you're looking for that sweet spot in the middle.\n\nmakes sense why you're open to any company type - you just want something stable that actually knows what it's doing AND pays you what you're worth.\n\ni'll keep an eye out for companies with their shit together. when i find something, you'll be the first to know."
+    },
+    {
+      "role": "assistant",
+      "content": "another enterprise minds frontend role in bangalore\n\nhybrid setup and 2-4 years experience match\n\nbut you already know their pay doesn't hit your 18+ target"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Not interested\"\n\n\n<button_context>User clicked \"Not interested\" for job 0503d0fb-918c-4205-bc00-3373da347815. Ask them for specific feedback on why this job doesn't appeal to them, then update your working memory with this feedback to improve future recommendations.</button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "same pay concerns as the last enterprise minds role?"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. enterprise minds is officially on the avoid list - their pay doesn't match your 18+ target.\n\ni'll filter out anything from them moving forward. looking for roles that actually pay what you deserve"
+    },
+    {
+      "role": "assistant",
+      "content": "frontend engineer at myyogateacher in bangalore\n\nthey're offering 15-21 lpa, which hits your 18+ target\n\nconsumer product startup with end-to-end ownership"
+    },
+    {
+      "role": "assistant",
+      "content": "found a frontend role at scoutit in bangalore\n\npays 25-35 lpa which hits your target\n\nbut it's a staffing company, not direct hire"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 81948ca2-65dd-4d86-a8c0-d0d270a6aebc. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Frontend Engineer\n      - Company: MyYogaTeacher\n      - Location: Not specified\n      - Salary Range: ₹1500000L - ₹2100000L\n      - Experience Required: Not specified\n      - Job Description: About The Role We're looking for a Frontend Software Engineer (Web & Mobile) who thrives on ownership and execution. You will build and maintain our React.js web app and React Native mobile apps (iOS + Android) using TypeScript, working across the full frontend stack to deliver reliable, fast, and polished consumer experiences. This is not a ticket-taker role. You will own features end-to-endfrom understanding the user problem and collaborating on a solution, to shipping high-quality UI, monitoring outcomes, and iterating when needed. We're especially excited about engineers who have worked in consumer product startups, where speed, quality, and user empathy matter equally. If you value your time, avoid over-engineering, and love moving meaningful product metrics through great execution, you'll fit right in. What You'll Do Web Development (React.JS) Build and own responsive, modular, and high-performance web experiences using React.js + TypeScript. Design reusable components and scalable state/data flows Own UI performance: reduce unnecessary renders, optimize bundles, improve caching, implement lazy loading and code splitting. Integrate securely with backend APIs and ensure robust error handling, loading states, and edge-case coverage. Deliver pixel-perfect UI aligned with product and design intent, ensuring accessibility and cross-browser reliability. Mobile Development (React Native) Develop and maintain our React Native apps across iOS and Android with a strong focus on stability and UX polish. Implement complex flows including navigation patterns, deep linking, background tasks, push notifications, and in-app updates. Work with device APIs, sensors, native modules, and third-party SDKs when needed. Build smooth, delightful mobile interactions through animations and gestures (Reanimated, Gesture Handler). Own performance excellence on mobile: optimize memory, FPS, bundle size, and rendering behavior. Manage the practical realities of consumer apps: CI/CD pipelines, OTA releases, store compliance, and version rollouts. Engineering Ownership & Execution Own features end-to-end: understand the user journey, clarify requirements, ship, and follow through until impact is achieved. Write clean, testable, and maintainable code with high standards for reliability. Collaborate closely with Product, Design, Backend, Care/Sales (as needed) to deliver aligned outcomes. Participate actively in code reviewsraising the bar for quality and architecture. Investigate and fix real production issues quicklyperformance regressions, crashes, UI bugs, and behavioral edge cases. Improve frontend standards, tooling, and developer experience across both web and mobile. What Success Looks Like In the first few months, you'll be successful if you: Ship meaningful user-facing features independently with minimal hand-holding. Improve app/web experiences in ways that users feel (speed, stability, clarity, joy). Take responsibility for outcomes, not just output. Make pragmatic, time-respecting engineering decisions (solve the problem without unnecessary complexity). Become a reliable owner of key areas of the product. Required Skills & Experience 3+ years of production experience with React.js and React Native. Strong command over JavaScript (ES6+), TypeScript, HTML5 CSS3. Proven experience deploying consumer-grade mobile apps: Play Store/App Store releases, OTA updates, build pipelines. Solid understanding of: Component-driven UI architecture State management and async data patterns API integration and robust error handling Debugging and profiling tools (Flipper, Chrome DevTools, Xcode, Android Studio) Comfortable with Git, CI/CD workflows, and agile/iterative product development. Strong product and UX senseable to spot friction and propose improvements, not just implement screens. Nice to Have Prior experience in consumer product startups (apps where UX, retention, and speed matter). Experience building custom native modules Experience with monitoring/analytics tools (Sentry, Crashlytics, Firebase, Mixpanel, etc. ). Exposure to real-time features (WebSockets, video/chat, live tracking). Experience with offline-first or low-connectivity user flows. Traits We Strongly Value High ownership: you take problems from start to finish and care about what happens after launch. Execution & results driven: you prioritize shipping real value, not perfect theories. Time-respecting engineer: you don't over-engineeryour solutions are clean, practical, and scalable. User empathy: you think from the consumer's perspective and advocate for simplicity and delight. Startup mindset: comfortable with ambiguity, fast iteration, and wearing multiple hats when needed. What We Offer Opportunity to work across both web and mobile and own product experiences end-to-end. A fast-moving, collaborative engineering team where quality and execution both matter. Room to shape frontend standards, architecture, and product direction. Competitive compensation and benefits. Skills:- React.js, React Native, Mobile App Development and web app development Show more Show less\n\n      Job Analysis:\n      - Fit Score: 72\n      - Confidence: high\n      - Recommendation: recommended\n      - Strengths: Excellent skill match: React.js, TypeScript, HTML5, CSS3, Git, CI/CD, Salary range 15-21 LPA perfectly matches candidate's 18+ LPA target (disclosed range), Startup environment with consumer product focus - aligns with candidate's background, 3+ years experience required and candidate has 2 years - slight stretch but within reasonable range for strong candidates, Bangalore location matches preference, Strong emphasis on ownership, execution, and end-to-end feature development - growth opportunity, Mobile development exposure (React Native) expands skillset\n      - Concerns: Experience asks for 3+ years, candidate has 2 years - might be questioned in screening, No remote option despite candidate's preference for remote, React Native experience not in candidate's current profile - learning curve required, Startup environment again - candidate just left chaotic startup (northstarz), though this appears more established\n      - Reasoning: This is a strong fit despite being slightly aspirational on experience. The disclosed salary (15-21 LPA) meets Vandit's 18+ LPA target, and the tech stack is nearly perfect for his React/TypeScript/frontend skills. While it asks for 3+ years and he has 2, consumer product startups often hire strong 2-year developers for these roles, especially with his relevant stack. The startup is in healthtech and appears more established than northstarz, offering real growth. The only notable concerns are lack of remote option and React Native learning curve, but the compensation and growth opportunity justify recommendation.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice choice vandit. myyogateacher is a solid pick.\n\nthey're offering 15-21 lpa which hits your 18+ target, and the tech stack is perfect for your react/typescript skills. consumer product startup with real ownership - exactly what you need after northstarz chaos.\n\nthe 3+ years ask is a slight stretch with your 2 yoe, but your react skills are strong enough to make up for it. and react native exposure would be a great addition to your skillset.\n\napply link is in your chat. good luck legend 🔥"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "user",
+      "content": "I think I am not allowed to switch in for next 3 months now"
+    },
+    {
+      "role": "assistant",
+      "content": "wait what... why the 3 month hold? did northstarz drop some new policy or something?"
+    },
+    {
+      "role": "user",
+      "content": "So I just realised there was a policy for it but I got to know it right now"
+    },
+    {
+      "role": "assistant",
+      "content": "damn that's rough. so you're locked in at northstarz for 3 more months minimum?\n\nwhat's the policy exactly? notice period or something else?"
+    },
+    {
+      "role": "user",
+      "content": "Yes\n  It's something else a little complicated"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. complicated northstarz policies... classic startup chaos.\n\nso you're stuck there for 3 months minimum. that changes the game.\n\nwhat's your plan? ride it out and keep looking casually? or focus on building skills while you're there?"
+    },
+    {
+      "role": "user",
+      "content": "So I am planning to build my skills and take them to next level then a better switch would be much more easier for me"
+    },
+    {
+      "role": "assistant",
+      "content": "smart move. use the forced time to level up your skills, then make a killer move when you're free.\n\nwhat skills you thinking of building? react native? typescript? something else?"
+    },
+    {
+      "role": "user",
+      "content": "Mostly frontend development and dsa"
+    },
+    {
+      "role": "assistant",
+      "content": "frontend + dsa is the perfect combo for the next level. react, next.js, typescript, system design - that's what gets you the 25-30+ lpa roles.\n\nyou want me to keep an eye out for roles that'd be perfect for you in 3 months? or just focus on skill building for now?"
+    },
+    {
+      "role": "user",
+      "content": "Would prefer skill building\n  Can you help me with that?"
+    },
+    {
+      "role": "assistant",
+      "content": "absolutely. skill building is my thing.\n\nwhat's your current frontend stack look like? react, next.js, typescript - where are you at with each?"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. so frontend is solid, dsa needs work.\n\nfor dsa, you want:\n1. **leetcode patterns** - not random problems, but the actual patterns companies ask\n2. **system design** - for frontend roles, this is huge. designing scalable frontend architectures\n3. **frontend-specific dsa** - like optimizing react renders, state management patterns, performance bottlenecks\n\nwhich one feels most important for the roles you want?"
+    },
+    {
+      "role": "user",
+      "content": "I would say I am at a good level in that but dsa is where I lack"
+    },
+    {
+      "role": "user",
+      "content": "I want all"
+    },
+    {
+      "role": "assistant",
+      "content": "ambitious. i like it.\n\nhere's the game plan:\n\n**month 1: leetcode patterns**\n- focus on top 100 leetcode questions by frequency\n- master 15 patterns (sliding window, two pointers, etc.)\n- 1-2 problems daily, timed\n\n**month 2: frontend system design**\n- design scalable react apps\n- state management patterns (redux vs context vs zustand)\n- performance optimization (code splitting, lazy loading, memoization)\n- api integration patterns\n\n**month 3: advanced frontend + mock interviews**\n- typescript mastery\n- next.js 14+ features\n- mock interviews with real frontend questions\n\nyou want me to check in weekly to keep you accountable? or just send resources?"
+    },
+    {
+      "role": "user",
+      "content": "Send resources and you can check on weekly too"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. i'll send you curated resources and check in every monday to see how you're doing.\n\nfirst week focus: **leetcode patterns 1-5** (sliding window, two pointers, fast & slow pointers, merge intervals, cyclic sort)\n\nresources:\n- neetcode.io (free roadmap)\n- grokking the coding interview (paid but worth it)\n- blind 75 list (google it)\n\nstart with sliding window today. pick one problem, solve it, time yourself.\n\nsound good?"
+    },
+    {
+      "role": "user",
+      "content": "Yes absolutely perfect"
+    },
+    {
+      "role": "assistant",
+      "content": "alright legend. you're locked in.\n\nmonday morning i'll check in: \"how'd sliding window go? what was the hardest part?\"\n\nuntil then: pick one problem, solve it, time it. don't overthink - just start.\n\nlet's get you that 25-30+ lpa role in 3 months 🔥"
+    },
+    {
+      "role": "user",
+      "content": "Yess let's goo"
+    },
+    {
+      "role": "assistant",
+      "content": "🔥\n\nbtw... what's your current role at northstarz like day to day? just curious what you're actually building"
+    },
+    {
+      "role": "user",
+      "content": "I am currently working on build their platform, adding new features and revamping it also adding frontend architecture to the files I work in even tho react is used for building this app there are no common components used in it so yes lot of work"
+    },
+    {
+      "role": "assistant",
+      "content": "wait... react app with no common components? that's like building a house without reusing any bricks. no wonder you're looking to level up.\n\nso you're basically doing:\n- building features from scratch every time\n- no component library or design system\n- probably inconsistent patterns across the codebase\n\nthat's actually perfect experience for system design prep. you've seen the chaos, now you can design the solution.\n\nwhat's the worst part of that architecture?"
+    },
+    {
+      "role": "user",
+      "content": "Also can I refer you to a friend if yes how"
+    },
+    {
+      "role": "assistant",
+      "content": "absolutely. just give me their name and phone number (with country code, like 91xxxxxxxxxx) and i'll reach out.\n\nthey'll get the same treatment: no spam, only roles that actually fit, real market intel.\n\nwho's the friend?"
+    },
+    {
+      "role": "user",
+      "content": "So the worst part of it is everything is build from scratch no reusable components no frontend library no system design \nI am doing that I have created a lot of common components like button, tables, loaders, modals, cards, dropdowns etc"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. you're basically building the design system they should've had from day one. that's legit experience.\n\nso you're creating:\n- button, tables, loaders, modals, cards, dropdowns\n- probably documenting them too\n- establishing patterns for the whole team\n\nthat's senior-level work. when you interview, frame it as \"built design system from scratch for 0→1 startup\" not \"made some components.\"\n\nhow's the team responding to your components? are they using them?"
+    },
+    {
+      "role": "user",
+      "content": "Two collgues of mine"
+    },
+    {
+      "role": "assistant",
+      "content": "two colleagues? so they're actually using your components? that's huge.\n\nmeans you're not just building in isolation - you're establishing standards that other devs follow. that's leadership experience.\n\nwhat's their feedback been like? any pushback or are they onboard?"
+    },
+    {
+      "role": "user",
+      "content": "Well I am the only major frontend developer there but yes others who work on it it's like their work that used to takes 2-3 hours have now been reduced to 30 mins max"
+    },
+    {
+      "role": "assistant",
+      "content": "bro... that's the exact story you tell in interviews.\n\n\"built component library that reduced development time by 80% for the team\"\n\nthat's quantifiable impact. that's what gets you senior offers.\n\nso you're not just a frontend dev - you're a force multiplier. you're making the whole team more efficient.\n\nthat's worth at least 25 lpa minimum. probably more.\n\nyou're underselling yourself."
+    },
+    {
+      "role": "user",
+      "content": "Got the context wrong there I was telling about I was talking about my referral there"
+    },
+    {
+      "role": "assistant",
+      "content": "ohhh my bad. you meant two colleagues you want to refer to me?\n\ngot it. so you want to refer two friends from work. what are their names and numbers? i'll reach out to both.\n\nand what do they do? frontend too or different roles?"
+    },
+    {
+      "role": "user",
+      "content": "Different roles for both of them, there numbers are 7701896455 ayan Pandey and \n8387874699 chintan\n\nRoles are ai engineer and backend developer"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. ayan pandey (ai engineer) and chintan (backend dev).\n\ni'll reach out to both. they'll get the same treatment: no spam, real roles that fit.\n\nso back to you... what's making you want to leave northstarz after 3 months? just the chaos or something else?"
+    },
+    {
+      "role": "user",
+      "content": "I don't feel good about this company"
+    },
+    {
+      "role": "assistant",
+      "content": "that's enough. if you don't feel good about it, that's reason enough.\n\nyou've been through the service company grind (red baton) and now the chaotic startup (northstarz). you're looking for something stable where you can actually grow.\n\nmakes sense. you're building skills now, creating impact with those components, and planning your exit for when you're ready.\n\ni'll keep scanning for roles that actually pay what you deserve and have their shit together. when something fits, i'll slide it.\n\nbtw... what's your timeline for leaving? after the 3 months notice period or earlier?"
+    },
+    {
+      "role": "user",
+      "content": "After 3 months I'll start applying and I have 2 months notice period that is negotiable"
+    },
+    {
+      "role": "assistant",
+      "content": "so you're locked in for 3 months, then 2 months notice. that's a 5 month runway.\n\nperfect timing to be picky. you can wait for the right role, not just the first one that comes along.\n\nwhat's your salary target for the next move? and what's your current at northstarz?"
+    },
+    {
+      "role": "user",
+      "content": "So my current at northstarz is 14 lpa but I am looking for minimum of 18 lpa in my next switch"
+    },
+    {
+      "role": "assistant",
+      "content": "14 → 18+ is a solid jump. 30%+ increase.\n\nwith your component library impact story and the forced skill-building time, you should be aiming for 20-22 lpa honestly.\n\ni'll keep scanning for roles that actually pay that range. no more enterprise minds trash.\n\nyou're building skills, creating impact, and planning your exit. that's the right move.\n\nanything specific you want me to look for in roles? tech stack preferences?"
+    },
+    {
+      "role": "user",
+      "content": "Are you sure I deserve this"
+    },
+    {
+      "role": "assistant",
+      "content": "bro. yes.\n\nyou're building a component library that's getting used across the company. that's not just \"writing react components\" - that's creating infrastructure. that's impact.\n\nyou're at 14 lpa with 2 years experience. the market for solid frontend devs with react experience is 18-25 lpa easy. you're not asking for the moon, you're asking for market rate.\n\nthe fact that you're even questioning if you deserve it tells me you've been underselling yourself. stop that.\n\nyou're building skills, creating actual impact, and planning your exit. that's exactly what you should be doing.\n\n18+ is the floor, not the ceiling. aim higher."
+    },
+    {
+      "role": "assistant",
+      "content": "another scoutit react role in bangalore\n\n18-25 lpa range hits your target exactly\n\nbut it's a staffing company, not direct hire"
+    },
+    {
+      "role": "assistant",
+      "content": "frontend dev role through flexiple\n\n2+ years experience matches your profile exactly\n\nthey're a remote talent platform, so could be flexible work"
+    },
+    {
+      "role": "assistant",
+      "content": "support reactjs dev role through uplers\n\nfully remote, but it's graveyard shift - 11pm to 3am IST\n\nsalary range shows 5-15L, which probably won't hit your 18 target\n\nhonestly, skip this one unless you're desperate"
+    },
+    {
+      "role": "assistant",
+      "content": "junior js/ts developer at convertcart\n\nfully remote, 2-3 years experience matches your profile exactly\n\nthey want someone who can handle both dev and support work\n\nbut no salary mentioned - need to confirm it hits your 18 target"
+    }
+  ]
+}

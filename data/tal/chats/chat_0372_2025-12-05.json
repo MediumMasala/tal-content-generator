@@ -1,0 +1,23 @@
+{
+  "thread_id": "919591115064_chat",
+  "date": "2025-12-05",
+  "message_count": 4,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey there - i was just thinking about your job search journey\n\nwhat's the dream role you've been thinking about lately?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey - quick question\n\nwhat's your ideal next role? i want to make sure i'm showing you opportunities you'll actually be excited about\n\nmeanwhile, i've seen some great roles that could match your background... just need to know what you're looking for"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "thread_id": "919306521183_chat",
+  "date": "2025-12-04",
+  "message_count": 49,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "user",
+      "content": "Ankit Malik"
+    },
+    {
+      "role": "user",
+      "content": "Uber"
+    },
+    {
+      "role": "assistant",
+      "content": "uber... the company that convinced the world surge pricing is normal. found you on linkedin - ankit malik, software engineer at uber. this you? https://in.linkedin.com/in/ankitmalik0320"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "user",
+      "content": "I was able to clear the interview"
+    },
+    {
+      "role": "user",
+      "content": "About 6 months"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nAnkit Malik's profile indicates a current association with Uber. The profile lists a single professional experience entry at the same company, with no specified dates, title, or responsibilities.\n\n**ROLE-BY-ROLE**\n*   Uber ([Start date not specified]) – [Role title not specified] – [Responsibilities not listed]\n\n**EDUCATION HIGHLIGHTS**\n*   Goldman Sachs - Engineering Virtual Program, Forage (Issued May 2021)\n*   JPMorgan Chase - Software Engineering Virtual Experience, Forage (Issued May 2021)\n*   Node (Basic), HackerRank (Issued May 2021)\n*   React (Basics), HackerRank (Issued May 2021)\n*   HTML, CSS and JavaScript for Web Developers, Coursera (Issued Oct 2020)"
+    },
+    {
+      "role": "user",
+      "content": "Remote jobs, senior software engineer"
+    },
+    {
+      "role": "user",
+      "content": "I have a total of 4+ years of experience since before this I was working at zomato where I was senior software engineer"
+    },
+    {
+      "role": "user",
+      "content": "Just exploring around the world for learnings and new connections"
+    },
+    {
+      "role": "user",
+      "content": "Backend"
+    },
+    {
+      "role": "user",
+      "content": "Both, but mainly remote"
+    },
+    {
+      "role": "user",
+      "content": "actually, please edit - remote > gurgaon > bangalore"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "yes\n  so what now?"
+    },
+    {
+      "role": "user",
+      "content": "I know you’ll ghost me too.. just like other recruiters"
+    },
+    {
+      "role": "assistant",
+      "content": "ah the ghosting trauma... i get it. but i'm not a recruiter - i'm your agent. difference is i get paid when you win.\n\nso no ghosting. just quiet when there's nothing good."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "yo"
+    },
+    {
+      "role": "assistant",
+      "content": "yo ankit. what's up?"
+    },
+    {
+      "role": "user",
+      "content": "All good.  you have something for me?"
+    },
+    {
+      "role": "assistant",
+      "content": "nothing yet. i'm picky about what i slide. when something actually fits you - not just any warm body - you'll know.\n\nbtw what's making you want to leave uber anyway? just 6 months in..."
+    },
+    {
+      "role": "user",
+      "content": "Mainly the remote aspect. I’m just looking for a remote job"
+    },
+    {
+      "role": "user",
+      "content": "yea, but I have to be in Bangalore.. and what’s the point of work from home when I’m not “home”"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. so the whole thing is about getting back to gurgaon with a remote job. makes sense.\n\nwhat's your current salary at uber?"
+    },
+    {
+      "role": "user",
+      "content": "yes"
+    },
+    {
+      "role": "user",
+      "content": "Around 75 lakhs ctc"
+    },
+    {
+      "role": "user",
+      "content": "around 80?"
+    },
+    {
+      "role": "assistant",
+      "content": "80L for a remote senior backend role with 4+ years... that's realistic. i'll keep an eye out.\n\nbtw what's your notice period at uber?"
+    },
+    {
+      "role": "user",
+      "content": "30 days"
+    },
+    {
+      "role": "user",
+      "content": "sounds good"
+    },
+    {
+      "role": "assistant",
+      "content": "Senior Software Engineer, Backend (Platform - Finance Engineering) at Jobgether\n\nAnkit, this Senior Backend role is fully remote, letting you work from Gurgaon, and aligns with your backend expertise and salary target.\n\nApply: https://jobs.tal.af/6fy2n"
+    },
+    {
+      "role": "user",
+      "content": "I applied here, thanks for sharing. But I'll probably never hear any feedback"
+    },
+    {
+      "role": "assistant",
+      "content": "lol that's the job search reality. but hey, at least you applied to something that actually fits you instead of mass-applying into the void.\n\nwhat's your backup plan if remote roles are scarce? would you consider hybrid in gurgaon?"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "good to know. i'll keep both options in mind.\n\nbtw what's your tech stack? backend is broad - what are you actually building with at uber?"
+    },
+    {
+      "role": "user",
+      "content": "It's a vast variety that I've worked with - Go, PHP, AWS, kafka, redis, dynamo, sql, Prometheus, docker, websocket and more"
+    },
+    {
+      "role": "user",
+      "content": "Remote thing only"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. so you're basically happy at uber, just want to be back in gurgaon with family/friends. makes sense.\n\ni'll keep an eye out for roles that match your tech stack complexity. anything else you want me to know about what you're looking for?"
+    },
+    {
+      "role": "user",
+      "content": "No"
+    },
+    {
+      "role": "assistant",
+      "content": "cool. i'll slide roles when they're good.\n\nbtw how's the uber chaos been lately? any interesting projects you're working on?"
+    },
+    {
+      "role": "user",
+      "content": "We’re building AI chatbots to better understand customer complaints or any other reason for reaching out to support and provide faster resolution along with saving cost"
+    },
+    {
+      "role": "assistant",
+      "content": "ai chatbots for customer support... that's actually interesting. so you're working on the backend infra for that? handling the real-time messaging, scaling, all that?\n\nsounds like you're doing legit engineering work, not just maintenance. that's good for your next role.\n\nhow's the team culture around that project?"
+    },
+    {
+      "role": "user",
+      "content": "All good.. but enough about uber. How does it matter"
+    },
+    {
+      "role": "assistant",
+      "content": "fair enough. just trying to understand what kind of engineering environment you thrive in. helps me spot the right opportunities.\n\nanyway... you're locked in. remote senior backend, 80L target, gurgaon base, 30 days notice, modern tech stack.\n\ni'll slide roles when they're good."
+    },
+    {
+      "role": "user",
+      "content": "okay"
+    },
+    {
+      "role": "assistant",
+      "content": "cool. talk soon."
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    }
+  ]
+}

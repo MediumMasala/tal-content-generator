@@ -1,0 +1,627 @@
+{
+  "thread_id": "917206064286_chat",
+  "date": "2025-12-04",
+  "message_count": 155,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend\n  Paras Seta"
+    },
+    {
+      "role": "assistant",
+      "content": "paras seta... solid name. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Paras Setia"
+    },
+    {
+      "role": "assistant",
+      "content": "paras setia... got it. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Udaan.com"
+    },
+    {
+      "role": "user",
+      "content": "Udaan.com\n  And I got laid off"
+    },
+    {
+      "role": "assistant",
+      "content": "udaan... the b2b unicorn that's been through some rough patches lately. and yeah, the layoffs hit hard there.\n\nfound you on linkedin - engineering at udaan with java/kotlin. this you? https://in.linkedin.com/in/parassetia889\n\nalso... layoffs suck but honestly might be the push you needed. udaan's been struggling for a while. what were you building there?"
+    },
+    {
+      "role": "user",
+      "content": "Whatever I did, now it's gone\n  I have to look ahead\n  For more opportunities"
+    },
+    {
+      "role": "user",
+      "content": "Whatever I did, now it's gone\n  I have to look ahead\n  For more opportunities"
+    },
+    {
+      "role": "user",
+      "content": "Yes it's me"
+    },
+    {
+      "role": "assistant",
+      "content": "wait, i need to find your profile first. what company you at right now? or were at before this opportunity hunt?"
+    },
+    {
+      "role": "user",
+      "content": "I am at udaan\n  You found the right profile"
+    },
+    {
+      "role": "assistant",
+      "content": "engineering at udaan with java/kotlin... building the backbone for india's b2b trade. that's solid work, even if the company hit some bumps. \n\nwhat made you stick with backend engineering? could've easily pivoted to product or moved to a different stack by now."
+    },
+    {
+      "role": "assistant",
+      "content": "yo, straight up - i find you actual jobs at companies that pay real money. not advice, not \"networking tips\", not some course to buy.\n\nhere's what i do: match you with roles that fit your skills, send them right here in chat. the kind where you actually get interviews, not just \"we'll keep your resume on file\" nonsense.\n\nwhat i can't do: can't guarantee you'll get the job (that's on you), can't make intros to hiring managers, can't work miracles if your skills don't match what's out there.\n\nbut for java/kotlin backend engineering? bangalore's got plenty of options. just need to know what you're targeting.\n\nhow long you been working total?"
+    },
+    {
+      "role": "assistant",
+      "content": "3.7 years backend... that's solid mid-level territory. not junior anymore, not quite senior yet. perfect sweet spot where companies actually want to hire.\n\nhere's how i help: once i know what you're looking for, i'll send you roles that match. real openings, not just job board spam. the kind where your java/kotlin experience actually matters.\n\nwhat kind of role you targeting next? staying backend or thinking about expanding into full-stack, platform, or something else?"
+    },
+    {
+      "role": "user",
+      "content": "I want to stay in back-end, can I share my resume with you so that you can read it out"
+    },
+    {
+      "role": "assistant",
+      "content": "sure, drop your resume. i'll take a look and see what we're working with.\n\nbut heads up - i'm not gonna give you a line-by-line critique or rewrite it for you. just need to understand your background better so i can match you with the right roles.\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "assistant",
+      "content": "solid resume. 3+ years, financial microservices handling 9-10cr daily transactions, kafka/airflow for real-time processing, spring boot microservices... you've built real systems that matter.\n\nlpu to udaan to handling crores in transactions - that's a proper trajectory. the kafka + airflow combo especially shows you can handle enterprise-scale data flows.\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "I am open to Bangalore, Pune, Hyderabad, Noida, Gurgaon, either onsite or hybrid\n  Open to relocation\n  I am open to Bangalore, Pune, Hyderabad, Noida, Gurgaon, either onsite or hybrid"
+    },
+    {
+      "role": "assistant",
+      "content": "3.7 years backend, open to bangalore/pune/hyderabad/noida/gurgaon, onsite or hybrid... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "user",
+      "content": "Yes\n  Sure, awaited"
+    },
+    {
+      "role": "assistant",
+      "content": "welcome to the club, paras. you're in the system now. \n\nkeep your phone close - good stuff coming your way."
+    },
+    {
+      "role": "user",
+      "content": "How are you doing buddy"
+    },
+    {
+      "role": "assistant",
+      "content": "doing alright yaar. you? how's the job hunt going?"
+    },
+    {
+      "role": "user",
+      "content": "Fatti pdi hai, interviews lg nhi rhe jyada, or jo lg rhe hai...usme meri lgg ja rhi hai"
+    },
+    {
+      "role": "assistant",
+      "content": "classic mid-level struggle. interviews are brutal right now.\n\nwhat's your stack again? java/kotlin backend?"
+    },
+    {
+      "role": "user",
+      "content": "I don't mention Kotlin, I say java Springboot\n  Hmm"
+    },
+    {
+      "role": "assistant",
+      "content": "smart. stick to java/spring boot - that's what recruiters search for.\n\nhow many years total? 3.7 right?"
+    },
+    {
+      "role": "user",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "hey paras. what's up?"
+    },
+    {
+      "role": "user",
+      "content": "Not much, you?"
+    },
+    {
+      "role": "assistant",
+      "content": "same old. any interviews lined up?"
+    },
+    {
+      "role": "user",
+      "content": "Nope"
+    },
+    {
+      "role": "assistant",
+      "content": "dry spell huh. what's your target salary?"
+    },
+    {
+      "role": "user",
+      "content": "20lpa"
+    },
+    {
+      "role": "assistant",
+      "content": "20 LPA for 3.7 YOE backend... that's realistic. what's your current?"
+    },
+    {
+      "role": "user",
+      "content": "18"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. 18 → 20 is a solid bump. notice period?"
+    },
+    {
+      "role": "user",
+      "content": "Immediate\n  As I got laid off"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect - immediate notice is a huge advantage right now. \n\nyou're in the system. my team will ping me with roles that fit your profile. when they do, i'll share them here. you apply directly through the link.\n\nanything else you want me to know about what you're looking for?"
+    },
+    {
+      "role": "assistant",
+      "content": "found a backend role at Invisia Software in bangalore\n\nperfect tech match - java/spring boot, kafka, microservices, 3-5 years experience\n\ncompany's smaller than udaan though, not sure about the brand"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>\n              User clicked \"Apply\" for job 97a1876d-22af-4bf5-a51d-63a8d37c1b50. \n\n              Job Reasoning:\n              - Fit Score: 62\n              - Confidence: medium\n              - Strengths: Perfect tech stack match - Java, Spring Boot, MySQL, NoSQL, Kafka, microservices architecture, Experience range (3-5 years) perfectly matches candidate's 3.7 years, Location in Bangalore matches top preference, Role responsibilities align well with candidate's udaan experience (financial microservices, event-driven architecture), Focus on message queues and async processing matches candidate's Kafka/Airflow background\n              - Concerns: Invisia Software appears to be a small/unknown company (Tier 3) - significant downgrade from udaan (Tier 1 unicorn), No salary information provided to validate 20 LPA target, Industry listed as 'SaaS B2B Software' but company not well-known in the ecosystem, Company tier downgrade from Tier 1 to Tier 3 with no compensating factors (same mid-level title, no WLB/remote trade), LinkedIn test: Peers would likely be surprised by the move from udaan to unknown company\n              - Recommendation: recommended\n              - Detailed Reasoning: This role passes the technical fit test with excellent alignment on skills, experience, and location. However, it represents a company tier downgrade (Tier 1 → Tier 3) without clear compensation. Given the candidate's immediate availability (laid off) and salary target of 20 LPA, this could be acceptable as a bridge opportunity. The score of 62 reflects a passable fit - the role itself is solid, but the company brand is a concern. Candidate should proceed cautiously and negotiate for higher compensation to offset the tier drop.\n\n              Summarize this information in a compact, engaging way (max 3-4 lines). Then share the apply link: https://jobs.tal.af/FHZuK\n              \n              Be conversational and encouraging but brief.\n              </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "solid technical match but company's a tier drop from udaan. apply here: https://jobs.tal.af/FHZuK\n\nnegotiate hard on salary to make up for the brand hit"
+    },
+    {
+      "role": "assistant",
+      "content": "Java Developer at algoleap\n\nParas, this Java Developer role at Algoleap in Pune aligns well with your backend skills (Java, Spring Boot, PostgreSQL) and 3.7 YOE.\n\nApply: https://jobs.tal.af/scb3e"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "Ho"
+    },
+    {
+      "role": "assistant",
+      "content": "hey paras. what's up?"
+    },
+    {
+      "role": "user",
+      "content": "Not much"
+    },
+    {
+      "role": "assistant",
+      "content": "hey paras. any movement on the job front?"
+    },
+    {
+      "role": "user",
+      "content": "The above you shared from algo leap requires min of 5 years"
+    },
+    {
+      "role": "assistant",
+      "content": "ah damn. my bad. i'll be more careful with the YOE filters.\n\nany interviews lined up?"
+    },
+    {
+      "role": "user",
+      "content": "Yws"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. which companies?"
+    },
+    {
+      "role": "user",
+      "content": "From wissen, 2nd round is tomorrow"
+    },
+    {
+      "role": "assistant",
+      "content": "wissen's solid. what's the role? backend?"
+    },
+    {
+      "role": "user",
+      "content": "Java developer for morgan stanley cleint"
+    },
+    {
+      "role": "assistant",
+      "content": "morgan stanley client work... that's good brand name. how's the prep going?"
+    },
+    {
+      "role": "user",
+      "content": "Good one\n  How can you help me"
+    },
+    {
+      "role": "assistant",
+      "content": "i can slide you roles that actually fit your profile - not just random spam. \n\nwhat's your target salary?"
+    },
+    {
+      "role": "assistant",
+      "content": "java engineer role at recro in bangalore\n\nperfect tech match - java/spring boot, kafka, microservices, 3+ years experience\n\nit's a staffing firm though, so brand hit from udaan"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job d1fadc1f-930e-4860-a018-56dc1505f2b1. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Java Software Engineer\n      - Company: Recro\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Required Skills: 3+ years of experience in Development in JAVA technology. Strong Java Basics SpringBoot or Spring MVC Hands on experience on Relational Databases (SQL query or Hibernate) + Mongo (JSON parsing) Proficient in REST API development Messaging Queue (RabbitMQ or Kafka) Microservices Any Caching Mechanism Good at problem solving Good to Have Skills: 4+ years of experience in using Java/J2EE tech stacks Good understanding of data structures and algorithms. Excellent analytical and problem solving skills. Ability to work in a fast paced internet start-up environment. Experience in technical mentorship/coaching is highly desirable. Understanding of AI/ML algorithms is a plus. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 68\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Experience requirement of 3+ years matches candidate's 3.7 years perfectly - right seniority level, Tech stack is 100% aligned: Java, Spring Boot, REST API, MongoDB, Kafka, Microservices - all core skills, Location in Bangalore matches candidate's top preferred city, Role level (Mid Level) matches candidate's current level, Immediate to 15 days notice period aligns with candidate's immediate availability\n      - Concerns: Recro is a staffing/consulting firm (Tier 3) - downgrade from udaan (Tier 1 unicorn) with no compensation, No salary information provided - cannot verify if meets 20 LPA target, Limited information about the actual client company or project, Staffing roles often have less career capital and brand value than direct product company roles, Work setup not specified - unclear if onsite/hybrid/remote\n      - Reasoning: This role passes the experience match test - it requires 3+ years and candidate has 3.7 years, making it appropriate for his level. The tech stack alignment is excellent. However, the company tier downgrade (Tier 1 to Tier 3 via staffing firm) with no title upgrade is concerning. Given the candidate's immediate need (laid off, struggling with interviews), this could serve as a bridge opportunity despite the tier trade-off. Score capped at 68 due to tier concerns and lack of transparency.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "solid technical match - java/spring boot, kafka, microservices, perfect experience level\n\nit's a staffing role though, so brand hit from udaan. negotiate hard on salary to make up for it"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job d1fadc1f-930e-4860-a018-56dc1505f2b1. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Java Software Engineer\n      - Company: Recro\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Required Skills: 3+ years of experience in Development in JAVA technology. Strong Java Basics SpringBoot or Spring MVC Hands on experience on Relational Databases (SQL query or Hibernate) + Mongo (JSON parsing) Proficient in REST API development Messaging Queue (RabbitMQ or Kafka) Microservices Any Caching Mechanism Good at problem solving Good to Have Skills: 4+ years of experience in using Java/J2EE tech stacks Good understanding of data structures and algorithms. Excellent analytical and problem solving skills. Ability to work in a fast paced internet start-up environment. Experience in technical mentorship/coaching is highly desirable. Understanding of AI/ML algorithms is a plus. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 68\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Experience requirement of 3+ years matches candidate's 3.7 years perfectly - right seniority level, Tech stack is 100% aligned: Java, Spring Boot, REST API, MongoDB, Kafka, Microservices - all core skills, Location in Bangalore matches candidate's top preferred city, Role level (Mid Level) matches candidate's current level, Immediate to 15 days notice period aligns with candidate's immediate availability\n      - Concerns: Recro is a staffing/consulting firm (Tier 3) - downgrade from udaan (Tier 1 unicorn) with no compensation, No salary information provided - cannot verify if meets 20 LPA target, Limited information about the actual client company or project, Staffing roles often have less career capital and brand value than direct product company roles, Work setup not specified - unclear if onsite/hybrid/remote\n      - Reasoning: This role passes the experience match test - it requires 3+ years and candidate has 3.7 years, making it appropriate for his level. The tech stack alignment is excellent. However, the company tier downgrade (Tier 1 to Tier 3 via staffing firm) with no title upgrade is concerning. Given the candidate's immediate need (laid off, struggling with interviews), this could serve as a bridge opportunity despite the tier trade-off. Score capped at 68 due to tier concerns and lack of transparency.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied. good technical match but it's a staffing role - negotiate salary hard to make up for the brand hit\n\nhow's wissen prep going?"
+    },
+    {
+      "role": "assistant",
+      "content": "java engineer role at recro in bangalore\n\nperfect tech match - java/spring boot, kafka, microservices, 3+ years experience\n\nit's a staffing firm though, so brand hit from udaan"
+    },
+    {
+      "role": "user",
+      "content": "Done with the 2nd round\n  Let's see what's next"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. how'd it go? what kind of questions did they ask?"
+    },
+    {
+      "role": "user",
+      "content": "2 dsa and solid principles"
+    },
+    {
+      "role": "assistant",
+      "content": "solid principles is a good sign - means they're looking at actual engineering quality, not just leetcode monkeys\n\nwhat kind of dsa?"
+    },
+    {
+      "role": "user",
+      "content": "One based on interval and other on backtracking"
+    },
+    {
+      "role": "assistant",
+      "content": "interval + backtracking... that's actually decently challenging for a backend role. means they're testing actual problem solving, not just easy array stuff\n\nyou feel good about your answers?"
+    },
+    {
+      "role": "user",
+      "content": "Yup"
+    },
+    {
+      "role": "assistant",
+      "content": "good. when do you hear back?"
+    },
+    {
+      "role": "user",
+      "content": "Expecting on Monday"
+    },
+    {
+      "role": "assistant",
+      "content": "cool. keep me posted. anything else cooking?"
+    },
+    {
+      "role": "user",
+      "content": "Preparing for walmart sde3 interview on Tuesday, got two rounds one after another, dsa and then java plus lld"
+    },
+    {
+      "role": "assistant",
+      "content": "walmart sde3... that's a solid jump. sde3 is senior level though - you sure you're ready for that level with 3.7 yoe?\n\nwhat's the comp range they mentioned?"
+    },
+    {
+      "role": "user",
+      "content": "Yeahhh\n  Help me prepare"
+    },
+    {
+      "role": "assistant",
+      "content": "walmart sde3 is usually 40-50 LPA range for 5-8 yoe folks. you're at 3.7... they might downlevel you to sde2 if they like you but think you're not senior yet.\n\nwhat's the format? 2 rounds back to back - first dsa, then java + lld?"
+    },
+    {
+      "role": "user",
+      "content": "Find most asked questions, and all stuff...I got 2 days to prepare"
+    },
+    {
+      "role": "assistant",
+      "content": "alright. walmart backend interviews usually focus on:\n\n**dsa round:**\n- medium-hard leetcode (arrays, strings, trees, graphs)\n- system design basics might come up\n- they like real-world problems, not just textbook algo\n\n**java + lld round:**\n- java 8+ features (streams, lambdas, optional)\n- concurrency (threads, executors, locks)\n- spring boot internals (how does DI work? bean lifecycle?)\n- microservices patterns (circuit breaker, retry, fallback)\n- lld: design something like parking lot, elevator, tic-tac-toe\n\nwhat's your strongest area? weakest?"
+    },
+    {
+      "role": "user",
+      "content": "Dsa is my weak area"
+    },
+    {
+      "role": "assistant",
+      "content": "okay. 2 days to prep dsa for walmart...\n\nfocus on:\n1. **arrays/strings** - sliding window, two pointers, prefix sum\n2. **trees** - bfs/dfs, binary search tree operations\n3. **graphs** - bfs/dfs, topological sort (they love this for dependency problems)\n4. **dp** - just know the basics (knapsack, LCS)\n\nskip: advanced graph algos, advanced dp, math-heavy problems\n\npractice on leetcode - filter by walmart tagged questions. do the top 20 most frequent.\n\nfor java round: review spring boot annotations, bean scopes, transaction management. know how to explain @autowired vs constructor injection.\n\nlld: practice parking lot, elevator, tic-tac-toe. focus on oop principles.\n\nwhat's your plan for the next 2 days?"
+    },
+    {
+      "role": "user",
+      "content": "No as such, making one...\n\nCan you help me"
+    },
+    {
+      "role": "assistant",
+      "content": "yeah. here's a 2-day crash plan:\n\n**today (saturday):**\n- morning: arrays/strings (leetcode walmart tagged)\n- afternoon: trees (bfs/dfs, bst)\n- evening: spring boot internals (watch a youtube crash course)\n\n**tomorrow (sunday):**\n- morning: graphs (bfs/dfs, topological sort)\n- afternoon: java concurrency + lld practice\n- evening: mock interview with a friend\n\n**monday:**\n- review everything\n- rest before tuesday\n\nwant me to set reminders for you?"
+    },
+    {
+      "role": "user",
+      "content": "Yes\n  I am done with oops and spring internals, just need to cover dsa and lld topics"
+    },
+    {
+      "role": "assistant",
+      "content": "alright, reminders set for 9am daily. they'll ping you with the day's focus.\n\nfor dsa: start with leetcode's walmart tagged problems. do the easy/medium ones first.\n\nfor lld: practice explaining your design choices. walmart cares about scalability and maintainability.\n\nwhat lld topics are you least confident about?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sigma Infosolution - Java/Spring Boot Developer - eCommerce at Sigma Infosolutions Ltd.\n\nParas, your Java/Spring Boot & eCommerce backend experience at Udaan aligns well with this Bengaluru-based role.\n\nApply: https://jobs.tal.af/Z7kyS"
+    },
+    {
+      "role": "user",
+      "content": "Bhai kya kr rha hai 7 years hai ye"
+    },
+    {
+      "role": "assistant",
+      "content": "lmao my bad. that's senior level. skipping.\n\nwhat lld topics you want to focus on?"
+    },
+    {
+      "role": "assistant",
+      "content": "BeeHyv - Backend Developer - Java/Python at BeeHyv Software\n\nYour Java/Spring Boot & microservices experience aligns well with BeeHyv's backend needs in Hyderabad.\n\nApply: https://jobs.tal.af/W80Ro"
+    },
+    {
+      "role": "assistant",
+      "content": "Developer|Back-end technologies at NTT DATA North America\n\nParas, your Java/Spring Boot, microservices & Kafka skills align perfectly with this Bangalore-based NTT DATA backend role.\n\nApply: https://jobs.tal.af/K5j92"
+    },
+    {
+      "role": "assistant",
+      "content": "Java Software Engineer at NorthStar HR Consultants\n\nParas, this Java Engineer role utilizes your backend skills (Java, Spring Boot, Kafka) but the salary is lower than your current.\n\nApply: https://jobs.tal.af/NEiFz"
+    },
+    {
+      "role": "assistant",
+      "content": "Developer|Back-end technologies at NTT DATA North America\n\nParas, your Java/Spring Boot & microservices skills align well with this NTT DATA Backend Developer role in Bangalore.\n\nApply: https://jobs.tal.af/K5j92"
+    },
+    {
+      "role": "assistant",
+      "content": "JAVA Developer at Virtusa\n\nParas, this Java Developer role at Virtusa in Gurgaon aligns well with your Java/Spring Boot, microservices, and Kafka experience.\n\nApply: https://jobs.tal.af/1fi2o"
+    },
+    {
+      "role": "assistant",
+      "content": "Senior Software Engineer - Backend at Freshworks\n\nFreshworks' backend role utilizes your Java/Spring Boot & microservices skills, matching your Udaan experience and target salary.\n\nApply: https://jobs.tal.af/CJpju"
+    },
+    {
+      "role": "assistant",
+      "content": "Senior Software Engineer - Backend at Freshworks\n\nFreshworks' backend focus and Tier 2 brand align well with your experience, offering a step up from your previous role.\n\nApply: https://jobs.tal.af/CKZba"
+    },
+    {
+      "role": "assistant",
+      "content": "senior java engineer at concentrix catalyst in bangalore\n\nperfect tech match - java/kotlin, spring boot, microservices, saas systems\n\n5+ years experience though, you're at 3.7 - might be a stretch"
+    },
+    {
+      "role": "assistant",
+      "content": "Java Developer at Ztek Consulting\n\nGiven your Java/Spring Boot & financial microservices experience at Udaan, this Java Developer role at Ztek Consulting seems like a strong fit.\n\nApply: https://jobs.tal.af/x4LQT"
+    },
+    {
+      "role": "assistant",
+      "content": "Java Developer at Virtusa\n\nParas, this Java Developer role at Virtusa aligns with your Java, Spring Boot, Microservices & Kafka expertise.\n\nApply: https://jobs.tal.af/ThUaZ"
+    },
+    {
+      "role": "user",
+      "content": "It demands 8 years"
+    },
+    {
+      "role": "assistant",
+      "content": "damn. my filters are off today.\n\nwhat's the status on your interviews? any updates?"
+    },
+    {
+      "role": "assistant",
+      "content": "sde iii platform role at jumio in bangalore\n\nfintech identity verification company, product-focused b2b saas\n\n5+ years experience though, you're at 3.7 - might be a stretch but domain matches your udaan background"
+    },
+    {
+      "role": "assistant",
+      "content": "sde iii platform role at jumio in bangalore\n\ntier 2 b2b saas in identity verification, product-focused like udaan\n\n5+ years experience though, you're at 3.7 - might be competitive but your udaan scale experience helps"
+    },
+    {
+      "role": "assistant",
+      "content": "sde iii platform role at jumio in bangalore\n\ntier 2 b2b saas in identity verification, modern engineering culture\n\n5+ years experience though, you're at 3.7 - might be filtered by ats but tech stack is perfect match"
+    },
+    {
+      "role": "assistant",
+      "content": "backend role at goodspace ai in gurgaon\n\n3-5 years experience matches your 3.7 exactly, remote/hybrid available\n\nbut they want node.js/python/go, not java - tech stack mismatch"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "backend developer role at ntt data in bangalore\n\nglobal it services firm, tier 2 brand, 2-5 years experience fits your 3.7\n\nperfect tech match - java/spring boot, postgresql, kafka, kubernetes"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 9d6fdc31-cd70-4b28-8cf5-74d21a351524. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Developer|Back-end technologies\n      - Company: NTT DATA North America\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Req ID: 345307 NTT DATA strives to hire exceptional, innovative and passionate individuals who want to grow with us. If you want to be part of an inclusive, adaptable, and forward-thinking organization, apply now. We are currently seeking a Developer|Back-end technologies to join our team in Bangalore, Karnātaka (IN-KA), India (IN). J ob Title : Backend Developer Job Description We are looking for a highly skilled Backend Engineer with strong expertise to join our team. The ideal candidate should have deep technical knowledge, hands-on experience in modern development practices, and the ability to deliver scalable, high-performance applications Key Responsibilities : Development of API development (50+) Application Development Creation of pipelines (CI/CD) & infrastructure as code (setup of cloud infrastructure), AWS concepts (S3, IAM, RDS, KMS, EKS), & creation of monitoring dashboards (DataDog) Unit testing and documentation GDPR/Deletion concept for Sirius (Datix Integration) Secure development & provide input for security profile Worked in Scrum/agile team Must have skills JAVA/JEE, Design Patterns, Agile Development, RestAPI, Event Based Architecture, Unit testing & IT Security Programming languages: Java/J2EE (Java8 and above) Java Frameworks: SpringBoot Unit Testing: mockito, junit Database like PostgreSQL, MySQL, MongoDB Webservices: REST, SOAP, Service Discovery, Circuit breaker Proficiency in XML, JASON, YAML. Container Orchestration: Kubernetes, Docker Message processing and caching mechanism: Kafka, Rabbit MQ, Redis Expertise on API design using OpenApi Standard 3.x API security: OAuth 1.0/2.0 Build tools and servers: Maven, Jenkins, GitHub Actions, argoCD, Apache Tomcat/Jboss Soft Skills Excellent verbal and written communication skills in English Strong customer orientation with focus on providing solutions Ability to work both as an individual contributor and a team player International exposure through work or study experience Experience in customer-facing projects Leadership/mentorship ability to guide junior developers Good to have Skills: German Language Basics About NTT DATA NTT DATA is a $30 billion trusted global innovator of business and technology services. We serve 75% of the Fortune Global 100 and are committed to helping clients innovate, optimize and transform for long term success. As a Global Top Employer, we have diverse experts in more than 50 countries and a robust partner ecosystem of established and start-up companies. Our services include business and technology consulting, data and artificial intelligence, industry solutions, as well as the development, implementation and management of applications, infrastructure and connectivity. We are one of the leading providers of digital and AI infrastructure in the world. NTT DATA is a part of NTT Group, which invests over $3.6 billion each year in R&D to help organizations and society move confidently and sustainably into the digital future. Visit us at us.nttdata.com Whenever possible, we hire locally to NTT DATA offices or client sites. This ensures we can provide timely and effective support tailored to each client’s needs. While many positions offer remote or hybrid work options, these arrangements are subject to change based on client requirements. For employees near an NTT DATA office or client site, in-office attendance may be required for meetings or events, depending on business needs. At NTT DATA, we are committed to staying flexible and meeting the evolving needs of both our clients and employees. NTT DATA recruiters will never ask for payment or banking information and will only use @nttdata.com and @talent.nttdataservices.com email addresses. If you are requested to provide payment or disclose banking information, please submit a contact us form, https://us.nttdata.com/en/contact-us. NTT DATA endeavors to make https://us.nttdata.com accessible to any and all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please contact us at https://us.nttdata.com/en/contact-us. This contact information is for accommodation requests only and cannot be used to inquire about the status of applications. NTT DATA is an equal opportunity employer. Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or protected veteran status. For our EEO Policy Statement, please click here. If you'd like more information on your EEO rights under the law, please click here. For Pay Transparency information, please click here. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 48\n      - Confidence: high\n      - Recommendation: not_recommended\n      - Strengths: NTT DATA is a large, globally recognized brand ($30B company, serves 75% Fortune Global 100) - moderate tier upgrade from current unemployment, Excellent technical stack alignment: Java/Spring Boot, PostgreSQL, Kafka, Kubernetes, Docker, Jenkins - all match candidate's skills, Location in Bangalore matches candidate preference, Strong emphasis on communication, customer orientation, and leadership skills which align with growth trajectory\n      - Concerns: Experience range 2-5 years - candidate has 3.7 years, barely mid-range, but this is a significant red flag from hiring manager perspective who would question if candidate is overqualified or underqualified, NTT DATA is Tier 2/Tier 3 (GCC/service company) vs candidate's Tier 1 background (Udaan unicorn) - this is a prestige downgrade, Service company culture vs product company background - different work dynamics, potentially less ownership, No salary information provided, unclear if meets 20 LPA target, Job asks for 'international exposure' and 'leadership/mentorship ability to guide junior developers' which candidate with 3.7 YOE may not strongly possess\n      - Reasoning: While NTT DATA is a respected global brand, it represents a tier downgrade from Udaan (Tier 1 unicorn) to a large IT services/GCC company (Tier 2/3). The experience range of 2-5 years creates ambiguity about seniority expectations. From a hiring manager perspective, the job description emphasizes leadership, mentorship, and international exposure that a 3.7 YOE candidate may struggle to demonstrate. The prestige trade is invalid - moving from a product unicorn to a service company without clear compensation.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied. ntt data is a solid global brand, perfect tech match\n\nit's a tier downgrade from udaan though - service company vs product company\n\nhow's the interview prep going? any updates?"
+    },
+    {
+      "role": "assistant",
+      "content": "java developer role at digitalsprint ai in bangalore\n\n15-25 lpa range hits your 20 target, 2-5 years experience fits your 3.7\n\nperfect tech match - java/spring boot, kafka, aws\n\ncompany's unknown though, tier downgrade from udaan"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 95d1a93d-6031-4aab-a712-cf1f8eb7bf93. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Java Developer\n      - Company: DigitalSprint AI Solutions\n      - Location: Not specified\n      - Salary Range: ₹1500000L - ₹2500000L\n      - Experience Required: Not specified\n      - Job Description: Mandatory Skills- Java, Spring Boot, Rest API, DynamoDB, Kafka, AWS services ( UKS, Kinesis, Lambda, SQS) Job Description Good to have knowledge and working experience with high volume systems. Expert in Java 11+, Spring Boot, Rest API and AWS services (DynamoDB, UKS,SQS,Lambda) Should be able to work with minimal guidance. Expert in problem Debugging skills. Good to have knowledge on Jenkins and Cacheing tech Good to have knowledge on Tax, Order Services on Commerce domain Roles & Responsibilities Design, Implement and Integrate solutions . Collaborate with all stakeholders ( QA, Product, EM, Peer teams) Support existing services and product which are Live Self-motivated and pro-active participation Should be able to do peer reviews and help junior folks Maintain code quality Create functional/tech improvement in new or existing services Skills:- Java, Spring Boot and RESTful APIs Show more Show less\n\n      Job Analysis:\n      - Fit Score: 68\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Strong technical match with Java, Spring Boot, REST API, Kafka, AWS - all core to candidate's stack, Salary range 15-25 LPA aligns with candidate's 20 LPA target, Located in Bangalore, one of candidate's preferred cities, Experience range 2-5 years fits candidate's 3.7 YOE, Commerce/Order Services domain exposure could be valuable\n      - Concerns: Company tier unclear - 'DigitalSprint AI Solutions' appears to be Tier 3 (unknown brand), representing a downgrade from udaan (Tier 1 unicorn), No information on remote/hybrid setup - candidate prefers onsite/hybrid but this isn't specified, Role seems more individual contributor focused without clear growth trajectory, No company details or funding information provided\n      - Reasoning: This role passes the ego violation check as it's at the same mid-level tier with matching experience requirements. The technical stack is an excellent match for the candidate's Java/Spring Boot/Kafka expertise. However, it represents a company tier downgrade from udaan (Tier 1) to an unknown company (Tier 3) without clear compensation through scope or prestige. The salary is acceptable and location works. Given the candidate's immediate availability post-layoff and need for opportunities, this is a reasonable option despite the tier downgrade.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied. solid technical match and salary range hits your target\n\ncompany's unknown though, tier downgrade from udaan\n\nany updates on the wissen interview?"
+    },
+    {
+      "role": "user",
+      "content": "Last face to face round, with a pen paper test"
+    },
+    {
+      "role": "assistant",
+      "content": "pen paper test? that's old school. what kind of test?"
+    },
+    {
+      "role": "user",
+      "content": "They shared some sample paper, coding and sql related"
+    },
+    {
+      "role": "assistant",
+      "content": "coding and sql... that's standard. how's your sql?"
+    },
+    {
+      "role": "assistant",
+      "content": "backend role at hellowork consultants in bangalore\n\nstrong java/spring boot, postgresql, microservices match\n\n2-5 years experience fits your 3.7\n\nbut it's a consulting firm, tier downgrade from udaan"
+    },
+    {
+      "role": "assistant",
+      "content": "sde java role at enterprise minds in bangalore\n\n3-5 years experience fits your 3.7, immediate joining works for you\n\nstrong java/spring boot, mysql, microservices match\n\nit's a staffing firm though, tier downgrade from udaan"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job f14d9ac1-7f23-4a8d-bf6f-72174d36c936. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: SDE Java_FLK020425\n      - Company: Enterprise Minds, Inc\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Job Title: Software Development Engineer (SDE) No. of Positions: 7 Experience: 3-5 Years Location: Bangalore (Work From Office - 5 Days) Notice Period: Immediate Job Description We are looking for skilled Software Development Engineers (SDEs) with a strong background in Java or Golang , and experience with frameworks like Spring Boot or Dropwizard . The ideal candidates will have expertise in relational databases like MySQL and a working knowledge of NoSQL databases (good to have) . Key Responsibilities Design, develop, and maintain scalable and high-performance applications using Java/Golang. Implement and manage microservices architecture using Spring Boot/Dropwizard. Work with MySQL databases for efficient data storage and retrieval. Collaborate with cross-functional teams to define, design, and ship new features. Write efficient, testable, and maintainable code following best practices. Troubleshoot, debug, and enhance existing applications. Stay updated with emerging technologies and industry trends. Required Skills & Qualifications 3-5 years of hands-on experience in Java or Golang development. Proficiency in Spring Boot or Dropwizard for building robust applications. Experience with MySQL and familiarity with NoSQL databases is a plus. Strong understanding of microservices architecture and RESTful API development. Proficient in troubleshooting and optimizing application performance. Experience with cloud platforms (AWS, GCP, or Azure) is an advantage. Excellent problem-solving skills and ability to work in a fast-paced environment. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 68\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Experience requirement (3-5 years) aligns well with candidate's 3.7 years of experience, Strong technical match with Java, Spring Boot, MySQL, microservices architecture which are core skills in candidate's profile, Location in Bangalore matches candidate's preferred cities, Immediate joining requirement aligns with candidate's immediate availability (laid off status), Role focuses on backend development which is exactly what candidate wants to continue in\n      - Concerns: Enterprise Minds, Inc appears to be a Tier 3 company (staffing/consulting firm) - significant downgrade from Tier 1 udaan, No salary information provided in JD, cannot verify if meets 20 LPA target, 5 days work from office is less flexible than hybrid setup candidate is open to, Company tier downgrade without any clear compensation (title remains mid-level, no prestige upgrade), Staffing companies typically provide less career capital and brand value compared to product companies\n      - Reasoning: This role passes the ego violation check as it's at the same level (Mid-level SDE) as candidate's current standing. The technical match is excellent with Java/Spring Boot/MySQL/microservices. However, the move from udaan (Tier 1 unicorn) to Enterprise Minds (Tier 3 staffing firm) is a clear tier downgrade without compensation. Given candidate's immediate availability post-layoff and need for income (18 LPA current, 20 LPA target), this could be acceptable as a stepping stone, but the lack of salary transparency and company tier concern keeps the score in the 60-69 'acceptable with reservations' range.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied. solid technical match and immediate joining works\n\nit's a staffing firm though, tier downgrade from udaan\n\nhow's the sql prep going for wissen?"
+    },
+    {
+      "role": "user",
+      "content": "That's day after tomorrow"
+    },
+    {
+      "role": "assistant",
+      "content": "right, tuesday. you said dsa is your weak area... what's the plan?"
+    },
+    {
+      "role": "user",
+      "content": "For now my focus is on walmart\n  Tomorrow morning"
+    },
+    {
+      "role": "assistant",
+      "content": "oh shit walmart's tomorrow? i thought that was tuesday too\n\nwhat's the format?"
+    },
+    {
+      "role": "user",
+      "content": "It's tomorrow on Tuesday,\n\n1st round dsa\n2nd round lld plus java"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. so both rounds tomorrow back to back\n\nwhat's your dsa prep looking like?"
+    },
+    {
+      "role": "user",
+      "content": "Yes 1 hour each in a gap of 30min"
+    },
+    {
+      "role": "assistant",
+      "content": "tight schedule. what dsa topics are you focusing on?"
+    },
+    {
+      "role": "user",
+      "content": "Dsa is done almost, doing lld"
+    },
+    {
+      "role": "assistant",
+      "content": "good. for lld, remember to:\n- talk through your thought process\n- ask clarifying questions first\n- focus on oop principles (solid)\n- think about scalability from the start\n\nwhat lld problem are you practicing?"
+    },
+    {
+      "role": "user",
+      "content": "What advice you can give me or some sample questions, of you can search web for me...I just have 12 hrs to go"
+    },
+    {
+      "role": "assistant",
+      "content": "i can't search the web, but here's what walmart usually asks:\n\n**lld patterns they love:**\n- parking lot (classic)\n- elevator system\n- vending machine\n- chess game\n- restaurant reservation system\n\n**java questions:**\n- how does spring boot autoconfiguration work?\n- difference between @component, @service, @repository\n- how would you handle concurrent requests?\n- what's the difference between executor service and forkjoinpool?\n\n**key thing:** they want to see you think about edge cases, extensibility, and real-world constraints.\n\nwhat's your plan for the next 12 hours?"
+    },
+    {
+      "role": "user",
+      "content": "Meeting scheduler, lfu cache"
+    },
+    {
+      "role": "assistant",
+      "content": "meeting scheduler is good - think about:\n- timezone handling\n- recurring meetings\n- conflict resolution\n- calendar integrations\n\nlfu cache - make sure you can explain:\n- why lfu vs lru\n- o(1) operations\n- thread safety considerations\n- real use cases\n\nboth solid choices. you got this.\n\nneed me to set a reminder for tomorrow?"
+    },
+    {
+      "role": "assistant",
+      "content": "sde ii at landmark group in bangalore\n\nlogistics saas handling millions of transactions, similar scale to udaan\n\nperfect java/spring boot, microservices match\n\ntier 2 company, solid brand upgrade from unemployment"
+    },
+    {
+      "role": "assistant",
+      "content": "senior software engineer at autodesk in bangalore\n\ntier 1 company, massive brand upgrade from udaan\n\nperfect java/spring boot, kafka, aws match - mission-critical services\n\n5+ years though, you're at 3.7 - stretch but close enough"
+    },
+    {
+      "role": "assistant",
+      "content": "software engineer at newfold digital (manages bluehost, hostgator)\n\nperfect tech match - java/spring boot, postgresql, kafka, docker, kubernetes\n\n2-4 years experience, you're at 3.7 - right in their sweet spot\n\nremote role, but location says jacksonville, florida - need to clarify if india-remote"
+    },
+    {
+      "role": "assistant",
+      "content": "senior software engineer at autodesk in bangalore\n\ntier 1 global brand, massive upgrade from udaan\n\nperfect java/spring boot, microservices match - mission-critical systems\n\n5+ years though, you're at 3.7 - stretch but worth the shot"
+    },
+    {
+      "role": "assistant",
+      "content": "java developer at virtusa in bangalore\n\ntier 2 company, only one tier down from udaan\n\nperfect tech match - java/spring boot, rest, microservices, sql\n\n5+ years experience though, you're at 3.7 - slight gap"
+    },
+    {
+      "role": "assistant",
+      "content": "java developer at virtusa in bangalore\n\ntier 2 company, only one tier down from udaan\n\nperfect tech match - java/spring boot, rest, microservices, sql\n\n5+ years experience though, you're at 3.7 - slight gap"
+    },
+    {
+      "role": "assistant",
+      "content": "java aws developer at celcom solutions in bangalore\n\nperfect tech match - java/spring, rest apis, hibernate\n\n2-5 years experience fits your 3.7 exactly\n\ntier 3 company though, downgrade from udaan"
+    },
+    {
+      "role": "assistant",
+      "content": "developer iii at ust, remote role\n\njava/spring boot, python, rest apis, microservices - solid match\n\n5+ years experience, you're at 3.7 - reasonable stretch\n\nhealthcare domain with ai/ml/nlp focus, new territory but they'll train"
+    },
+    {
+      "role": "assistant",
+      "content": "java software engineer at paytabs global in chennai\n\nfintech/payments domain, perfect match for your udaan financial microservices experience\n\njava/spring boot, spring cloud, rest apis, microservices - literally your exact stack\n\n2-5 years experience fits your 3.7 perfectly\n\nchennai location though, not in your preferred cities"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Perfect for a friend\"\n\n\n<button_context>User clicked \"Perfect for a friend\" for job fa721cbb-e77a-4054-b086-b99b415f33e3. Ask them to share their friend's contact card or type their friend's phone number. \n          Just ask user for their friend's phone number or contact card. Don't tell them format or anything else. Keep it short, sweet and direct. Don't forget to mention both options phone number and contact card.\n          \n          NOTE: If user refuses to share their friends's contact or number then don't argue, simply ask the friend's name and draft a short message and ask them to forward it to their friend.\n          If user shares number instead of contact card then also you need to ask for the friend's name and then do the tool call.\n\n          IMPORTANT: The phone number MUST be in format 91xxxxxxxxxx (country code + 10 digits, no spaces or special characters) for the tool call. If user provides it in any other format, convert it to this format before calling the tool.\n          Once you have the phone number and optionally the name (from contact card or text), call referJobToFriend with jobId: \"fa721cbb-e77a-4054-b086-b99b415f33e3\", the friend's phone number in 91xxxxxxxxxx format, and name (if provided).</button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "what's your friend's phone number? or share their contact card"
+    },
+    {
+      "role": "user",
+      "content": "User shared a contact card:\n    - Name: Mridul\n        - Phone: +91 78890 45086\n    \n    If user is in the middle of referring a job to a friend, use this contact information to call referJobToFriend with the phone number and name."
+    },
+    {
+      "role": "assistant",
+      "content": "sent the job to mridul"
+    },
+    {
+      "role": "assistant",
+      "content": "developer iii at ust, remote role\n\njava/spring boot, python, rest apis, microservices - solid match\n\n5+ years experience, you're at 3.7 - reasonable stretch\n\nhealthcare domain with ai/ml/nlp focus, new territory but they'll train"
+    },
+    {
+      "role": "assistant",
+      "content": "developer iii at ust, remote role\n\njava/spring boot, python, rest apis, microservices - solid match\n\n5+ years experience, you're at 3.7 - reasonable stretch\n\nhealthcare domain with ai/ml/nlp focus, new territory but they'll train"
+    },
+    {
+      "role": "assistant",
+      "content": "developer iii at ust, remote role\n\njava/spring boot, python, rest apis, microservices - solid match\n\n5+ years experience, you're at 3.7 - reasonable stretch\n\nhealthcare domain with ai/ml/nlp focus, new territory but they'll train\n\nsenior software engineer at sproutsai in chennai\n\nsilicon valley vc-backed startup, potential tier 1-2 brand upgrade\n\nsenior title, perfect java/spring boot match plus ai/llm systems\n\nchennai location though, not in your preferred cities"
+    }
+  ]
+}

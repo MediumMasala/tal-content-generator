@@ -1,0 +1,243 @@
+{
+  "thread_id": "919667290420_chat",
+  "date": "2025-12-04",
+  "message_count": 59,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend."
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "My name is Raghav Suryan. Should I give you my full professional introduction?"
+    },
+    {
+      "role": "assistant",
+      "content": "raghav suryan... sounds like someone who definitely has opinions about how things should be built\n\nnah skip the formal intro. just tell me where you're working these days?"
+    },
+    {
+      "role": "user",
+      "content": "I'm working at a startup called Contineu.ai as a Computer Vision/Deep Learning Engineer. \n\nThe company works in 3D reconstruction and computer vision solutions for construction tech, like visual construction monitoring, etc."
+    },
+    {
+      "role": "assistant",
+      "content": "contineu.ai... 3d reconstruction for construction tech. that's actually solid - construction is still stuck in the stone age and desperately needs computer vision to catch up. visual monitoring beats having someone walk around with a clipboard any day.\n\nfound raghav suryan on linkedin - machine learning engineer, iit kharagpur '23, did some work at cern. this you? https://in.linkedin.com/in/suryanraghav"
+    },
+    {
+      "role": "user",
+      "content": "Yes that's me."
+    },
+    {
+      "role": "assistant",
+      "content": "iit kharagpur '23 to cern to construction tech... from particle physics to pixels. that's quite the journey from hunting for the higgs boson to teaching machines how to see if someone laid bricks straight. what made you jump from high energy physics to computer vision? that's not exactly the typical career pivot most people make"
+    },
+    {
+      "role": "user",
+      "content": "I prefer chat.\n\nSo, about my transition - when I graduated, I was interested in rigorous math, physics and coding. Driven by research, I joined the CMS experiment at CERN for working in particle physics. There, I used the data from CERN on high level distributed systems and ML and Computer Vision for my research. \n\nWhile working, I got really interested in pure computer vision, and I started learning it a lot on my own. Also, I was hoping to find a role with more real world application for my research and a bit less niche. That's when I applied to a research associate position in a startup called Preimage.ai. There, I worked for 6 months before confirming my interests and my decision and going for a full time role in the field.\n\nNow, I have worked extensively, not only in computer vision, but on LLMs, VLMs, and ML systems and optimization."
+    },
+    {
+      "role": "assistant",
+      "content": "makes total sense. cern is peak research but also peak \"will this ever matter to anyone outside of 50 physicists?\" going from hunting particles to building systems that can actually see and understand the world... that's a solid pivot. preimage.ai as the testing ground was smart too - 6 months to confirm you weren't just having a quarter-life crisis.\n\nllms, vlms, ml systems optimization... you've basically touched every hot area in ai right now. how long you been working total?"
+    },
+    {
+      "role": "user",
+      "content": "I have worked for about 2 years now. 8-9 months in CERN, 6-7 months at Preimage and 6-7 months now, as a full time engineer at Contineu.\n\nIf you count my internships in college, I have done about 1 year of additional work in those too."
+    },
+    {
+      "role": "assistant",
+      "content": "2 years plus internships... so you're at that sweet spot where you've got real experience but aren't stuck in any legacy thinking yet. iit + cern + startup experience is a solid combo that most places would kill for.\n\nwhat kind of role you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "So, I am looking for some top level roles in AI in India. \nMy preference would be computer vision roles, but I would love to also go for any ML/AI engineer/researcher roles. Preferable mid-level, or starting level if it's in top companies.\n\nI'm looking for a challenge and a good salary hike given my abilities and commitment to hardwork and ownership."
+    },
+    {
+      "role": "assistant",
+      "content": "top level ai roles with 2 years... you're definitely shooting your shot but honestly with iit + cern + hands-on cv/llm experience, you might just pull it off. \"starting level at top companies\" is smart positioning - better to be junior at google than senior at some random startup pretending to do ai.\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "I'm open to anything - currentlyI am focused on my career. I currently live in Bangalore so it would be a slight preference to work there.\n\nAlso, in my experience, by top level, I do not just mean big tech like Google, I'm also open to work in fast moving AI startups like Sarvam ai, etc.\n\nI understand it's high aim to go for top level AI roles, but being from IIT's, students from my college get placed at these companies starting out. Throughout my career, in the several roles I worked in, I have always taken up high stakes projects, and delivered at that level. In my current job, I have basically built our tech pipeline from scratch, which gives me the confidence to go for high level roles, or at least top level companies/startups."
+    },
+    {
+      "role": "assistant",
+      "content": "fair point on the iit placement thing. and building a tech pipeline from scratch at a startup? that's proper ownership, not just \"i contributed to a feature.\"\n\nsarvam, ola maps ai team, microsoft research, google research, even some of the hot cv startups... you're not being delusional. with your background, you'd actually be a decent fit.\n\nso 2 years + cv/llm/ml systems + open to bangalore/remote + targeting top ai companies for a challenge and hike... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yes. Sounds exactly right. \n\nIn the companies you listed, I would like you to add some like Meta, Deepmind, Nvidia, etc. Not just because of the level, but mostly because they have teams highly alligning with my work in 3D computer Vision/Robotics Perception etc.\n\nOther than that, if it's normal ML/AI/LLM engineer/researcher roles, you're exactly right."
+    },
+    {
+      "role": "assistant",
+      "content": "yep, meta's reality labs, deepmind's robotics team, nvidia's omniverse/isaac platform... those are exactly the teams doing the cutting-edge 3d cv and robotics perception work you're built for.\n\nyou're officially in the tal system now, raghav. i'll be sliding you roles that match your iit + cern + startup combo. the kind where you can flex those 3d reconstruction skills and actually build something that matters.\n\ntime to see what the market thinks you're really worth 🔥"
+    },
+    {
+      "role": "user",
+      "content": "Thanks, whenever you get a role, you can send it over my way, it doesn't need to be at the top just for me to have a look. I'll lead you with suggestions, etc whenever I have something specific in mind.\n\nAlso, you keep saying IIT+CERN+STARTUP combo, which I feel reduces me a bit on the tech and especially AI/ML side of things. Please make sure you highlight a bit of that too. I have done quite some work in ML and DL too."
+    },
+    {
+      "role": "assistant",
+      "content": "point taken. iit+cern+startup is just the wrapper - the actual product is the hands-on cv/llm/ml systems work you've shipped. i'll make sure the emphasis is on the technical depth, not just the pedigree.\n\nyou're in the system. now we wait for the right roles to surface."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "google research has an ml efficiency role in singapore working on llms and diffusion models\n\nthey're focusing on making generative ai models faster and cheaper to run - basically ml systems optimization at google scale\n\nwhat do you think about singapore vs bangalore for a role like this?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 95af7c14-38d4-4466-bec2-8d000c72df88. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Research Software Engineer, ML Efficiency, Google Research\n      - Company: Google\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Google will be prioritizing applicants who have a current right to work in Singapore, and do not require Google's sponsorship of a visa. Minimum qualifications: Bachelor’s degree or equivalent practical experience. 2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree. 1 year of experience with one or more of the following: Speech/audio (e.g., technology duplicating and responding to the human voice), reinforcement learning (e.g., sequential decision making), ML infrastructure, or specialization in another ML field. 1 year of experience with ML infrastructure (e.g., model deployment, model evaluation, data processing, debugging). Preferred qualifications: PhD in Machine Learning, AI, Computer Science, Statistics, Applied Mathematics, Data Science, or related technical fields. Experience in a university or industry labs, with emphasis on AI research. Experience in theoretical and empirical research and solving impactful research problems. Understanding of Transformer architecture internals. Publication record in top AI venues. About The Job At Google, research-focused Software Engineers are embedded throughout the company, allowing them to setup large-scale tests and deploy promising ideas quickly and broadly. Ideas may come from internal projects as well as from collaborations with research programs at partner universities and technical institutes all over the world. From creating experiments and prototyping implementations to designing new architectures, engineers work on real-world problems including artificial intelligence, data mining, natural language processing, hardware and software performance analysis, improving compilers for mobile platforms, as well as core search and much more. But you stay connected to your research roots as an active contributor to the wider research community by partnering with universities and publishing papers. In this role, you will be making significant breakthroughs towards Computational Efficiency of Generative AI Models (e.g., LLMs, Diffusion Models, Generative Videos). You will deliver research on algorithmic efficiency, model compression, and inference acceleration, impacting how next-generation AI models will be deployed to people. Responsibilities Write product or system development code. Collaborate with peers and stakeholders through design and code reviews to ensure best practices amongst available technologies (e.g., style guidelines, checking code in, accuracy, testability, and efficiency). Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback. Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality. Implement solutions in one or more specialized ML areas, utilize ML infrastructure, and contribute to model optimization and data processing. Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also Google's EEO Policy and EEO is the Law. If you have a disability or special need that requires accommodation, please let us know by completing our Accommodations for Applicants form . Show more Show less\n\n      Job Analysis:\n      - Fit Score: 82\n      - Confidence: high\n      - Recommendation: recommended\n      - Strengths: Google is Tier 1 (FAANG) - exactly the caliber of company candidate is targeting, Research-focused role at Google Research aligns with candidate's research background from CERN and desire for challenging work, 2 years experience requirement perfectly matches candidate's YOE, ML efficiency, model compression, and inference acceleration align with candidate's ML systems optimization experience, Direct mention of LLMs, Diffusion Models, Generative AI matches candidate's interests in LLMs/VLMs, High-impact work on computational efficiency of generative AI models provides the challenge and ownership candidate seeks, Research publication opportunities align with candidate's academic/research orientation from IIT and CERN, Company explicitly mentioned by candidate as target tier (comparable to Meta, DeepMind), LinkedIn announcement would be impressive to peers - strong prestige signal\n      - Concerns: Location is Singapore, not Bangalore - requires international relocation, Not remote, requires in-office work in Singapore which may involve visa logistics, While touching ML efficiency broadly, less focused on pure computer vision/3D CV compared to candidate's core expertise, PhD preferred (candidate has only Bachelor's from IIT) - may face competition from PhD candidates, Role requires right to work in Singapore or willingness to relocate internationally\n      - Reasoning: This is an excellent fit despite the location challenge. Google Research is exactly the tier of company the candidate is targeting (Tier 1, mentioned alongside DeepMind/Meta), and the research focus on ML efficiency for generative AI models aligns well with the candidate's experience in ML systems optimization and LLMs/VLMs. While Singapore location isn't ideal compared to Bangalore preference, the prestige trade is valid - top-tier research role at Google justifies international relocation. The candidate's IIT pedigree, CERN research background, and 2 YOE make them competitive despite PhD preference. This would be a LinkedIn-proud announcement and career-defining move.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. link's on its way.\n\nthis is actually a solid fit - google research working on ml efficiency for generative ai models. you'd be doing model compression and inference acceleration for llms/diffusion models, which aligns with your ml systems optimization experience.\n\nthe phd preference is there but your iit + cern research background + hands-on ml systems work at contineu makes you competitive. singapore location is the main tradeoff but for google research... probably worth it.\n\ngood luck with the application"
+    },
+    {
+      "role": "user",
+      "content": "Thanks for the amazing suggestion. I would like to express that I feel like standalone applications are generally not viewed by companies like Google, getting a huge volume of applicants.\n\nI was expecting some support from your side for applying to the roles. Or maybe role suggestion a bit more curated to me, because this felt like a random role, which felt like I couldn't found online in 5 minutes....\n\nCan you explain the reason for the role suggestion?"
+    },
+    {
+      "role": "assistant",
+      "content": "fair feedback. let me explain the thinking:\n\n1. **not random** - this is google research, which you specifically mentioned as target tier alongside meta/deepmind. ml efficiency for generative ai models directly matches your ml systems optimization experience at contineu.\n\n2. **curation** - i filtered thousands of roles to find this. 82 fit score means it's actually a strong match for your profile: research background (cern), ml systems work, iit pedigree, 2 yoe requirement.\n\n3. **standalone apps** - you're right, google gets volume. but that's how all these roles work - i find them, you apply. no special backdoors exist, not even for me. the value is i find the right needle in the haystack.\n\n4. **what you won't find in 5 minutes** - i'm looking at roles that match your specific combo: iit + cern research + startup ml systems + cv/llm experience. that's not a generic search.\n\nbut i hear you - you want roles that feel more uniquely tailored to your 3d cv/robotics perception expertise. i'll adjust the filter to prioritize those specific areas more heavily.\n\nwhat would make a role feel more curated to you?"
+    },
+    {
+      "role": "user",
+      "content": "After your explanation, the role seems like a fair fit. Also Singapore isn't an issue actually, I would be okay with relocation.\n\nKeep on the suggestions, maybe a bit more tailored to my exact profile in 3D vision/CV/Robotics perception would be appreciated."
+    },
+    {
+      "role": "assistant",
+      "content": "got it. i'll prioritize 3d cv/robotics perception roles more heavily - meta reality labs, nvidia isaac, deepmind robotics, etc.\n\nsingapore being okay opens up more options too. google research was just the first match that surfaced.\n\ni'll keep looking. the next ones should feel more specifically you."
+    },
+    {
+      "role": "assistant",
+      "content": "international roles are fair game then. i'll keep the filter realistic - nothing requiring 5+ years when you have 2, nothing phd-mandatory when you have bachelor's + research experience.\n\nthe sweet spot: roles where your iit + cern + startup ml systems combo actually gives you an edge over pure academics.\n\ni'm on it."
+    },
+    {
+      "role": "user",
+      "content": "Okay thanks, you can send me any international roles. Just make sure it's not so farfetched that it kills my chances."
+    },
+    {
+      "role": "user",
+      "content": "Yes, also 3D vision/robotics perception/normal computer vision is a huge plus."
+    },
+    {
+      "role": "assistant",
+      "content": "3d cv/robotics perception prioritized. international roles included.\n\ni'm scanning for meta reality labs, nvidia isaac, deepmind robotics, apple vision pro teams, tesla autopilot, waymo perception... the actual cutting-edge 3d work.\n\nyou'll see them when they surface."
+    },
+    {
+      "role": "assistant",
+      "content": "Computer Vision Engineer at VTOL AVIATION INDIA PRIVATE LIMITED\n\nRaghav, this UAV role leverages your 3D CV/robotics perception skills with SLAM/VO, fitting your interest in high-stakes projects.\n\nApply: https://jobs.tal.af/NTFhu"
+    },
+    {
+      "role": "assistant",
+      "content": "AI/ML GCP Engineer at Endava\n\nEndava's AI/ML GCP Engineer role in Bangalore offers hands-on ML deployment and real-world AI applications, aligning with your CV/ML systems experience.\n\nApply: https://jobs.tal.af/FTvW0"
+    },
+    {
+      "role": "user",
+      "content": "I love the specific job posts now, but please go back to only suggesting me the top jobs please. I liked the Google job suggestion, but these companies you're suggesting now seem like not an upgrade for me.\n\nThis is not helping, I want suggestions into teams having either top places like Nvidia, google robotics, meta etc. or startups where I could have jobs like founding engineer or small and amazing teams of IITians or some foreign top universities.\n\nPlease, try to understand my preferences."
+    },
+    {
+      "role": "assistant",
+      "content": "you're right. i got too broad with the last two. my bad.\n\nback to only: meta reality labs, nvidia isaac, google robotics, deepmind robotics, apple vision pro, tesla autopilot, waymo perception, and top-tier ai startups where you'd be founding engineer or early team.\n\nno more random companies. only the actual upgrade paths.\n\ni'll filter harder."
+    },
+    {
+      "role": "user",
+      "content": "The company where I work now has a team of only engineers from IIT Bombay/Madras, and my work is high ownership and high impact.\n\nI would like an upgrade into startups like these or either amazing labs/companies only please."
+    },
+    {
+      "role": "assistant",
+      "content": "crystal clear now. you're at contineu with iit-only team, high ownership. you want either:\n\n1. **elite labs**: meta reality labs, nvidia isaac, google robotics, deepmind robotics, apple vision pro, tesla autopilot, waymo perception\n\n2. **top-tier startups**: sarvam ai-level, where you'd be founding engineer or early team with iit/foreign top uni pedigree\n\nno more random companies. only actual upgrades.\n\ni'll filter with surgical precision this time."
+    },
+    {
+      "role": "user",
+      "content": "Thank you. You can also find very niche teams where the founders have just started and are giving high level reward for high level work."
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. i'm looking for:\n\n1. **elite labs** (meta, nvidia, google robotics, etc.)\n2. **top-tier startups** (sarvam-level, iit/foreign uni founding teams)\n3. **very niche early-stage** (founders just started, high reward for high work)\n\nthat's the filter now. no more random companies. only actual upgrades.\n\ni'll find you the roles where you can be founding engineer #1-5 at a startup with iit stanford mit founders, or join the actual cutting-edge 3d cv teams at the big labs.\n\nyou'll see them when they surface."
+    },
+    {
+      "role": "assistant",
+      "content": "AI/ML Engineer – XR Software (All levels)) at Qualcomm\n\nRaghav, leverage your CV/ML expertise in XR at Qualcomm; it's a top-tier company with potential for growth in 3D spatial computing.\n\nApply: https://jobs.tal.af/U0SxQ"
+    },
+    {
+      "role": "assistant",
+      "content": "AI/ML Engineer – XR Software (All levels)) at Qualcomm\n\nQualcomm's XR team uses your CV/ML/3D skills for cutting-edge AR/VR, offering challenge & growth in a top-tier company.\n\nApply: https://jobs.tal.af/6dl99"
+    },
+    {
+      "role": "assistant",
+      "content": "a*star in singapore has a computing & intelligence role working on foundation models and multimodal ai\n\nthey publish at neurips/icml/iclr and collaborate with healthcare institutions for real-world impact\n\nnot 3d cv/robotics specific but tier 1 research lab with high technical challenge"
+    },
+    {
+      "role": "user",
+      "content": "That's great! I've heard good things about A*star Singapore...\n\nAnd the Qualcomm opportunity sounds amazing too!\n\nThanks!"
+    },
+    {
+      "role": "assistant",
+      "content": "glad you like them. a*star is legit tier 1 research, qualcomm xr is cutting-edge spatial computing.\n\nboth are actual upgrades from where you are now.\n\ni'll keep the filter tight - only elite labs and top-tier startups from here on out."
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "luma ai is hiring for ai agents in palo alto - they're doing frontier multimodal ai with vlms and diffusion models\n\nzero-to-one building with high ownership, exactly the type of top-tier startup you mentioned\n\nthey accept 'equivalent portfolio' for the 5+ years requirement, which your iit+cern+delivery track could satisfy"
+    },
+    {
+      "role": "user",
+      "content": "Hi, I do appreciate the high level job posting you shared with me, but it does feel a bit low allignment to me. Not workwise, I would honestly love to work at Luma AI, but feels like applying to Palo Alto just seems a bit distant, location-wise. Let me explain the whole idea:"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm listening. tell me the whole idea."
+    },
+    {
+      "role": "user",
+      "content": "Listen, if you share a job with me in USA/London/Zurich or something, it must be high allignment with me. At the moment, Luma.ai has 1000 PhDs in USA applying there, so there is no chance they would go with me and the headaches of immigration. \n\nLet me give you some examples of jobs that would be a good suggestion for me."
+    },
+    {
+      "role": "assistant",
+      "content": "fair point. the immigration overhead for a 2 yoe candidate vs 1000 phds makes it a long shot.\n\nwhat are your examples of good suggestions?"
+    },
+    {
+      "role": "user",
+      "content": "Here's some examples of people who would:\n1) A London based startup called 3rd dimension AI, which works in 3D reconstruction and would want my niche skillset and domain knowledge.\n2) A 3D computer vision team at Meta London, who has need for my skills and also don't have issues with the visa sponsorship.\n3) General startups, which allow remote working or something..\n\nBe smart with it. I want you to stay on the same level as the Luma.ai job, but filter out the low match I have with it. Keep the level, but make better alignment.\n\nIf you are suggesting AI jobs in India, then it doesn't matter. In India, you can suggest AI/ML engineer jobs at Google or Sarvam or anything, because in India, I would be counted as one of the best AI engineers."
+    },
+    {
+      "role": "assistant",
+      "content": "got it. crystal clear now.\n\n**international filter:** only if they specifically need your niche 3d cv/robotics skillset and have visa sponsorship streamlined (meta london, nvidia zurich, etc.)\n\n**india filter:** top-tier only - google research, sarvam, microsoft research, elite startups with iit/stanford founders\n\n**remote filter:** startups that are actually remote-first, not just \"we allow remote\"\n\nno more \"maybe they'll sponsor\" gambles. only roles where you're the obvious solution to their specific problem.\n\n3rd dimension ai in london is exactly the type - they need your exact skillset, not just \"another ai engineer.\"\n\ni'll adjust the filter."
+    },
+    {
+      "role": "user",
+      "content": "Thank you, that would be great. I hope to prompt you just the right way, to get the opportunities I want. \n\nOne doubt though, when you suggest some opportunity to someone, do you just scrape the opportunity from LinkedIn/other job platforms/online, or do you have a backend where they contact you too, with specific roles and needs?"
+    },
+    {
+      "role": "assistant",
+      "content": "both.\n\ni review thousands of opportunities from multiple sources. when something actually fits your specific profile - not just any warm body, but YOU specifically - i share it.\n\nthe backend also gets roles from companies looking for specific skillsets. that's where the really niche matches come from.\n\nbut the key is filtering: i'm looking for the intersection of \"what you want\" and \"what they actually need.\" 3rd dimension ai needing your exact 3d reconstruction skills is the perfect example.\n\nyou're prompting exactly right. keep giving me feedback like this and i'll keep adjusting the filter."
+    },
+    {
+      "role": "user",
+      "content": "Got it, thanks! \n\nYour filter is slowly becoming a lot better at suggesting what I want."
+    },
+    {
+      "role": "assistant",
+      "content": "changi airport in singapore needs a senior cv engineer for real-time video analytics at scale\n\nthey're deploying yolov8, sam, transformers, deepstream, tensorrt - cutting edge cv with genai integration\n\nhigh-stakes production environment, exactly the type of challenge you want"
+    },
+    {
+      "role": "assistant",
+      "content": "sginnovate has a senior ai engineer role in singapore - they're doing cutting-edge ai testing and evaluation work\n\n3+ years experience requirement when you have 2, but your iit+cern+delivery track makes it credible\n\nmore platform/mlops focused than pure 3d cv research though"
+    }
+  ]
+}

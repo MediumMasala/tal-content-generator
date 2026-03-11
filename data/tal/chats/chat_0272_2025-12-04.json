@@ -1,0 +1,35 @@
+{
+  "thread_id": "919340603101_chat",
+  "date": "2025-12-04",
+  "message_count": 7,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Naman Chhaparia"
+    },
+    {
+      "role": "assistant",
+      "content": "naman chhaparia... that's a name that means business. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Yes\n  Flipkart"
+    },
+    {
+      "role": "assistant",
+      "content": "flipkart... the og ecommerce giant that's still fighting amazon tooth and nail. found you on linkedin - naman chhaparia, sde at flipkart with google on the resume. this you? https://in.linkedin.com/in/namanchhaparia"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    }
+  ]
+}

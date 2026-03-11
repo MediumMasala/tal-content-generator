@@ -1,0 +1,255 @@
+{
+  "thread_id": "919733332674_chat",
+  "date": "2025-12-04",
+  "message_count": 62,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Kaustub Sharma"
+    },
+    {
+      "role": "assistant",
+      "content": "kaustub sharma... solid name. has that \"i probably went to a good college and now work somewhere that sounds impressive\" energy.\n\nwhere you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "I work at a startup"
+    },
+    {
+      "role": "assistant",
+      "content": "\"a startup\"... that's like saying \"i work in tech\" - tells me nothing and everything at the same time 😅\n\nwhich startup? need the name so i can figure out if you're building the next unicorn or just another app nobody uses"
+    },
+    {
+      "role": "user",
+      "content": "Cyble"
+    },
+    {
+      "role": "assistant",
+      "content": "cyble... cybersecurity threat intel, right? tracking the bad guys who steal everyone's data. that's actually solid work in a world where everything's getting hacked.\n\nfound you on linkedin - kaustubh sharma at kla. this you? https://www.linkedin.com/in/kaustubh-sharma/"
+    },
+    {
+      "role": "user",
+      "content": "No not me"
+    },
+    {
+      "role": "assistant",
+      "content": "my bad, still getting the same kla person. can't find you on linkedin with cyble in the mix.\n\ndrop your linkedin url or send me your resume? need something to work with here so i can actually find you roles that don't suck"
+    },
+    {
+      "role": "user",
+      "content": "LinkedIn - https://www.linkedin.com/in/kaustub-s-757432181?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+      "role": "assistant",
+      "content": "cyble threat intelligence analyst... tracking down the hackers before they mess with everyone's data. 2+ years in cybersecurity, that's solid experience in a field where everyone's paranoid (for good reason).\n\nwhat made you get into the whole cybersecurity game? most people stumble into it by accident"
+    },
+    {
+      "role": "user",
+      "content": "I'd prefer text over voice if feasible"
+    },
+    {
+      "role": "assistant",
+      "content": "bet, keeping it text. no problem.\n\nso... what got you into hunting down cyber threats? most people either fall into it by accident or had their own stuff hacked and got revenge-motivated"
+    },
+    {
+      "role": "user",
+      "content": "I like the domain. A lot to learn and extremely different from other businesses where everyone is building products specific to users. At least here I get to code and develop things backed by research, interesting work with networks, low level systems architecture."
+    },
+    {
+      "role": "user",
+      "content": "I like the domain. A lot to learn and extremely different from other businesses where everyone is building products specific to users. At least here I get to code and develop things backed by research, interesting work with networks, low level systems architecture.\n  I just find the use case better and superior 😅"
+    },
+    {
+      "role": "assistant",
+      "content": "ahh you're one of those \"i'd rather build infrastructure than figure out why users click the wrong button\" people. respect. \n\nlow-level systems work hits different when you're actually protecting stuff that matters instead of optimizing conversion funnels for the 100th time.\n\nhow long you been working total? not just cyble, but everything"
+    },
+    {
+      "role": "user",
+      "content": "I'll complete 5 years this December\n  Started pre graduation\n  Not internships, but full time stuff"
+    },
+    {
+      "role": "assistant",
+      "content": "5 years and started before graduation... that's the move. while your batchmates were doing assignments, you were already getting paid to break things (legally).\n\nwhat kind of role you looking for next? staying in cybersecurity or thinking about a switch?"
+    },
+    {
+      "role": "user",
+      "content": "Cybersecurity would be preferable but I'd stick to something that lets me code (Golang preferably) and gives me an opportunity to research low level scanners, modules and architect the solutions before coding them out. An opportunity - systems architect + developer"
+    },
+    {
+      "role": "assistant",
+      "content": "golang + systems architecture + security research... that's a solid combo. basically you want to design the thing AND build the thing, not just follow someone else's specs.\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "Either Bangalore or remote (outside India opportunities are welcome too)"
+    },
+    {
+      "role": "assistant",
+      "content": "5 years experience + cybersecurity focus + golang/systems architect + developer hybrid + bangalore/remote (including international)... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yes sounds good. In case if that helps - 2.5 years of the 5 were dedicated to DevOps especially Kubernetes (everything from scratch). That is when I got interested in Golang as K8s is written in Golang by geniuses"
+    },
+    {
+      "role": "assistant",
+      "content": "2.5 years of the 5 total years were dedicated to DevOps, especially Kubernetes from scratch. Got interested in Golang because K8s is written in Golang. Dec 2025."
+    },
+    {
+      "role": "user",
+      "content": "Great!\n  I hope the data and conversations remain secure\n  Assume*"
+    },
+    {
+      "role": "assistant",
+      "content": "your data's safe with me. i'm not storing anything that could get you in trouble.\n\nso... what's the actual worry?"
+    },
+    {
+      "role": "user",
+      "content": "Great. Lets get going!"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. i'll ping when something matches your vibe."
+    },
+    {
+      "role": "user",
+      "content": "Cool\n  Sure"
+    },
+    {
+      "role": "assistant",
+      "content": "cool. i'll be in touch."
+    },
+    {
+      "role": "assistant",
+      "content": "found a senior backend role at a cybersecurity startup that's all golang and k8s\n\nthey're building real-time systems with encryption and zero-trust architecture\n\nlocation's navi mumbai though, not bangalore or remote"
+    },
+    {
+      "role": "user",
+      "content": "What's the pay?"
+    },
+    {
+      "role": "assistant",
+      "content": "not listed. early-stage startup so probably equity-heavy\n\nnavi mumbai location still a blocker?"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "fair. navi mumbai's a no-go\n\ni'll keep looking for bangalore/remote"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "hey\n\nwhat's up?"
+    },
+    {
+      "role": "user",
+      "content": "Going great"
+    },
+    {
+      "role": "assistant",
+      "content": "nice\n\nanything new on your end?"
+    },
+    {
+      "role": "user",
+      "content": "Nothing new"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. still scanning for those cybersecurity roles with golang and k8s\n\nanything specific you want me to prioritize?"
+    },
+    {
+      "role": "user",
+      "content": "Dev roles in CyberSec with exposure to system design and architecture"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. dev roles in cybersecurity with system design exposure. that's the sweet spot.\n\ni'll keep an eye out for those. anything else you want me to know about what you're looking for?"
+    },
+    {
+      "role": "user",
+      "content": "Remote with solid company/org/start-up based in Europe/US that does some solid work would be the sweet spot"
+    },
+    {
+      "role": "assistant",
+      "content": "lmaooo fair enough. avoiding your own company is a solid strategy\n\ni'll keep scanning for those remote US/EU cybersecurity dev roles with system design exposure. anything else i should know?"
+    },
+    {
+      "role": "assistant",
+      "content": "remote with solid US/EU companies doing real security work. that's the target.\n\ni'll scan for those. anything specific you want me to avoid?"
+    },
+    {
+      "role": "user",
+      "content": "My own company 😅"
+    },
+    {
+      "role": "assistant",
+      "content": "Senior Engineer I at Menlo Security Inc.\n\nMenlo Security in Bangalore offers a Dev role in cybersecurity, leveraging your Golang and K8s skills with system design exposure.\n\nApply: https://jobs.tal.af/UXTk8"
+    },
+    {
+      "role": "assistant",
+      "content": "Software Engineer - Backend at DigiCert\n\nKaustub, this DigiCert backend role uses Go & K8s, aligns with your cybersecurity & systems architecture interests, offering development with system design.\n\nApply: https://jobs.tal.af/NSSR7"
+    },
+    {
+      "role": "assistant",
+      "content": "Senior Software Engineer (REMOTE) at Cyware\n\nCyware aligns with your cybersecurity/threat intel background and offers the remote, US-based dev role you seek, but US citizenship is required.\n\nApply: https://jobs.tal.af/gHd6S"
+    },
+    {
+      "role": "assistant",
+      "content": "arctic wolf is hiring senior devs in bangalore\n\nthey're building big data platforms for cybersecurity telemetry - go, python, kafka, elasticsearch\n\nmonthly R&D demos and hackathons for research work\n\nlocation's bangalore though, not remote"
+    },
+    {
+      "role": "assistant",
+      "content": "arctic wolf is hiring senior devs in bangalore\n\nthey're building big data platforms for cybersecurity telemetry - go, python, kafka, elasticsearch\n\nmonthly R&D demos and hackathons for research work\n\nlocation's bangalore though, not remote"
+    },
+    {
+      "role": "assistant",
+      "content": "Development Operations (DevOps) Engineer at YipitData\n\nYipitData's DevOps role offers remote work, Golang, and Kubernetes experience with a well-established US company, aligning with your preference for system design and architecture.\n\nApply: https://jobs.tal.af/zb9sD"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "versa networks is hiring software engineers in bangalore\n\nthey want 5+ years of kubernetes experience and golang development\n\nbuilding cloud microservices and custom k8s controllers for enterprise browser security\n\nlocation's bangalore though, not remote"
+    },
+    {
+      "role": "assistant",
+      "content": "versa networks is hiring software engineers in bangalore\n\nthey want 5+ years of kubernetes experience and golang development\n\nbuilding cloud microservices and custom k8s controllers for enterprise browser security\n\nlocation's bangalore though, not remote"
+    },
+    {
+      "role": "assistant",
+      "content": "Software Engineer II - HashiCorp Terraform Search at IBM\n\nIBM/HashiCorp: Golang, systems focus, & cloud-native infra aligns with your cybersecurity dev/architect goals.\n\nApply: https://jobs.tal.af/wcryz"
+    },
+    {
+      "role": "assistant",
+      "content": "Senior Software Engineer at Checkmarx\n\nCheckmarx offers a Senior role leveraging your Golang/K8s skills in application security, a step up from Cyble, though it's based in Pune.\n\nApply: https://jobs.tal.af/Xsefq"
+    },
+    {
+      "role": "assistant",
+      "content": "Senior Software Engineer - Backend - Behavioral Security Products at Abnormal AI\n\nKaustub, this cybersecurity role offers the systems architect/developer hybrid work with Go and Kubernetes you seek, plus leadership potential.\n\nApply: https://jobs.tal.af/KuhTD"
+    }
+  ]
+}

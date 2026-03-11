@@ -1,0 +1,183 @@
+{
+  "thread_id": "919599344676_chat",
+  "date": "2025-12-04",
+  "message_count": 44,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man... or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso... what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Saksham Arora"
+    },
+    {
+      "role": "assistant",
+      "content": "saksham arora... solid name. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Intuit"
+    },
+    {
+      "role": "assistant",
+      "content": "intuit... the quickbooks empire. found you on linkedin - software engineer 2 at intuit, ex-microsoft. this you? https://in.linkedin.com/in/sakshamarora9575"
+    },
+    {
+      "role": "user",
+      "content": "yes"
+    },
+    {
+      "role": "assistant",
+      "content": "microsoft to intuit... from the corporate machine to the... slightly smaller corporate machine. but hey, at least now you're helping people do their taxes instead of crashing their computers. what made you jump ship from redmond?"
+    },
+    {
+      "role": "user",
+      "content": "i was at microsoft intuit \nthere i was SDE 1 \nnow working as SDE 2 at intuit"
+    },
+    {
+      "role": "assistant",
+      "content": "ah got it - sde 1 to sde 2, that's a proper level up. smart move using the switch to get the promotion. how long you been working total?"
+    },
+    {
+      "role": "user",
+      "content": "i need to switch to europe as SDE 2 \nany opening you can help me with ?"
+    },
+    {
+      "role": "assistant",
+      "content": "europe... going for that work-life balance and better coffee eh? \n\nbefore i can hook you up with the right roles, need to get the basics down. how long you been working total?"
+    },
+    {
+      "role": "user",
+      "content": "2 years 9 months at Microsoft as SDE 1\n8 months at Intuit as SDE 2"
+    },
+    {
+      "role": "assistant",
+      "content": "so about 3.5 years total... solid trajectory from sde 1 to 2. \n\nwhat kind of role you looking for next? staying sde 2 or eyeing senior?"
+    },
+    {
+      "role": "user",
+      "content": "sde 2"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. and europe - any specific countries or cities you're targeting? or just anywhere that'll sponsor your visa?"
+    },
+    {
+      "role": "user",
+      "content": "london, amsterdam \n\ni will need sponsorship for visa"
+    },
+    {
+      "role": "assistant",
+      "content": "3.5 years + sde 2 + london/amsterdam with visa sponsorship... sound right?"
+    },
+    {
+      "role": "user",
+      "content": "yes\n  https://drive.google.com/file/d/1ldxxgOuqUusZBvS3N9nu_-SrN4DUvdyi/view?usp=sharing\n\nmy resume"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "yes\n  https://drive.google.com/file/d/1ldxxgOuqUusZBvS3N9nu_-SrN4DUvdyi/view?usp=sharing\n\nmy resume\n  Here is a brief introduction for me - \nI’m Saksham Arora, currently SDE 2 at Intuit (Bangalore) with 3 years of experience, previously 2 years 9 months at Microsoft in Azure Core Compute (including two internships in the same team).\nAt Intuit, I architected and deployed the SSO integration between QuickBooks Online and Amazon Seller Portal, serving 500K+ users, improving auth speed by 40%, and enabling 99.95% API availability with <200ms latency. Also implemented real-time observability and zero-downtime rollout.\nAt Microsoft, I designed cloud-native backup systems handling 10M+ daily ops, built high-throughput microservices in C#, .NET Core & Azure Service Fabric, and led Crash-Consistent Multi-Disk Backup across 100+ Linux distros. Built Auto-Heal reliability platform that recovered 95%+ transient failures and saved $250K/year.\nI also have strong DSA + competitive programming background – qualified ACM ICPC Regionals, participated in Google Kickstart, and solved 3000+ problems across platforms."
+    },
+    {
+      "role": "assistant",
+      "content": "got it - that's a solid profile. nothing matching right now, but i'll ping you if my team sends something good."
+    },
+    {
+      "role": "assistant",
+      "content": "can't run ATS scoring myself, but your resume looks clean - metrics, impact, clear progression. that's what matters."
+    },
+    {
+      "role": "user",
+      "content": "does my resume work ? \ncan you find it’s ATS score ?"
+    },
+    {
+      "role": "user",
+      "content": "sure once you have update\ndo let me know"
+    },
+    {
+      "role": "assistant",
+      "content": "will do. you'll know if something good comes through."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "hey"
+    },
+    {
+      "role": "assistant",
+      "content": "hey\n\nwhat's up?"
+    },
+    {
+      "role": "user",
+      "content": "hey hi\n  I am good\n  how's you"
+    },
+    {
+      "role": "assistant",
+      "content": "doing good. just reviewing thousands of opportunities... you know, the usual.\n\nanything new on your end?"
+    },
+    {
+      "role": "user",
+      "content": "no"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. still nothing matching you right now, but i'll slide something when it's good.\n\nbtw what's making you want to leave intuit anyway? just the europe move or something else?"
+    },
+    {
+      "role": "user",
+      "content": "europe move"
+    },
+    {
+      "role": "assistant",
+      "content": "straightforward. europe's calling and you're answering.\n\nwhat's the timeline looking like? you trying to move ASAP or taking your time?"
+    },
+    {
+      "role": "user",
+      "content": "asap"
+    },
+    {
+      "role": "assistant",
+      "content": "ASAP it is. i'll keep my eyes peeled for london/amsterdam roles with visa sponsorship.\n\nany particular companies you're eyeing or avoiding?"
+    },
+    {
+      "role": "user",
+      "content": "any company works\n  even startups"
+    },
+    {
+      "role": "assistant",
+      "content": "cool, open to anything. that makes my job easier.\n\nwhat about salary? you got a target number in mind for europe?"
+    },
+    {
+      "role": "user",
+      "content": "1.5 CR converting into INR"
+    },
+    {
+      "role": "assistant",
+      "content": "1.5 crore INR... that's ambitious. let me do some quick math.\n\nthat's roughly £140k-150k in london or €160k-170k in amsterdam. for sde 2 with 3.5 yoe... honestly, that's on the high end.\n\nnot saying impossible, but you'd need:\n- top-tier tech (FAANG/unicorn)\n- strong negotiation\n- maybe some competing offers\n\nwhat's your current comp at intuit?"
+    },
+    {
+      "role": "user",
+      "content": "46 lakhs per year"
+    },
+    {
+      "role": "assistant",
+      "content": "46 lakhs to 1.5 crore is a big jump... like 3x. \n\neurope pays well but not US-levels. you might need to adjust expectations or aim for senior roles to hit that number.\n\nwhat's your minimum acceptable?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    }
+  ]
+}

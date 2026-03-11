@@ -1,0 +1,43 @@
+{
+  "thread_id": "919650690965_chat",
+  "date": "2025-12-08",
+  "message_count": 9,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Aditya Jha"
+    },
+    {
+      "role": "assistant",
+      "content": "aditya jha... solid name, has that \"definitely getting things done\" energy. \n\nwhere you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Superkalam (YC 23)"
+    },
+    {
+      "role": "assistant",
+      "content": "superkalam yc w23... the edtech play that's actually building something useful instead of just another course platform. respect.\n\nfound you on linkedin - product engineer at superkalam. this you? https://in.linkedin.com/in/aditya-jha-b66545191"
+    },
+    {
+      "role": "user",
+      "content": "Yes this is me"
+    },
+    {
+      "role": "assistant",
+      "content": "product engineer at superkalam... building the platform that's actually making coding accessible instead of just selling false dreams. that's solid work in a space full of scams.\n\nwhat made you jump into the edtech game? most engineers avoid it like the plague."
+    },
+    {
+      "role": "assistant",
+      "content": "hey aditya, was just thinking about your product engineer role at superkalam... what's the dream next step for you? something that'd actually get you excited to wake up on monday?"
+    }
+  ]
+}

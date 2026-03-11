@@ -1,0 +1,59 @@
+{
+  "thread_id": "919636033086_chat",
+  "date": "2025-12-04",
+  "message_count": 13,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Pratik"
+    },
+    {
+      "role": "assistant",
+      "content": "pratik... solid name. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Flipkart"
+    },
+    {
+      "role": "assistant",
+      "content": "flipkart... the og indian ecommerce giant. still fighting amazon and probably winning in some battles.\n\nfound pratik shetty on linkedin - head of growth and marketing. this you? https://in.linkedin.com/in/pratikshetty"
+    },
+    {
+      "role": "user",
+      "content": "Nopes"
+    },
+    {
+      "role": "assistant",
+      "content": "can't find you with just pratik + flipkart. drop your linkedin url or resume so i can actually find you roles that fit"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "pnl and category lead at flipkart... you're basically running a mini business inside the beast. retention focus means you're the one figuring out why people abandon carts and how to get them back. that's proper revenue-driving work, not just vanity metrics.\n\nwhat made you get into the business side instead of pure tech or product?"
+    },
+    {
+      "role": "user",
+      "content": "Pratik Kalantri"
+    },
+    {
+      "role": "assistant",
+      "content": "ah there we go! found pratik kalantri - pnl and category lead with retention focus. this you? https://in.linkedin.com/in/pratik-kalantri-b51a91b"
+    },
+    {
+      "role": "assistant",
+      "content": "hey pratik, was just thinking about your pnl role at flipkart - retention's a beast of a problem. what's the dream next move for you?"
+    }
+  ]
+}

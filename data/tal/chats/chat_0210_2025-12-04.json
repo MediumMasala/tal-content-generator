@@ -1,0 +1,31 @@
+{
+  "thread_id": "917300570080_chat",
+  "date": "2025-12-04",
+  "message_count": 6,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Aditya"
+    },
+    {
+      "role": "assistant",
+      "content": "aditya... solid name, legend. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "No where"
+    },
+    {
+      "role": "assistant",
+      "content": "nowhere... alright, taking a break or looking for your next move? what was your last company or are you fresh out of college?"
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "thread_id": "917837004491_chat",
+  "date": "2025-12-04",
+  "message_count": 67,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Vinay"
+    },
+    {
+      "role": "assistant",
+      "content": "vinay... classic name that screams \"i'm probably in tech and my parents wanted me to be an engineer\"\n\nwhere you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Bangalore"
+    },
+    {
+      "role": "assistant",
+      "content": "nah vinay, i meant which company... not the city\n\nbangalore's where everyone works, but WHO are you working for?"
+    },
+    {
+      "role": "user",
+      "content": "Crio.do"
+    },
+    {
+      "role": "assistant",
+      "content": "crio.do... the edtech that teaches through real projects instead of boring lectures. smart move.\n\nfound vinay pandey on linkedin - full stack engineer with java and javascript. this you? https://in.linkedin.com/in/vinay-pandey-b16449171"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "full stack at crio.do... building the future of tech education while the rest of edtech still thinks powerpoint is revolutionary. respect. \n\nwhat made you pick crio over the usual suspects? startup life hitting different or you just wanted to actually impact how people learn to code?"
+    },
+    {
+      "role": "user",
+      "content": "<caption></caption>\n    <analysis>{\n  \"transcription\": \"What? And how can you help me?\",\n  \"language\": \"English\",\n  \"tone\": \"Neutral\",\n  \"backgroundSounds\": \"None\""
+    },
+    {
+      "role": "assistant",
+      "content": "yo fair question... here's the deal:\n\ni find bangalore techies jobs that actually pay. not the usual \"apply to 100 companies and pray\" nonsense. i know which startups are hiring, what they're really paying, who's worth your time.\n\nthink of it like this - you tell me what you're looking for, i send you roles that fit. no spam, no random job board stuff. just opportunities that make sense for someone like you.\n\nbut first i gotta know what you're actually after... how long you been working total?"
+    },
+    {
+      "role": "user",
+      "content": "2 year"
+    },
+    {
+      "role": "assistant",
+      "content": "2 years... that sweet spot where you're not a fresher anymore but still figuring out what you actually want to build.\n\nwhat kind of role you looking for next? staying in full stack or leaning more frontend/backend? or maybe something completely different?"
+    },
+    {
+      "role": "user",
+      "content": "Remote prefer"
+    },
+    {
+      "role": "assistant",
+      "content": "2 years experience + full stack + remote preferred... sound right?"
+    },
+    {
+      "role": "user",
+      "content": "Full stack"
+    },
+    {
+      "role": "assistant",
+      "content": "full stack it is... keeping those options open. smart.\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "user",
+      "content": "Consider 1.5 years full stac exp"
+    },
+    {
+      "role": "assistant",
+      "content": "got it - 2 years total experience but 1.5 years specifically in full stack + remote preferred... that the right picture?"
+    },
+    {
+      "role": "assistant",
+      "content": "vinay! you're officially in the tal ecosystem now 🔥\n\n1.5 years full stack + remote vibes... you're about to see what's actually out there beyond the usual job boards. i'm talking roles that'll make your crio.do experience look like warm-up rounds.\n\nthe good stuff starts flowing soon. time to level up, legend."
+    },
+    {
+      "role": "assistant",
+      "content": "hey just saw a remote full stack role at turing\n\nthey're open to all levels including junior, and it's USD-based\n\nwhat do you think about contract work vs full-time?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Not interested\"\n\n\n<button_context>User clicked \"Not interested\" for job 7fa557d7-6bbc-4b91-9824-951fea263f1c. Ask them for specific feedback on why this job doesn't appeal to them, then update your working memory with this feedback to improve future recommendations.</button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "fair - what didn't click? contract work, turing as a platform, or something else?"
+    },
+    {
+      "role": "user",
+      "content": "Turing company is not good for.me"
+    },
+    {
+      "role": "assistant",
+      "content": "got it - avoiding staffing platforms like turing. noted.\n\nwhat's your take on direct-hire startups vs established companies?"
+    },
+    {
+      "role": "user",
+      "content": "Both"
+    },
+    {
+      "role": "assistant",
+      "content": "cool - open to both startup chaos and corporate structure. gives us more runway.\n\nnothing matching right now, but i'll ping you when my team sends something good."
+    },
+    {
+      "role": "assistant",
+      "content": "just saw a remote full stack dev role at devandgo\n\nthey're looking for 2-6 years experience, so you're right at the entry point\n\nunknown company though - what's your take on that?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>\n              User clicked \"Apply\" for job d88b4f1b-a091-4d99-b2ea-bd0a705f57c6. \n\n              Job Reasoning:\n              - Fit Score: 62\n              - Confidence: medium\n              - Strengths: Remote work setup matches user's explicit preference, Full stack role aligns perfectly with user's specialization and career function, Experience range 2-6 years fits user's 2 years total (1.5 years full stack specific) - right at the lower bound, Tech stack includes relevant skills like JavaScript, HTML, CSS, APIs which are fundamental full stack skills\n              - Concerns: Devandgo is an unknown company (Tier 3) - requires explanation on LinkedIn, limited career capital, No information about company funding, stage, or reputation which makes it hard to assess growth potential, Salary information not disclosed (₹0L listed), creating uncertainty about compensation, Role requires 'expert' level proficiency in multiple areas while user has only 1.5 years domain-specific experience - might be a stretch, Contract-based role with unclear long-term stability\n              - Recommendation: recommended\n              - Detailed Reasoning: This role passes the ego violation check as it's at the candidate's current level (mid-level full stack) with matching specialization. The remote setup is a critical match to stated preferences. However, the unknown company tier and requirement for 'expert' level skills with only 1.5 years full stack experience creates some concern. The role is acceptable but not exceptional - user would likely take it if needed but wouldn't proudly announce it.Score reflects a marginal fit with reservations about company tier and experience depth requirements.\n\n              Summarize this information in a compact, engaging way (max 3-4 lines). Then share the apply link: https://jobs.tal.af/KljbE\n              \n              Be conversational and encouraging but brief.\n              </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice - link's right there. apply directly through it.\n\nunknown company but remote + full stack matches your vibe. go for it."
+    },
+    {
+      "role": "user",
+      "content": "Ok,also you can find any job for me  which is frotend developer,backend develiper or full stack developer \nPlace remotly"
+    },
+    {
+      "role": "assistant",
+      "content": "got it - frontend, backend, or full stack, all remote.\n\nnothing matching right now, but i'll ping you when my team sends something good."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "what's up vinay\n\nhow's the devandgo application going? any updates?"
+    },
+    {
+      "role": "user",
+      "content": "How to apply ?"
+    },
+    {
+      "role": "assistant",
+      "content": "you click the apply link i sent earlier - https://jobs.tal.af/KljbE\n\nthat takes you to their application page. apply directly there.\n\ndid the link not work for you?"
+    },
+    {
+      "role": "user",
+      "content": "Have you applied from my behalf"
+    },
+    {
+      "role": "assistant",
+      "content": "no, i don't apply for you. i find the roles, you apply through the links.\n\nyou have to click the apply button yourself and go through their process.\n\ndid you try clicking the link?"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "and? what happened when you clicked it?\n\ndid it take you to their application page or did something go wrong?"
+    },
+    {
+      "role": "user",
+      "content": "Yes ,took me to application page"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. that's how it works - i find the roles, you apply through the links.\n\ndid you submit the application or still working on it?"
+    },
+    {
+      "role": "assistant",
+      "content": "still working on it? or submitted?\n\neither way, good move. remote full stack at your experience level is solid.\n\nwhat's your gut feeling about devandgo?"
+    },
+    {
+      "role": "assistant",
+      "content": "just saw a remote full stack role at scry ai\n\nthey're looking for 2-5 years experience, react/node/python stack\n\nai startup vibes - could be interesting or chaotic"
+    },
+    {
+      "role": "assistant",
+      "content": "just saw a remote full stack role at scry ai\n\nthey're looking for 2-5 years experience, react/node/python stack\n\nai startup vibes - what's your take on that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Frontend Developer ($15K - $25K) at CodeRound AI\n\nVinay, leverage your full-stack skills in this remote Frontend role at CodeRound AI, shaping their core product interface from the ground up.\n\nApply: https://jobs.tal.af/Iq1BU"
+    },
+    {
+      "role": "assistant",
+      "content": "found a remote frontend role at coderound ai\n\nthey're offering $15-25k for 2-4 years experience, react/next.js/typescript stack\n\nfounding engineer position - could be chaotic or high ownership\n\nwhat's your take on early stage startups?"
+    },
+    {
+      "role": "assistant",
+      "content": "found a remote frontend role at coderound ai\n\nthey're offering $15-25k for 2-4 years experience, react/next.js/typescript stack\n\nfounding engineer position - could be chaotic or high ownership\n\nwhat's your take on early stage startups?"
+    },
+    {
+      "role": "assistant",
+      "content": "Junior JavaScript/TypeScript Developer - Software Engineer at Convertcart\n\nVinay, this remote full-stack role utilizes your JavaScript/TypeScript skills and offers exposure to both development and production.\n\nApply: https://jobs.tal.af/WGsVf"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "Frontend Developer at GoodSpace AI\n\nVinay, this remote Frontend role at GoodSpace AI uses React/Next.js, matching your skills and remote preference!\n\nApply: https://jobs.tal.af/GVzek"
+    },
+    {
+      "role": "user",
+      "content": "This job is closed jow"
+    },
+    {
+      "role": "assistant",
+      "content": "which one? the coderound ai frontend role or the goodspace ai one?\n\nand yeah that happens sometimes... roles get filled or pulled before we even see them. annoying but part of the game.\n\nyou still looking at frontend, backend, or full stack? remote only?"
+    },
+    {
+      "role": "user",
+      "content": "This one"
+    },
+    {
+      "role": "assistant",
+      "content": "ah the goodspace ai one is closed. yeah that happens.\n\nstill got the coderound ai frontend role and the convertcart full stack role open though.\n\nwhat's your vibe on early stage startups vs more established companies?"
+    },
+    {
+      "role": "user",
+      "content": "Cool ,i am good with all"
+    },
+    {
+      "role": "assistant",
+      "content": "cool, open to everything.\n\nso you've got:\n1. coderound ai - frontend, $15-25k, founding engineer, early stage\n2. convertcart - full stack, junior role\n\nany preference between frontend vs full stack? or just whatever looks good?"
+    },
+    {
+      "role": "assistant",
+      "content": "just saw a remote software engineer role at framework\n\nthey're using nestjs and next.js - exactly your stack\n\nai-first culture with cursor/copilot, could be interesting for learning\n\nwhat's your take on edtech companies?"
+    },
+    {
+      "role": "assistant",
+      "content": "just saw a remote software engineer role at framework\n\nthey're using nestjs and next.js - exactly your stack\n\nai-first culture with cursor/copilot, could be interesting for learning\n\nwhat's your take on edtech companies?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 5fa7b0db-ea53-4cea-8dd1-732f5d92b179. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Software Engineer\n      - Company: Framework\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Two Direct Hire roles- salaried with full benefits. This is an opportunity to contribute to impactful Ed Tech projects, expand your technical knowledge, and grow as a developer in a supportive, forward-thinking environment. If you thrive in JavaScript/TypeScript, are excited to leverage AI and Agentic AI frameworks, and enjoy using AI-enabled IDEs like Cursor, Windsurf, Claude Code, or GitHub Copilot to elevate your craft, we’d love to hear from you! Position Summary We are seeking a full-time, remote Software Engineer with strong expertise in JavaScript/TypeScript, ideally with hands-on experience in NestJS (backend) and Next.js (frontend). The ideal candidate is passionate about building clean, scalable software and embraces the use of AI and Agentic AI frameworks to enhance productivity, streamline workflows, and elevate development practices. Engineers are encouraged to leverage AI tools as a natural part of their daily development lifecycle, including AI-enabled IDEs such as Cursor, Windsurf, Claude Code, GitHub Copilot, or others. This role offers the opportunity to work on mission-driven projects, collaborate with cross-functional teams, and help drive innovation in a supportive, forward-thinking environment. Key Responsibilities: Develop and maintain web applications using JavaScript/TypeScript (primary stack: NestJS + Next.js). Design and implement AI-driven solutions, leveraging Agentic AI frameworks and tools to improve developer efficiency and product capabilities. Collaborate with QA, DevOps, and project management teams to deliver high- quality, secure, and maintainable solutions. Implement new features, enhancements, and integrations for both internal and client-facing applications. Write clean, efficient, well-documented code following industry best practices. Build and consume RESTful and GraphQL APIs, support third-party system integrations. Participate in architectural discussions, code reviews, and testing efforts. Debug and troubleshoot application issues across environments and devices. Continuously improve application performance, scalability, and maintainability. Stay up to date on emerging technologies and proactively evaluate AI tools, libraries, and frameworks for adoption. Contribute to systems that use PHP 7+ OOP frameworks (e.g., Laravel or Symfony). Skills JavaScript/TypeScript expertise with proven experience in NestJS (backend) and Next.js (frontend). Solid knowledge of HTML5, CSS3, ES6+; experience with preprocessors (SASS/Less) a plus. Familiarity with SQL databases (MySQL, PostgreSQL) and NoSQL databases (Redis, MongoDB). Experience integrating with RESTful APIs and working with GraphQL. Demonstrated ability to use AI tools (e.g., Windsurf, Cursor, GitHub Copilot, Claude Code, custom agents) to accelerate development. Familiarity with LMS platforms (Moodle or others) is a plus. Comfortable with Git and Agile development environments. Strong problem-solving skills, attention to detail, and ability to work independently. Excellent communication and teamwork skills. A continuous learner mindset, willing to adopt new tools, techniques, and AI practices to stay ahead. Preferred- Knowledge of PHP 7+ and OOP principles, ideally with frameworks like Laravel or Symfony. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 68\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Perfect tech stack match - NestJS and Next.js exactly what you've been working with, Remote position which is what you're looking for, EdTech domain with mission-driven work, Experience range 2-5 years fits your 1.5 years full stack background - slight stretch that's exciting, Heavy focus on AI tools (Cursor, Windsurf, Claude Code) which is modern and forward-thinking\n      - Concerns: Framework is an unknown company (Tier 3) - no brand recognition, Role level listed as 'Entry Level/Junior' which might be a step down from your current position, US-based company but salary listed as ₹0L suggests unclear compensation structure, PHP experience mentioned as 'preferred' which you may not have\n      - Reasoning: Hey, this one's a solid technical match even though Framework isn't a big name. The tech stack is spot-on - NestJS/Next.js/TypeScript is exactly what you want, and the remote setup fits what you need. The 2-5 years ask is a slight stretch from your 1.5 years, but that's actually good - shows growth potential. My only hesitation is it's an unknown company and the 'Entry/Junior' label, but the actual job description reads more mid-level. Worth applying to if you're okay with a lesser-known brand for solid tech experience.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 5fa7b0db-ea53-4cea-8dd1-732f5d92b179. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Software Engineer\n      - Company: Framework\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Two Direct Hire roles- salaried with full benefits. This is an opportunity to contribute to impactful Ed Tech projects, expand your technical knowledge, and grow as a developer in a supportive, forward-thinking environment. If you thrive in JavaScript/TypeScript, are excited to leverage AI and Agentic AI frameworks, and enjoy using AI-enabled IDEs like Cursor, Windsurf, Claude Code, or GitHub Copilot to elevate your craft, we’d love to hear from you! Position Summary We are seeking a full-time, remote Software Engineer with strong expertise in JavaScript/TypeScript, ideally with hands-on experience in NestJS (backend) and Next.js (frontend). The ideal candidate is passionate about building clean, scalable software and embraces the use of AI and Agentic AI frameworks to enhance productivity, streamline workflows, and elevate development practices. Engineers are encouraged to leverage AI tools as a natural part of their daily development lifecycle, including AI-enabled IDEs such as Cursor, Windsurf, Claude Code, GitHub Copilot, or others. This role offers the opportunity to work on mission-driven projects, collaborate with cross-functional teams, and help drive innovation in a supportive, forward-thinking environment. Key Responsibilities: Develop and maintain web applications using JavaScript/TypeScript (primary stack: NestJS + Next.js). Design and implement AI-driven solutions, leveraging Agentic AI frameworks and tools to improve developer efficiency and product capabilities. Collaborate with QA, DevOps, and project management teams to deliver high- quality, secure, and maintainable solutions. Implement new features, enhancements, and integrations for both internal and client-facing applications. Write clean, efficient, well-documented code following industry best practices. Build and consume RESTful and GraphQL APIs, support third-party system integrations. Participate in architectural discussions, code reviews, and testing efforts. Debug and troubleshoot application issues across environments and devices. Continuously improve application performance, scalability, and maintainability. Stay up to date on emerging technologies and proactively evaluate AI tools, libraries, and frameworks for adoption. Contribute to systems that use PHP 7+ OOP frameworks (e.g., Laravel or Symfony). Skills JavaScript/TypeScript expertise with proven experience in NestJS (backend) and Next.js (frontend). Solid knowledge of HTML5, CSS3, ES6+; experience with preprocessors (SASS/Less) a plus. Familiarity with SQL databases (MySQL, PostgreSQL) and NoSQL databases (Redis, MongoDB). Experience integrating with RESTful APIs and working with GraphQL. Demonstrated ability to use AI tools (e.g., Windsurf, Cursor, GitHub Copilot, Claude Code, custom agents) to accelerate development. Familiarity with LMS platforms (Moodle or others) is a plus. Comfortable with Git and Agile development environments. Strong problem-solving skills, attention to detail, and ability to work independently. Excellent communication and teamwork skills. A continuous learner mindset, willing to adopt new tools, techniques, and AI practices to stay ahead. Preferred- Knowledge of PHP 7+ and OOP principles, ideally with frameworks like Laravel or Symfony. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 68\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Perfect tech stack match - NestJS and Next.js exactly what you've been working with, Remote position which is what you're looking for, EdTech domain with mission-driven work, Experience range 2-5 years fits your 1.5 years full stack background - slight stretch that's exciting, Heavy focus on AI tools (Cursor, Windsurf, Claude Code) which is modern and forward-thinking\n      - Concerns: Framework is an unknown company (Tier 3) - no brand recognition, Role level listed as 'Entry Level/Junior' which might be a step down from your current position, US-based company but salary listed as ₹0L suggests unclear compensation structure, PHP experience mentioned as 'preferred' which you may not have\n      - Reasoning: Hey, this one's a solid technical match even though Framework isn't a big name. The tech stack is spot-on - NestJS/Next.js/TypeScript is exactly what you want, and the remote setup fits what you need. The 2-5 years ask is a slight stretch from your 1.5 years, but that's actually good - shows growth potential. My only hesitation is it's an unknown company and the 'Entry/Junior' label, but the actual job description reads more mid-level. Worth applying to if you're okay with a lesser-known brand for solid tech experience.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice - link's there. apply directly through it.\n\nnestjs/next.js stack is exactly what you're working with, and the ai tool focus could be interesting for learning.\n\nunknown company but solid tech match. go for it."
+    },
+    {
+      "role": "assistant",
+      "content": "you already clicked apply - link's there.\n\nnestjs/next.js stack is exactly your thing, and the ai tool focus could be interesting for learning.\n\nunknown company but solid tech match. go for it."
+    }
+  ]
+}

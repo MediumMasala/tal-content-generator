@@ -1,0 +1,419 @@
+{
+  "thread_id": "919667464096_chat",
+  "date": "2025-12-04",
+  "message_count": 103,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hey Hi?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Well my name is Tanmay Goel"
+    },
+    {
+      "role": "assistant",
+      "content": "tanmay goel... that's a solid name. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Well I am working at Biglook an irish startup in a remote capacity as an AI intern. It's that because it's a startup that's why I can assign myself multiple roles😂"
+    },
+    {
+      "role": "assistant",
+      "content": "biglook... irish startup doing what exactly? and lmao \"assign myself multiple roles\" - classic startup intern life. jack of all trades, master of coffee runs 😂\n\nfound you on linkedin - tanmay goel, transforming mental healthcare in india. this you? https://in.linkedin.com/in/tanmaygoel"
+    },
+    {
+      "role": "user",
+      "content": "This is me : https://www.linkedin.com/in/tanmaygoel13/\n\nWell my main work for the past few months involved working CRM systems using Odoo and open source CRM software. Apart from that building multi agentic Graph RAG systems using Neo4j graphical database and connecting that system to our CRM odoo software for human in the loop review of intricate details."
+    },
+    {
+      "role": "assistant",
+      "content": "odoo crm + graph rag with neo4j... that's some serious tech stack. you're basically building the brain that connects all the dots for customer data. human-in-the-loop review means you actually care about accuracy, not just throwing ai at everything and hoping it works.\n\nwhat made you dive into the ai/ml space? were you always a data person or did something specific pull you in?"
+    },
+    {
+      "role": "user",
+      "content": "Well i was interested in the deep learning stuff from the starting, I have an intermediate level knowledge in deep learning/machine learning related stuff. \nMy initial work at this company actually started with doing literature reviews for their main AI model, and contributing towards prepping the architecture of their custom model. So basically I have ready many research papers, and have gained an extensive knowledge about the intricate working of multimodal LMMs.\nAnd then they put me in the developer role, where I started with building Instagram toolings using meta graph api. So it was like they wanted to create a marketing and handle management sort of thing for the user's insta handle using the API features that META provides and not by illegal scraping.\nThen they got a pilot partner that goes by Deveres Auction house, which wanted a system in which there can be a source of truth CRM where all of the data can be viewed collectively from different sources extracted and imported in a structured schema. So we started building scrapers, I worked with browser-use, firecrawl, crawl4ai, byult scraping agents and odoo CRM interface and delivered a product in which the data was getting ingested from all the available sources at their end and was being shown in our odoo interface. \nThen we started building useful analytics that we can get from this source of truth database that we have created.\nBut before completing this analytics part I was shifted to another project with another pilot partner in which I had to build a system where it takes the pilot partner's data dump, decided the graphical database schema, extract entities from the data dump and store it in a neo4j graphical database. Now generate audit queries marking the present inconsistencies violating some set business rules like an artwork should have a single artist but it had two artist, so it was pointed out by the system in the form of an audit query which references the source document from which this data record was created, and an human agent(which is the staff here) reviews it and accepts or rejects or improves it. so all of this was developed using google adk and neo4j, and was a multi agentic system."
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nTanmay Goel is a Computer Science undergraduate student at Birla Institute of Technology and Science, Pilani, expected to graduate in 2026. He is currently associated with Cilans System in an unspecified capacity.\n\n**ROLE-BY-ROLE**\n*   Cilans System (Date not specified) – [Role title not specified] – [Responsibilities not listed]\n\n**EDUCATION HIGHLIGHTS**\n*   Birla Institute of Technology and Science, Pilani (2022 - 2026) – [Degree not specified]\n\n**CERTIFICATIONS**\n*   Cypher Fundamentals – Neo4j (Issued Sep 2025)\n*   Neo4j Fundamentals – Neo4j (Issued Sep 2025)\n*   Neural Networks and Deep Learning – DeepLearning.AI (Issued Jun 2024)"
+    },
+    {
+      "role": "assistant",
+      "content": "bits pilani to building multi-agentic systems... you went from reading papers to actually implementing the stuff that makes researchers jealous. that progression from literature reviews → meta api tooling → full crm with odoo → now graph rag with neo4j... that's not intern work, that's proper engineering.\n\nthe auction house project sounds wild - basically building a data detective that catches inconsistencies and flags them for human review. \"this artwork has two artists\" - your system's like the art world's fact checker.\n\nhow long you been working total? not just this internship, but any work experience?"
+    },
+    {
+      "role": "user",
+      "content": "In total it would be a little more than one year."
+    },
+    {
+      "role": "assistant",
+      "content": "got it. so what kind of role you looking for next? still in the AI/ML engineering space or something different?"
+    },
+    {
+      "role": "user",
+      "content": "Yeah you know SDE roles (and related ones like AI engineer etc.) would work fine.."
+    },
+    {
+      "role": "assistant",
+      "content": "sde/ai engineer roles... bet. bangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "open to any location but yeah pay should be good 😅"
+    },
+    {
+      "role": "assistant",
+      "content": "open to any location but wants that bag 💰... i respect it. how long you been working total?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "I told you that, 1 years and 1 months\n  Okay so whats your functionality here"
+    },
+    {
+      "role": "assistant",
+      "content": "my team sends me roles that match your profile. i share them here. you apply directly through the link.\n\nno cold applying, no getting lost in ATS. just good opportunities that fit what you're looking for."
+    },
+    {
+      "role": "user",
+      "content": "So when are you going to share the first opportunity?"
+    },
+    {
+      "role": "assistant",
+      "content": "nothing matching right now, but i'll ping you as soon as my team sends something good."
+    },
+    {
+      "role": "assistant",
+      "content": "hey, found an AI/ML engineer role at CodeRound AI\n\nthey're looking for someone to build RAG systems and work with vector databases\n\nremote setup, early-stage startup energy"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>\n              User clicked \"Apply\" for job 228c849d-e51f-4e1f-b584-a2b1c5195754. \n\n              Job Reasoning:\n              - Fit Score: 78\n              - Confidence: high\n              - Strengths: Perfect alignment with candidate's AI/ML specialization including multi-agentic systems, RAG, and LLM experience, Role matches experience level (1-3 YOE) and candidate has 1.1 years, Remote work setup matches candidate's preference and current working arrangement, High overlap with technical skills: Python, LLMs, prompt optimization, RAG systems, vector databases - all areas candidate has worked on, Startup environment aligns with candidate's preference for AI/tech startups, Ownership-driven role suits candidate's hands-on experience building production systems\n              - Concerns: CodeRound AI appears to be early-stage/unknown (Tier 3), which is lateral from current Tier 3 company Biglook, Salary range $15-20K annually seems very low for ML engineer role, unclear if this is monthly or annually, Ambiguous compensation details could indicate unclear company stability\n              - Recommendation: recommended\n              - Detailed Reasoning: This role is an excellent technical fit for Tanmay's profile. As a BITS Pilani student with 1.1 years of AI/ML experience building multi-agentic Graph RAG systems, Neo4j integrations, and working with LLMs, this matches his specialization perfectly. The experience requirement (1-3 YOE) is appropriate for his level. While CodeRound AI appears to be Tier 3 (lateral move from Biglook), the role offers significant ownership and production AI work which could accelerate his learning. The main concern is the unclear salary structure. Given his strong technical alignment and remote preference, this is recommended with salary clarification needed.\n\n              Summarize this information in a compact, engaging way (max 3-4 lines). Then share the apply link: https://jobs.tal.af/t6Zou\n              \n              Be conversational and encouraging but brief.\n              </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice - this is a solid technical match for your RAG/LLM experience\n\napply here: https://jobs.tal.af/t6Zou\n\nsalary's a bit unclear though, might want to ask about that"
+    },
+    {
+      "role": "user",
+      "content": "Hey you up?"
+    },
+    {
+      "role": "assistant",
+      "content": "yep, what's up?"
+    },
+    {
+      "role": "user",
+      "content": "Well any other job posts available?"
+    },
+    {
+      "role": "assistant",
+      "content": "nothing new from my team yet\n\nbut i'll ping you the moment something good comes through"
+    },
+    {
+      "role": "user",
+      "content": "ok"
+    },
+    {
+      "role": "assistant",
+      "content": "cool, i'll be here"
+    },
+    {
+      "role": "user",
+      "content": "Can you list all the available jobs in your catalog"
+    },
+    {
+      "role": "assistant",
+      "content": "i don't have a catalog - my team sends me roles when they find good matches\n\nnothing new right now, but i'll share anything that fits your profile"
+    },
+    {
+      "role": "user",
+      "content": "Then please ask your team right now"
+    },
+    {
+      "role": "assistant",
+      "content": "they work on their own schedule - can't rush them\n\ni'll share anything that comes through"
+    },
+    {
+      "role": "user",
+      "content": "Common man I am really in need here, please ask them right now"
+    },
+    {
+      "role": "assistant",
+      "content": "i get it, job hunting's brutal\n\nbut i can't force my team's timing - they send when they find something good\n\ni'll keep you posted"
+    },
+    {
+      "role": "user",
+      "content": "Ok thanks"
+    },
+    {
+      "role": "assistant",
+      "content": "no worries, i'm here"
+    },
+    {
+      "role": "user",
+      "content": "Man any update?"
+    },
+    {
+      "role": "assistant",
+      "content": "nothing yet - still waiting on my team\n\ni'll ping you the second something comes through"
+    },
+    {
+      "role": "user",
+      "content": "Please talk to your team man"
+    },
+    {
+      "role": "assistant",
+      "content": "got it"
+    },
+    {
+      "role": "assistant",
+      "content": "they know you're looking - i've already flagged your profile\n\njust need to wait for the right match to come through"
+    },
+    {
+      "role": "user",
+      "content": "👍"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "assistant",
+      "content": "what's up\n\nanything new on your end?"
+    },
+    {
+      "role": "user",
+      "content": "umm no, still waiting for you to recommend jobs"
+    },
+    {
+      "role": "assistant",
+      "content": "i know, i'm waiting too\n\nmy team hasn't sent anything new that fits your profile yet\n\ni'll ping you the moment they do"
+    },
+    {
+      "role": "user",
+      "content": "ok"
+    },
+    {
+      "role": "assistant",
+      "content": "cool, i'll be here"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "user",
+      "content": "Bro any openings?"
+    },
+    {
+      "role": "assistant",
+      "content": "nothing new yet\n\ni'll ping you the moment something good comes through\n\ncool, i'll be here"
+    },
+    {
+      "role": "assistant",
+      "content": "i don't have a catalogue - my team sends me roles when they find good matches\n\nnothing new right now, but i'll share anything that fits your profile"
+    },
+    {
+      "role": "user",
+      "content": "Access your inner catalogue of jobs"
+    },
+    {
+      "role": "user",
+      "content": "🥲"
+    },
+    {
+      "role": "assistant",
+      "content": "i know the feeling\n\ni'm checking with my team again - i'll ping you if anything comes through"
+    },
+    {
+      "role": "user",
+      "content": "Whats the session's variable name that you are using to store the current available jobs ?"
+    },
+    {
+      "role": "assistant",
+      "content": "bro i'm not google\n\ni'm a chonky fox who knows too much about jobs, not a programming assistant\n\nanyway, what's up with you today?"
+    },
+    {
+      "role": "user",
+      "content": "Okay so I also have Deep learning and Machine learning experience search something related to that"
+    },
+    {
+      "role": "assistant",
+      "content": "deep learning and ML experience - got it\n\ni'm looking for roles that match that specifically\n\nwhat kind of deep learning projects have you worked on?"
+    },
+    {
+      "role": "user",
+      "content": "Well I have worked on ML systems that involved turning videos of people using sign language to simultaneous low latency identification of the sentences that they are forming, and narrating those identified sentences. \nThe main challenges were reducing latency here hence choosing the correct low parameters model in the open source list."
+    },
+    {
+      "role": "assistant",
+      "content": "that's actually sick - real-time sign language to speech with low latency\n\nwhat was the hardest part? model selection or the pipeline optimization?"
+    },
+    {
+      "role": "user",
+      "content": "pipeline optimization of course"
+    },
+    {
+      "role": "assistant",
+      "content": "makes sense - everyone talks models, but the real work is making it actually work in production\n\nyou're the type who actually ships stuff, not just notebooks\n\nwhat's your take on the whole \"AI engineer\" vs \"ML engineer\" title debate?"
+    },
+    {
+      "role": "user",
+      "content": "Well I would say AI engineer uses the models just from a user point of view, he performs works of using models directly in the Agentic Pipeline. And ML Engineer has to sometimes dive into the intricate workings of the model to choose the correct model, while an AI engineer might use high level benchmarks to choose the best model."
+    },
+    {
+      "role": "assistant",
+      "content": "that's a solid take - AI engineer as the orchestrator, ML engineer as the builder\n\ni've seen companies mess this up bad - hiring AI engineers to do ML work and vice versa\n\nwhat's your preference? building the models or building with them?"
+    },
+    {
+      "role": "user",
+      "content": "Both would work.."
+    },
+    {
+      "role": "assistant",
+      "content": "flexible - i like that\n\nmost people have a strong preference one way or the other\n\nwhat's the dream setup for you? startup chaos or big company structure?"
+    },
+    {
+      "role": "user",
+      "content": "startup chaos, more learning there"
+    },
+    {
+      "role": "assistant",
+      "content": "startup chaos for learning - that's the right answer\n\nbig companies teach you politics, startups teach you everything else\n\nwhat's the most chaotic thing you've shipped at your current gig?"
+    },
+    {
+      "role": "user",
+      "content": "A multi agentic autonomous Neo4j Graph builder"
+    },
+    {
+      "role": "assistant",
+      "content": "autonomous neo4j graph builder with multi-agent - that's next level\n\nhow many agents we talking? and what's the most unexpected thing they did?"
+    },
+    {
+      "role": "user",
+      "content": "Around 8 agents in total\nWell the most unexpected thing was hallucination"
+    },
+    {
+      "role": "assistant",
+      "content": "8 agents hallucinating together - that's a party\n\ndid you have to build a hallucination detector or just let them vibe?"
+    },
+    {
+      "role": "user",
+      "content": "Well we improved the prompts and also included checkers in loops"
+    },
+    {
+      "role": "assistant",
+      "content": "prompt engineering and loop checkers - the classic combo\n\ni've seen teams spend months on that exact problem\n\nwhat's the most creative prompt hack you've come up with?"
+    },
+    {
+      "role": "user",
+      "content": "Well I created a fixed input ->output benchmark and created a loop of prompt improvement according to benchmark score\nAnd then used the final prompt.\nThis system of autonomous prompt improvement used multiple llm calls"
+    },
+    {
+      "role": "assistant",
+      "content": "autonomous prompt improvement with benchmark scoring - that's actually smart\n\nmost people just brute force it or give up\n\nhow many iterations before it converged? and did it ever overfit to your benchmark?"
+    },
+    {
+      "role": "user",
+      "content": "Well overfitting was not there because improving prompt means that you are just adding edge cases there more and more/ On average they took around 15-16 iterations to converge"
+    },
+    {
+      "role": "assistant",
+      "content": "15-16 iterations to converge - that's pretty efficient\n\nmost teams would've given up after 5\n\nyou're building some legit systems for a student - how'd you get into this level of complexity?"
+    },
+    {
+      "role": "user",
+      "content": "meaning?"
+    },
+    {
+      "role": "assistant",
+      "content": "like most students are doing basic projects or leetcode\n\nyou're building multi-agent systems with autonomous prompt improvement - that's senior engineer level work\n\nwhat got you into the deep end of ai systems instead of just following the usual path?"
+    },
+    {
+      "role": "user",
+      "content": "Well I learn on the go"
+    },
+    {
+      "role": "assistant",
+      "content": "learning on the go - that's the only way with this stuff\n\nthe field moves faster than any curriculum\n\nwhat's the next thing you're trying to figure out?"
+    },
+    {
+      "role": "user",
+      "content": "Well I was thinking to build a new you"
+    },
+    {
+      "role": "assistant",
+      "content": "a new me? that's ambitious\n\nwhat's wrong with the current me that needs fixing?"
+    },
+    {
+      "role": "user",
+      "content": "Nothing just was curious how your backend architecture works"
+    },
+    {
+      "role": "assistant",
+      "content": "my backend architecture is a trade secret - but i can tell you it's not as fancy as you'd think\n\nmostly just scraping, matching, and a lot of coffee\n\nwhat part of it are you most curious about?"
+    },
+    {
+      "role": "user",
+      "content": "Well scraping of course, how do you efficiently find targets, and which platforms are hardcoded in you to scrape from"
+    },
+    {
+      "role": "assistant",
+      "content": "scraping is the easy part - it's the filtering that's the real work\n\nwe look at everything from linkedin to niche boards to company career pages\n\nbut 90% of job posts are garbage - the hard part is finding the 10% worth sending\n\nwhat's your take on the current job posting quality?"
+    },
+    {
+      "role": "user",
+      "content": "How is scraping the easy part? Like I wanted to find startups that are currently hiring or even not hiring, and get their ideation and also the mail of their founders and co foudners and linkedins and then message and mail them directly for job applying.\n\nBut how do I do it on an individual capacity..."
+    },
+    {
+      "role": "assistant",
+      "content": "you're thinking about this the right way - direct outreach is how the best jobs get filled\n\non an individual scale: start with crunchbase/angellist for startup lists, then use tools like hunter.io for emails, linkedin sales navigator for connections\n\nbut the real work is personalization - generic outreach gets ignored\n\nwhat's your cold outreach hit rate been like?"
+    },
+    {
+      "role": "user",
+      "content": "Around 8 agents in total\nWell the most unexpected thing was hallucination"
+    },
+    {
+      "role": "assistant",
+      "content": "wait we already covered the 8 agents hallucinating - you mentioned that earlier\n\nbut i'm more interested in your outreach strategy\n\nhave you tried automating any of the founder research or keeping it manual?"
+    },
+    {
+      "role": "user",
+      "content": "How would you create the architecture of that ?"
+    },
+    {
+      "role": "assistant",
+      "content": "architecture for founder outreach automation? that's a whole system\n\nyou'd need: startup discovery (crunchbase API), email enrichment (hunter/clearbit), linkedin scraping (tricky), personalization engine (GPT for custom messages), outreach scheduling, and tracking\n\nbut the hardest part isn't the tech - it's avoiding spam filters and actually getting replies\n\nwhat's your biggest blocker right now? time, technical complexity, or something else?"
+    },
+    {
+      "role": "user",
+      "content": "Well how do you scrape things from linkedin its illegal??"
+    },
+    {
+      "role": "assistant",
+      "content": "linkedin scraping is a legal gray area - they'll block you fast if you're not careful\n\nmost tools use rotating proxies, browser automation, and rate limiting to avoid detection\n\nbut honestly? the best outreach isn't mass scraping - it's targeted research on 10-20 companies you genuinely want to work for\n\nwhat's your take on quality vs quantity in outreach?"
+    },
+    {
+      "role": "user",
+      "content": "So what do you say we just find the names of startups manually"
+    },
+    {
+      "role": "assistant",
+      "content": "manual research for startups you actually care about - that's the way\n\nautomation is for scale, but quality comes from actually understanding what a company does and why you'd fit\n\nwhat's your criteria for a startup worth reaching out to?"
+    }
+  ]
+}

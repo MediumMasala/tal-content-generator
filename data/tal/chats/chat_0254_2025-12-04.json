@@ -1,0 +1,35 @@
+{
+  "thread_id": "919597948454_chat",
+  "date": "2025-12-04",
+  "message_count": 7,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "I'm Prakash"
+    },
+    {
+      "role": "assistant",
+      "content": "prakash... solid name. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "I'd like to keep that confidential for now"
+    },
+    {
+      "role": "assistant",
+      "content": "yo i get it, stealth mode. \n\nlook prakash, i need at least linkedin or resume to find you roles. can't match you blind.\n\ndrop your linkedin url or toss me your resume?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey prakash, was just thinking about your stealth mode situation...\n\nlook, i get wanting privacy. but i can't match you to roles without at least linkedin or resume. \n\nwhat's the hesitation?"
+    }
+  ]
+}

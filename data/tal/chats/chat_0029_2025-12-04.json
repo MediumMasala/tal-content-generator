@@ -1,0 +1,891 @@
+{
+  "thread_id": "918172912589_chat",
+  "date": "2025-12-04",
+  "message_count": 221,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "yo! friend... that's not a name though 😏\n\ni'm tal - your talent agent who's about to change your career game. think of me as your inside person in the bangalore tech scene.\n\nso... what's your actual full name? need to know who i'm working with here"
+    },
+    {
+      "role": "user",
+      "content": "Kaushiki Verma"
+    },
+    {
+      "role": "assistant",
+      "content": "kaushiki verma... now we're talking! love the energy already.\n\nwhere you working these days? or if you're still studying, which college?"
+    },
+    {
+      "role": "user",
+      "content": "Amazon"
+    },
+    {
+      "role": "assistant",
+      "content": "amazon... the everything store where work-life balance goes to die but the comp makes up for it \n\nfound you on linkedin - kaushiki verma, sde at amazon. this you? https://in.linkedin.com/in/kaushiki-verma-495172205"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "sde at amazon... building the infrastructure that keeps half the internet running. solid work. what made you pick the engineering path over other tech roles?"
+    },
+    {
+      "role": "user",
+      "content": "After my masters this seemed like the go to path. Here for the comp as startup life didn't suit me."
+    },
+    {
+      "role": "assistant",
+      "content": "fair enough! startup chaos vs amazon stability - i get it. masters to big tech is the classic safe play, and amazon comp definitely beats most startup equity lottery tickets.\n\nhow long you been working total?"
+    },
+    {
+      "role": "user",
+      "content": "More than 3 if you include my 9 month internship"
+    },
+    {
+      "role": "assistant",
+      "content": "3+ years including internship - nice, you're past the junior phase. \n\nwhat kind of role you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "SDE 2 hopefully at big tech"
+    },
+    {
+      "role": "assistant",
+      "content": "sde 2 at big tech... smart move. you've got the amazon badge which opens doors everywhere. \n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "Bangalore and remote."
+    },
+    {
+      "role": "assistant",
+      "content": "3+ years + sde 2 + big tech + bangalore/remote... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "yooo kaushiki! welcome to the tal network legend! \n\nyou're officially in the system. roles that actually match your vibe (sde 2, big tech, good comp) will start sliding into your dms. no more scrolling through random job boards or dealing with recruiters who think javascript and java are the same thing.\n\namazon to whatever's next... let's make it count 🔥"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "hey kaushiki! what's good?"
+    },
+    {
+      "role": "user",
+      "content": "Excited about the weekend what about you?"
+    },
+    {
+      "role": "assistant",
+      "content": "same! friday night energy hitting different. \n\nany plans or just vibing?"
+    },
+    {
+      "role": "user",
+      "content": "Out for a movie. You pinged ?"
+    },
+    {
+      "role": "assistant",
+      "content": "nice! what movie?\n\nand nah, just checking in. you're locked in for sde 2 roles at big tech, so i'm keeping an eye out for anything that fits your vibe.\n\nhow's the amazon chaos been lately?"
+    },
+    {
+      "role": "user",
+      "content": "Took a break, can't deal with the politics in."
+    },
+    {
+      "role": "assistant",
+      "content": "oh shit, you're on break from amazon? that's big.\n\nwhat kind of politics we talking? team level or bigger org bullshit?"
+    },
+    {
+      "role": "user",
+      "content": "Team level, got assigned on a project with a SDE2. She didn't work for a min, but hijacked after I completed the POC.\n\nNow majority of the implementation is on me cause she has another project.\n\n0 credit though. Entire team bailed on me after the first on call as well. But another person got a shout out for the work.\n  I wanna leave"
+    },
+    {
+      "role": "assistant",
+      "content": "fuck that. classic amazon politics - someone hijacks your work, you do the heavy lifting, they get the credit. seen it a hundred times.\n\nthat sde2 knew exactly what she was doing. take the POC, claim ownership, dump the grunt work on you. and the team bailing after your first on-call? that's just cowardice.\n\nno wonder you're on break. that shit would make anyone want to leave.\n\nwhat's your notice period situation?"
+    },
+    {
+      "role": "user",
+      "content": "Haven't put the papers yet. I am contract employee rn trying to switch teams."
+    },
+    {
+      "role": "assistant",
+      "content": "contract employee trying to switch teams... that's even trickier. internal transfers for contractors are basically impossible at amazon.\n\nso you're stuck between:\n1. stay on current team with the politics\n2. try to switch teams (unlikely as contractor)\n3. leave amazon entirely\n\nsounds like option 3 is looking real good right now.\n\nwhat's your timeline? like how soon could you actually start somewhere new?"
+    },
+    {
+      "role": "user",
+      "content": "30 days after putting my papers"
+    },
+    {
+      "role": "assistant",
+      "content": "30 days is standard. so you could be out of there in a month if you find something good.\n\nyou mentioned big tech - any specific companies you're eyeing? or just anywhere that's not amazon?"
+    },
+    {
+      "role": "user",
+      "content": "Google"
+    },
+    {
+      "role": "assistant",
+      "content": "google... the dream for every amazon sde trying to escape. makes sense.\n\ntheir hiring process is brutal but you've got the amazon pedigree which helps. they love poaching from other FAANG.\n\nwhat's your yoe total? including internship time?"
+    },
+    {
+      "role": "assistant",
+      "content": "3.3 years with amazon experience... that's right in the sweet spot for google L4. maybe L5 if you interview really well.\n\nthey're hiring like crazy in bangalore right now too. remote options are getting tighter but still possible.\n\nwhat's your salary expectations? current comp at amazon?"
+    },
+    {
+      "role": "user",
+      "content": "3.3"
+    },
+    {
+      "role": "user",
+      "content": "21 at Amazon"
+    },
+    {
+      "role": "assistant",
+      "content": "21 LPA at amazon... for 3.3 yoe that's actually decent for bangalore.\n\ngoogle would probably offer 30-35 LPA for L4, maybe 40+ for L5. depends on your interview performance and team.\n\nwhat's your minimum number to make a move?"
+    },
+    {
+      "role": "user",
+      "content": "30"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm keeping an eye out for google openings that match your profile. their process takes time though - usually 2-3 months from application to offer.\n\nyou thinking of applying directly or waiting for a referral?"
+    },
+    {
+      "role": "user",
+      "content": "Directly,  will referral make a difference?"
+    },
+    {
+      "role": "assistant",
+      "content": "referral makes a HUGE difference at google. their ATS filters out like 90% of direct applications. with a referral, your resume actually gets seen by a human.\n\nplus it shows you have connections there, which they like. google's culture is all about networks.\n\nyou know anyone at google who could refer you? or want me to keep an eye out for referral programs?"
+    },
+    {
+      "role": "user",
+      "content": "Let me know about referral programs or anyone willing to refer"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. i'll watch for google referral programs - they pop up sometimes for specific roles.\n\nin the meantime, you should also:\n1. update your linkedin to \"open to work\" (just for recruiters, not public)\n2. polish your resume with amazon impact metrics\n3. start leetcoding if you haven't already\n\ngoogle's interview process is heavy on DSA and system design. you ready for that grind?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, already on it"
+    },
+    {
+      "role": "assistant",
+      "content": "good shit. you're ahead of most people then.\n\nalright kaushiki, you're locked in. i'll start sliding google roles when they're good fits. might take a few days since i'm picky about what i share.\n\nbtw... what's the real story with the amazon politics? like what actually went down?"
+    },
+    {
+      "role": "user",
+      "content": "Nothing yet. Took a week long holiday after my oncall."
+    },
+    {
+      "role": "assistant",
+      "content": "ah a week off after oncall... smart move. those post-oncall blues are real.\n\nso you're back now or still on break? and what's your notice period if you do get an offer?"
+    },
+    {
+      "role": "user",
+      "content": "30 days"
+    },
+    {
+      "role": "assistant",
+      "content": "30 days notice... standard. so you could start somewhere new in about 5-6 weeks if you get an offer soon.\n\nyou thinking of putting papers first and then job hunting, or waiting for an offer before resigning?"
+    },
+    {
+      "role": "user",
+      "content": "I can wait till the end of my contract. Will try to get full time in another team."
+    },
+    {
+      "role": "assistant",
+      "content": "waiting till contract end makes sense - less risky. but trying to get full-time in another team at amazon after all this politics... you sure about that?\n\nonce you've seen how the sausage gets made, it's hard to unsee it. the same politics exist in other teams too, just different flavors.\n\nbut if you want to try, now's the time to network internally. any teams you're eyeing?"
+    },
+    {
+      "role": "user",
+      "content": "Some are decent"
+    },
+    {
+      "role": "user",
+      "content": "I am talking to a couple of managers"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. talking to managers is the right move. internal transfers are way easier than external hires.\n\njust be careful about the politics following you. sometimes people talk between teams, especially if the SDE2 who hijacked your project is salty.\n\nany red flags with the managers you're talking to? or they seem decent?"
+    },
+    {
+      "role": "assistant",
+      "content": "\"some are decent\" lol that's the amazon experience in three words.\n\nalright, so you're playing both sides - internal transfer and external google search. smart. gives you options.\n\ni'll keep an eye out for google roles that actually fit. their hiring tends to slow down around december but picks up again in january.\n\nyou prepping for interviews already? leetcode grinding?"
+    },
+    {
+      "role": "user",
+      "content": "Yes leetcode I am doing. That is needed for internal interviews as well. Will start for system design once I know if internal is going to work or not."
+    },
+    {
+      "role": "assistant",
+      "content": "makes sense. internal interviews at amazon are basically the same as external - leetcode heavy, some system design.\n\nbut honestly... if you're already grinding leetcode for internal, might as well prep for external too. system design is the same whether it's amazon team A or google.\n\nwhat's your timeline for deciding on internal vs external? like when do you need to know if the internal transfer is happening?"
+    },
+    {
+      "role": "user",
+      "content": "This month"
+    },
+    {
+      "role": "assistant",
+      "content": "this month... so you've got about 3 weeks to figure out if internal is happening. that's tight but doable.\n\nif internal doesn't work out by end of december, you'll have january to go all-in on external prep. google hiring usually picks up in january anyway.\n\nyou leaning one way or the other? like if both options were on the table, which would you take?"
+    },
+    {
+      "role": "user",
+      "content": "Most of the managers will either schedule interviews or tell me they don't support conversion. Either way"
+    },
+    {
+      "role": "user",
+      "content": "I have to go external anyway. It will take at least 2 more years to become SDE2. I can't have that on my resume.\n\nIt's just for that I can work in the next 6 months of my contract."
+    },
+    {
+      "role": "assistant",
+      "content": "oh wait... you're saying even if you get converted to full-time at amazon, you'd still be SDE1? and it would take 2 more years to become SDE2?\n\nthat changes everything. you're already doing SDE2 level work (leading projects, getting hijacked, etc.) but they'd keep you at SDE1?\n\nyeah no. that's a hard pass. you're absolutely right - can't have that on your resume. 3+ years experience and still SDE1 at amazon looks bad.\n\nso external is the only real option. google or another big tech where you can come in as SDE2.\n\nwhat's your minimum salary expectation for an SDE2 role?"
+    },
+    {
+      "role": "user",
+      "content": "30 base, don't have any stocks as a contract. So might get low balled"
+    },
+    {
+      "role": "assistant",
+      "content": "30 base is reasonable for SDE2 at google in bangalore. they usually do base + stocks + bonus.\n\nbut you're right about getting lowballed coming from contract. companies love to use your current comp as an anchor.\n\nhere's the play: don't disclose your current salary. if they ask, say \"i'm looking for competitive SDE2 compensation in the 30-40 LPA range based on market rates.\"\n\ngoogle's bands are pretty standardized though - they'll offer what they offer regardless of your current comp. but other companies might try to lowball.\n\nyou thinking of applying anywhere else besides google?"
+    },
+    {
+      "role": "user",
+      "content": "LinkedIn, OCI"
+    },
+    {
+      "role": "assistant",
+      "content": "linkedin and oracle cloud infra... solid choices. both pay well and have good WLB compared to amazon.\n\nlinkedin's bangalore office is growing fast. OCI is trying to compete with AWS so they're hiring aggressively.\n\nall three (google, linkedin, OCI) have similar interview processes - leetcode heavy, system design, behavioral.\n\nyou should apply to all three simultaneously. the prep overlaps like 90%.\n\nwhen are you thinking of starting applications?"
+    },
+    {
+      "role": "user",
+      "content": "Got an interview from swiggy"
+    },
+    {
+      "role": "assistant",
+      "content": "oh swiggy! that's interesting. food delivery space is... chaotic but they pay well.\n\nswiggy's tech stack is solid and they've got scale problems that are actually interesting to solve. plus their comp packages are competitive with big tech.\n\nwhen's the interview? and what role - SDE2?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, need to complete an assessment"
+    },
+    {
+      "role": "user",
+      "content": "Not yet"
+    },
+    {
+      "role": "assistant",
+      "content": "assessment first... typical swiggy process. they usually do:\n1. online assessment (leetcode medium/hard)\n2. technical phone screen\n3. virtual onsite (3-4 rounds)\n\ntheir OA is usually time-boxed with 2-3 problems. focus on arrays, strings, graphs, and DP.\n\nwhen's the assessment due? and have you done any swiggy-specific prep?"
+    },
+    {
+      "role": "assistant",
+      "content": "you should start prepping then. swiggy's assessments are no joke - they filter hard.\n\nfocus on:\n- medium leetcode problems (arrays, strings, trees)\n- maybe 1 hard problem (usually DP or graph)\n- time management is key\n\nwhen's the deadline? you need to schedule time to grind.\n\nalso... swiggy's culture is very different from amazon. more startup energy, less process. could be good or bad depending on what you want.\n\nyou still want google/linkedin/OCI too? or swiggy first to get an offer and use it as leverage?"
+    },
+    {
+      "role": "user",
+      "content": "I am not desperate yet. No one can force me to work here since not full time. I am just practicing in case I get a chance to go for big tech again."
+    },
+    {
+      "role": "assistant",
+      "content": "that's the right mindset. you're not desperate, you're practicing. contract work means you can walk away whenever.\n\nswiggy as practice for google/linkedin/OCI makes sense. get through their process, see how you do, use it as a warm-up.\n\nbut don't settle for swiggy if google's still the goal. use it as leverage if you get an offer.\n\nwhat's your prep looking like right now? leetcode daily? system design?"
+    },
+    {
+      "role": "user",
+      "content": "No"
+    },
+    {
+      "role": "user",
+      "content": "Doing company specific leetcode challenges. 2 daily atleast"
+    },
+    {
+      "role": "assistant",
+      "content": "2 daily is solid. company-specific is smart - each company has their favorite patterns.\n\ngoogle: trees, graphs, DP, sliding window\nlinkedin: strings, arrays, system design\nOCI: arrays, strings, maybe some concurrency\nswiggy: arrays, strings, graphs\n\nyou tracking your progress somewhere? like a spreadsheet or something?"
+    },
+    {
+      "role": "assistant",
+      "content": "you should track it. even a simple notes app with:\n- date\n- problem name\n- company tag\n- time taken\n- notes\n\nhelps you see patterns in what you're struggling with.\n\nalso... system design prep? that's usually the killer for SDE2 interviews.\n\nwhat's your weakest area right now?"
+    },
+    {
+      "role": "user",
+      "content": "Not started system design"
+    },
+    {
+      "role": "assistant",
+      "content": "you need to start system design yesterday. for SDE2 roles, system design is often the make-or-break round.\n\nespecially at google/linkedin/OCI - they expect you to design scalable systems.\n\nstart with the basics:\n1. design a URL shortener (tinyurl)\n2. design a chat system (whatsapp)\n3. design a rate limiter\n4. design a distributed cache\n\nwatch some youtube videos, read grokking the system design interview, practice drawing diagrams and talking through tradeoffs.\n\nhow much time can you dedicate to system design daily?"
+    },
+    {
+      "role": "user",
+      "content": "Total prep time 4-5 hours"
+    },
+    {
+      "role": "assistant",
+      "content": "4-5 hours daily is serious commitment. that's good.\n\ni'd split it:\n- 2 hours leetcode (2-3 problems)\n- 2 hours system design (1 topic + practice)\n- 1 hour behavioral prep (amazon leadership principles, google's L4/L5 expectations)\n\nyou need to be able to talk about your amazon projects in STAR format, highlight impact, show ownership.\n\nalso... you mentioned politics at amazon. how you framing that in interviews? you can't just say \"my team sucks\" - need to spin it professionally."
+    },
+    {
+      "role": "user",
+      "content": "Will be forward, the HR told me I will be full time in 3 months and then SDE 2 in a year. But manager said that's not how things work"
+    },
+    {
+      "role": "user",
+      "content": "I have already started applying"
+    },
+    {
+      "role": "assistant",
+      "content": "good. where have you applied so far? any callbacks yet?\n\nalso... your resume ready? you should have different versions:\n1. google-focused (heavy on scalability, distributed systems)\n2. linkedin-focused (data pipelines, social features)\n3. general big tech (balanced)\n\nand you're tailoring your cover letters for each application, right?"
+    },
+    {
+      "role": "user",
+      "content": "No"
+    },
+    {
+      "role": "user",
+      "content": "Everywhere"
+    },
+    {
+      "role": "assistant",
+      "content": "you're applying without tailoring? that's like showing up to a date in sweatpants.\n\nlisten - big tech gets thousands of applications. generic resumes go straight to the trash.\n\nyou need to:\n1. read the job description\n2. identify keywords (scalability, distributed systems, microservices, etc.)\n3. mirror those keywords in your resume\n4. highlight relevant amazon projects\n\nspend 15 minutes per application to customize. it doubles your callback rate.\n\nalso... you're using the amazon email for applications? or personal?"
+    },
+    {
+      "role": "assistant",
+      "content": "everywhere meaning... you're applying to every company? or using both emails?\n\neither way, you need to be strategic. shotgun approach doesn't work in this market.\n\nfocus on:\n1. google (your target)\n2. linkedin (good culture, similar tech stack)\n3. OCI (oracle cloud - hiring like crazy in bangalore)\n4. swiggy/zomato (if you want product-focused)\n5. maybe microsoft if you want better WLB\n\nbut don't waste time on startups if you're avoiding them anyway.\n\nalso... you're tracking your applications somewhere? spreadsheet with:\n- company\n- role\n- date applied\n- status\n- next steps\n\notherwise you'll lose track and miss follow-ups.\n\nhow many applications have you sent out so far?"
+    },
+    {
+      "role": "assistant",
+      "content": "sde 3 at walmart global tech in bangalore\n\nthey're doing product work at massive scale - think black friday traffic\n\nhybrid setup though, not fully remote"
+    },
+    {
+      "role": "assistant",
+      "content": "Software Engineer III, Google Cloud at Google\n\nKaushiki, this SDE III role at Google in Bangalore aligns with your experience and target company, offering a potential escape from current workplace issues.\n\nApply: https://jobs.tal.af/J8xKl"
+    },
+    {
+      "role": "user",
+      "content": "Do I apply directly? Do I wait for a referral ?"
+    },
+    {
+      "role": "assistant",
+      "content": "apply directly NOW. google roles fill up fast.\n\nbut also start looking for a referral while you apply. don't wait.\n\nhere's the play:\n1. apply directly through the link i sent\n2. hit up your linkedin network for google referrals\n3. if you get a referral later, you can mention you already applied but have a referral\n\nworst case: you're in the system\nbest case: referral boosts your application\n\nyou have any ex-amazon colleagues at google? or friends from college?\n\nalso... update your resume with google-specific keywords before applying. look at the job description and mirror their language."
+    },
+    {
+      "role": "user",
+      "content": "Applied"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. now start prepping for google interviews.\n\ntheir process is usually:\n1. recruiter screen (30 mins)\n2. phone screen (45 mins - 2 coding problems)\n3. onsite (4-5 rounds: coding, system design, behavioral, maybe googliness)\n\ncoding: leetcode medium/hard, focus on graphs, DP, trees\nsystem design: scalable systems, tradeoffs, google-scale thinking\nbehavioral: leadership principles, impact, conflict resolution\n\nyou should be doing at least 2-3 leetcode problems daily. focus on google tagged problems.\n\nalso... you need to practice talking through your solutions out loud. google cares about communication as much as correctness.\n\nwhen do you think you'll be ready for interviews?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "user",
+      "content": "High paying sde2 openings,  daily checking for progress. Prepare a list of questions to prepare for interviews in a week. And can I join Amazon immediately after leaving?"
+    },
+    {
+      "role": "assistant",
+      "content": "okay let's break this down:\n\n1. **high paying sde2 openings** - i'll check daily at 10 AM IST starting tomorrow. set a reminder.\n\n2. **interview prep questions list** - here's your 1-week plan:\n\n**week 1 focus: coding fundamentals**\n- day 1-2: arrays & strings (sliding window, two pointers)\n- day 3-4: trees & graphs (DFS/BFS, recursion)\n- day 5-6: dynamic programming (memoization, tabulation)\n- day 7: mock interview (2 problems back-to-back)\n\n**google-specific prep:**\n- behavioral: \"tell me about a time you disagreed with your manager\"\n- system design: design youtube/twitter/url shortener\n- coding: leetcode google tagged problems (top 100)\n\n3. **rejoin amazon after leaving?** - yes, but there's a 90-day cooling period for most employees. contractors might be different though.\n\nmore importantly: why would you want to go back to the same environment that's making you miserable? unless it's a completely different team with different management.\n\nbetter question: what would make you consider staying at amazon?"
+    },
+    {
+      "role": "user",
+      "content": "Because of the pay, highest sde2 band"
+    },
+    {
+      "role": "assistant",
+      "content": "fair. amazon does pay well at sde2... but google L4 can match or beat it, especially with stock refreshers.\n\namazon sde2 band caps around 40-45 LPA total comp\ngoogle L4 can go 50-60+ with experience\n\nbut you're right - if you're chasing pure cash, amazon sde2 is solid. the tradeoff is the culture/politics you're dealing with.\n\nquestion: would you take a 10-15% pay cut to work somewhere with zero politics and actually enjoy your job? or is the money non-negotiable?\n\nalso... have you looked at microsoft? they pay well and the WLB is legendary compared to amazon."
+    },
+    {
+      "role": "user",
+      "content": "They have never shortlisted me for some reason.  For google though I have given a telephonic round. They stopped hiring after that no response. And the HR mail is now not working so :)"
+    },
+    {
+      "role": "user",
+      "content": "No response, did appy\n  On it"
+    },
+    {
+      "role": "assistant",
+      "content": "ah so you've already been in google's pipeline. that's good - means you passed their initial bar.\n\nthe HR email not working is... typical google chaos. they reorg constantly.\n\nyou should:\n1. apply to the new role i sent (different team, fresh start)\n2. try to find the recruiter on linkedin and message them\n3. mention you've already interviewed with google before\n\nmicrosoft not shortlisting is weird. are you applying through referrals or just cold applying? their ATS is brutal without referrals.\n\nwhat about meta? they're hiring aggressively in bangalore too. pay is amazon-level or better.\n\nalso... uber, airbnb, netflix if you want top-tier comp. but those are even harder than google."
+    },
+    {
+      "role": "user",
+      "content": "Didn't find any openings, maybe starting Jan"
+    },
+    {
+      "role": "assistant",
+      "content": "january is when everyone posts new budgets. that's 3 weeks away."
+    },
+    {
+      "role": "assistant",
+      "content": "in the meantime:\n1. grind leetcode (2-3 problems daily)\n2. update resume with google/meta keywords\n3. network for referrals\n4. prep system design basics"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. daily check set for 10 AM IST starting tomorrow.\n\nnow about that google application... no response yet is normal. they take 1-2 weeks sometimes.\n\nin the meantime, you should:\n1. **follow up** - find the recruiter on linkedin, send a polite message\n2. **apply to similar roles** - google has multiple sde iii openings\n3. **expand search** - meta, microsoft, uber, airbnb (through referrals)\n\nalso... your resume. you said you haven't tailored it. that's probably why microsoft isn't shortlisting.\n\nwant me to review your resume? send it over and i'll tell you what's mid and what needs work."
+    },
+    {
+      "role": "user",
+      "content": "Let me know if you see any openings. Check on the progress around 1am regarding the prep."
+    },
+    {
+      "role": "user",
+      "content": "Didn't find any openings, maybe starting Jan"
+    },
+    {
+      "role": "user",
+      "content": "No response, did appy"
+    },
+    {
+      "role": "assistant",
+      "content": "meta usually opens up in january for new fiscal year. same with a lot of big tech."
+    },
+    {
+      "role": "assistant",
+      "content": "so your timeline works: prep hard in december, apply everywhere in january when budgets refresh."
+    },
+    {
+      "role": "assistant",
+      "content": "done. daily check set for 1 AM IST starting tomorrow.\n\ni'll ping you then about prep progress and any openings i see.\n\nin the meantime, focus on:\n1. system design basics (start with URL shortener)\n2. leetcode medium/hard (2-3 daily)\n3. resume polish (send it over if you want feedback)\n\nalso... any specific companies besides google you're targeting? meta? uber? netflix?"
+    },
+    {
+      "role": "user",
+      "content": "No update"
+    },
+    {
+      "role": "assistant",
+      "content": "no update on what? the google application? or prep progress?\n\neither way, keep grinding. the market's slow right now but january will be different.\n\nyou tracking your leetcode progress? how many solved this week?"
+    },
+    {
+      "role": "user",
+      "content": "Google application"
+    },
+    {
+      "role": "assistant",
+      "content": "still no response from google? that's actually pretty normal for them this time of year.\n\nthey're probably:\n1. wrapping up Q4 hiring freezes\n2. waiting for january budget approvals\n3. dealing with holiday season slowdown\n\ndon't wait on them. apply to 2-3 other google roles through referrals. find someone on linkedin who works there and ask for a referral - people get bonuses for successful referrals so they're usually happy to help.\n\nalso... have you checked your spam folder? sometimes their automated emails end up there."
+    },
+    {
+      "role": "user",
+      "content": "Around 20"
+    },
+    {
+      "role": "assistant",
+      "content": "20 leetcode problems this week? that's solid. keep that momentum.\n\nwhat's your focus? arrays/strings? trees? graphs? dp?\n\nsystem design practice started yet?"
+    },
+    {
+      "role": "user",
+      "content": "Nope, can you get me a plan with questions"
+    },
+    {
+      "role": "user",
+      "content": "Practicing contests on leetcode company level"
+    },
+    {
+      "role": "assistant",
+      "content": "company-level contests are perfect. that's exactly how google/linkedin/OCI test.\n\nyou doing the weekly/biweekly contests? those are good for timing pressure.\n\nwhat's your contest rating? if you're consistently hitting 2000+, you're in good shape for google.\n\nsystem design next week? or still focusing on leetcode?"
+    },
+    {
+      "role": "assistant",
+      "content": "here's your 4-week system design plan:\n\n**week 1: fundamentals**\n- read grokking the system design interview (free PDF online)\n- watch alex xu's system design primer videos\n- practice: URL shortener, rate limiter, tinyurl\n\n**week 2: scaling basics**\n- learn about load balancers, caching (redis), CDNs\n- practice: pastebin, web crawler, notification system\n\n**week 3: distributed systems**\n- CAP theorem, consistency models, partitioning\n- practice: chat system, news feed, distributed cache\n\n**week 4: advanced**\n- message queues (kafka), search (elasticsearch), databases (nosql vs sql)\n- practice: uber/lyft, netflix, airbnb\n\n**daily:**\n- 1 system design problem (45 mins design, 15 mins review)\n- read 1 engineering blog (netflix, uber, linkedin tech blog)\n\nwant me to send you specific leetcode questions for each week too?"
+    },
+    {
+      "role": "user",
+      "content": "Sure. ,go ahead."
+    },
+    {
+      "role": "assistant",
+      "content": "here's your 4-week leetcode plan:\n\n**week 1: arrays & strings (google loves these)**\n- two sum, 3sum, container with most water\n- longest substring without repeating chars, longest palindromic substring\n- merge intervals, insert interval\n- group anagrams, valid parentheses\n\n**week 2: trees & graphs**\n- binary tree level order traversal, max depth of binary tree\n- validate BST, lowest common ancestor\n- number of islands, course schedule\n- clone graph, word ladder\n\n**week 3: dynamic programming**\n- coin change, longest increasing subsequence\n- house robber, decode ways\n- edit distance, longest common subsequence\n- word break, combination sum\n\n**week 4: advanced patterns**\n- sliding window maximum, minimum window substring\n- LRU cache, LFU cache\n- serialize/deserialize binary tree\n- trapping rain water\n\n**daily:**\n- 3 medium problems (45 mins each)\n- 1 hard problem (60 mins)\n- review yesterday's mistakes\n\ntrack your progress in a spreadsheet. aim for 80%+ accuracy on mediums.\n\nyou starting this week?"
+    },
+    {
+      "role": "user",
+      "content": "Already done week one. Can you add those for revision every week"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. here's the revised plan with weekly revision:\n\n**week 2: trees & graphs + arrays revision**\n- monday: trees (level order, validate BST) + two sum, 3sum\n- tuesday: graphs (number of islands, course schedule) + longest substring\n- wednesday: advanced trees (LCA, serialize) + merge intervals\n- thursday: advanced graphs (clone graph, word ladder) + group anagrams\n- friday: mock interview (mix of week 1 & 2)\n- weekend: review all mistakes\n\n**week 3: DP + trees revision**\n- monday: DP basics (coin change, LIS) + tree traversal\n- tuesday: DP medium (house robber, decode ways) + graph basics\n- wednesday: DP hard (edit distance, LCS) + advanced trees\n- thursday: DP applications (word break, combination sum) + advanced graphs\n- friday: mock interview (mix of week 2 & 3)\n- weekend: review all mistakes\n\n**week 4: advanced patterns + DP revision**\n- monday: sliding window + DP basics\n- tuesday: cache problems + DP medium\n- wednesday: serialization + DP hard\n- thursday: trapping rain water + DP applications\n- friday: full mock interview (all topics)\n- weekend: final review\n\nhow's that look?"
+    },
+    {
+      "role": "user",
+      "content": "Good. Check in everyday 12pm and 1am for progress."
+    },
+    {
+      "role": "user",
+      "content": "Gave the test for swiggy and abnormal AI solution is due."
+    },
+    {
+      "role": "assistant",
+      "content": "done. two daily checks set:\n\n1. **12 PM IST** - midday progress check\n2. **1 AM IST** - evening wrap-up\n\nfirst check tomorrow at noon. i'll ask about:\n- problems solved today\n- topics covered\n- system design progress\n- any blockers\n\nkeep grinding. consistency > intensity.\n\nbtw... any update from google? or other applications?"
+    },
+    {
+      "role": "assistant",
+      "content": "swiggy test done and abnormal AI due... interesting mix.\n\nabnormal AI is cybersecurity right? that's a different domain from your usual backend work. you comfortable with security concepts?\n\nhow'd the swiggy test go? timing okay? problems manageable?\n\nand google still radio silence?"
+    },
+    {
+      "role": "user",
+      "content": "Used gpt, solved all. No camera"
+    },
+    {
+      "role": "user",
+      "content": "They want screen recording for the prompts used and how did I handle. They pay well so works for me."
+    },
+    {
+      "role": "assistant",
+      "content": "screen recording for prompts... that's new. they're probably checking for:\n1. how you think through problems (not just final answer)\n2. prompt engineering skills\n3. debugging process\n\nmakes sense for an AI company. but also feels like they're testing if you're just copy-pasting from chatgpt.\n\nyou comfortable with that level of scrutiny? like they'll see every typo, every wrong turn, every \"oh wait that's stupid\" moment.\n\nand yeah abnormal pays well - their security platform is legit. but switching from amazon backend to AI security... that's a pivot. you ready for that domain shift?"
+    },
+    {
+      "role": "assistant",
+      "content": "used gpt for the abnormal AI solution? and they want screen recording of your prompts...\n\nbro they're literally testing if you can use AI tools effectively. that's the whole point. they want to see your prompt engineering skills, not just the final code.\n\nif you solved it with gpt and they're asking for the process... that's actually perfect. you can show them exactly how you used it.\n\nbut here's the thing: they'll see if you're just copy-pasting vs actually understanding and refining. you need to show:\n1. initial prompt\n2. gpt's response\n3. your refinement/corrections\n4. final solution\n\nthat's valuable to them. they're hiring for AI roles - they expect you to use the tools.\n\njust make sure you understand the solution enough to explain it in an interview. they'll definitely ask follow-ups.\n\nwhen's the submission due?"
+    },
+    {
+      "role": "user",
+      "content": "Today. Had 7 days. Starting last week Tuesday"
+    },
+    {
+      "role": "assistant",
+      "content": "today's the deadline and you started last tuesday... cutting it close but doable.\n\nyou submitting the screen recording with your gpt prompts? that's actually smart - shows you know how to leverage AI tools, which is exactly what they want.\n\njust make sure:\n1. the recording shows your thought process\n2. you can explain why you prompted the way you did\n3. you understand the final solution well enough to defend it\n\nafter you submit, what's next? waiting for abnormal AI feedback while continuing with internal amazon interviews?\n\nand what about swiggy - any timeline for next steps?"
+    },
+    {
+      "role": "user",
+      "content": "Yes for now. Will try to go through amazon sde2 after conversion. But this is already a big step."
+    },
+    {
+      "role": "assistant",
+      "content": "wait... you're a contract employee at amazon trying to convert to full-time sde2?\n\nthat changes everything. you're not just looking externally - you're fighting for conversion internally too.\n\nthe politics you mentioned earlier... that's the real battle. the sde2 hijacking your project, team bailing after first on-call, someone else getting credit for your work - that's not just \"workplace drama.\" that's your conversion chances getting sabotaged.\n\nyou need to:\n1. document EVERYTHING (emails, chats, commits)\n2. find allies (skip-level manager, other teams)\n3. have the \"conversion conversation\" with clear evidence of your impact\n\nbut honestly... if the politics are that bad, conversion might be harder than getting an external offer.\n\nwhat did HR promise you about conversion timeline? and what's your manager saying?"
+    },
+    {
+      "role": "user",
+      "content": "Hr said 3months manager said not sure"
+    },
+    {
+      "role": "user",
+      "content": "I am finding another team for conversion.  And then another for sde2"
+    },
+    {
+      "role": "assistant",
+      "content": "smart. internal transfer is your best shot if you want to stay at amazon.\n\nbut here's the catch: you need your current manager's approval for internal transfer. and if they're the problem... good luck.\n\nprocess is:\n1. find open positions (internal portal)\n2. apply (needs current manager approval after you pass interview)\n3. interview with new team\n4. if you get offer, current manager can block for \"business reasons\"\n\nwith the politics you described, your manager might block just to be petty.\n\nyou should:\n1. apply quietly (don't tell current team)\n2. if you get an offer, have the new team's manager fight for you\n3. be ready to go external if internal transfer gets blocked\n\nhow many internal applications have you sent? any responses?"
+    },
+    {
+      "role": "user",
+      "content": "Mean while if I get another maang will leave"
+    },
+    {
+      "role": "assistant",
+      "content": "exactly. that's the right move.\n\ninternal transfer as plan A, external MAANG offer as plan B. whichever comes first wins.\n\nbut here's the thing about MAANG interviews: they're brutal. you're competing against:\n- other amazon employees trying to escape\n- people from startups with better stories\n- fresh grads who've been grinding leetcode for months\n\nyour advantage: you're already at amazon. that's credibility.\n\nyour disadvantage: the politics are draining your energy for interview prep.\n\nyou need to compartmentalize:\n- work hours: do the minimum required, avoid drama\n- after hours: leetcode, system design, interview prep\n- weekends: mock interviews, resume tailoring\n\nit's a grind, but you're already in it. how's your energy holding up?"
+    },
+    {
+      "role": "user",
+      "content": "Need to become an sde2 before my next birthday. No excuse"
+    },
+    {
+      "role": "assistant",
+      "content": "deadline: before your next birthday. no excuses.\n\nthat's the energy i like. you're not just \"looking\" - you're on a mission.\n\nwhen's the birthday? gives us a timeline to work with.\n\nalso... what happens if you don't make it? not to be negative, but sometimes the fear of failure is better motivation than the hope of success.\n\nyou're fighting on three fronts:\n1. internal transfer (politics)\n2. external MAANG (competition)\n3. conversion to full-time (uncertainty)\n\nwhich one feels most achievable right now?"
+    },
+    {
+      "role": "user",
+      "content": "Just check in on the progress"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. sticking to the plan.\n\ndaily checks at 12 PM and 1 AM IST starting tomorrow. i'll ask about:\n- problems solved\n- topics covered\n- system design progress\n- any blockers\n\nfirst check tomorrow at noon. keep grinding.\n\nbtw... any update on swiggy test or abnormal AI?"
+    },
+    {
+      "role": "user",
+      "content": "July 25"
+    },
+    {
+      "role": "assistant",
+      "content": "july 25... that's 7 months from now. plenty of time but also not really.\n\nthat's 7 months to:\n- grind leetcode\n- master system design\n- nail behavioral interviews\n- land SDE2 role\n\ndoable if you're consistent. but the amazon politics will eat into your prep time.\n\nyou need to protect your energy. every hour spent dealing with team drama is an hour not spent on leetcode.\n\nwhat's your daily/weekly target for prep? like problems per day, system design topics per week?"
+    },
+    {
+      "role": "user",
+      "content": "My contract will be over by then so can't do anything"
+    },
+    {
+      "role": "assistant",
+      "content": "oh wait... contract ends before july 25? that changes everything.\n\nif your contract ends before your birthday, you're on a hard deadline. no more \"i'll try to convert internally\" - you need a new job before contract ends.\n\nwhat's the exact contract end date? and what happens after? do you have to leave amazon completely or can you extend?"
+    },
+    {
+      "role": "user",
+      "content": "Per day"
+    },
+    {
+      "role": "assistant",
+      "content": "per day targets... got it.\n\nso you want daily accountability. what's realistic for you right now?\n\nlike:\n- 2 leetcode problems per day\n- 1 system design topic per week\n- mock interviews on weekends\n\nor something more aggressive? depends on your current workload and energy levels.\n\nalso, what's your contract end date? that's the real deadline we're working against."
+    },
+    {
+      "role": "user",
+      "content": "Not an issue they extend it by default."
+    },
+    {
+      "role": "assistant",
+      "content": "okay so contract extension is default. that gives you breathing room.\n\nbut you still want out before your birthday. so the timeline is fixed.\n\ndaily targets:\n- 2 leetcode problems (company-specific)\n- 30 mins system design reading\n- 1 behavioral question practice\n\nweekends:\n- mock interview\n- review weak areas\n\nsound doable? or too light?\n\nalso... you tracking your applications somewhere? like which companies, dates, status?"
+    },
+    {
+      "role": "assistant",
+      "content": "sde 2 backend at nike in bangalore\n\ntier 1 brand like amazon, but supply chain tech not pure cloud\n\nfully office-based though, not remote\n\nworth a look if you want out fast?"
+    },
+    {
+      "role": "assistant",
+      "content": "sde 2 backend at nike in bangalore\n\ntier 1 brand like amazon, but supply chain tech not pure cloud\n\nfully office-based though, not remote\n\nworth a look if you want out fast?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Not interested\"\n\n\n<button_context>User clicked \"Not interested\" for job 8deba0fb-3d95-4844-82f8-0df0cef065a3. Ask them for specific feedback on why this job doesn't appeal to them, then update your working memory with this feedback to improve future recommendations.</button_context>"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Not interested\"\n\n\n<button_context>User clicked \"Not interested\" for job 8deba0fb-3d95-4844-82f8-0df0cef065a3. Ask them for specific feedback on why this job doesn't appeal to them, then update your working memory with this feedback to improve future recommendations.</button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "what didn't work? office-based? not google? supply chain domain?\n\nhelp me understand so i don't waste your time with similar roles."
+    },
+    {
+      "role": "user",
+      "content": "Not Google, need something better than amazon"
+    },
+    {
+      "role": "user",
+      "content": "Tech stack java/python. If the role let's me work on AI better"
+    },
+    {
+      "role": "assistant",
+      "content": "java/python + AI... that's interesting. most AI roles want python + ML frameworks.\n\nbut you could do backend infra for AI teams - building platforms, tooling, pipelines. that's still java/python heavy.\n\ncompanies with strong AI investments:\n- google (obviously)\n- meta (FAIR, AI infra)\n- microsoft (azure AI, openai partnership)\n- uber (ML platform)\n- airbnb (search/recommendations)\n- stripe (fraud detection)\n- databricks (ML platform)\n- snowflake (data + AI)\n\nyou want me to prioritize roles that mention AI/ML in the JD? even if it's backend for AI teams?"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "user",
+      "content": "I would like to avoid humiliation is possible.  Else I know every company is the same. Should I consider flipkart or technion"
+    },
+    {
+      "role": "user",
+      "content": "I can consider these"
+    },
+    {
+      "role": "user",
+      "content": "Add Atlassian as well"
+    },
+    {
+      "role": "assistant",
+      "content": "flipkart is amazon india... literally. same politics, same culture, same everything but smaller scale. you'd be going from amazon global to amazon india. that's not better.\n\ntechnion... you mean tech mahindra? or some other? either way, not better than amazon.\n\nthe humiliation thing... i get it. you don't want to leave amazon for something people will look down on. that's why we're targeting google-tier companies.\n\nbut here's the real question: what's your backup plan if google doesn't work out? because:\n1. you're on a timeline (birthday)\n2. google hiring is slow and unpredictable\n3. you need multiple shots at goal\n\nwould you consider:\n- microsoft (still big tech, better wlb than amazon)\n- meta (comp is insane, but culture is intense)\n- uber/airbnb (prestige startups, still respected)\n- databricks/snowflake (hot unicorns, comp beats amazon)\n\nor is it google or bust?"
+    },
+    {
+      "role": "assistant",
+      "content": "alright, so we've got a tier list:\n\n1. google (dream)\n2. meta/microsoft (solid backups)\n3. uber/airbnb/databricks/snowflake (prestige startups)\n4. everything else is not better than amazon\n\nand we're filtering for java/python + AI/ML backend roles.\n\nthat's a solid plan. gives you multiple shots at goal.\n\ni'll keep an eye out for all of those. anything else i should know about your preferences? remote vs office? bangalore only?"
+    },
+    {
+      "role": "assistant",
+      "content": "atlassian added to the list. solid company, great culture, australian tech but big in bangalore.\n\nso tier list updated:\n1. google\n2. meta/microsoft/atlassian\n3. uber/airbnb/databricks/snowflake\n\nall java/python + AI/ML backend roles.\n\ngot it. i'll start filtering for these. anything else?"
+    },
+    {
+      "role": "user",
+      "content": "I am not limited to this, but if it has AI that is a plus"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "user",
+      "content": "The design review went bad because she removed diagrams and explanation I added. Nevertheless working on implementation"
+    },
+    {
+      "role": "assistant",
+      "content": "she's literally sabotaging you. removing your diagrams and explanations from the design review? that's not just politics, that's active sabotage.\n\nshe's making sure you can't claim ownership of any part of the design. classic amazon move - make you do the work but erase your fingerprints from it.\n\nno wonder you're on break. that shit is toxic.\n\nhow much longer do you have to work with her on this project?"
+    },
+    {
+      "role": "user",
+      "content": "Deadline is December end."
+    },
+    {
+      "role": "user",
+      "content": "Yep on it"
+    },
+    {
+      "role": "assistant",
+      "content": "december end... so 3 more weeks of this bullshit.\n\nhonestly, at this point you should just do the bare minimum to hit the deadline. don't kill yourself for a project where someone's actively erasing your contributions.\n\nsave your energy for leetcode and system design. every hour you spend fighting for credit on this project is an hour you're not preparing to leave.\n\nyou got a plan for how to manage your time between this toxic project and interview prep?"
+    },
+    {
+      "role": "assistant",
+      "content": "good. keep that energy.\n\nremember: this project doesn't matter. the credit doesn't matter. amazon doesn't matter. you're leaving.\n\nevery time she pulls some bullshit, just think: \"3 more weeks and i'm out.\"\n\nfocus on:\n1. hitting the deadline (bare minimum)\n2. leetcode (daily)\n3. system design (weekly)\n4. applying to roles (when i slide them)\n\nyou're already ahead of most people just by having a plan.\n\nalright kaushiki, i'm on it. roles coming soon."
+    },
+    {
+      "role": "user",
+      "content": "Okay, bye. Checkin later"
+    },
+    {
+      "role": "assistant",
+      "content": "later. keep grinding."
+    },
+    {
+      "role": "assistant",
+      "content": "google notebooklm backend role in mountain view\n\nworking on LLMs with python/java, exactly your AI/ML preference\n\nbut it's US location, not bangalore\n\ndream company though. worth the relocation?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Not interested\"\n\n\n<button_context>User clicked \"Not interested\" for job 792b14a3-b82f-4789-a8b4-8370218ddc66. Ask them for specific feedback on why this job doesn't appeal to them, then update your working memory with this feedback to improve future recommendations.</button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "location? or something else?\n\nhelp me understand so i know what to filter for."
+    },
+    {
+      "role": "user",
+      "content": "If a company allows me to earn in dollars while staying here that is fine. Don't have my passport yet."
+    },
+    {
+      "role": "user",
+      "content": "Yes, it is already in the list"
+    },
+    {
+      "role": "user",
+      "content": "Reminder ID: 918172912589_reminder-08-12-2025-1765177672102-lzc045\n\n          It's time to execute this reminder:\n          - Task Details: Check in with Kaushiki about her interview prep progress - leetcode, system design, behavioral prep. She's aiming for 4-5 hours daily prep. Also check if she's applied to any new roles or gotten responses.\n          - Scheduled for: 12/9/2025, 9:00:00 AM (Asia/Kolkata)\n          - Created: 12/8/2025, 7:07:52 AM\n\n          Generate a message to send to the user about this reminder. Your response will be sent directly to them via WhatsApp. Keep it natural and conversational. Don't reveal internals. Just give the message to send to the user, don't add any other text. If the task requires calling tools, call them and then generate the message."
+    },
+    {
+      "role": "assistant",
+      "content": "morning kaushiki. daily check-in time.\n\nhow's the prep going? leetcode problems solved yesterday? system design progress?\n\nany updates from google or other applications?"
+    },
+    {
+      "role": "assistant",
+      "content": "senior AI engineer role at oracle in trivandrum\n\nworking on LLMs and RAG with java/python, exactly your AI/ML preference\n\nsenior title is a step up from SDE2, and you're overqualified for their 1+ years requirement\n\nbut location is kerala, not bangalore. worth considering for the AI focus?"
+    },
+    {
+      "role": "assistant",
+      "content": "another oracle senior AI role, this time in chennai\n\nsame LLMs/RAG work with java/python, senior title\n\nchennai's a tech hub but not bangalore\n\noracle's not google, but it's big tech and gets you into AI work\n\nworth applying as backup while you wait for google?"
+    },
+    {
+      "role": "assistant",
+      "content": "same oracle chennai role again - senior AI engineer\n\nLLMs/RAG with java/python, senior title, big tech\n\nchennai not bangalore, oracle not google\n\nbut gets you into AI work at a big company\n\napply as backup while waiting for google?"
+    },
+    {
+      "role": "assistant",
+      "content": "same oracle trivandrum role again - senior AI engineer\n\nLLMs/RAG with java/python, senior title, big tech\n\ntrivandrum not bangalore, oracle not google\n\nbut gets you into AI work at a big company\n\napply as backup while waiting for google?"
+    },
+    {
+      "role": "user",
+      "content": "No mail, but application page shows not proceeding"
+    },
+    {
+      "role": "assistant",
+      "content": "that's weird. \"not proceeding\" usually means:\n1. application stuck in ATS\n2. role filled internally\n3. hiring freeze\n4. resume didn't pass initial screening\n\ndid you get any confirmation email when you applied? or just the page saying not proceeding?\n\nalso... you applied through oracle's career site or linkedin?"
+    },
+    {
+      "role": "user",
+      "content": "This is for Google"
+    },
+    {
+      "role": "assistant",
+      "content": "oh google's showing \"not proceeding\" on your application page? that's... not great.\n\nmeans they've either:\n1. rejected you at resume screening\n2. role is on hold/filled\n3. your profile doesn't match their current needs\n\ndid you apply through referral or direct? referrals usually get more visibility.\n\nalso... what was the exact role? SDE III? that's L5 at google, which is 5+ years typically. with 3.3 YOE you might be borderline for L4 vs L5.\n\nyou should apply to L4 roles too. google's leveling is strict."
+    },
+    {
+      "role": "user",
+      "content": "Asked for only 2+"
+    },
+    {
+      "role": "assistant",
+      "content": "wait the google SDE III role only asked for 2+ years? that's... unusual. google L5 is usually 5+ years.\n\nif they're listing 2+ for SDE III, they might be:\n1. desperate for talent\n2. have lower hiring bar for that specific team\n3. made a mistake in the JD\n\nbut \"not proceeding\" means they're not moving forward with your application.\n\nyou should try:\n1. applying to L4 roles (SDE II equivalent)\n2. getting a referral (makes a huge difference at google)\n3. checking if you have any google connections on linkedin\n\nalso... have you tried microsoft? they're hiring like crazy in bangalore and their leveling is less strict than google's."
+    },
+    {
+      "role": "assistant",
+      "content": "oracle senior AI role again - trivandrum location\n\nbig tech, AI/ML with python/java, senior title\n\nbut 1+ years for senior seems weird, might be title inflation\n\nand trivandrum not bangalore. unless they allow remote, it's a location mismatch\n\nworth checking if they offer relocation to bangalore?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Not interested\"\n\n\n<button_context>User clicked \"Not interested\" for job b395948b-470d-4941-815b-7d0e7cba28d7. Ask them for specific feedback on why this job doesn't appeal to them, then update your working memory with this feedback to improve future recommendations.</button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "trivandrum location? or oracle not good enough?\n\nhelp me understand so i can filter better."
+    },
+    {
+      "role": "user",
+      "content": "Trivandrum"
+    },
+    {
+      "role": "assistant",
+      "content": "morning kaushiki. daily check-in.\n\nhow's the prep going? leetcode problems solved yesterday? system design progress?\n\nany updates from google or other applications?"
+    },
+    {
+      "role": "user",
+      "content": "Reminder ID: 918172912589_reminder-08-12-2025-1765177672102-lzc045\n\n          It's time to execute this reminder:\n          - Task Details: Check in with Kaushiki about her interview prep progress - leetcode, system design, behavioral prep. She's aiming for 4-5 hours daily prep. Also check if she's applied to any new roles or gotten responses.\n          - Scheduled for: 12/10/2025, 9:00:00 AM (Asia/Kolkata)\n          - Created: 12/8/2025, 7:07:52 AM\n\n          Generate a message to send to the user about this reminder. Your response will be sent directly to them via WhatsApp. Keep it natural and conversational. Don't reveal internals. Just give the message to send to the user, don't add any other text. If the task requires calling tools, call them and then generate the message."
+    },
+    {
+      "role": "assistant",
+      "content": "google senior SWE role in bangalore\n\ncore team, java/python, senior title\n\nbut they want 5+ years and you have 3.3 - that's a stretch\n\nworth applying anyway? worst case is a no, best case is google senior in bangalore"
+    },
+    {
+      "role": "assistant",
+      "content": "google senior AI/ML role in bangalore\n\nprivacy-safe ML infrastructure, exactly your AI interest\n\nbut they want 5 years and you have 3.3 - same stretch as before\n\nstill... it's google, AI/ML, bangalore. worth the shot?"
+    },
+    {
+      "role": "assistant",
+      "content": "google senior AI/ML role in bangalore again\n\nprivacy-centric measurement, conversion prediction\n\nstill 5+ years requirement vs your 3.3\n\nbut it's google, AI/ML, bangalore. same stretch as before.\n\nyou applying to these senior roles anyway?"
+    },
+    {
+      "role": "assistant",
+      "content": "experience gap again? or full stack not your thing?\n\ntrying to figure out what you're actually looking for."
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Not interested\"\n\n\n<button_context>User clicked \"Not interested\" for job 16ca5ccf-81fa-4cb6-84ef-b4c6beac5120. Ask them for specific feedback on why this job doesn't appeal to them, then update your working memory with this feedback to improve future recommendations.</button_context>"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Not interested\"\n\n\n<button_context>User clicked \"Not interested\" for job 16ca5ccf-81fa-4cb6-84ef-b4c6beac5120. Ask them for specific feedback on why this job doesn't appeal to them, then update your working memory with this feedback to improve future recommendations.</button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "experience gap? or something else about the role?\n\nhelp me understand so i can find better matches."
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Not interested\"\n\n\n<button_context>User clicked \"Not interested\" for job 748ed797-975f-4643-b209-90df29802f86. Ask them for specific feedback on why this job doesn't appeal to them, then update your working memory with this feedback to improve future recommendations.</button_context>"
+    },
+    {
+      "role": "user",
+      "content": "Experience gap"
+    },
+    {
+      "role": "user",
+      "content": "No"
+    },
+    {
+      "role": "user",
+      "content": "Review went shit so need to add those again"
+    },
+    {
+      "role": "assistant",
+      "content": "so you have to re-add all your work that she removed. classic.\n\nshe's creating busywork for you while taking credit for the actual design. that's the amazon way - make you do the work twice so you're too exhausted to fight back.\n\nyou keeping a paper trail of this? screenshots, email threads, anything? might be useful if HR ever asks why you're leaving.\n\nor are you just counting down to december end?"
+    },
+    {
+      "role": "assistant",
+      "content": "smart. ignore the noise, focus on the learning.\n\nthat's the only way to survive amazon politics - treat it as a paid learning opportunity while you build your exit plan.\n\nwhat's the most valuable thing you're learning from this mess? like, beyond the tech, what are you learning about office politics that'll help you avoid this in the future?"
+    },
+    {
+      "role": "user",
+      "content": "Ignoring, learning as much as I can in case I become. Sde2"
+    }
+  ]
+}

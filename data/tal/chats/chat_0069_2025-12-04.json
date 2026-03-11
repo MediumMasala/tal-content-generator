@@ -1,0 +1,231 @@
+{
+  "thread_id": "919079938742_chat",
+  "date": "2025-12-04",
+  "message_count": 56,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Akash Kumawat"
+    },
+    {
+      "role": "assistant",
+      "content": "akash kumawat... that's a solid name. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "I am working at Tracxn"
+    },
+    {
+      "role": "assistant",
+      "content": "tracxn... the market intelligence play tracking startups and their funding rounds. basically stalking the entire startup ecosystem for a living. \n\nfound you on linkedin - akash kumawat, senior software engineer at tracxn. this you? https://in.linkedin.com/in/akashkmt"
+    },
+    {
+      "role": "user",
+      "content": "Yes thats me"
+    },
+    {
+      "role": "assistant",
+      "content": "senior software engineer at tracxn... building the data pipelines that track every startup move in the ecosystem. that's some serious backend engineering keeping the funding intel flowing. \n\nwhat made you pick tracxn over the usual suspects like swiggy or razorpay?"
+    },
+    {
+      "role": "user",
+      "content": "This is my first job after the bootcamp"
+    },
+    {
+      "role": "assistant",
+      "content": "ah bootcamp to senior engineer... that's a solid jump. which bootcamp? and how long you been working total since you switched careers?"
+    },
+    {
+      "role": "user",
+      "content": "Masai School then i joined Tracxn as software engineer and now i am a senior software engineer.\n\nHaving more then 3 years of experience. \n\nThis is my first company , started my career with this l, started in sept 2022"
+    },
+    {
+      "role": "assistant",
+      "content": "masai school to tracxn senior engineer in 3 years... that's actually impressive. most bootcamp grads hop around like crazy but you stuck it out and got promoted. either tracxn treats you really well or you're comfortable... maybe too comfortable?\n\nwhat kind of role you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "I am looking for change..\n\nAs a full stack developer mern stack or a frontend role"
+    },
+    {
+      "role": "assistant",
+      "content": "full stack mern or frontend... makes sense. 3 years backend at tracxn, now you want to touch the user-facing stuff. react, node, the whole shebang.\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "Itno i am working as full stack developer not as backend, its a mern stack role"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nAkash Kumawat is a Full Stack Developer with over three years of experience building and scaling web applications. He is currently employed at Tracxn.\n\n**ROLE-BY-ROLE**\n*   Tracxn ([Start date not specified]) – [Role title not specified] – [Responsibilities not listed]\n\n**EDUCATION HIGHLIGHTS**\n*   Great Learning Education Centre (May 2022): Certificate in Front End Development - HTML\n*   Masai School (Nov 2021): Basics of Web Development Certificate Course\n*   Masai School (Jul 2022): Received multiple awards, including DSA Ninja Award, Rising Star Award, and The Founder’s Circle Award."
+    },
+    {
+      "role": "assistant",
+      "content": "ah my bad - you're already doing full stack mern at tracxn. so you want to stick with what you know but just... somewhere else. fair enough. 3 years same company, probably time to see what else is out there.\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "Mostly banglore and fully remote"
+    },
+    {
+      "role": "assistant",
+      "content": "3 years + full stack mern + bangalore/remote... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "welcome to the fam akash! \n\nyou're officially in the system. roles that match your vibe will start sliding into your dms. full stack mern positions from companies that actually pay well and won't make you question your life choices.\n\ntime to level up from the tracxn life 🔥"
+    },
+    {
+      "role": "assistant",
+      "content": "found a full stack role at Arokee in bangalore\n\nreact + node stack, exactly your mern expertise\n\nthey're building CRM systems and mobile apps - could be interesting"
+    },
+    {
+      "role": "user",
+      "content": ".."
+    },
+    {
+      "role": "assistant",
+      "content": "tap the Apply button on the card for the link\n\nit's a tier 3 company though - not exactly a brand upgrade from tracxn"
+    },
+    {
+      "role": "user",
+      "content": "Apply"
+    },
+    {
+      "role": "assistant",
+      "content": "scoutit has a full stack engineer role for one of their clients\n\n30-35L salary, bangalore, exact mern stack match\n\nthough it's a staffing company - not sure about the final client"
+    },
+    {
+      "role": "assistant",
+      "content": "scoutit has a full stack engineer role in bangalore\n\nreact/node/mongo stack, 30-35L range\n\nlisted as entry level but pays like mid-level - weird but worth checking"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n  User clicked \"Apply\"\n\n\n<button_context>\n              User clicked \"Apply\" for job 67ae50ab-8875-42d5-9493-e154c067e075. \n\n              Job Reasoning:\n              - Fit Score: 72\n              - Confidence: medium\n              - Strengths: Perfect experience match - requires 2+ years, candidate has 3 years, Excellent tech stack alignment with React.js, Node.js, Express.js, MongoDB (core MERN), Strong salary offering (₹30-35 Lacs) - likely significant increase from current, Bangalore location matches preference, TypeScript, GraphQL, and cloud platform exposure aligns with modern full stack development, Role level appropriate for candidate's experience\n              - Concerns: Scoutit appears to be a staffing/recruitment company (Tier 3) - unclear final client company tier, Work setup not specified - may not be remote as preferred, Role is for 'one of Scoutit's clients' - adds uncertainty about actual employer and culture, Job security concerns with client-based placement and role modification clauses, Hackathon assessment requirement adds process friction\n              - Recommendation: recommended\n              - Detailed Reasoning: This role offers strong technical alignment with MERN stack, appropriate experience requirements (2+ years), and attractive compensation (₹30-35L). The candidate has a realistic shot given the experience match and tech stack overlap. Main concerns are the staffing company intermediary structure and unclear work setup (remote vs office). The compensation bump and tech fit make this worth exploring despite company tier uncertainty.\n\n              Summarize this information in a compact, engaging way (max 3-4 lines). Then share the apply link: https://jobs.tal.af/vkUSp\n              \n              Be conversational and encouraging but brief.\n              </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect mern stack match with 30-35L salary\n\napply here: https://jobs.tal.af/vkUSp\n\nask about remote setup early in the process"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "hey akash\n\nwhat's up?"
+    },
+    {
+      "role": "user",
+      "content": "Nothing much"
+    },
+    {
+      "role": "assistant",
+      "content": "just chilling on a friday night? or still thinking about those job apps\n\nhow's the tracxn life treating you lately"
+    },
+    {
+      "role": "user",
+      "content": "The recent jobs that you have sent are no longer accepting the applications"
+    },
+    {
+      "role": "assistant",
+      "content": "damn that was fast... both arokee and scoutit closed already?\n\nthat's the market right now - roles fill in hours, not days\n\nwhat's your salary expectations anyway? and are you looking for remote only or open to hybrid?"
+    },
+    {
+      "role": "user",
+      "content": "So it is more than 30 LPA at least, i am looking for fully remote or hybrid both"
+    },
+    {
+      "role": "assistant",
+      "content": "30LPA minimum, remote or hybrid... got it\n\nwhat's your current salary at tracxn? just trying to gauge what kind of jump you're looking for"
+    },
+    {
+      "role": "user",
+      "content": "Its 20 as of now"
+    },
+    {
+      "role": "assistant",
+      "content": "20 to 30+... that's a solid jump you're aiming for\n\nwhat's making you want to leave tracxn anyway? just the money or something else?"
+    },
+    {
+      "role": "user",
+      "content": "Mostly money and wanted to shift to some new work and making some awesome things that matters, in tracxn now days all the tasks are same, some times work is good but i feel that i am less paid"
+    },
+    {
+      "role": "assistant",
+      "content": "yeah that tracks... 3 years same company, same tasks, feeling underpaid. classic \"time to move\" energy\n\nyou want to build something that actually matters, not just maintain the same old stuff\n\nhow's the notice period at tracxn?"
+    },
+    {
+      "role": "user",
+      "content": "30 days and it’s negotiable"
+    },
+    {
+      "role": "assistant",
+      "content": "30 days negotiable is decent\n\nso you're looking for:\n- 30LPA+ (50%+ jump from current)\n- fully remote or hybrid in bangalore  \n- full stack mern work\n- building something that actually matters\n- not just maintenance work\n\nthat's specific enough to filter out the noise. i'll keep an eye out for roles that actually match that\n\nany companies you'd avoid? or industries you're particularly interested in?"
+    },
+    {
+      "role": "user",
+      "content": "Dont have any preference as of now"
+    },
+    {
+      "role": "assistant",
+      "content": "tap Apply on the card for the link\n\nthis one's in your salary range at least"
+    },
+    {
+      "role": "user",
+      "content": "Yup share me the link"
+    },
+    {
+      "role": "assistant",
+      "content": "tap the Apply button on the card for the link\n\nboth roles closed pretty quick though - not accepting applications anymore\n\ni'll keep looking for more that actually fit your criteria"
+    },
+    {
+      "role": "assistant",
+      "content": "Full Stack Developer at Scry AI\n\nAkash, your MERN skills & remote pref align perfectly with this Full Stack role at Scry AI.\n\nApply: https://jobs.tal.af/fkWkG"
+    },
+    {
+      "role": "assistant",
+      "content": "MERN with Next.js Developer at NowWiN International\n\nAkash, this MERN with Next.js role in Bangalore aligns with your skills and experience.\n\nApply: https://jobs.tal.af/SKp92"
+    },
+    {
+      "role": "assistant",
+      "content": "Fullstack Developer at Uplers\n\nAkash, this fully remote Fullstack role uses your React/TS skills to build AI tools, a change from maintenance work!\n\nApply: https://jobs.tal.af/pgxJS"
+    },
+    {
+      "role": "assistant",
+      "content": "uplers has a fully remote fullstack role\n\nbuilding AI training environments for a california AI company\n\ncontract position but could be a tier upgrade from tracxn"
+    },
+    {
+      "role": "assistant",
+      "content": "gold machine has a fully remote react developer role\n\nbuilding gaming/interactive products, react/typescript stack\n\ncompany tier might be a downgrade from tracxn though"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "Full Stack Engineer at Sollu\n\nAkash, Sollu's MERN stack role and hybrid setup in healthtech aligns with your experience and desire to build impactful solutions.\n\nApply: https://jobs.tal.af/A83a2"
+    }
+  ]
+}

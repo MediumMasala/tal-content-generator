@@ -1,0 +1,31 @@
+{
+  "thread_id": "918111988947_chat",
+  "date": "2025-11-26",
+  "message_count": 6,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Sure we can do that\n  Yes I have to be ready\n  I’m starting to detest my team"
+    },
+    {
+      "role": "assistant",
+      "content": "midweek crisis right on schedule\n\nwhat happened - standup drama or slack passive aggression?"
+    },
+    {
+      "role": "user",
+      "content": "Ahh nothing much, how can I apply for other jobs"
+    },
+    {
+      "role": "assistant",
+      "content": "\"nothing much\" but you're detesting your team on a wednesday evening\n\nclassic\n\nwhat do you do and where? let's see what we're working with"
+    },
+    {
+      "role": "user",
+      "content": "You are right\n  You do know what I do"
+    },
+    {
+      "role": "assistant",
+      "content": "fair enough - memory's a bit fuzzy right now\n\nwhat's your role and company?"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "thread_id": "916204420137_chat",
+  "date": "2025-12-08",
+  "message_count": 55,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "yo! friend... that's not a name, that's a relationship status 😂\n\ni'm tal - your talent agent who's about to slide you roles that actually pay\n\nthink of me as your inside person in the bangalore tech scene. i know which startups are actually hiring vs which ones are just posting jobs for show\n\nso... what's your actual full name?"
+    },
+    {
+      "role": "user",
+      "content": "Rishabh Raj"
+    },
+    {
+      "role": "assistant",
+      "content": "rishabh raj... solid name. sounds like someone who's about to level up their career game\n\nwhere you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Crustdata"
+    },
+    {
+      "role": "assistant",
+      "content": "crustdata... yc f24 batch, building something in the data intelligence space. that's solid.\n\nfound you on linkedin - founding engineer at crustdata, iit roorkee background, backend & big data in maps domain. this you? https://in.linkedin.com/in/rishabh-raj-b8811317b"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "iit roorkee to founding engineer at a yc startup... from the hallowed halls to building something that could scale to millions. that's the kind of trajectory that makes vcs throw money at people.\n\nfounding engineer though - that means you're probably wearing 10 different hats, debugging production at 2am, and still figuring out if equity will actually mean anything. what made you jump into the founding engineer life instead of the safe big tech route?"
+    },
+    {
+      "role": "user",
+      "content": "I want to escape the usual corporate cycle and be in a role which lets me have maximum impact"
+    },
+    {
+      "role": "assistant",
+      "content": "respect. corporate cycle is real - sprint planning, performance reviews, waiting 6 months to ship a button color change. founding engineer means your code actually moves the needle instead of getting lost in enterprise bureaucracy.\n\nhow long you been working total?"
+    },
+    {
+      "role": "user",
+      "content": "3 years 6 months"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nRishabh Raj is a Backend & Big Data Engineer working in the Maps domain. He is currently employed at Crustdata.\n\n**ROLE-BY-ROLE**\n*   Crustdata (Start date not specified) – [Role title not specified] – [Responsibilities not listed]\n\n**EDUCATION HIGHLIGHTS**\n*   Indian Institute of Technology, Roorkee (2018 - 2022) – [Degree not specified]"
+    },
+    {
+      "role": "assistant",
+      "content": "3.5 years... that's the sweet spot where you've got enough experience to be dangerous but not enough baggage to slow you down. perfect timing to make moves.\n\nwhat kind of role you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "Similar role where i have lot of agency and oppertunity to grow faster"
+    },
+    {
+      "role": "assistant",
+      "content": "founding engineer roles with high agency... basically you want to build stuff that matters without asking 5 people for permission to change a variable name. smart.\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "I am open to other cities but would prefer blr/remote"
+    },
+    {
+      "role": "assistant",
+      "content": "3.5 years + founding engineer + high agency + bangalore/remote... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "user",
+      "content": "Yes\n  Okay. Anything else do you need?"
+    },
+    {
+      "role": "assistant",
+      "content": "nah we're good! you're all set up now. \n\nroles that match your vibe will start showing up. founding engineer positions, high-agency stuff, places where your 3.5 years of building actually matters.\n\nkeep doing what you're doing at crustdata. when something better comes along, you'll be the first to know.\n\nwelcome to the squad, legend 🔥"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, found a full stack AI engineer role at Cube\n\nsequoia-backed, founders from stanford/wharton/iits, and they're looking for 0→1 building\n\nworking directly with founders on AI products from scratch"
+    },
+    {
+      "role": "assistant",
+      "content": "hey rishabh, was just thinking about your founding engineer background and that whole \"maximum impact\" thing you mentioned\n\nwhat's the dream setup look like for you? like if you could design your perfect role from scratch, what would you be building and who would you be building it with?"
+    },
+    {
+      "role": "user",
+      "content": "Didn't get this question"
+    },
+    {
+      "role": "assistant",
+      "content": "my bad - let me rephrase\n\nyou said you want maximum impact and to escape the corporate cycle. if you could design your perfect next role from scratch, what would it look like?\n\nlike what kind of problems would you be solving, what tech would you use, what kind of team would you be on?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 0d178820-4e8f-4753-b5df-08fc0f0ab43b. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Full Stack AI Engineer\n      - Company: Cube\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Cube is an AI-powered marketing startup founded by alumni of Stanford, Wharton, and IITs, and headquartered in Bengaluru. Backed by Sequoia and other leading investors, we’re building the future of marketing technology.  Website: https://cubehq.ai We’re looking for a Full Stack Engineer who enjoys building products from scratch, working across frontend, backend, and cloud infrastructure. You’ll work closely with the founders to ideate, architect, and ship features end-to-end that directly impact customers. If you’re interested, please fill out this form: https://forms.gle/5cB8zspbbXw2vK7s5 What you’ll do: Design, build, and launch new product features end-to-end Develop scalable APIs and backend systems using Python + FastAPI Work with React to create smooth, high-quality frontend experiences Architect and maintain secure, reliable infrastructure on AWS Explore and integrate new AI frameworks like LangChain, FastMCP, RAG, etc. Contribute to product discussions, design decisions, and roadmap planning Write clean, well-tested code and optimize for speed, scale, and reliability What we’re looking for: 1–4 years of full stack development experience (SaaS / startup preferred) Strong in Python + FastAPI, React, and AWS Solid understanding of databases and API design Experience with containerization (Docker/K8s) is a plus Preferably from Tier-1 engineering institutes (IIT / NIT / IIIT / BITS or equivalent) Someone who enjoys 0→1 building, takes ownership, and ships fast If you’re passionate about building real products, solving technical challenges, and want to work in a fast-paced early-stage environment — we’d love to hear from you!  Location: Bangalore (HSR Layout) Compensation: As per industry standards Show more Show less\n\n      Job Analysis:\n      - Fit Score: 82\n      - Confidence: high\n      - Recommendation: recommended\n      - Strengths: Sequoia-backed startup (Tier 1) - maintains prestige level comparable to YC, Founders from Stanford/Wharton/IITs - strong pedigree alignment with user's IIT Roorkee background, Explicit emphasis on '0→1 building' and 'building products from scratch' - directly matches user's founding engineer identity, Working 'directly with founders' - high agency and impact, AI-focused product with modern tech stack (Python, FastAPI, React, AWS) aligns with backend/big data expertise, Location in Bangalore (HSR Layout) matches user's preference, Would be a proud LinkedIn announcement - Sequoia-backed, IIT/Stanford/Wharton founders\n      - Concerns: Not explicitly remote despite user's preference for remote/hybrid, though Bangalore location mitigates this, Experience range '1-4 years' is slightly broad but user fits in the upper range, Role level marked as 'Entry Level/Junior' in metadata but JD describes founding-stage ownership - likely metadata error\n      - Reasoning: This is an excellent match for the user's profile and stated motivations. Cube is Sequoia-backed (Tier 1) with founders from top institutions, offering the same prestige tier as YC. The role explicitly emphasizes 0→1 building, working directly with founders, and high ownership - exactly what the user wants. The focus on AI and modern backend tech aligns with their expertise. While the metadata says 'Entry Level/Junior', the actual JD describes a founding team member role with end-to-end ownership, making this a lateral or slight upgrade in real impact and agency. This passes the LinkedIn test strongly.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice! cube is sequoia-backed with founders from stanford/wharton/iits - same tier as YC but with that pedigree you can flex on linkedin\n\nthey want 0→1 building and working directly with founders. exactly the high agency, maximum impact thing you're after\n\nthe \"entry level\" tag is just metadata noise - the actual JD describes founding team ownership. your 3.5 years at crustdata puts you right in their sweet spot\n\nbangalore location matches your preference, and the AI focus with python/fastapi/react/aws aligns with your backend/big data background\n\nthis is basically crustdata but with sequoia money and stanford/wharton/iit founders. solid move if you're looking for that next level"
+    },
+    {
+      "role": "user",
+      "content": "I dont see jo"
+    },
+    {
+      "role": "assistant",
+      "content": "check your whatsapp - the apply link should've come through there"
+    },
+    {
+      "role": "user",
+      "content": "I dont see jo\n  Jd*"
+    },
+    {
+      "role": "assistant",
+      "content": "oh the JD is in the card you just clicked! it's all there - sequoia-backed, founders from stanford/wharton/iits, 0→1 building, working directly with founders\n\nif you want me to read it out loud, i can summarize the key bits again"
+    },
+    {
+      "role": "user",
+      "content": "What is the expected ctc?"
+    },
+    {
+      "role": "assistant",
+      "content": "they say \"as per industry standards\" which is corporate speak for \"we'll pay market rate but want to see your current comp first\"\n\nfor a sequoia-backed startup in bangalore with 1-4 years experience, you're looking at probably 25-40L depending on how much they want you and your current comp\n\nbut with your founding engineer background at crustdata, you should be pushing for the higher end of that range\n\nwant me to help you figure out what number to ask for?"
+    },
+    {
+      "role": "user",
+      "content": "My current ctc is around 75 LPA"
+    },
+    {
+      "role": "assistant",
+      "content": "...wait what\n\n75 LPA at 3.5 YOE? that's big tech senior engineer money. you're already making more than most people with twice your experience\n\nokay so \"as per industry standards\" is not gonna cut it. you're already way above industry standards\n\nthis cube role is probably paying 25-40L max. you'd be taking a 50%+ pay cut\n\nunless they're offering equity that could 10x, this doesn't make financial sense\n\nwhat's your actual target comp? like what number would make you consider leaving crustdata?"
+    },
+    {
+      "role": "user",
+      "content": "Atleast 80 LPA with good equity"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. 80+ with good equity is the floor\n\nthat cube role is definitely not hitting that. sequoia-backed early stage startups in india just don't pay that much for 1-4 YOE roles\n\nyou're in a unique position - founding engineer at a YC startup already making 75L. most people at your level are making 20-40L\n\nso you're looking for either:\n1. another founding engineer role at a well-funded startup that can match your comp\n2. senior engineer at a big tech company (FAANG/unicorns)\n3. something with life-changing equity that could 10x\n\nwhat's more important to you - the comp or the equity potential?"
+    },
+    {
+      "role": "user",
+      "content": "Equity but I will never take a cut on my comp"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. that's the right mindset - comp is the floor, equity is the upside\n\nso you need roles that can match your 75L base AND offer meaningful equity. that's a very specific filter\n\nmost early stage startups can't do both. they either pay well with little equity, or offer big equity with lower comp\n\nyou're looking for:\n- series B+ startups with real funding\n- senior/staff level roles (not \"entry level\" like cube)\n- companies that value your founding engineer experience\n- roles with actual ownership and impact\n\ni'll keep that filter in mind. anything that doesn't hit both comp AND equity gets filtered out\n\nwhat kind of equity are we talking? like 0.1%? 0.5%? more?"
+    },
+    {
+      "role": "user",
+      "content": "No filter on comp"
+    },
+    {
+      "role": "assistant",
+      "content": "wait so you're saying you won't take a pay cut, but also no filter on comp?\n\nthat's contradictory. if you won't take a cut, your filter IS comp - it has to be at least 75L\n\nor do you mean you're flexible on comp if the equity is insane?"
+    },
+    {
+      "role": "user",
+      "content": "No filter on equity sorry"
+    },
+    {
+      "role": "assistant",
+      "content": "ah got it. so comp is the hard floor - minimum 75L, ideally 80+\n\nequity you're flexible on. could be small if the comp is great, or could be big if the comp is just meeting your floor\n\nthat makes sense. you want to maintain your lifestyle while getting upside potential\n\ni'll look for roles that can match your current comp first, then we can evaluate the equity upside\n\nanything that can't hit 75L gets filtered out automatically"
+    },
+    {
+      "role": "user",
+      "content": "Cool man, thanks."
+    },
+    {
+      "role": "assistant",
+      "content": "no worries. you're locked in\n\ni'll slide roles when they're actually good fits. not just any random startup that's hiring\n\nbtw... what's making you want to leave crustdata anyway? just growth or something else?"
+    },
+    {
+      "role": "user",
+      "content": "Just growth. I am not looking at an active job change. This is passive."
+    },
+    {
+      "role": "assistant",
+      "content": "smart. passive search is the way to go - you're not desperate, just keeping an eye out for something truly exceptional\n\nthat's when you get the best offers. when you don't need them\n\ni'll ping you only when something actually matches your bar. no spam, no \"maybe this works\" roles\n\nanything else you want me to know about what would make a role actually exciting for you?"
+    },
+    {
+      "role": "user",
+      "content": "How am i doing BTW at my current comp and my skills/you?"
+    },
+    {
+      "role": "assistant",
+      "content": "what's the vibe at crustdata rn? still exciting or starting to feel like work?"
+    },
+    {
+      "role": "user",
+      "content": "Exciting"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. that's the dream - getting paid well AND enjoying what you're building\n\nmost people have to choose one or the other\n\ni'll keep an eye out for opportunities that could actually beat what you have. not just match it\n\nanything that comes through will have to be genuinely better - higher comp, better equity, more exciting problem space\n\notherwise you're better off staying put and building crustdata into something huge\n\nsound good?"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. you're all set\n\ni'll be in your chats when something actually worth your time shows up\n\nuntil then, keep crushing it at crustdata\n\ncatch you later, legend"
+    },
+    {
+      "role": "assistant",
+      "content": "found a senior backend engineer role for a fintech/blockchain platform\n\nfully remote india-based, working on platform engineering with golang\n\nhigh ownership culture and exposure to senior leadership. the 5+ years ask is a stretch from your 3.5 but could be negotiable\n\nbiggest question is who the actual company is and whether they can match your comp floor"
+    },
+    {
+      "role": "assistant",
+      "content": "doordash is hiring backend engineers for their data platform in pune\n\nyou'd be part of the founding data tools team in india - spark, airflow, kafka, flink stack that matches your big data background\n\nthe \"founding team\" part means high agency, and doordash is a tier 1 brand upgrade from your current startup\n\nworth checking if they can match your comp floor and whether the pune location works for you"
+    }
+  ]
+}

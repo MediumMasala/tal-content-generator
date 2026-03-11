@@ -1,0 +1,39 @@
+{
+  "thread_id": "919014638350_chat",
+  "date": "2025-12-04",
+  "message_count": 8,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Akshay"
+    },
+    {
+      "role": "assistant",
+      "content": "akshay... classic name that screams \"i probably work at a unicorn and still think i'm underpaid\"\n\nwhere you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Awiros"
+    },
+    {
+      "role": "assistant",
+      "content": "awiros... cv and ai infrastructure for the video analytics game. solid space, especially with all the security and retail use cases blowing up.\n\nfound you on linkedin - modi akshay, cv engineer at awiros, ece from iiit delhi. this you? https://in.linkedin.com/in/modi-akshay%3Ftrk%3Dpublic_profile_browsemap"
+    },
+    {
+      "role": "user",
+      "content": "Yes, but that link you shared isn't working"
+    },
+    {
+      "role": "assistant",
+      "content": "iiit delhi to cv engineering at awiros... from the coding grind to building the eyes of ai. that's solid work, especially in a space that's about to explode with all the surveillance and retail analytics demand.\n\nwhat made you get into computer vision? was it the math, the ai hype, or you just wanted to build something that actually sees?"
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "thread_id": "919321980699_chat",
+  "date": "2025-12-04",
+  "message_count": 120,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Amazon"
+    },
+    {
+      "role": "user",
+      "content": "Anuurag Mahadik"
+    },
+    {
+      "role": "assistant",
+      "content": "anuurag mahadik... that's a name with character. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Amazon\n  Asspl"
+    },
+    {
+      "role": "assistant",
+      "content": "amazon... the everything store where dreams go to get optimized. found you on linkedin - anurag mahadik, sap wm consultant. this you? https://in.linkedin.com/in/anurag-mahadik-188bb8b7"
+    },
+    {
+      "role": "user",
+      "content": "Nope that's not me"
+    },
+    {
+      "role": "assistant",
+      "content": "found another one - anurag tripathi, manager i, loss prevention at amazon. this you? https://in.linkedin.com/in/anuragmani\n\nor am i still off? might need you to drop your linkedin url directly if i keep missing"
+    },
+    {
+      "role": "user",
+      "content": "Anuurag Mahadik\n  Off"
+    },
+    {
+      "role": "assistant",
+      "content": "alright, can't find you. drop your linkedin url or resume - i need at least one to match you with roles that actually fit"
+    },
+    {
+      "role": "user",
+      "content": "Anuurag Mahadik"
+    },
+    {
+      "role": "user",
+      "content": "https://www.linkedin.com/in/anuuragmahadik?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect, got you now. what made you pick amazon? that's quite the shift from wherever you were before"
+    },
+    {
+      "role": "assistant",
+      "content": "ah the classic \"show me the money\" move. can't blame you - amazon pays and the name opens doors. smart play. how long you been working total?"
+    },
+    {
+      "role": "user",
+      "content": "<caption></caption>\n    <analysis>{\n  \"transcription\": \"Five years\",\n  \"language\": \"English\",\n  \"tone\": \"Neutral\",\n  \"backgroundSounds\": \"None\""
+    },
+    {
+      "role": "assistant",
+      "content": "5 years... solid experience. what kind of role you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "<caption></caption>\n    <analysis>{\n  \"transcription\": \"I'm looking out for a business intelligence or data engineer role.\",\n  \"language\": \"English\",\n  \"tone\": \"Neutral\",\n  \"backgroundSounds\": \"None\""
+    },
+    {
+      "role": "assistant",
+      "content": "bi or data engineering... makes sense, that's where the real money is these days. bangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "<caption></caption>\n    <analysis>{\n  \"transcription\": \"I would prefer Mumbai or Pune locations only.\",\n  \"language\": \"English\",\n  \"tone\": \"Neutral\",\n  \"backgroundSounds\": \"None\""
+    },
+    {
+      "role": "assistant",
+      "content": "5 years + bi/data engineering + mumbai/pune... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "<caption></caption>\n    <analysis>{\n  \"transcription\": \"Yes. Yes.\",\n  \"language\": \"English\",\n  \"tone\": \"Neutral\",\n  \"backgroundSounds\": \"None\""
+    },
+    {
+      "role": "assistant",
+      "content": "legend! you're officially in the tal network now \n\namazon to something even better... that's the move. i'll be sliding opportunities your way that actually match what you're worth. no more settling for whatever's available.\n\ntime to level up that career properly 🔥"
+    },
+    {
+      "role": "assistant",
+      "content": "you're welcome. now go crush it"
+    },
+    {
+      "role": "assistant",
+      "content": "saw a data scientist role at vertiv in pune\n\nit's actually more data engineering than data science - heavy on ETL and cloud platforms\n\nwhat do you think about manufacturing/IoT domain?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>\n              User clicked \"Apply\" for job 9c42177e-dad9-4776-9946-d5cbd2ae0905. \n\n              Job Reasoning:\n              - Fit Score: 35\n              - Confidence: high\n              - Strengths: Experience range 3-5 years matches candidate's 5 YOE, Hybrid work setup provides some flexibility, Strong learning opportunities and benefits package\n              - Concerns: Critical location mismatch - Job is in Bengaluru, candidate wants Mumbai or Pune only, Role is AI/ML Engineer, not Data Engineer or BI which are candidate's stated specializations, Requires ML/DL expertise (TensorFlow, PyTorch, CNNs, RNNs, Transformers) - complete domain mismatch, Endava is Tier 2/3 company - downgrade from Amazon (Tier 1), Candidate has no AI/ML background based on seeking data/BI roles\n              - Recommendation: not_recommended\n              - Detailed Reasoning: This role violates the location deal-breaker (Bengaluru instead of Mumbai/Pune) and represents a complete domain mismatch - the candidate is seeking data engineering/BI roles, not AI/ML engineering positions. The company is also a tier downgrade from Amazon, and the candidate lacks the required domain-specific AI/ML experience to be competitive for this role.\n\n              Summarize this information in a compact, engaging way (max 3-4 lines). Then share the apply link: https://jobs.tal.af/bdlCu\n              \n              Be conversational and encouraging but brief.\n              </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice! link's right there - go apply directly through it"
+    },
+    {
+      "role": "assistant",
+      "content": "solid resume - aws stack expert with real supply chain impact. that 90% data access time reduction is legit.\n\nnow i know exactly what you can handle."
+    },
+    {
+      "role": "user",
+      "content": "<caption></caption>\n    <analysis>\n      <error>Unable to submit request because it has a mimeType parameter with value application/vnd.openxmlformats-officedocument.wordprocessingml.document, which is not supported. Update the mimeType and try again. Learn more: https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/gemini</error>\n    </analysis>\n  \n  Where is link?\n  Yeah"
+    },
+    {
+      "role": "assistant",
+      "content": "link's on the apply button you tapped earlier - that's where it always is"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Perfect for a friend\"\n  Apply\n\n\n<button_context>User clicked \"Perfect for a friend\" for job 9c42177e-dad9-4776-9946-d5cbd2ae0905. Ask them to share their friend's contact card or type their friend's phone number. \n          Just ask user for their friend's phone number or contact card. Don't tell them format or anything else. Keep it short, sweet and direct. Don't forget to mention both options phone number and contact card.\n          \n          NOTE: If user refuses to share their friends's contact or number then don't argue, simply ask the friend's name and draft a short message and ask them to forward it to their friend.\n          If user shares number instead of contact card then also you need to ask for the friend's name and then do the tool call.\n\n          IMPORTANT: The phone number MUST be in format 91xxxxxxxxxx (country code + 10 digits, no spaces or special characters) for the tool call. If user provides it in any other format, convert it to this format before calling the tool.\n          Once you have the phone number and optionally the name (from contact card or text), call referJobToFriend with jobId: \"9c42177e-dad9-4776-9946-d5cbd2ae0905\", the friend's phone number in 91xxxxxxxxxx format, and name (if provided).</button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "got it - share your friend's phone number or contact card"
+    },
+    {
+      "role": "user",
+      "content": "I'm not getting any link"
+    },
+    {
+      "role": "assistant",
+      "content": "the link's on the apply button you tapped - that's where it always lives"
+    },
+    {
+      "role": "user",
+      "content": "Hii\n  Yeahh\n  I think you are down?\n  Hii"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm here - just waiting on your linkedin url or resume to get started"
+    },
+    {
+      "role": "user",
+      "content": "I've already shared"
+    },
+    {
+      "role": "assistant",
+      "content": "you're right - i've got everything. what's on your mind?"
+    },
+    {
+      "role": "user",
+      "content": "Refer me or suggest me suitable job"
+    },
+    {
+      "role": "assistant",
+      "content": "nothing matching rn - i'll ping if my team sends something good"
+    },
+    {
+      "role": "user",
+      "content": "According the information which I've provided\n  Kindly suggest me"
+    },
+    {
+      "role": "assistant",
+      "content": "nothing matching right now - i'll ping if my team sends something good"
+    },
+    {
+      "role": "user",
+      "content": "Ok\n  What about this\n  What information you have abt me?"
+    },
+    {
+      "role": "assistant",
+      "content": "you're anuurag mahadik, 5 yoe at amazon, data engineer/bi, mumbai/pune only"
+    },
+    {
+      "role": "user",
+      "content": "Ok\n  Noiiceee"
+    },
+    {
+      "role": "assistant",
+      "content": "glad it's accurate - anything you want to update?"
+    },
+    {
+      "role": "user",
+      "content": "Yeah"
+    },
+    {
+      "role": "assistant",
+      "content": "what's changing?"
+    },
+    {
+      "role": "user",
+      "content": "Nothing as of now"
+    },
+    {
+      "role": "assistant",
+      "content": "got it - i'll ping when something matches"
+    },
+    {
+      "role": "user",
+      "content": "Cool"
+    },
+    {
+      "role": "assistant",
+      "content": "👌"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": "what's up?"
+    },
+    {
+      "role": "user",
+      "content": "You got any job recommendation for me?"
+    },
+    {
+      "role": "assistant",
+      "content": "nothing matching rn - i'll ping if my team sends something good"
+    },
+    {
+      "role": "user",
+      "content": "Sure"
+    },
+    {
+      "role": "assistant",
+      "content": "👌"
+    },
+    {
+      "role": "user",
+      "content": "How r you?"
+    },
+    {
+      "role": "assistant",
+      "content": "doing good - nothing matching rn but i'll ping when my team sends something good"
+    },
+    {
+      "role": "assistant",
+      "content": "Senior Data Engineer at Koantek\n\nAnuurag, Koantek in Mumbai needs a data engineer with your AWS, PySpark & ETL skills – a great chance to leverage your Amazon experience locally!\n\nApply: https://jobs.tal.af/L7Zqb"
+    },
+    {
+      "role": "assistant",
+      "content": "Senior Software Engineer - Data Modeling & OLAP at Circana\n\nAnuurag, this Data Modeling role at Circana in Pune fits your BI/Data Eng background and preferred location!\n\nApply: https://jobs.tal.af/Gp9dM"
+    },
+    {
+      "role": "user",
+      "content": "Thanks"
+    },
+    {
+      "role": "assistant",
+      "content": "no problem - let me know if you apply to either"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "python dev role at docdort in bangalore\n\nthey need someone to build dashboards and APIs from data warehouse - matches your AWS and ETL skills\n\nsalary's 25-30 LPA but it's a tier 3 startup vs amazon. location's bangalore not mumbai/pune"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job aae13315-7e14-494f-a18d-ba735b67f0ce. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Python Developer ( Data Analytics )\n      - Company: Docdort\n      - Location: Not specified\n      - Salary Range: ₹2500000L - ₹3000000L\n      - Experience Required: Not specified\n      - Job Description: Job Description: Python Developer with Data Analytics About The Role We are seeking an experienced Python Developer with strong Data Analytics expertise to join our team. The ideal candidate will bridge the gap between technical development and business intelligence, collaborating closely with Product Management and Professional Services to deliver data-driven solutions that empower our customers. Key Responsibilities Collaborate with Product Management and Professional Services teams to gather requirements, provide accurate estimates, and deliver on committed timelines. Design, develop, and maintain interactive dashboards and reports that generate actionable insights. Create custom reports tailored to specific customer needs and identify opportunities to generalize solutions for overall product improvement. Analyze customer requirements holistically to determine whether needs can be met through existing reports, enhancements, or new development. Develop deep understanding of data models and data warehouse architecture to ensure efficient data retrieval. Design, build, and maintain RESTful APIs to extract and serve data from the data warehouse. Write clean, efficient, maintainable Python and SQL code for reporting and analytics solutions. Ensure data accuracy, consistency, and optimal query performance across all deliverables. Required Qualifications Minimum 4 years of experience in Python development and data analytics. Strong proficiency in Python, including data manipulation libraries such as Pandas and NumPy. Advanced SQL skills with experience in complex queries, optimization, and data warehouse environments. Hands-on experience building dashboards and data visualizations using Tableau, Power BI, or similar tools. Proven experience designing and developing RESTful APIs. Solid understanding of data modeling and relational database design. Ability to translate business requirements into effective technical solutions. Strong analytical and problem-solving abilities with attention to detail. Excellent communication and cross-functional collaboration skills. Experience providing project estimates and managing timelines. Preferred Qualifications Experience with modern data warehouse platforms such as Snowflake, ClickHouse, etc. Familiarity with version control systems like Git. Knowledge of data visualization libraries. Understanding of data governance and security best practices. Experience working in a SaaS or customer-facing technical environment. What You'll Bring A strong customer-first mindset. Ability to identify patterns and opportunities for reusable, scalable solutions. Self-motivation with the ability to work independently and collaboratively. Commitment to writing high-quality, maintainable code. Passion for continuous learning and staying current with industry trends. Skills: amazon web services (aws),reporting,git,etl,automation scripting,etl development,restful apis,sql,performance tuning,dashboards,data visualization,data analytics,ci/cd,gcp,json,power bi,xml,redshift,schema design,numpy,pandas,dashboarding,statistical analysis,azure,data warehouse,api integrations,data modeling,version control,tableau,python,snowflake,deployment planning,bigquery,cloud platforms,clickhouse,data cleaning Show more Show less\n\n      Job Analysis:\n      - Fit Score: 62\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Strong alignment with user's data analytics and BI specialization, Technical skills match well: Python, SQL, Pandas, NumPy, AWS, data warehouse experience, Experience requirement (4+ years) fits user's 5 years perfectly, Role involves building dashboards and APIs from data warehouse - aligns with user's expertise in data infrastructure and ETL, Salary range disclosed (₹25-30 LPA) - likely competitive given user moved to Amazon for monetary growth\n      - Concerns: Location is Bengaluru, not Mumbai/Pune - violates user's stated location preference, Company is Tier 3 (Docdort - healthtech startup, requires LinkedIn explanation) vs Amazon which is Tier 1, Title downgrade: 'Python Developer' sounds mid-level vs working at Amazon (likely Senior Data Engineer level), Tier 1 to Tier 3 company downgrade with no compensating factor - user specifically joined Amazon for brand reputation, No remote option despite location mismatch\n      - Reasoning: This role has strong technical alignment with Anuurag's data engineering and BI expertise, and the responsibilities match his AWS data warehouse experience well. However, it presents a concerning company tier downgrade (Amazon Tier 1 to Docdort Tier 3) and violates his location preference (Bengaluru vs Mumbai/Pune). The score barely passes threshold at 62 due to technical fit, but the location and tier issues make this a weak recommendation that would likely feel like a step backward despite role alignment.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice! link's right there - go apply directly through it"
+    },
+    {
+      "role": "assistant",
+      "content": "uber's hiring a data engineer in bangalore\n\ntier 1 brand like amazon, building scalable pipelines with sql, python, spark - exactly your specialization\n\nbengaluru's not mumbai/pune but it's india's top tech hub. worth a look?"
+    },
+    {
+      "role": "assistant",
+      "content": "uber's hiring a data engineer in bangalore\n\ntier 1 company, same tech stack as your current work - sql, python, spark, airflow\n\npeople analytics team. location's bangalore not mumbai/pune though"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job c576879d-f670-4ea9-964d-9e8106753cc8. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Software Engineer II_Data\n      - Company: Uber\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: About The Role We are looking for talented Data Engineers who are passionate about data engineering and have strong experience in building scalable data pipelines. As a Data Engineer at Uber you will play a leading role in designing and building datasets that power analytics for teams across Uber. You will also be working closely with Data Analysts, Data Scientists and stakeholders to gather requirements and translate them into a data engineering roadmap for the team. Minimum Qualifications 4+ years of relevant industry experience. 4+ years of SQL experience. 4+ years of python/java/scala experience. 2+ years of data modeling experience. Experience designing and deploying high performance systems with reliable monitoring and logging practices. Excellent communication skills, both written and verbal. Preferred Qualifications Experience with designing and implementing real-time pipelines. Experience with SQL performance tuning and E2E process optimization. Experience with workflow management engine e.g Airflow. Experience with a cloud platform GCP preferred. Experience querying massive datasets using Spark, Presto, Hive, Impala, etc. Experience with data quality and validation. Experience with more than one coding language. Responsibilities Develop and automate large scale, high-performance data processing systems. Lead data engineering projects to ensure pipelines are reliable, efficient & maintainable Design data models for optimal storage and retrieval and to meet business requirements. Own and Drive complex architectural changes Should be self-motivated and passionate about bringing efficiency into the system through optimizations. Should be able to raise the technical bar for other engineers by proposing and driving innovative ideas. About The Team You will be joining the IT Eng - data team which is responsible for building and maintaining datasets for people analytics. We extract data from 10+ data sources and build a consolidated data view for data analytics and reporting to our leadership. We have also been growing our data engineering practices to enable leadership to make right decisions by building solid people data foundations. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 82\n      - Confidence: high\n      - Recommendation: recommended\n      - Strengths: Uber is Tier 1 company matching Amazon's brand prestige - strong lateral move, Perfect role match: pure data engineering building scalable pipelines and data infrastructure, Tech stack is nearly identical to your current work: SQL, Python, Spark, Airflow, cloud platforms, data modeling, 4+ years experience requirement aligns perfectly with your 5 years, Location is Bangalore which is a major tech hub with better odds of finding similar opportunities, Team focuses on people analytics which is interesting domain work with leadership visibility\n      - Concerns: Location is Bengaluru/Bangalore, not your preferred Mumbai or Pune - this violates your stated location preference, Otherwise this is a very strong fit - the only blocker is geography\n      - Reasoning: This is the same Uber role but in Bangalore instead of Hyderabad. Same deal: Tier 1 company, perfect data engineering match, tech stack you already know. I'm flagging it because I know you said Mumbai/Pune, but Bangalore is obviously the biggest tech hub and if you're even slightly flexible on location, this could be worth exploring. The role itself is solid—you wouldn't be stretching or stepping down, just moving laterally to another top company. But yeah, location is the question mark here.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice! link's there - go apply directly\n\nsolid move - tier 1 to tier 1, same tech stack you already know. people analytics team means leadership visibility too"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job c576879d-f670-4ea9-964d-9e8106753cc8. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Software Engineer II_Data\n      - Company: Uber\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: About The Role We are looking for talented Data Engineers who are passionate about data engineering and have strong experience in building scalable data pipelines. As a Data Engineer at Uber you will play a leading role in designing and building datasets that power analytics for teams across Uber. You will also be working closely with Data Analysts, Data Scientists and stakeholders to gather requirements and translate them into a data engineering roadmap for the team. Minimum Qualifications 4+ years of relevant industry experience. 4+ years of SQL experience. 4+ years of python/java/scala experience. 2+ years of data modeling experience. Experience designing and deploying high performance systems with reliable monitoring and logging practices. Excellent communication skills, both written and verbal. Preferred Qualifications Experience with designing and implementing real-time pipelines. Experience with SQL performance tuning and E2E process optimization. Experience with workflow management engine e.g Airflow. Experience with a cloud platform GCP preferred. Experience querying massive datasets using Spark, Presto, Hive, Impala, etc. Experience with data quality and validation. Experience with more than one coding language. Responsibilities Develop and automate large scale, high-performance data processing systems. Lead data engineering projects to ensure pipelines are reliable, efficient & maintainable Design data models for optimal storage and retrieval and to meet business requirements. Own and Drive complex architectural changes Should be self-motivated and passionate about bringing efficiency into the system through optimizations. Should be able to raise the technical bar for other engineers by proposing and driving innovative ideas. About The Team You will be joining the IT Eng - data team which is responsible for building and maintaining datasets for people analytics. We extract data from 10+ data sources and build a consolidated data view for data analytics and reporting to our leadership. We have also been growing our data engineering practices to enable leadership to make right decisions by building solid people data foundations. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 82\n      - Confidence: high\n      - Recommendation: recommended\n      - Strengths: Uber is Tier 1 company matching Amazon's brand prestige - strong lateral move, Perfect role match: pure data engineering building scalable pipelines and data infrastructure, Tech stack is nearly identical to your current work: SQL, Python, Spark, Airflow, cloud platforms, data modeling, 4+ years experience requirement aligns perfectly with your 5 years, Location is Bangalore which is a major tech hub with better odds of finding similar opportunities, Team focuses on people analytics which is interesting domain work with leadership visibility\n      - Concerns: Location is Bengaluru/Bangalore, not your preferred Mumbai or Pune - this violates your stated location preference, Otherwise this is a very strong fit - the only blocker is geography\n      - Reasoning: This is the same Uber role but in Bangalore instead of Hyderabad. Same deal: Tier 1 company, perfect data engineering match, tech stack you already know. I'm flagging it because I know you said Mumbai/Pune, but Bangalore is obviously the biggest tech hub and if you're even slightly flexible on location, this could be worth exploring. The role itself is solid—you wouldn't be stretching or stepping down, just moving laterally to another top company. But yeah, location is the question mark here.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice! link's right there - go apply directly through it"
+    },
+    {
+      "role": "user",
+      "content": "Cool thanks"
+    },
+    {
+      "role": "assistant",
+      "content": "👌\n\nhow's the amazon chaos been lately?"
+    },
+    {
+      "role": "user",
+      "content": "Give me referral of Mumbai Pune only"
+    },
+    {
+      "role": "assistant",
+      "content": "nothing matching mumbai/pune rn - i'll ping if my team sends something good"
+    },
+    {
+      "role": "user",
+      "content": "Yeahh"
+    },
+    {
+      "role": "assistant",
+      "content": "what does growth actually mean to you?"
+    },
+    {
+      "role": "user",
+      "content": "Worst"
+    },
+    {
+      "role": "assistant",
+      "content": "mumbai/pune's tough for data roles rn - most big tech's in bangalore. i'll keep looking though"
+    },
+    {
+      "role": "user",
+      "content": "Cool\n  Thanks"
+    },
+    {
+      "role": "assistant",
+      "content": "👌\n\nbtw what's the real reason you're looking? just growth or something else?"
+    },
+    {
+      "role": "user",
+      "content": "Monetary"
+    },
+    {
+      "role": "assistant",
+      "content": "what's the number that would change things for you?"
+    },
+    {
+      "role": "user",
+      "content": "Professionally"
+    },
+    {
+      "role": "assistant",
+      "content": "what does professional growth look like day to day?"
+    },
+    {
+      "role": "user",
+      "content": "Learning new things in my tech stack increasing network"
+    },
+    {
+      "role": "assistant",
+      "content": "what's missing from your current stack that you want to learn?"
+    },
+    {
+      "role": "assistant",
+      "content": "stats for what? like data science stuff or something specific?"
+    },
+    {
+      "role": "user",
+      "content": "Statistics"
+    },
+    {
+      "role": "user",
+      "content": "For yeah mostly data roles"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. i'll keep an eye out for roles that need stats + your aws stack. anything else you're avoiding?"
+    },
+    {
+      "role": "user",
+      "content": "Yeahh"
+    },
+    {
+      "role": "assistant",
+      "content": "what companies would you never work for?"
+    },
+    {
+      "role": "user",
+      "content": "Infosys, wipro, tech mahindra,"
+    },
+    {
+      "role": "assistant",
+      "content": "lmaooo the service company blacklist. noted.\n\nwhat's your total yoe?"
+    },
+    {
+      "role": "assistant",
+      "content": "and what's your current salary? trying to see what kind of bump you're looking for"
+    },
+    {
+      "role": "user",
+      "content": "1250000"
+    },
+    {
+      "role": "assistant",
+      "content": "12.5L at amazon with 5 yoe... you're definitely under market. what's your target?"
+    },
+    {
+      "role": "user",
+      "content": "30 days"
+    },
+    {
+      "role": "user",
+      "content": "20lpa"
+    },
+    {
+      "role": "assistant",
+      "content": "20L is realistic. i'll look for roles in that range.\n\nwhat's your notice period?"
+    },
+    {
+      "role": "user",
+      "content": "Being underpaid"
+    },
+    {
+      "role": "assistant",
+      "content": "fair. anything else about the role or team that's not working?"
+    },
+    {
+      "role": "user",
+      "content": "It's been 3 years still no sign of promo"
+    },
+    {
+      "role": "assistant",
+      "content": "yeah that's the amazon trap. 3 years without promo means they're taking you for granted.\n\nyou're making the right move."
+    },
+    {
+      "role": "user",
+      "content": "Amazon"
+    },
+    {
+      "role": "assistant",
+      "content": "lmaooo the frustration is real. heard the pip culture is getting worse.\n\nwhat's the worst part right now?"
+    },
+    {
+      "role": "user",
+      "content": "Fuck amazon\n  Chutia amazon"
+    },
+    {
+      "role": "user",
+      "content": "Yeah"
+    },
+    {
+      "role": "assistant",
+      "content": "anyway... how's the amazon chaos been lately?"
+    },
+    {
+      "role": "user",
+      "content": "Fuck amazon"
+    },
+    {
+      "role": "assistant",
+      "content": "😂 understood. we'll get you out of there.\n\nbtw random but... what got you into data engineering in the first place?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 5473e63e-2b05-4f6c-9e38-bb6d79a7f7f7. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Senior Data Engineer\n      - Company: Adobe\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Our Company Changing the world through digital experiences is what Adobe’s all about. We give everyone—from emerging artists to global brands—everything they need to design and deliver exceptional digital experiences! We’re passionate about empowering people to create beautiful and powerful images, videos, and apps, and transform how companies interact with customers across every screen. We’re on a mission to hire the very best and are committed to creating exceptional employee experiences where everyone is respected and has access to equal opportunity. We realize that new ideas can come from everywhere in the organization, and we know the next big idea could be yours! About the Role: GMI is in search of a highly skilled and modern Data Engineer to join our dynamic team. This role is suited for someone who thrives in a fast-paced environment, is passionate about data, and has a strong foundation in software engineering. You will be crucial in constructing scalable data pipelines and contributing to innovative GenAI and LLM-based solutions that empower Adobe Global Marketing Organization. Your work will directly impact our ability to deliver outstanding data-driven insights and solutions! Key Responsibilities: Build, develop, and maintain scalable data pipelines using Apache Spark, Databricks, and Python. Write efficient and optimized SQL queries for data extraction, transformation, and analysis. Engage with multi-functional teams, including data scientists, product managers, and software engineers, to deliver data-driven solutions. Implement and optimize data models and architectures for performance and scalability. Build applications that incorporate GenAI and LLM, blending structured data with unstructured data sources. Ensure data quality, integrity, and governance across all stages of the data lifecycle. Implement guidelines for software engineering such as version control, CI/CD, testing, and documentation. Required Qualifications: Educational Background: Bachelor’s or higher degree in Computer Science, Engineering, or a related field. Professional Experience: 5–8 years of hands-on experience in data engineering or software engineering, with a strong foundation in building production-grade systems and applying software engineering principles. Technical Proficiency: Expertise in Apache Spark, Python, SQL, and Databricks, with a proven ability to develop scalable data solutions. AI/ML Exposure: Practical experience working with Generative AI, Large Language Models (LLMs), or similar AI/ML technologies in recent projects. Cloud & Collaboration Skills: Familiarity with cloud platforms such as AWS, Azure, or GCP, understanding of data lake architectures, and strong problem-solving skills with the ability to work both independently and collaboratively. Preferred Qualifications: Experience with MLOps, model deployment, or serving LLMs in production. Knowledge of data visualization tools and dashboarding (e.g., Tableau, Power BI). Knowledge of full stacks like (MERN, MEAN). Why Join Us? Work on high-impact projects that build the future of GMI/Adobe.com. Be part of a collaborative and inclusive team that values innovation and continuous learning. Access to modern technologies and tools. Competitive compensation and benefits. Adobe is proud to be an Equal Employment Opportunity employer. We do not discriminate based on gender, race or color, ethnicity or national origin, age, disability, religion, sexual orientation, gender identity or expression, veteran status, or any other applicable characteristics protected by law. Learn more. Adobe aims to make Adobe.com accessible to any and all users. If you have a disability or special need that requires accommodation to navigate our website or complete the application process, email accommodations@adobe.com or call (408) 536-3015. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 78\n      - Confidence: high\n      - Recommendation: recommended\n      - Strengths: Title upgrade: Senior Data Engineer role when you're at mid-level with 5 YOE—this is the stretch that makes it exciting, Massive brand upgrade: Adobe is Tier 1, way above your current position, and would transform your resume, Perfect technical match: They want Apache Spark, Databricks, Python, SQL—literally your exact AWS data engineering stack, GenAI/LLM exposure would let you learn new tech (statistics and advanced ML) which you said you wanted, Experience range 5-8 years puts you right at the entry point—totally achievable\n      - Concerns: Location is Bengaluru, not Mumbai/Pune—this is a hard preference violation for you, No salary mentioned, and Adobe sometimes pays below expectations for India roles despite the brand, The role leans heavily into GenAI/LLM which you don't have experience in yet (though you want to learn)\n      - Reasoning: Okay Anuurag, this one's a stretch but hear me out—Senior Data Engineer at Adobe. I know it's in Bengaluru and you want Mumbai/Pune, so that's the big catch. But let's talk about why this could be huge: it's a title bump to Senior, Adobe is Tier 1 (massive upgrade from where you are), and the tech stack is literally what you're doing now (Spark, Databricks, Python, SQL). Plus, they're working on GenAI/LLM stuff which gets you into that statistics and ML learning you mentioned. You're right at their minimum experience (5 years), so it's achievable. The location thing is real though—only you can decide if Adobe on your resume is worth relocating for. If you're open to Bengaluru, this is a no-brainer. If not, I get it.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice! link's there - apply directly through it\n\nsenior title at adobe is a huge resume upgrade. genAI/LLM exposure gets you that stats learning you wanted\n\nlocation's the only catch but adobe on your resume opens doors everywhere"
+    },
+    {
+      "role": "assistant",
+      "content": "adobe's hiring a senior data engineer in bangalore\n\ntitle upgrade to senior, tier 1 brand, tech stack is spark, databricks, python - exactly your current work\n\ngenAI/LLM exposure for learning stats and ML. location's bangalore not mumbai/pune though"
+    }
+  ]
+}

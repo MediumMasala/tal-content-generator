@@ -1,0 +1,43 @@
+{
+  "thread_id": "917023755290_chat",
+  "date": "2025-12-04",
+  "message_count": 9,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Yash Saxena"
+    },
+    {
+      "role": "assistant",
+      "content": "yash saxena... solid name, sounds like someone who gets things done\n\nwhere you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Dream 11"
+    },
+    {
+      "role": "assistant",
+      "content": "dream11... the fantasy sports empire where people lose their minds over cricket scores. building the platform that makes everyone think they're dhoni for a day\n\nfound you on linkedin - \"Yash Saxena - SDE-3 at Dream11 | IIT Kanpur\". this you? https://in.linkedin.com/in/saxena-yash"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "iit kanpur to sde-3 at dream11... from the tech temple to building india's fantasy obsession. that's some solid trajectory. what made you pick the sports-tech route over traditional product companies?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey yash, quick question - what's your ideal next role? i want to make sure i'm showing you opportunities you'll actually be excited about 🎯"
+    }
+  ]
+}

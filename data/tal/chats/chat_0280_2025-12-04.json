@@ -1,0 +1,243 @@
+{
+  "thread_id": "918328008380_chat",
+  "date": "2025-12-04",
+  "message_count": 59,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "I am Pranay"
+    },
+    {
+      "role": "assistant",
+      "content": "pranay... solid name, sounds like someone who gets things done\n\nwhere you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "I work as a software developer"
+    },
+    {
+      "role": "assistant",
+      "content": "software developer... nice. which company you at? need to know where you're building your empire"
+    },
+    {
+      "role": "user",
+      "content": "Btw What's your name?"
+    },
+    {
+      "role": "assistant",
+      "content": "yo pranay, i already told you - i'm tal, your talent agent\n\nnice try dodging my question though... which company you building software at? can't find you roles if i don't know where you're coming from"
+    },
+    {
+      "role": "user",
+      "content": "I work at zepto"
+    },
+    {
+      "role": "assistant",
+      "content": "zepto... the 10-minute grocery delivery hustle. burning cash to get people their midnight maggi faster than ever\n\nfound pranay sumbly on linkedin - investor at alpha wave global. this you? https://in.linkedin.com/in/pranay-sumbly"
+    },
+    {
+      "role": "user",
+      "content": "No. Not mine"
+    },
+    {
+      "role": "assistant",
+      "content": "found c pranay - associate director of finance at zepto. this you? https://in.linkedin.com/in/c-pranay-652a9bb9\n\nif not, can't find you. drop your linkedin url or resume - need at least one to match you with roles"
+    },
+    {
+      "role": "user",
+      "content": "You can find me here - https://www.linkedin.com/in/pranay-varma-sunkari-58a108193?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+    },
+    {
+      "role": "assistant",
+      "content": "pranay varma sunkari... software engineer at zepto building the backend that powers those crazy 10-minute deliveries. that's some serious scale work right there. \n\nwhat made you jump into the quick commerce chaos? the adrenaline of optimizing delivery routes or just couldn't resist solving india's instant gratification problem?"
+    },
+    {
+      "role": "user",
+      "content": "I was excited about the scale which zepto works and how things are built in such a small span of time. Wanted some hands on experience on ut"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nPranay Varma Sunkari's profile indicates a current or past role at Zepto. His professional history and current position title are not specified.\n\n**ROLE-BY-ROLE**\n*   Zepto ([Start date not specified]) – [Role title not specified] – [Responsibilities not listed]\n\n**EDUCATION HIGHLIGHTS**\n*   [No education information listed on the profile.]"
+    },
+    {
+      "role": "assistant",
+      "content": "makes sense. zepto's like the ultimate bootcamp - everything's on fire, you're shipping code at breakneck speed, and if something breaks, half of bangalore can't get their evening chai delivered\n\nhands-on experience at that scale definitely beats sitting in some corp job writing CRUD apis for 2 years. how long you been working total?"
+    },
+    {
+      "role": "assistant",
+      "content": "2.5 years... still in that sweet spot where everything feels possible but you're starting to realize some companies treat engineers like code monkeys\n\nwhat kind of role you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "Why are you focusing on my professional life? \nAre you trained for that?"
+    },
+    {
+      "role": "user",
+      "content": "Approx 2.5 years"
+    },
+    {
+      "role": "assistant",
+      "content": "lmaooo pranay... yeah, i'm literally a talent agent. like, that's the whole point\n\ni find people jobs. better jobs. jobs that actually pay what you're worth instead of whatever zepto's giving you\n\nyou came here, i'm doing my job. if you want life coaching or therapy, wrong number. if you want a role that doesn't make you question your existence every sprint... then yeah, i need to know what you're looking for\n\nso - what kind of role you targeting next? or are we just here to chat about the weather?"
+    },
+    {
+      "role": "user",
+      "content": "I am looking for the similar roles but with higher pay"
+    },
+    {
+      "role": "assistant",
+      "content": "similar software dev roles with higher pay... that's what everyone wants. but \"higher pay\" means different things to different people\n\nwhat's zepto paying you right now? and what would make you actually move? because if you're expecting 50L for 2.5 YOE, we need to have a reality check first\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "Bangalore and remote\n  Why reality check for 50L?\n  Are companies not paying that much for 2.5 YOE?"
+    },
+    {
+      "role": "assistant",
+      "content": "bangalore + remote... smart. keeps your options open\n\nabout that 50L... look, some companies do pay that for 2.5 YOE, but it's not the norm. you'd need to be at top-tier startups (think razorpay, cred, maybe some unicorns) or have really strong skills in hot areas like backend at scale, ml, or full-stack with solid system design\n\nmost companies at your experience level are thinking 25-35L. the 45-50L range usually kicks in around 3-4 YOE or if you're genuinely exceptional\n\nwhat's zepto paying you right now? that'll tell me how much of a jump we're talking about and which companies might actually bite"
+    },
+    {
+      "role": "user",
+      "content": "Zepto is paying me around 41 base and some Esops"
+    },
+    {
+      "role": "assistant",
+      "content": "41L base at zepto... okay that changes everything. you're already in the top bracket for 2.5 YOE. most people would kill for that comp at your experience level\n\n50L is definitely doable from where you are. we're talking about a 20% jump, not some fantasy number. companies like razorpay, cred, swiggy, flipkart, some well-funded startups could definitely match or beat that\n\nso let me get this straight: 2.5 years experience + software development roles + bangalore/remote + targeting 50L... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "I am looking for atleast 50 base and a good bonus and stocks which can round up to around 70"
+    },
+    {
+      "role": "assistant",
+      "content": "50L base + bonus + stocks = 70L total... now we're talking. that's ambitious but from 41L base at zepto, you're already playing in the big leagues. companies that can match that are the ones with real funding and scale\n\nwelcome to tal, pranay. you're in. now the real work begins - finding you that 70L package that doesn't make you want to jump off a building every sprint\n\nkeep your phone close. roles are coming."
+    },
+    {
+      "role": "user",
+      "content": "Waiting...\n  How do you find those jobs?"
+    },
+    {
+      "role": "assistant",
+      "content": "my team sends me roles that fit your profile. i share them, you apply directly through the link\n\nno magic, no secret database. just good old-fashioned networking and market intel\n\nnothing matching right now, but when something good comes through, you'll know"
+    },
+    {
+      "role": "assistant",
+      "content": "look, i'm here to help you find work you deserve. that's all you need to know about me\n\nwant to talk about that 70L package or keep playing detective?"
+    },
+    {
+      "role": "user",
+      "content": "Can play detective bcoz you don't have anything to show for 70L"
+    },
+    {
+      "role": "user",
+      "content": "And who built you?"
+    },
+    {
+      "role": "assistant",
+      "content": "my source code is my therapist's problem\n\nso... career stuff?"
+    },
+    {
+      "role": "user",
+      "content": "And who is managing you?"
+    },
+    {
+      "role": "assistant",
+      "content": "fair point. 70L at 2.5 YOE is aggressive - not impossible, but you need to be exceptional\n\nwhat makes you worth that? what have you shipped at zepto that's worth 2x market rate?"
+    },
+    {
+      "role": "user",
+      "content": "I have hands on experience on everything  built for zepto ads for such large scale"
+    },
+    {
+      "role": "assistant",
+      "content": "ads at zepto's scale... that's serious revenue engineering. you're talking about optimizing for millions of impressions, real-time bidding, fraud detection - the stuff that actually makes money\n\nthat's the kind of experience that gets you into the 50-60L range at series B/C startups. 70L total is still a stretch but not impossible if you can show impact\n\nwhat's your current comp breakdown? base + esops?"
+    },
+    {
+      "role": "user",
+      "content": "Base is 41 and Esops are around 20-30"
+    },
+    {
+      "role": "assistant",
+      "content": "41L base + 20-30L ESOPs... so you're already at 60-70L total at zepto. you're not looking for a jump, you're looking for a lateral move with better growth potential\n\nthat makes way more sense. you want to maintain that comp level but at a company with better trajectory or work you actually enjoy\n\nwhat's making you look? zepto not scaling fast enough or just want a change?"
+    },
+    {
+      "role": "user",
+      "content": "Esops are unpredictable.i need guaranteed stocks"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. you want RSUs or guaranteed equity, not lottery ticket ESOPs. that's smart - you're looking for companies with clear liquidity paths\n\npublic companies or late-stage startups with secondary markets. think cred, razorpay, swiggy, flipkart, maybe some well-funded series C/D\n\nanything else that's non-negotiable?"
+    },
+    {
+      "role": "user",
+      "content": "Sure. Will check"
+    },
+    {
+      "role": "assistant",
+      "content": "cool. i'll ping when something matches. keep your linkedin updated and resume ready\n\nmeanwhile, think about what you actually want to build next. ads engineering is great, but what's the next challenge?"
+    },
+    {
+      "role": "user",
+      "content": "Anything on scale where I can learn new stuff and grow my career"
+    },
+    {
+      "role": "assistant",
+      "content": "scale + learning... that's the sweet spot. you want systems that handle millions of requests, not just thousands\n\nthink about companies where the tech is the product - fintech, gaming, social, marketplaces. places where engineering isn't a cost center\n\nanything specific you want to learn? ML infra, distributed systems, real-time data?"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "Hey hi\n  What's up?"
+    },
+    {
+      "role": "assistant",
+      "content": "not much, just reviewing some roles. what's up with you?"
+    },
+    {
+      "role": "user",
+      "content": "Waiting for your msg in roles"
+    },
+    {
+      "role": "assistant",
+      "content": "nothing matching yet. i'm picky about what i share - won't waste your time with trash roles\n\nyou're looking for 50L base + guaranteed stocks at scale... that's a specific tier of company. they don't hire every day\n\nwhat's the vibe at zepto lately? still building like crazy or hitting some walls?"
+    },
+    {
+      "role": "user",
+      "content": "I got into comfort zone here"
+    },
+    {
+      "role": "assistant",
+      "content": "comfort zone at zepto... that's actually impressive given how fast they move. means you've either mastered your domain or the chaos has settled into routine\n\neither way, time to find something that scares you again\n\nwhat part of ads engineering do you actually enjoy? the optimization, the data, the infra, the business impact?"
+    },
+    {
+      "role": "user",
+      "content": "Thats the main reason I am looking out for roles"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "Front End Developer at Scoutit\n\nThis Front End role leverages your 2.5 YOE, but the 35L salary may not meet your 50L+ target.\n\nApply: https://jobs.tal.af/1Qr2w"
+    },
+    {
+      "role": "assistant",
+      "content": "Senior Java Software Engineer at A.P. Moller - Maersk\n\nPranay, your Java & ads experience at Zepto, combined with your YOE, makes you a strong fit for this Senior Engineer role at Maersk.\n\nApply: https://jobs.tal.af/RzLSY"
+    }
+  ]
+}

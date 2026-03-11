@@ -1,0 +1,39 @@
+{
+  "thread_id": "918050005648_chat",
+  "date": "2025-12-04",
+  "message_count": 8,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Mohit Dokania"
+    },
+    {
+      "role": "assistant",
+      "content": "mohit dokania... that's a name that sounds like it gets things done. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Flipkart"
+    },
+    {
+      "role": "assistant",
+      "content": "flipkart... the desi amazon that actually gets india. found mohit dokania, sde 2 at flipkart on linkedin. this you? \n\nhttps://in.linkedin.com/in/dokaniam"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "sde 2 at flipkart... building the backbone of indian e-commerce. that's solid engineering work right there. what made you choose flipkart over the other tech giants?"
+    }
+  ]
+}

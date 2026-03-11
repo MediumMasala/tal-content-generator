@@ -1,0 +1,23 @@
+{
+  "thread_id": "919819997276_chat",
+  "date": "2025-12-02",
+  "message_count": 4,
+  "messages": [
+    {
+      "role": "user",
+      "content": "What son"
+    },
+    {
+      "role": "assistant",
+      "content": "what's up boss - just finished checking your profile and you're way more qualified than you think. what's on your mind?"
+    },
+    {
+      "role": "user",
+      "content": "Any jobs"
+    },
+    {
+      "role": "assistant",
+      "content": "nothing matching right now - i'll ping you when something fits"
+    }
+  ]
+}

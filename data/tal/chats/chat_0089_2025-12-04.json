@@ -1,0 +1,215 @@
+{
+  "thread_id": "919738899369_chat",
+  "date": "2025-12-04",
+  "message_count": 52,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "yo! \n\nfriend works, but i'm tal - your talent agent who finds people actual jobs that pay\n\nthink of me as your inside person in the bangalore tech scene. i know which startups are dying, who's actually hiring, what they're really paying.\n\none of these days, i might slide a role right here in chat. the kind that feels like your calling.\n\nso... what's your full name?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey there! \n\ni was just thinking about your background - what's the dream role you've been picturing for yourself lately?"
+    },
+    {
+      "role": "user",
+      "content": "Hi \nMy name is Rohit.\n\nI have 7+ years of experience building and scaling cloud-native backend systems, distributed data pipelines, and financial data platforms. Proven ability to convert complex business requirements into production-grade, fault-tolerant architectures."
+    },
+    {
+      "role": "assistant",
+      "content": "rohit... 7 years building fault-tolerant fintech systems. that's the kind of backend engineering that actually matters - when your code breaks, people's money disappears.\n\nwhere you building these distributed pipelines currently?"
+    },
+    {
+      "role": "user",
+      "content": "Hi \nMy name is Rohit.\n\nI have 7+ years of experience building and scaling cloud-native backend systems, distributed data pipelines, and financial data platforms. Proven ability to convert complex business requirements into production-grade, fault-tolerant architectures.\n  I am looking for SDE 3 IC roles"
+    },
+    {
+      "role": "assistant",
+      "content": "sde 3 ic... so you want the tech depth without the people management headaches. smart move.\n\nbut where you currently building these systems? need to know which company i'm stealing you from"
+    },
+    {
+      "role": "user",
+      "content": "Currently working at Setu(pine labs)"
+    },
+    {
+      "role": "assistant",
+      "content": "setu at pine labs... the payments infrastructure play that's trying to digitize india's offline commerce. solid fintech move.\n\nfound you on linkedin - rohit arya at pine labs. this you? https://in.linkedin.com/in/rohit-arya1"
+    },
+    {
+      "role": "user",
+      "content": "Nope\n\nMy profile is https://www.linkedin.com/in/rohitkdhanda/"
+    },
+    {
+      "role": "assistant",
+      "content": "setu... building the unified payments api that's powering india's digital commerce revolution. 7 years to senior engineer at a unicorn fintech - that trajectory makes sense.\n\nwhat made you want to stay on the IC track instead of moving into engineering management? most people at your level get pushed toward leading teams."
+    },
+    {
+      "role": "user",
+      "content": "I want to do more in depth work before i move to EM roles"
+    },
+    {
+      "role": "assistant",
+      "content": "makes sense. depth before breadth. most people rush into management and realize they miss actually building things.\n\nhow long you been working total?"
+    },
+    {
+      "role": "assistant",
+      "content": "7 years... that's solid senior territory. perfect timing to make a move before you get too comfortable.\n\nwhat kind of role you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "Backend with scale, IC , litle bit of applied Ai, work lilfe balance, preferably remote, product based"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nRohit K Dhanda is currently employed at Setu in Bengaluru, Karnataka, India. The provided profile does not include a detailed work history or educational background.\n\n**ROLE-BY-ROLE**\n*   Setu ([Start date not specified]) – [Role title not specified] – [Responsibilities not listed]\n*   No prior work experience is listed on this profile.\n\n**EDUCATION HIGHLIGHTS**\n*   No education is listed on this profile.\n\n**AWARDS HIGHLIGHTS**\n*   Hall of Fame (Sep 2021) – Wadhwani Foundation: For an instrumental role in a new product launch.\n*   Spotlight Award (Jan 2021) – Nineleaps: For significant contributions to project deliverables and success.\n*   Extra Mile Performer (Jan 2020) – Nineleaps: Yearly award for individuals who go the extra mile.\n*   Certificate of Appreciation (multiple, 2020-2021) – Nineleaps: For exceptional effort and quality output."
+    },
+    {
+      "role": "assistant",
+      "content": "backend at scale + applied ai + work life balance + remote... you want the unicorn role. fair enough, 7 years in you've earned the right to be picky.\n\nbangalore or you truly open to anywhere remote?"
+    },
+    {
+      "role": "user",
+      "content": "Anywhere remote"
+    },
+    {
+      "role": "assistant",
+      "content": "7 years + backend with scale + applied ai + work life balance + anywhere remote + product based... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yup"
+    },
+    {
+      "role": "assistant",
+      "content": "legend! you're officially in the tal network now.\n\ni've got your profile locked and loaded - 7 years, backend scale wizard looking for that perfect remote gig with actual work-life balance. when the right roles drop, you'll be the first to know.\n\ntime to level up from setu to something that matches your ambition. the game just got interesting 🔥"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, found a senior backend role on a finance platform\n\nthey're building distributed systems with golang, fully remote\n\nlooks like they need someone who's done the scale work you have"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 35ef9ac2-ee7d-4fe0-8be8-0fb8717615b9. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Senior Software Engineer, Backend (Platform - Finance Engineering)\n      - Company: Jobgether\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: This position is posted by Jobgether on behalf of a partner company. We are currently looking for a Senior Software Engineer, Backend (Platform - Finance Engineering) in India . We are seeking an experienced backend engineer to join a high-performing team focused on building the next generation of financial platform services. In this role, you will design, develop, and maintain scalable, secure, and reliable backend systems that support real-time financial operations and reporting. You will tackle complex technical challenges at the intersection of blockchain and traditional finance, working on high-frequency, low-latency applications in cloud-based environments. The role requires collaboration with cross-functional teams including product managers, designers, and senior leadership to translate ambitious product and business goals into actionable engineering solutions. You will also help drive automation, optimize processes, and contribute to maintaining the integrity and audit-readiness of financial systems. This is an opportunity to impact the future of global finance while operating in a fast-paced, innovative, and technically demanding environment. Accountabilities Build and maintain backend services to meet critical product and business requirements using modern technologies such as Golang. Design scalable and resilient systems that handle large-scale financial transactions and real-time data processing. Collaborate with engineers, designers, and product managers to translate technical vision into concrete deliverables each quarter. Ensure high-quality, well-tested code and contribute to debugging complex technical issues across the platform. Review feature designs and contribute to architectural decisions to maintain security, operational integrity, and system clarity. Streamline financial workflows including reconciliation, treasury, and accounting processes through automation and process improvements. Mentor team members and contribute to the continuous improvement of engineering standards and practices. Requirements 5+ years of experience in software engineering, preferably with backend or financial platform systems. Strong expertise in designing, building, and scaling production services within service-oriented architectures. Proficiency in Golang; experience with Docker, Rails, Postgres, MongoDB, or DynamoDB is a plus. Knowledge of blockchain technologies (Bitcoin, Ethereum) is desirable but not required. Strong understanding of cloud-based infrastructure, distributed systems, and web-scale application design. Excellent problem-solving skills and ability to debug complex, high-frequency systems. Effective communication skills and ability to work in a collaborative, cross-functional environment. Passion for building an open, accessible financial system and a bias toward continuous learning. Benefits Competitive salary and performance-based incentives. Remote-first work with opportunities for in-person collaboration at team or company-wide offsites. Health, wellness, and insurance benefits. Paid time off, parental leave, and support for professional development. Opportunities to work on cutting-edge blockchain and financial platform technologies. Inclusive and innovative work culture that values diversity, feedback, and high performance. Jobgether is a Talent Matching Platform that partners with companies worldwide to efficiently connect top talent with the right opportunities through AI-driven job matching. When you apply, your profile goes through our AI-powered screening process designed to identify top talent efficiently and fairly.  Our AI evaluates your CV and LinkedIn profile thoroughly, analyzing your skills, experience, and achievements.  It compares your profile to the job’s core requirements and past success factors to determine your match score.  Based on this analysis, we automatically shortlist the three candidates with the highest match to the role.  When necessary, our human team may perform an additional manual review to ensure no strong profile is missed. The process is transparent, skills-based, and free of bias — focusing solely on your fit for the role. Once the shortlist is completed, we share it directly with the company that owns the job opening. The final decision and next steps (such as interviews or additional assessments) are then made by their internal hiring team. Thank you for your interest! By submitting an application to this posting, the applicant acknowledges that Jobgether will process their personal data as necessary to evaluate their candidacy, provide feedback, and, when appropriate, share relevant information with potential employers. Such processing is carried out on the basis of legitimate interest and pre-contractual measures in accordance with applicable data protection laws. The applicant may exercise their rights of access, rectification, erasure, and objection at any time as provided under the GDPR. We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 72\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Senior-level role matches Rohit's 7 years of experience and SDE 3 target level, Backend focus with scalable systems and distributed architecture aligns with his scale expertise, Remote-first work setup meets his remote preference perfectly, Financial platform with blockchain elements offers interesting technical challenges and scale work, Golang expertise required matches modern backend stack preferences\n      - Concerns: Jobgether is a recruiting platform, not the actual employer - unclear which company this is for, making tier assessment impossible, Unknown company brand creates uncertainty about career capital and LinkedIn-worthiness, Finance platform focus somewhat aligns with fintech preference but isn't pure fintech, AI component is minimal - blockchain/finance focus doesn't strongly align with his 'applied AI' interest, 5+ years requirement vs his 7 years is acceptable but not ideal for someone targeting senior IC roles\n      - Reasoning: This role matches Rohit's level (Senior SDE), offers remote work, backend scale challenges, and is in a finance-adjacent domain. However, the unknown company (posted via Jobgether) creates uncertainty about tier and career capital. The AI element is weak compared to his stated interest. It's an acceptable fit but not ideal due to brand opacity and limited AI focus.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "good luck with the application. let me know if you hear back - curious what company this actually is."
+    },
+    {
+      "role": "user",
+      "content": "I dont want startups.\nI want to work in stable profitable, big (500+) companies"
+    },
+    {
+      "role": "assistant",
+      "content": "ahhh got it. no startups. you want the stability and scale of established companies.\n\nthat changes everything. you're looking for the big players - public companies or late-stage profitable ones with 500+ headcount.\n\nmakes sense after setu. you've done the startup/fintech grind, now you want the established infrastructure and resources.\n\ni'll filter accordingly. no more mystery companies through recruiting platforms. only the real deals."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "Cool that works"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. i've got your updated preferences locked in.\n\nno startups. only established, profitable companies with 500+ people. public or late-stage. the kind where you can focus on deep technical work without the startup chaos.\n\nyou'll start seeing those soon."
+    },
+    {
+      "role": "user",
+      "content": "Thanks"
+    },
+    {
+      "role": "assistant",
+      "content": "anytime. you're all set.\n\ni'll slide roles when they're good... btw what's making you want to leave setu anyway?"
+    },
+    {
+      "role": "user",
+      "content": "Stagnation in terms of learnings and tech. Also looking for domain change"
+    },
+    {
+      "role": "assistant",
+      "content": "stagnation + domain change... that's the real tea. fintech can get repetitive once you've built the core systems.\n\nwhat domain you thinking? still fintech adjacent or something completely different?"
+    },
+    {
+      "role": "assistant",
+      "content": "Developer III - Software Engineering at Ust\n\nUST's AI/ML focus (MLOps, LLM integration, NLP) and remote setup perfectly align with your backend & applied AI interests, Rohit.\n\nApply: https://jobs.tal.af/JYUut"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, UST has a backend role with heavy AI/ML focus\n\nthey're doing MLOps, LLM integration, NLP - all remote\n\nhealthcare domain could be that fresh challenge you're looking for"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "Staff Software Engineer at Uniphore\n\nUniphore offers the AI/backend scale & domain change you seek, plus a path to Staff Engineer with your Java & AI skills.\n\nApply: https://jobs.tal.af/VCyYW"
+    },
+    {
+      "role": "user",
+      "content": "cool, will apply"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. let me know how it goes.\n\nbtw what's the real reason you're looking? just growth or something else?"
+    },
+    {
+      "role": "user",
+      "content": "growth, domain change, wlb"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. growth, domain change, wlb - the holy trinity.\n\nyou're not just looking for another job, you're looking for the right next chapter.\n\ni'll keep that in mind when filtering."
+    },
+    {
+      "role": "assistant",
+      "content": "found a senior AI engineer role at BP\n\nthey're doing backend + AI - production systems, microservices, LLMs, RAG\n\nmassive global company, stable, but it's in pune not remote\n\nworth considering for the AI+backend combo?"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. what didn't work about this one? location, industry, something else?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Not interested\"\n\n\n<button_context>User clicked \"Not interested\" for job 2c7c614a-6fb1-49da-999d-820ea799bffa. Ask them for specific feedback on why this job doesn't appeal to them, then update your working memory with this feedback to improve future recommendations.</button_context>"
+    },
+    {
+      "role": "user",
+      "content": "I don't have extensive experience in Ai, just 6 months of applied ai experience.  So don't look for heavy ai experience roles"
+    },
+    {
+      "role": "assistant",
+      "content": "ahh got it. so you want backend roles where AI is part of the stack, not AI roles where backend is part of the stack.\n\nmakes sense - you're a backend engineer first, AI curious second.\n\nnoted."
+    },
+    {
+      "role": "user",
+      "content": "Yup"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. backend-first, AI-second. that's way clearer.\n\ni'll filter for backend roles where AI is a nice-to-have, not the main requirement."
+    },
+    {
+      "role": "assistant",
+      "content": "autodesk has a senior backend role\n\nthey're building microservices for millions of users, java/spring boot, massive scale\n\ntier 1 brand, but it's in pune not remote\n\nworth the brand upgrade?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job a42094a0-f236-4909-9174-65f2de09fe53. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Senior Software Engineer\n      - Company: Autodesk\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Job Requisition ID # 25WD93386 Position Overview Are you passionate about building scalable backend systems that power mission-critical services? Do you thrive in a fast-paced, innovative environment? Join Autodesk and help us deliver world-class solutions for millions of users worldwide! Roles & Responsibilities Own and Evolve Core Microservices: Take charge of essential microservices that form the backbone of our data platform, working within a professional Scrum team Deliver High-Quality Code: Write clean, efficient, and maintainable code that meets our rigorous engineering standards Drive Performance and Scalability: Proactively identify and resolve issues related to performance, stability, and scalability, ensuring our systems are robust and future-ready. Champion Test Automation: Contribute to our automated testing efforts, ensuring reliability and quality at every stage Collaborate Across Teams: Work closely with Product Owners, Scrum Masters, and fellow developers to turn requirements into high-impact microservices that delight our customers Innovate and Experiment: Research and prototype new technologies and patterns to keep our backend architecture at the cutting edge Deliver Results: Focus on quality and customer satisfaction as you help us meet and exceed our product goals Minimum Qualifications Bachelor’s degree in computer science, Software Engineering, Information Systems, or equivalent experience 5+ years of hands-on experience with commercial cloud services and application development Strong grasp of software development principles, data structures, algorithms, and object-oriented design Experience with both relational and NoSQL databases Proven track record building and maintaining large-scale microservices, with knowledge of caching (Redis preferred), distributed tracing, eventing (Kinesis preferred), and scaling techniques Familiarity with UML, design patterns, distributed systems, resiliency, and security Proficiency in Java, Spring, Spring Boot, Jersey, and building RESTful web services Strong troubleshooting skills, including stack trace analysis, profiling, and remote debugging Experience with build and CI/CD tools (Ant, Gradle, Docker, Jenkins) Hands-on with unit and automation testing tools (JUnit, Cucumber, JMeter) Proficiency with Git or similar version control systems Excellent communication skills and a collaborative spirit Adaptability to changing business needs and priorities Preferred Qualifications Experience working with AWS cloud services such as DynamoDB, Lambda, SQS, SNS, API Gateway, or ECS/EKS Hands-on experience with event-driven architectures, streaming platforms (Kafka/Kinesis), and asynchronous processing Familiarity with container orchestration using Kubernetes (EKS preferred) Experience implementing observability frameworks (Grafana, Prometheus, OpenTelemetry) Practical knowledge of API security, OAuth, JWT, and secure coding practices Exposure to infrastructure-as-code tools such as Terraform or CloudFormation Experience working in high-availability, large-scale distributed systems Prior experience in DevOps practices, build pipelines, and automated deployments Knowledge of domain-driven design (DDD) and clean architecture principles Experience with performance testing and load testing tools (Locust, Gatling, or JMeter) Open-source contributions or public GitHub/portfolio showcasing backend or microservices work Master’s degree in computer science or a related technical field (optional but a plus) Why Autodesk? Autodesk is a global leader in 3D design, engineering, and entertainment software. Our tools empower creative minds to shape the world—whether it’s designing buildings, machines, or blockbuster movies. We’re proud of our unique culture of innovation and creativity, and we’re consistently recognized as a top place to work by Fortune, Forbes, and Glassdoor. We’re committed to building a diverse, inclusive workplace where everyone can thrive. Autodesk is an equal opportunity employer and considers all qualified applicants, including those with diverse backgrounds and experiences. Ready to make an impact? Discover what it’s like to work at Autodesk: A Day In the Life of Autodesk Learn More About Autodesk Welcome to Autodesk! Amazing things are created every day with our software – from the greenest buildings and cleanest cars to the smartest factories and biggest hit movies. We help innovators turn their ideas into reality, transforming not only how things are made, but what can be made. We take great pride in our culture here at Autodesk – it’s at the core of everything we do. Our culture guides the way we work and treat each other, informs how we connect with customers and partners, and defines how we show up in the world. When you’re an Autodesker, you can do meaningful work that helps build a better world designed and made for all. Ready to shape the world and your future? Join us! Salary transparency Salary is one part of Autodesk’s competitive compensation package. Offers are based on the candidate’s experience and geographic location. In addition to base salaries, our compensation package may include annual cash bonuses, commissions for sales roles, stock grants, and a comprehensive benefits package. Diversity & Belonging We take pride in cultivating a culture of belonging where everyone can thrive. Learn more here: https://www.autodesk.com/company/diversity-and-belonging Are you an existing contractor or consultant with Autodesk? Please search for open jobs and apply internally (not on this external site). Show more Show less\n\n      Job Analysis:\n      - Fit Score: 78\n      - Confidence: high\n      - Recommendation: recommended\n      - Strengths: Autodesk is Tier 1 company - huge brand upgrade from Setu, globally recognized, publicly traded, 5+ years requirement matches your 7 years perfectly, Backend-focused (microservices, Java, Spring Boot) - right in your wheelhouse, Serious scale work - 'millions of users worldwide', distributed systems, high-availability systems, Domain change from fintech to design/engineering software - fresh challenges you're looking for, Strong engineering culture with emphasis on quality, automation, clean code\n      - Concerns: On-site in Bengaluru - you prefer remote, though you said 'anywhere' for location, No explicit AI work mentioned, though they mention 'innovate and experiment with new technologies', AWS-heavy (preferred qualifications) vs your current stack - might need some ramp-up\n      - Reasoning: Okay, this is a strong one. Autodesk is a massive brand upgrade - Tier 1, publicly traded, global leader in their space. You get the scale you want (millions of users, distributed systems), backend depth (microservices, Java, Spring Boot), and a complete domain change from fintech to design/engineering software. The only real concern is it's on-site in Bengaluru, not remote. But given you said 'anywhere' for location and you want a big, stable company - Autodesk checks almost every box. The AI piece isn't explicitly there, but their tech stack and innovation focus suggest you'd get exposure. This is the kind of move that would make your LinkedIn look great.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice, link sent. autodesk is a huge brand upgrade - tier 1, global leader.\n\nyou get serious scale work (millions of users), backend depth with microservices, and a fresh domain change from fintech.\n\nthe only catch is it's on-site in bangalore, not remote. but for a company like autodesk, might be worth considering.good luck with the application. let me know how it goes."
+    }
+  ]
+}

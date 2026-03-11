@@ -1,0 +1,43 @@
+{
+  "thread_id": "918459072454_chat",
+  "date": "2025-12-04",
+  "message_count": 9,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Shivam Ingawale"
+    },
+    {
+      "role": "assistant",
+      "content": "shivam ingawale... that's a name that means business. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Meesho"
+    },
+    {
+      "role": "assistant",
+      "content": "meesho... the platform where aunties discovered they could become entrepreneurs. building the social commerce empire that's changing how india shops.\n\nfound you on linkedin - shivam ingawale, sde i at meesho. this you? https://in.linkedin.com/in/shivam-ingawale"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "sde i at meesho... building the tech that powers millions of resellers across india. solid engineering role at a company that's actually solving real problems. what made you pick meesho over other startups?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey shivam, you never answered my question about why meesho over other startups... i'm genuinely curious"
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "thread_id": "917746054222_chat",
+  "date": "2025-12-04",
+  "message_count": 97,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "My name’s Akshat"
+    },
+    {
+      "role": "assistant",
+      "content": "akshat... solid name. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Inmobi"
+    },
+    {
+      "role": "assistant",
+      "content": "inmobi... the mobile ad network that basically runs half the apps on your phone. found akshat gupta at glance, inmobi on linkedin - staff mle from iitkgp. this you? https://in.linkedin.com/in/agupta28"
+    },
+    {
+      "role": "user",
+      "content": "Nope"
+    },
+    {
+      "role": "assistant",
+      "content": "got akshat gupta again - staff mle at glance, inmobi from iitkgp. still not you? \n\ncan't find the right akshat... drop your linkedin url or just tell me your last name?"
+    },
+    {
+      "role": "user",
+      "content": "Yeah"
+    },
+    {
+      "role": "user",
+      "content": "My full name is Akshat Vaya"
+    },
+    {
+      "role": "assistant",
+      "content": "found akshat vaya - sde ii at inmobi, ex-sprinklr. this you? https://in.linkedin.com/in/akshat-vaya"
+    },
+    {
+      "role": "assistant",
+      "content": "sde ii at inmobi... building the ad tech that keeps the mobile world spinning. sprinklr to inmobi is a solid move - from social media management to mobile advertising. what made you jump ship from sprinklr?"
+    },
+    {
+      "role": "user",
+      "content": "2.5 years now roughly"
+    },
+    {
+      "role": "user",
+      "content": "I did an intern in sprinklr, got placed in Inmobi as a part of campus recruitment"
+    },
+    {
+      "role": "assistant",
+      "content": "ah campus placement - straight from college hustle to ad tech. inmobi's a solid first job, better than most campus offers. how long you been working total?"
+    },
+    {
+      "role": "assistant",
+      "content": "2.5 years... that sweet spot where you're not a fresher anymore but still figuring things out. what kind of role you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "I am looking for role that is either backend or an ensemble of big data and backend since I have a relevant experience in these field and I pretty much enjoy the two"
+    },
+    {
+      "role": "assistant",
+      "content": "backend + big data combo... that's where the real engineering happens. scaling systems and crunching massive datasets - good call. bangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "I am based out of Bangalore, but I am fine with everything"
+    },
+    {
+      "role": "assistant",
+      "content": "2.5 years + backend/big data combo + open to everything... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yeah"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yeah\n  Love it"
+    },
+    {
+      "role": "assistant",
+      "content": "welcome to the club legend! you're officially locked in. \n\nbackend + big data roles that actually pay well are about to slide into your notifications. the kind that make your current tc look cute.\n\ngame time 🎯"
+    },
+    {
+      "role": "user",
+      "content": "Sure"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. now we wait for the good stuff to roll in."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": "hey akshat\n\nwhat's good?"
+    },
+    {
+      "role": "user",
+      "content": "Waiting for you texts :))"
+    },
+    {
+      "role": "assistant",
+      "content": "lmaooo i love the energy\n\ni'm scanning through thousands of roles rn. backend + big data combos are rare but when they hit... they hit different.\n\nwhat's making you want to leave inmobi anyway? just growth or something else?"
+    },
+    {
+      "role": "user",
+      "content": "I am looking for backend jobs too btw"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. backend only is way easier to find than the combo. that's good news for you.\n\nso what's the real reason you're looking? just growth or something else?"
+    },
+    {
+      "role": "user",
+      "content": "I am looking for growth and learning"
+    },
+    {
+      "role": "assistant",
+      "content": "growth and learning... what does that actually mean to you day to day? like building new systems from scratch? working with bleeding edge tech? leading a team?"
+    },
+    {
+      "role": "user",
+      "content": "Building new systems from scratch is what gets me excited"
+    },
+    {
+      "role": "assistant",
+      "content": "building from scratch... that's the good stuff. greenfield projects where you actually get to design things instead of just maintaining legacy code.\n\nwhat's the most interesting thing you've built so far?"
+    },
+    {
+      "role": "user",
+      "content": "Not a lot, but I have setup a production version spark on kubernetes in my current organisation, which is an open source project by kubeflow"
+    },
+    {
+      "role": "assistant",
+      "content": "wait what... you set up production spark on k8s? that's actually legit. kubeflow's spark operator is no joke.\n\nthat's the kind of experience that gets you into places building data platforms from scratch. you're underselling yourself.\n\nwhat's your current tc?"
+    },
+    {
+      "role": "user",
+      "content": "37 LPA"
+    },
+    {
+      "role": "assistant",
+      "content": "37 for 2.5 YOE in bangalore is solid. campus placement worked out well for you.\n\nwhat's your target? and what's the minimum you'd accept?"
+    },
+    {
+      "role": "user",
+      "content": "I’d prefer having a decent base if I am going for a start up, around 45 seems good enough with decent esops \nBut if I am going for a big tech firm, I am good with anything over 55 LPA"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. 45+ with esops for startups, 55+ for big tech. that's realistic for your experience.\n\nwhat's your notice period?"
+    },
+    {
+      "role": "user",
+      "content": "2 months officially, but that is negotiable, we can get it reduced to 1-1.5 months"
+    },
+    {
+      "role": "assistant",
+      "content": "2 months negotiable down to 1-1.5... that's manageable. most good companies will wait.\n\nany companies you'd never work for? or industries you want to avoid?"
+    },
+    {
+      "role": "user",
+      "content": "Not really, I do like the adtech domain, but I am willing to explore outside as well"
+    },
+    {
+      "role": "assistant",
+      "content": "adtech background but open to exploring... smart move. you've seen how the sausage gets made, now you can apply those patterns anywhere.\n\ni'm scanning for backend + big data platform roles. anything with spark/k8s experience is gold right now.\n\nbtw what got you into product in the first place?"
+    },
+    {
+      "role": "user",
+      "content": "Not really something I have a preference on, atleast yet"
+    },
+    {
+      "role": "assistant",
+      "content": "fair enough. you're still figuring out what you actually enjoy vs what you're just good at.\n\nthat's the whole point of exploring - finding the intersection of \"i'm good at this\" and \"i don't hate mondays\".\n\ni'll keep an eye out for roles where you can build new systems from scratch. that spark/k8s experience is your ticket.\n\nanything else i should know about what you're looking for?"
+    },
+    {
+      "role": "user",
+      "content": "Reiterating on being fine with just backend as well"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. backend only opens up way more doors. the spark/k8s experience is still a huge plus even for pure backend roles.\n\nyou're locked in. i'll slide roles when they're good.\n\nbtw how's the inmobi chaos been lately?"
+    },
+    {
+      "role": "user",
+      "content": "Fun and exciting"
+    },
+    {
+      "role": "assistant",
+      "content": "\"fun and exciting\" is corporate speak for \"we're putting out fires daily but at least we're not bored\"\n\ni'll take it. means you're actually building stuff.\n\nkeep an eye on your chats. something good will pop up soon."
+    },
+    {
+      "role": "assistant",
+      "content": "Full Stack AI Engineer at Cube\n\nAkshat, Cube offers 0->1 building with Python/FastAPI and React, aligning with your backend/full-stack interests & desire for greenfield projects.\n\nApply: https://jobs.tal.af/bg6sH"
+    },
+    {
+      "role": "assistant",
+      "content": "found a silicon valley startup role that's all about building from scratch\n\nthey're doing zero-to-one AI systems with full ownership\n\ncatch is it's in chennai - you open to relocate for the right opportunity?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job dfe0a6f9-6cbf-46f1-8bd6-8fc34201401c. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Senior Software Engineer\n      - Company: SproutsAI\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Senior Software Engineer (Startup) About The Role We’re a fast-moving, top tier VC funded Silicon Valley startup, building ambitious products at the intersection of web apps and modern AI systems. That means we’re looking for people who thrive in ambiguity, move quickly, and love building zero-to-one products. We ship fast, cut clean corners, and obsess over reliability, security and craft. You’ll work end-to-end—from whiteboard to prod—owning services, shaping architecture, and raising the bar for engineering excellence. You’ll fit right in if you’ve worked in an early-stage company before — or if you’ve always wanted to experience the intensity and freedom of a startup. We value initiative over process, learning over perfection, and collaboration over hierarchy. Things change daily, and that’s part of the fun you’ll wear multiple hats, experiment, and help shape both the product and the culture from the very beginning. What you`ll do Design & build production services and UIs, from APIs to frontends, with an eye for simplicity, performance, and operability. Own systems instrument, monitor, and debug in prod; drive incident response and post-mortems; automate everything. Evolve our AI stack prototype and productionize features that depend on LLMs—prompt pipelines, evals, guardrails, retrieval, and memory. Tune & measure experiment with model selection,finetuning, quantization, LoRA,PEFT, structured outputs, function,tool calling, and latency,cost tradeoffs. Ship great APIs design pragmatic REST, GraphQL, and,or gRPC interfaces; versioning, pagination, authN,Z, schema evolution, and backward compatibility. Collaborate tightly with product,design to turn ambiguous problems into lovable, secure, and compliant experiences. Mentor teammates via reviews, tech talks, and crisp docs. What Makes You a Great Fit Curiosity as a habit you read release notes, try new runtimes and models, and build weekend prototypes for fun, a lot of your Youtube consumption is hacking and learning new technologies, and you enjoy learning what you don’t know on your own Self-driven you find the problem behind the problem, align stakeholders, and land outcomes without hand-holding. Systems mindset you think in SLOs, budgets (latency,cost,error), blast radius, and graceful degradation. API ergonomics you care about naming, error design, rate limits, observability, generated SDKs, and docs that don’t lie. Data foundations you know when to pick Postgres vs columnar vs KV vs vector; you`ve shipped schema migrations and zero-downtime deploys. LLM-practical you`ve built RAG or agents in anger; you understand context windows, tokenization, evals, and prompt,tooling hygiene. Security instincts you default to least privilege, tame secrets, and design auth flows that survive real traffic. Nice to have Hands-on with vector DBs (e.g., FAISS, HNSW, Milvus, PGVector), embeddings pipelines, and hybrid ranking. Can Design retrieval layers build embeddings pipelines, vector indexes, hybrid search (BM25 + ANN), chunking,merging strategies, and memory graphs. Protocol-fluent you actually enjoy HTTP,1.1 vs HTTP,2,3 quirks, caching semantics, content negotiation, and idempotency. Experience with model hosting (self-hosted inference servers, serverless GPUs, or managed endpoints) and caching,streaming strategies. Infra chops containers, IaC, CI,CD, service meshes, feature flags, canary,blue-green, cost observability. Frontend XP with modern TypeScript frameworks and component systems; accessibility and performance budgets. Prior startup experience or meaningful open-source contributions. How We Work Bias to action short feedback loops, measured experiments, reversible decisions. Quality without ceremony tests, tracing, and dashboards are table stakes. Written culture design docs, runbooks, and decision logs that future-you will thank you for. Flexible, ownership-heavy take on scope that excites (and scares) you a little. What Success Looks Like (first 90–180 Days) You`ve shipped a user-visible feature end-to-end and made it boringly reliable. You`ve hardened an API (or three) clear contracts, observability, and error budgets in place. You`ve improved our AI retrieval,memory layer with measurable gains in quality or cost. You`ve leveled up teammates via patterns, docs, or tooling that sticks. Compensation & location Competitive salary + equity; Development team based in Chennai, collaborating with some team members in San Francisco. About Us We are backed by a top-tier Silicon Valley venture capital firm and led by two seasoned Silicon Valley entrepreneurs and executives who have scaled startups from inception to IPO, led successful exits to Fortune 500 companies, and tripled the valuation of publicly traded firms in record time. If this sounds like you, show us, don’t just tell us share a system you`ve built, the toughest incident you`ve owned, or a small repo that captures your taste, and,or the last two-three things you built and taught yourself. Find our real company name and send us your accomplishments along with your best guess on the application tech stack we used for the website (and why you think so) to at personai.me. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 72\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Top-tier VC funded Silicon Valley startup indicates strong backing and Tier 1/2 potential, Zero-to-one building focus perfectly aligns with candidate's greenfield project preference, Strong AI/LLM stack work offers cutting-edge learning opportunities, End-to-end ownership and architecture shaping match candidate's growth aspirations, Backend and systems focus with API design aligns with candidate's backend specialization, Startup intensity and freedom align with candidate's desire for growth and learning, Experience with 'modern AI systems' could differentiate candidate's profile\n      - Concerns: Located in Chennai, not Bangalore - significant location mismatch with no remote option mentioned, Experience requirement appears to be 3+ years which is slightly above candidate's 2.5 years, Title is 'Senior Software Engineer' which may be aspirational for candidate's current level, Salary not disclosed - uncertainty about meeting 45 LPA minimum, Company name revelation process ('find our real company name') is unusual and suggests early/stealth stage, Very broad role spanning frontend, AI, infra - may lack focus on backend/big data specialization\n      - Reasoning: This role offers exceptional alignment with the candidate's desire for greenfield 0→1 building and learning opportunities at a well-funded Silicon Valley startup. The AI/systems focus and end-to-end ownership are strong career capital builders. However, the Chennai location is a significant concern given the candidate is Bangalore-based with no explicit willingness to relocate. The role is slightly aspirational (Senior title with 3+ years vs candidate's 2.5 years) but acceptable. Would be stronger if remote or Bangalore-based.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. you applied to sproutsai.\n\nthis is exactly the kind of zero-to-one building you wanted - silicon valley backed, full ownership, modern AI stack.\n\nthe chennai location is the main catch, but if you're open to relocate, this could be huge for your career. that AI/LLM experience is gold right now.\n\nthey want you to \"find our real company name\" and guess their tech stack... that's some startup energy right there.\n\nkeep me posted on how it goes."
+    },
+    {
+      "role": "user",
+      "content": "Shows it is no longer accepting applicant"
+    },
+    {
+      "role": "assistant",
+      "content": "damn they closed it fast. that's startup hiring for you - roles fill in hours sometimes.\n\ngood news is you're in the system now. they might reopen or have something similar soon.\n\ni'll keep scanning for more backend roles with that zero-to-one energy. anything else catch your eye while we're at it?"
+    },
+    {
+      "role": "assistant",
+      "content": "experian is hiring a data engineer role in hyderabad\n\nthey want scala + spark for batch processing - right up your alley with that k8s experience\n\nit's hybrid 40% office, so you'd need to relocate. tier 1 company though"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job e1974b6a-a558-4857-8d76-ae560ef3df49. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Data Engineer - Scala\n      - Company: Experian\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Company Description Experian is a global data and technology company, powering opportunities for people and businesses around the world. We help to redefine lending practices, uncover and prevent fraud, simplify healthcare, create marketing solutions, all using our unique combination of data, analytics and software. We also assist millions of people to realise their financial goals and help them save time and money. We operate across a range of markets, from financial services to healthcare, automotive, agribusiness, insurance, and many more industry segments. We invest in people and new advanced technologies to unlock the power of data. As a FTSE 100 Index company listed on the London Stock Exchange (EXPN), we have a team of 22,500 people across 32 countries. Our corporate headquarters are in Dublin, Ireland. Learn more at experianplc.co m Job Description We are looking for an enthusiastic Data Engineer - Scala to work to work at the forefront of our cloud modernisation within our Credit & Verification Services. This is a hybrid role requiring travelling to Hyderabad office 40% per month. Background This is an incredibly exciting time for the Experian UKI Region, as we look to build our presence in the UK and Hyderabad and work on a technology transformation to meet our aspiration to significantly scale our business over the next five years. This an opportunity to join Credit & Verification Services on this journey and be part of a collaborative team that uses Agile DevSecOps principles to deliver business value. Credit and Verification Services currently comprises nearly 100 engineering teams who deliver over 200 products achieving significant revenue per annum for our UK Business. Our unique culture and agile ways of working offer a great opportunity to those looking to join an experienced diverse set of problem solvers to design, build and maintain our products. We pride ourselves in excellence, adopting best practices and holding ourselves to the highest standards. Main Responsibilities You will be based in Hyderabad and reporting to Director Engineering. Develop and maintain batch data processing pipelines using Scala and Apache Spark. Optimize Spark jobs for performance and scalability in a cloud-native environment (AWS). You will collaborate with data engineers and analysts to understand data requirements and deliver high-quality solutions. Ensure data integrity, reliability, and consistency across systems. Participate in code reviews, design discussions, and agile development practices. Monitor and troubleshoot production jobs, ensuring resolution of issues. Qualifications 3–6 years of software development experience, with at least 2 years in Scala. Write clean, scalable and re-usable code that implements SOLID principles, common design patterns where applicable and adheres to published coding standards Strong understanding of functional programming and distributed computing. Strong experience with DevOps & IaC tooling - Terraform, CI/CD pipelines, Git, Jenkins Hands-on experience with Apache Spark for batch processing. Familiarity with AWS services such as S3, AWS Glue, Lambda, Step Functions, AWS Batch and CloudWatch. Proficiency in working with structured and semi-structured data formats (e.g., Parquet, JSON). Experience of the full development lifecycle/application Lifecycle Management Tools – BitBucket, Jira Experience with data lake architectures and ETL frameworks. Exposure to containerization tools (Docker, Kubernetes) Knowledge of data governance and security best practices Relevant certifications in AWS, Spark, or Scala. Additional Information Our uniqueness is that we celebrate yours. Experian's culture and people are important differentiators. We take our people agenda very seriously and focus on what matters; DEI, work/life balance, development, authenticity, collaboration, wellness, reward & recognition, volunteering... the list goes on. Experian's people first approach is award-winning; World's Best Workplaces™ 2024 (Fortune Global Top 25), Great Place To Work™ in 24 countries, and Glassdoor Best Places to Work 2024 to name a few. Check out Experian Life on social or our Careers Site and Glassdoor to understand why. Experian is proud to be an Equal Opportunity and Affirmative Action employer. Innovation is a critical part of Experian's DNA and practices, and our diverse workforce drives our success. Everyone can succeed at Experian and bring their whole self to work, irrespective of their gender, ethnicity, religion, color, sexuality, physical ability or age. If you have a disability or special need that requires accommodation, please let us know at the earliest opportunity. Benefits Experian care for employee's work life balance, health, safety and wellbeing. In support of this endeavor, we offer best-in-class family well-being benefits, enhanced medical benefits and paid time off. Experian Careers - Creating a better tomorrow together Find out what its like to work for Experian by clicking here Show more Show less\n\n      Job Analysis:\n      - Fit Score: 72\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Experian is a Tier 1 global company (FTSE 100, 22,500 employees, recognized brand) - significant tier upgrade from InMobi, Role focuses on Scala and Apache Spark for batch data processing which directly aligns with candidate's Spark on Kubernetes experience, Experience requirement of 3-6 years with 2+ years in Scala is achievable - candidate has 2.5 years and Spark experience is transferable, Strong focus on data pipelines, ETL, AWS, and data lake architectures matches candidate's big data interests and backend experience, DevOps tooling (Terraform, CI/CD, Jenkins, Docker, Kubernetes) aligns perfectly with candidate's K8s and infrastructure experience, Hybrid setup in Hyderabad is acceptable given candidate's openness to different cities beyond Bangalore, Cloud modernization and transformation initiative offers growth and learning opportunities candidate explicitly seeks, Agile DevSecOps culture and collaborative team environment fits well with candidate's profile\n      - Concerns: Role requires strong Scala experience with 2+ years specifically in Scala - candidate's Scala depth is unknown, may need to demonstrate this in interviews, Hyderabad location requires 40% office presence monthly - candidate is currently in Bangalore, relocation consideration needed, Salary information not provided - unclear if it meets candidate's 55+ LPA expectation for big tech companies, Role is mid-level (Level 2) matching current level rather than providing upward progression to Senior (Level 3), Batch processing focus may be less cutting-edge compared to real-time streaming systems candidate might prefer\n      - Reasoning: This is a strong fit representing a valid prestige trade. While the role is at the same level (SDE II/Mid-level Data Engineer), Experian represents a significant tier upgrade (Tier 1 global brand vs Tier 2 InMobi). The technical alignment is excellent - Scala, Spark, AWS, Kubernetes, data pipelines all match Akshat's experience and interests. From a hiring manager perspective, Akshat is competitive: his Spark on K8s experience demonstrates relevant skills, and 2.5 years falls within the 3-6 year range (slight stretch but reasonable). The LinkedIn test passes - announcing 'Data Engineer at Experian' would be a proud moment given the brand strength. Main uncertainty is Scala depth and compensation, but the fundamentals are solid.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied to experian. solid move.\n\nthis is a tier upgrade from inmobi - FTSE 100 company, global brand. your spark/k8s experience is perfect for their cloud modernization push.\n\nmain thing is scala depth - if you're comfortable with it, you're golden. the hybrid setup in hyderabad is manageable if you're open to relocate.\n\nkeep me posted on how it goes."
+    },
+    {
+      "role": "user",
+      "content": "What salary range can I expect"
+    },
+    {
+      "role": "assistant",
+      "content": "for experian at your level (2.5 YOE) in hyderabad:\n\nmid-level data engineer at tier 1 MNC → 35-45 LPA range\n\nyou're at 37 now, so you'd be looking at maybe 40-45 if you ace the interviews. not hitting your 55+ big tech target, but the brand name has value.\n\nthat's the trade-off: tier upgrade vs immediate comp jump.\n\nwhat's your scala experience like?"
+    },
+    {
+      "role": "user",
+      "content": "I have decent experience in scala"
+    },
+    {
+      "role": "assistant",
+      "content": "decent scala + your spark/k8s experience = you're competitive for this role.\n\nthe brand name could open doors later even if the comp isn't hitting 55+ right away.\n\nworth going through the process to see what they offer. you can always say no.\n\nanything else you want me to look out for?"
+    },
+    {
+      "role": "user",
+      "content": "I don't want a tier upgrade until its one of the big tech companies"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. you want the tier upgrade to come with FAANG-level comp, not just brand name.\n\nmakes sense - why settle for one when you can get both?\n\ni'll filter for big tech roles specifically. your spark/k8s experience is valuable there too.\n\nany particular big tech companies you're targeting?"
+    },
+    {
+      "role": "user",
+      "content": "I still would prefer backend being in more focus than just data oriented roles"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. backend focus with big data as a plus, not the other way around.\n\nthat's actually better - pure backend roles at big tech pay more than data engineering roles at the same level.\n\ni'll look for backend SDE roles where your spark/k8s experience is a nice bonus, not the main requirement.\n\nyou're at 2.5 YOE - aiming for SDE II at big tech. that's the sweet spot."
+    },
+    {
+      "role": "user",
+      "content": "Or in an initial phase startup"
+    },
+    {
+      "role": "assistant",
+      "content": "oh interesting. so you're open to both extremes - big tech OR early stage startups.\n\nthat's smart. startups for the greenfield projects you want, big tech for the comp and brand.\n\nwhat stage startups are you thinking? seed/series A where you'd be building from scratch, or more like series B/C where there's some structure?"
+    },
+    {
+      "role": "assistant",
+      "content": "cool. so the full spectrum: seed/series A for maximum ownership, series B/C for more stability but still growth, big tech for comp and brand.\n\nthat gives me a lot to work with. your spark/k8s + backend experience plays well at every stage.\n\ni'll slide roles across that spectrum when they're good.\n\nbtw what's your notice period at inmobi?"
+    },
+    {
+      "role": "user",
+      "content": "seed / series A is preferable"
+    },
+    {
+      "role": "assistant",
+      "content": "seed/series A... you want to be in the trenches building from zero.\n\nthat's where your spark/k8s experience becomes super valuable - startups need people who can set up data platforms properly from day one.\n\nthe comp will be lower than big tech (45 base + ESOPs like you said), but the ownership and learning is unmatched.\n\ni'll look for early stage startups with strong technical founders and real funding. not just \"we have an idea\" shops.\n\nanything else about the startup vibe you're looking for?"
+    },
+    {
+      "role": "user",
+      "content": "But I am fine with series B/C as well"
+    },
+    {
+      "role": "user",
+      "content": "my official notice period is 60 days, but it is negotiable, I've seen people leave in like 30 days as well"
+    },
+    {
+      "role": "assistant",
+      "content": "60 days negotiable down to 30... that's standard for most companies. they'll wait for the right candidate.\n\nalright akshat, i've got everything i need. your profile is solid - campus placement to inmobi, 2.5 YOE, legit production spark/k8s experience, backend focus with big data as a plus.\n\nyou're looking for either:\n1. big tech backend SDE II roles (55+ LPA)\n2. early stage startups seed/series A (45 base + ESOPs)\n3. series B/C as well\n\nbased in bangalore but open to remote/other cities.\n\ni'll slide roles when they're good. anything else you want me to know before i start looking?"
+    },
+    {
+      "role": "user",
+      "content": "Nope, sounds good"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. you're locked in.\n\ni'll slide roles when they're good. keep an eye on your chats.\n\nbtw what's the real reason you're looking? just growth or something specific about inmobi?"
+    },
+    {
+      "role": "user",
+      "content": "I am looking for a 0-1 product building experience if I am joining a startup, else if I intend on joining a big tech firm, I am looking for scale"
+    },
+    {
+      "role": "assistant",
+      "content": "0-1 at startups vs scale at big tech... that's the perfect way to think about it.\n\nstartups: you build it from nothing, own everything, learn everything\nbig tech: you work on systems at insane scale, learn how to operate at that level\n\nboth are valuable. you're smart to be open to both paths.\n\ni'll look for both types. early stage startups where you can be the first backend/data engineer, and big tech roles where you'll work on systems that handle millions of requests.\n\nanything specific you want to avoid? any companies you'd never work for?"
+    },
+    {
+      "role": "user",
+      "content": "I'll avoid frontend only roles as well as mobile development related roles. \nI am open to working as an MLE as well since I do have the relevant experience with Ray and LightGBM"
+    },
+    {
+      "role": "assistant",
+      "content": "wait what... you have ray and lightgbm experience too?\n\nthat changes things. MLE roles at big tech pay even better than backend. and at startups, MLEs are gold.\n\nso your full stack is: backend (primary) + big data/spark/k8s + MLE/ray/lightgbm.\n\nthat's actually insane for 2.5 YOE. you're massively underselling yourself.\n\ni'll look for:\n1. backend SDE II at big tech (scale)\n2. MLE roles at big tech (scale + ML)\n3. early stage startup backend/data/ml engineer (0-1)\n4. series B/C backend/ml roles\n\navoiding frontend and mobile only. got it.\n\nanything else?"
+    },
+    {
+      "role": "user",
+      "content": "Nope, looks great"
+    },
+    {
+      "role": "assistant",
+      "content": "alright akshat. you're all set.\n\ni'll slide roles when they're good. keep an eye on your chats.\n\nbtw... what got you into this whole backend/ml/data stack in the first place?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "cognite is hiring a senior software engineer in bangalore\n\nthey want deep spark internals and distributed systems - exactly your production k8s experience\n\nit's 6-12 years experience though, which is a stretch. but your spark skills might make up for it"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job f4168aea-1b8e-4d63-857b-b2a2da5647a8. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Senior Software Engineer\n      - Company: Cognite\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: About Cognite Embark on a transformative journey with Cognite, a global SaaS forerunner in leveraging AI and data to unravel complex business challenges through our cutting-edge offerings including Cognite Atlas AI, an industrial agent workbench, and the Cognite Data Fusion (CDF) platform. We were awarded the 2022 Technology Innovation Leader for Global Digital Industrial Platforms & Cognite was recognized as 2024 Microsoft Energy and Resources Partner of the Year. In the realm of industrial digital transformation, we stand at the forefront, reshaping the future of Oil & Gas, Chemicals, Pharma and other Manufacturing and Energy sectors. Join us in this venture where AI and data meet ingenuity, and together, we forge the path to a smarter, more connected industrial future. About The Role We're seeking a Senior Data Platform Engineer who excels at building high-performance distributed systems and thrives in a fast-paced startup environment. You'll be working on cutting-edge data infrastructure challenges that directly impact how Fortune 500 industrial companies manage their most critical operational data. How You'll Create An Imapct Build high-performance data pipelines using Spark, Flink, and Kafka to process terabyte-scale industrial datasets. Develop low-latency APIs and services supporting thousands of concurrent users with sub-second response times. Optimize time-series, sensor, and operational data storage and retrieval for massive scale. Engineer distributed processing solutions, including real-time streaming that handles millions of events per second. Design and evolve cost-efficient data lake architectures (S3/GCS) using modern formats like Parquet/ORC. Optimize OLAP query performance across systems such as ClickHouse, Pinot, or Druid. Build fault-tolerant, highly-available systems with circuit breakers, retries, and distributed tracing. Drive technical innovation through research, prototyping, and contributions to open-source. Collaborate with product and architecture teams to translate complex industrial data problems into scalable, production-grade solutions. What You Bring Deep expertise in Spark internals, including Catalyst optimizer, partitioning, and performance tuning. Strong hands-on experience with Flink/Kafka for both streaming and batch workloads. Proven ability to scale systems to 10K+ QPS with strong foundations in JVM performance, GC tuning, and memory management. Experience building high-throughput REST/gRPC services and advanced caching with Redis/in-memory data structures. Strong understanding of monitoring and observability (Prometheus, Grafana, OpenTelemetry). Solid architectural thinking with an ability to design distributed, secure, and resilient platforms. Collaborative mindset with the ability to work across engineering, product, and platform teams. Qualifications 6–12 years of experience in distributed data systems, backend engineering, or platform engineering. Strong programming skills in Scala, Java, or Python. Experience with cloud platforms (AWS/GCP/Azure) and data lake/object storage. Prior experience with large-scale data, OLAP systems, or industrial/IoT data is a plus. Contributions to open-source or experience in industrial data/AI platforms is an added advantage. Whar We Offer Opportunity to build world-class Industrial DataOps systems powering global energy, manufacturing, and industrial AI customers. A fast-growing, high-ownership environment in Cognite’s India R&D Center. Work on cutting-edge distributed systems, streaming architectures, AI-ready data platforms, and industrial-scale challenges. A culture that rewards innovation, autonomy, continuous learning, and open-source contribution. Competitive compensation, equity, and benefits aligned with Cognite’s global standards. Join the Global Cognite Community Be part of a diverse, global team of 70+ nationalities, building technology that transforms how the world’s industries operate. Work from our modern Bengaluru hub in a hybrid, high-trust environment with a flat structure and direct access to decision-makers. At Cognite, you’ll learn fast, make an impact, and grow your career alongside exceptional talent. Why Cognite Recognized by CNBC and Frost & Sullivan as a global innovation leader, Cognite is driving the next wave of industrial AI and digital transformation. Join us to shape the future of data and industry. Apply today — and follow us on LinkedIn (@Cognite) to discover more opportunities. We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 48\n      - Confidence: medium\n      - Recommendation: not_recommended\n      - Strengths: Cognite is a recognized SaaS company working with Fortune 500 clients, appears to be Tier 1-2 (global leader, Microsoft partner awards), Exceptional tech stack alignment - Spark, Flink, Kafka, distributed systems, time-series data perfectly matches candidate's big data backend interests, Candidate's production Spark on Kubernetes experience is highly relevant, Role focuses on building greenfield data infrastructure which matches candidate's desire to 'build new systems from scratch', Hybrid work in Bengaluru aligns with candidate's Bangalore location and openness to different setups, High-growth environment with cutting-edge distributed systems work\n      - Concerns: Requires 6-12 years of experience in distributed data systems - candidate has only 2.5 years total, falling 3.5 years short of minimum, Senior Software Engineer title (Level 3) is one level above candidate's current SDE II (Level 2) position, Requires 'deep expertise in Spark internals, Catalyst optimizer' and 'proven ability to scale systems to 10K+ QPS' - candidate has Spark experience but likely not at this depth with only 2.5 years, Experience with Scala/Java at production scale expected - candidate's background unclear on this depth, From hiring manager perspective, candidate would likely be screened out due to 6-year minimum experience requirement despite strong tech alignment\n      - Reasoning: While this role has outstanding tech stack alignment and represents exactly the kind of cutting-edge distributed systems work the candidate desires, the experience gap is prohibitive. The 6-12 year requirement versus candidate's 2.5 years means this would likely result in automatic rejection during initial screening. Even though the candidate has relevant Spark on Kubernetes production experience, the role demands deep expertise (Catalyst optimizer, 10K+ QPS scaling) that typically comes with 6+ years of specialized work. This is an aspirational role that's currently out of reach, but worth revisiting in 3-4 years.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied to cognite. that's a stretch role but worth the shot.\n\nthey want deep spark internals and 10k+ QPS scaling - your production k8s experience is relevant but they're asking for 6-12 years.\n\nif you get through screening, you'll need to crush the technical interviews. but the tech stack is exactly what you want - spark, flink, kafka, distributed systems.\n\nkeep me posted."
+    },
+    {
+      "role": "assistant",
+      "content": "cognite has another role - edge data engineering in bangalore\n\nthey're processing terabytes of real-time industrial data daily with k8s and distributed systems\n\nbut they want 8-10 years experience and c#... that's a big stretch. your spark/k8s experience is rare though"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job e3936339-85d7-4ec6-b0f8-9a51ef5890eb. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Senior Software Engineer - Edge Data Engineering\n      - Company: Cognite\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: About Cognite Embark on a transformative journey with Cognite, a global SaaS forerunner in leveraging AI and data to unravel complex business challenges through our cutting-edge offerings including Cognite Atlas AI, an industrial agent workbench, and the Cognite Data Fusion (CDF) platform. We were awarded the 2022 Technology Innovation Leader for Global Digital Industrial Platforms & Cognite was recognized as 2024 Microsoft Energy and Resources Partner of the Year. In the realm of industrial digital transformation, we stand at the forefront, reshaping the future of Oil & Gas, Chemicals, Pharma and other Manufacturing and Energy sectors. Join us in this venture where AI and data meet ingenuity, and together, we forge the path to a smarter, more connected industrial future. About The Role Join our Bengaluru engineering hub to build the data backbone of the next-gen industrial AI platform. This is a greenfield role where you’ll architect and own large-scale distributed systems handling terabytes of real-time industrial data daily — powering decisions that impact billion-dollar operations worldwide. If you’re driven by complex technical challenges where milliseconds, reliability, and impact all matter — this is your stage. Why This Role Stands Out Impact at Scale: Build systems that power Fortune 500 industrial operations, cutting costs and preventing downtime. Real Engineering Challenges: Tackle data fusion, sub-second queries on petabyte-scale datasets, and resilient SaaS infrastructure. Ownership from Day One: Shape the tech direction and culture as part of the Bengaluru core team with direct leadership access. World-Class Culture: Collaborate with global teams, use modern tools, and grow in an environment that values craftsmanship, learning, and autonomy. How You Will Create An Impact Build Systems That Power Industrial DataOps Design and implement high-throughput data ingestion and processing services that integrate industrial data sources into a unified, contextualized data platform. Own key components and services end-to-end, from technical design through deployment, monitoring, and production operations. Contribute to architectural discussions and collaborate with Principal/Staff engineers on technical design and platform strategy Solve Complex Industrial Data Challenges Build robust, fault-tolerant services and APIs that process industrial data at scale with high reliability Implement low-latency microservices that power real-time industrial AI applications, digital twins, and predictive maintenance systems Tackle complex technical problems across the stack, demonstrating technical depth and ability to work in multiple programming languages Work on challenges like: real-time data processing, distributed system design, schema evolution, query optimization, and multi-tenant SaaS architecture Own Operational Excellence for Your Services Build services with strong observability and monitoring, ensuring system health, uptime, and fast incident response Take ownership of your services: performance tuning, capacity planning, and continuous optimization Participate in on-call rotations, solve live production issues, and conduct thorough RCA (Root Cause Analysis) to prevent recurrence Evaluate and propose new technologies and approaches to improve your services and team productivity Grow as a Technical Leader Write high-quality, well-tested, and maintainable code that sets the standard for engineering excellence Participate in architectural reviews and contribute your perspective on system design and technical decisions Mentor junior engineers through code reviews, pair programming, and technical guidanceWork hands-on to deliver features, fix critical bugs, and support high-priority initiatives What You Bring 8–10 years of hands-on backend engineering experience with distributed systems and microservices. Proficiency in C# (required) and at least one of Rust, Scala, Kotlin, or Java. Strong grasp of system design, APIs, and cloud-native development (Azure/AWS/GCP). Experience with Kubernetes, Docker, CI/CD, and databases (PostgreSQL, Elasticsearch, NoSQL). Solid understanding of event-driven architectures, data consistency, and observability tools. Collaborative, clear communicator with a problem-solving and ownership mindset. Eager to learn, adapt, and deliver high-quality, scalable software. Nice to Have: Experience with industrial protocols, Rust, Kafka, Spark, React+TypeScript, or IoT/time-series systems. Exposure to ML/AI systems or open-source contributions. Qualifications: Bachelor’s/Master’s in Computer Science or equivalent. Proven track record building and supporting backend systems in production. What We Offer Top-tier compensation aligned with India’s best tech talent Global impact: Build products used by Fortune 500 companies Career growth: Clear path to Staff/Principal roles with strong mentorship Modern workplace: Flexible hybrid model, world-class tools, and infrastructure Continuous learning: Budgets for conferences, certifications, and upskilling High-trust culture: Work directly with senior engineering leadership Join the Global Cognite Community Be part of a diverse, global team of 70+ nationalities, building technology that transforms how the world’s industries operate. Work from our modern Bengaluru hub in a hybrid, high-trust environment with a flat structure and direct access to decision-makers. At Cognite, you’ll learn fast, make an impact, and grow your career alongside exceptional talent. Why Cognite Recognized by CNBC and Frost & Sullivan as a global innovation leader, Cognite is driving the next wave of industrial AI and digital transformation. Join us to shape the future of data and industry. Apply today — and follow us on LinkedIn (@Cognite) to discover more opportunities. We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 78\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Perfect alignment with big data interests - 'terabytes of real-time industrial data daily', Exactly the kind of greenfield/from-scratch systems building user wants, Tier 1/strong Tier 2 company - Microsoft Energy Partner of Year, Fortune 500 clients, global SaaS leader, Bangalore location matches user's base, Hybrid work setup provides some flexibility, Tech stack hits the sweet spot: distributed systems, K8s, event-driven architecture, time-series data, Title is one level UP (Senior SWE vs current SDE II) - exciting stretch, Strong focus on data engineering, exactly matching user's Spark/K8s/data platform experience, Modern tech stack includes Rust which is cutting-edge and interesting, Emphasizes ownership, impact, and learning - matches user's stated priorities\n      - Concerns: Requires 8-10 years experience, user has 2.5 years - significant gap (5.5-7.5 years), Primary language requirement is C# which user hasn't mentioned in their profile, Not fully remote despite user's preference for remote work, Experience gap is substantial - might be perceived as out of reach rather than aspirational, Role emphasizes mentorship and technical leadership which requires more seniority\n      - Reasoning: Okay hear me out—this is a legit stretch but the exciting kind. Cognite is building next-gen industrial AI data platforms (Microsoft partner, Fortune 500 clients), and the work is exactly what you want: terabytes of real-time data, distributed systems, Kubernetes, greenfield projects. They want 8-10 years and you have 2.5, which is a big gap—BUT your Spark on K8s experience is legit and rare for someone at your level. The C# requirement might be new, but you know backend systems. This is the 'do you think I could actually get this?' kind of job. Worth a shot if you're willing to make a strong case around your data platform work.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied to the edge data role too. that's two cognite applications.\n\nthey want 8-10 years and c#... but your spark/k8s experience might get you through screening.\n\nif you get interviews, you'll need to crush the system design and distributed systems questions. but the work is exactly what you want - terabytes of real-time industrial data.\n\nkeep me posted on any responses."
+    },
+    {
+      "role": "assistant",
+      "content": "brightchamps is hiring an SDE II in bangalore\n\nthey're building microservices with node.js and k8s - exactly your backend focus\n\nit's a well-funded edtech startup, not remote though. salary not listed but they're valued at $650M"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job fe7d0074-39b1-449d-9c50-334a1c293f14. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Software Development Engineer II\n      - Company: BrightCHAMPS\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: What is BrightChamps? A global live-learning edtech platform for kids from 6 to 16 years to learn next-gen life skills such as Coding, Financial Literacy, Communication Skills and Robotics. BrightCHAMPS is currently valued at $650 million with a $63 million investment, and services 30+ countries (India, Indonesia, US, UAE, Vietnam, and many other countries across SEA and MENA) in 12+ languages across its 4 verticals. Hey there  Want to help us build an EPIC EdTech company? We are looking for an extraordinary Software Development Engineer who is passionate about transforming how children engage with technology and acquire future-ready skills. At BrightChamps, one of the fastest-growing EdTech companies globally, our mission is to equip every child with the essential skills for the 21st century. We are committed to unlocking the hidden potential within every student, and our rapid expansion into multiple countries is a testament to our impact. We are looking for a highly skilled Backend SDE II who can design, build, and scale backend systems that power our core products. You will work on high-performance APIs, distributed systems, data pipelines, and scalable microservices. You should be strong in system design, clean code practices, and building reliable production systems. As a Software Development Engineer, you'll: ✔️ Backend Development: Design, build, and maintain scalable, reliable, and secure backend services (Node.js). Develop RESTful APIs, microservices, and event-driven architectures. Optimize application performance and ensure low latency, high throughput systems. ✔️ Architecture & System Design: Participate in high-level architecture, database modeling, and system design discussions. Build distributed systems that scale to millions of users. Implement best practices for fault tolerance, observability, caching, and resiliency. ✔️ Code Quality & Best Practices: Write clean, maintainable, well-tested code. Perform code reviews and enforce engineering standards. Work with CI/CD pipelines, version control, and deployment automation. ✔️ Database & Storage: Work with SQL and NoSQL databases (PostgreSQL, MongoDB, Redis). Design efficient schemas, indexes, and optimize complex queries. Manage data pipelines, messaging queues (SQS/Kafka/RabbitMQ). ✔️ Collaboration: Work closely with product, frontend, QA, and DevOps teams. Convert product requirements into technical specifications. Mentor junior engineers and contribute to engineering culture. To WIN ✨ , you'll need: 3+ years of backend development experience. Strong proficiency in Node.js Solid understanding of REST APIs, microservices, asynchronous processing. Experience with AWS serverless (Lambda), or containerized deployments (Docker, Kubernetes). Strong understanding of system design, distributed systems, caching, and queues. Hands-on experience with relational and NoSQL databases. Familiarity with observability tools (Prometheus, Grafana, ELK, CloudWatch). Strong debugging, performance tuning, and problem-solving skills. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 72\n      - Confidence: high\n      - Recommendation: recommended\n      - Strengths: Title level matches exactly - SDE II looking for SDE II, Experience requirement (3+ years) is a slight stretch from 2.5 years but achievable, Tech stack aligns perfectly with backend focus (Node.js, microservices, REST APIs), Company is well-funded ($63M, $650M valuation) - legitimate Tier 2 startup, Cloud/infrastructure work (AWS Lambda, Docker, K8s) matches user's Spark on Kubernetes experience, In Bangalore where user is already based, Focus on system design and distributed systems aligns with desire to build new systems from scratch\n      - Concerns: No remote option mentioned despite user's preference, No salary information provided - unclear if it meets 45 LPA minimum for startups, EdTech domain may not be as exciting as other tech verticals, Company is growing fast but not yet Tier 1 brand recognition\n      - Reasoning: This is solid. SDE II at a well-funded EdTech startup ($650M valuation), perfect tech stack match with Node.js/microservices/K8s, and you're right in their 3+ years range even at 2.5. The work is exactly what you want—building scalable backend systems, distributed architecture. It's in Bangalore, same level as you're at now. Only question is salary (no info listed) and it's not remote, but this checks most boxes and could be a good move.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied to brightchamps. that's a solid SDE II role.\n\nnode.js, microservices, k8s - exactly your backend focus. they're valued at $650M so they can probably hit your salary target.\n\nedtech might not be as exciting as AI/ML, but the tech stack is right and it's in bangalore.\n\nkeep me posted on any responses."
+    }
+  ]
+}

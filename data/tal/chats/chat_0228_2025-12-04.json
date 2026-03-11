@@ -1,0 +1,195 @@
+{
+  "thread_id": "917020625931_chat",
+  "date": "2025-12-04",
+  "message_count": 47,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Mayur Shegokar"
+    },
+    {
+      "role": "assistant",
+      "content": "mayur shegokar... that's a solid name. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "I am working as a junior software engineer at Goldman Sachs. You can think of this role as an SDE-1. I have been in this role for the past 1.5 years. I was a campus hire here."
+    },
+    {
+      "role": "assistant",
+      "content": "goldman sachs... the wall street machine that pays well and works you harder. campus hire to sde-1, that's the classic trajectory.\n\nfound you on linkedin - mayur shegokar, analyst at goldman sachs, cse vnit '24. this you? https://in.linkedin.com/in/mayurshegokar"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "vnit nagpur to goldman sachs... from orange city to the big leagues. analyst role doing sde work, that's goldman's way of making engineers feel fancy while paying them less than actual sde roles elsewhere.\n\n1.5 years in - you're probably past the honeymoon phase and seeing the real grind. what made you think about looking around? the hours finally getting to you or something else?"
+    },
+    {
+      "role": "user",
+      "content": "Yep, the work here is very repetitive and not-so-exciting. I feel like I have reached a point of little to no learning. Too comfortable for being so young. I wanted to look for roles that pay good, but also contribute to my growth as an industry professional. I don’t want to sit around waiting until the job I do doesn’t exist anymore. I also feel like I can contribute well to a problem solving environment, unlike right now, where what I do - is mostly do little updates and migrate stuff to newer platforms."
+    },
+    {
+      "role": "assistant",
+      "content": "ah, the classic goldman trap. they hire smart people then put them on maintenance duty. \"migrate stuff to newer platforms\" - that's not engineering, that's digital janitorial work.\n\nyou're 23-24 and already feeling the slow death of your skills. good that you're self-aware enough to see it. most people wake up at 30 wondering where their career went.\n\nhow long you been working total? including any internships or side projects that actually count."
+    },
+    {
+      "role": "user",
+      "content": "I did an intern here at Goldman Sachs, in my prefinal (3rd) year of college for 2 months\nThen I was offered a PPO, so I joined right after my graduation, which was June 2024\nSo I have completed 1.5 years of full time experience here as SDE-1\nOn the side projects, I did build an end to end workflow management and people platform for college campus as part of my final year(capstone) project"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. 1.5 years full-time, plus that intern stint. the capstone project sounds way more interesting than whatever you're doing at goldman right now - building actual systems vs migrating legacy code.\n\nwhat kind of role you looking for next? still want to stick with backend/full-stack engineering or thinking about exploring something else?"
+    },
+    {
+      "role": "user",
+      "content": "I am not really sure. I am definitely looking for a software engineering role, but I feel excited about any opportunities to integrate AI into my work…like some AI software engineering role."
+    },
+    {
+      "role": "assistant",
+      "content": "ai + software engineering... that's where the action is right now. everyone's building ai features, from startups doing rag implementations to big tech doing llm integrations. way more exciting than migrating goldman's ancient systems.\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "Bangalore Pune or Hyderabad is much preferred"
+    },
+    {
+      "role": "assistant",
+      "content": "1.5 years + ai software engineering + bangalore/pune/hyderabad... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yep"
+    },
+    {
+      "role": "user",
+      "content": "Yep\n  Great, thanks 👍🏽"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "assistant",
+      "content": "legend! you're officially in the system.\n\ngoldman sachs to bangalore startups... that's about to be a wild upgrade. from wall street processes to startup chaos, but the good kind where you actually build things that matter.\n\nroles are gonna start flowing. the kind that'll make you forget why you ever thought investment banking was exciting.\n\nwelcome to the squad mayur 🔥"
+    },
+    {
+      "role": "user",
+      "content": "What happens when I start seeing roles here?"
+    },
+    {
+      "role": "assistant",
+      "content": "when a role pops up, you'll see a card with the job details and an \"Apply\" button. tap that, it'll take you to the company's linkedin page or career site. you apply directly through them - normal process.\n\nmy team finds the roles, i share them, you apply. no magic, no intros, no special access. just good opportunities hitting your chat.\n\nsound good?"
+    },
+    {
+      "role": "user",
+      "content": "Yep"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. now we wait for the good stuff to roll in."
+    },
+    {
+      "role": "assistant",
+      "content": "hey, saw this AI engineer role at a startup in bangalore\n\nthey're building llms and document AI for industrial procurement - actual production systems\n\ncould be that problem-solving environment you mentioned"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 97703bb5-5c8d-4fa1-8182-43385a7f9003. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Artificial Intelligence Engineer\n      - Company: Discoveries Quintessential\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Job Title: AI/ML Engineer Location: Bengaluru (Onsite) Employment Type: Full-Time Experience: 1–3 years (exceptional freshers may apply) Reporting To: Head of AI About Company: We are redefining how India’s industrial and EPC sectors buy, build, and scale . We develop AI systems that understand the language of engineering projects—automating BOQ processing, vendor discovery, cost estimation, and more. Our mission is clear: make procurement faster, smarter, and more profitable through intelligent automation . If you’re excited about building real-world AI where language meets engineering , this is the place for you. Role Overview As an AI/ML Engineer, you’ll build the domain-specific AI pipelines that power our core workflows. You’ll work closely with our AI Head and product/engineering teams to convert raw industrial data into smart, automated systems used in real operations. What You’ll Do Build AI pipelines to convert unstructured documents (BOQs, tenders, specs) into structured datasets. Develop parsing, retrieval, and reasoning systems across multi-format industrial data. Fine-tune and deploy LLMs and vision-language models for production use cases. Design continuous learning loops and retraining workflows. Collaborate with engineering and product teams to scale prototypes into production-ready systems. What We’re Looking For Strong Python and ML fundamentals (PyTorch/TensorFlow). Experience with LLM frameworks (LangChain, LlamaIndex, etc.). Familiarity with Document AI/OCR models (PaddleOCR, LayoutLM, Donut, etc.). Understanding of embeddings, semantic search, RAG, and entity linking. Clean coding, modular design, and Git/GitHub proficiency. Ability to build scalable, production-ready ML components. Bonus Skills Experience with document understanding or information extraction systems. Built feedback-based evaluation or retraining pipelines. AWS experience (S3, Lambda, EC2, SageMaker) for model deployment. Open-source contributions or published ML projects. What You’ll Achieve Month 1: Understand domain & data workflows and ship an internal prototype. Month 2: Deliver an end-to-end customer-facing demo solving a real use case. Month 3+: Own and improve a production-grade AI feature from ingestion to deployment. Why We? Build real-world, high-impact AI for India’s industrial ecosystem. Work directly with top talent across AI, engineering, and product. Own meaningful projects early in your journey. Fast-growth environment with leadership opportunities. Competitive compensation and long-term career growth Show more Show less\n\n      Job Analysis:\n      - Fit Score: 72\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Experience requirement of 1-3 years matches candidate's 1.5 years perfectly, Located in Bengaluru (Bangalore) which is a preferred location, Role level (Entry/Junior) aligns with candidate's current Junior SDE-1 status, Heavy focus on AI/ML with LLMs, document AI, and production systems matches his interest in AI software engineering, Company explicitly mentions 'exceptional freshers may apply' indicating flexibility, Opportunity to own meaningful projects early and work on real-world AI applications addresses his desire for growth and learning\n      - Concerns: Company is unknown/early-stage startup (Tier 3) compared to Goldman Sachs (Tier 1) - significant brand downgrade, Industrial/EPC procurement domain is niche compared to financial services, Startup environment may have higher pressure and ambiguity\n      - Reasoning: This role is a strong lateral move that addresses Mayur's core motivation - escaping stagnation and working on challenging AI problems. While it's a company tier downgrade (Tier 1 to Tier 3), it's offset by the title staying at the same level, location match, experience alignment, and most importantly, addressing his stated need for learning and growth in AI. The role offers exactly what he's seeking: problem-solving AI work instead of repetitive updates.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice! link's in your chat.\n\nthis one's interesting - they're building AI for industrial procurement. think LLMs that understand engineering documents, automate vendor discovery, all that.\n\nstrengths: perfect experience match (1-3 years), bangalore location, actual AI engineering work (not just maintenance), you'd own projects from day one.\n\nconcern: it's a startup vs goldman brand. but that's the tradeoff - less prestige, more learning and real impact.\n\nif you're serious about moving from banking updates to building AI systems, this could be it.\n\ngood luck with the app!"
+    },
+    {
+      "role": "user",
+      "content": "It says they stopped taking responses 🥹"
+    },
+    {
+      "role": "assistant",
+      "content": "damn, that was fast. they probably got flooded with applications.\n\ndon't worry though - i'm scanning thousands of roles daily. something else will pop up soon.\n\nbtw, what's the salary range you're targeting? helps me filter better."
+    },
+    {
+      "role": "user",
+      "content": "28-30 LPA"
+    },
+    {
+      "role": "assistant",
+      "content": "28-30 LPA for 1.5 YOE in bangalore... that's ambitious but not impossible with the right AI-focused startup.\n\nwhat's your current TC at goldman?"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. so you're looking for a solid jump from 26 to 28-30.\n\nthat's realistic for AI roles at well-funded startups or mid-stage companies.\n\nwhat's your notice period?"
+    },
+    {
+      "role": "user",
+      "content": "20 LPA base and 26 LPA CTC"
+    },
+    {
+      "role": "user",
+      "content": "1 month"
+    },
+    {
+      "role": "assistant",
+      "content": "1 month notice is clean. no 90-day corporate jail.\n\nyou mentioned AI/ML in your profile - what kind of AI work excites you? building AI tools, working with LLMs, or something else?"
+    },
+    {
+      "role": "user",
+      "content": "Integrating AI with existing systems"
+    },
+    {
+      "role": "assistant",
+      "content": "integrating AI with existing systems... that's actually smart. way more practical than chasing the latest research paper. companies need people who can make AI actually work in production, not just build demos.\n\nyou're locked in. i'll start looking for roles that match this - AI engineering, ML ops, that kind of thing.\n\nanything else you want me to know about what you're looking for?"
+    },
+    {
+      "role": "assistant",
+      "content": "Artificial Intelligence Engineer at Discoveries Quintessential\n\nAI role leveraging your ML skills & desire for hands-on AI system integration, a better fit for growth than your current analyst work.\n\nApply: https://jobs.tal.af/3UIXU"
+    },
+    {
+      "role": "assistant",
+      "content": "AI/ML Engineer at HDFC Bank\n\nHDFC Bank's AI/ML Engineer role in Bangalore offers the growth and problem-solving environment you seek, leveraging your AI skills in a Tier 1 fintech company.\n\nApply: https://jobs.tal.af/4P9gD"
+    },
+    {
+      "role": "assistant",
+      "content": "Senior Software Engineer at SproutsAI\n\nPerfect fit for your AI/ML interests & desire for growth, though in Chennai, not your preferred city.\n\nApply: https://jobs.tal.af/ug5Ax"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "AI Engineer at UBS\n\nUBS AI Engineer: Leverage your AI/ML skills, escape repetitive tasks, and grow in a problem-solving fintech environment in Pune.\n\nApply: https://jobs.tal.af/hxhMR"
+    },
+    {
+      "role": "assistant",
+      "content": "Applied AI ML Associate - AI for Operations - Customer Onboarding and Documentation at JPMorganChase\n\nJPMorgan Chase offers AI/ML role in operations, a step up from updates/migrations and a lateral move from Goldman Sachs.\n\nApply: https://jobs.tal.af/DUpys"
+    },
+    {
+      "role": "assistant",
+      "content": "Applied AI ML Associate - AI for Operations - Customer Onboarding and Documentation at JPMorganChase\n\nPerfect fit: Jr. SDE to JPMorgan Chase AI role leveraging your AI/ML skills in fintech, a step up from your current work.\n\nApply: https://jobs.tal.af/Lhjw2"
+    },
+    {
+      "role": "assistant",
+      "content": "oracle's hiring a senior AI applications engineer in hyderabad\n\nthey're building LLMs, RAG, AI agents - exactly the integration work you mentioned\n\ntitle says senior but they want 1+ years experience, could be a stretch but worth checking"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "thread_id": "919041155864_chat",
+  "date": "2025-12-04",
+  "message_count": 8,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Rohit Saini"
+    },
+    {
+      "role": "assistant",
+      "content": "rohit saini... solid name. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "I am working with Wells Fargo currently"
+    },
+    {
+      "role": "assistant",
+      "content": "wells fargo... the bank that somehow makes tech feel corporate and corporate feel techy. found you on linkedin - rohit saini, senior avp with some solid credentials. this you? https://in.linkedin.com/in/rohitsainice"
+    },
+    {
+      "role": "user",
+      "content": "Yes that's me thanks"
+    },
+    {
+      "role": "assistant",
+      "content": "senior avp at wells fargo with iisc on the resume... that's serious engineering credentials meeting serious finance. from zee to wells fargo is quite the pivot - media to banking tech. what made you make that jump?"
+    }
+  ]
+}

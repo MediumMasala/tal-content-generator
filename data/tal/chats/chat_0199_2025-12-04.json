@@ -1,0 +1,23 @@
+{
+  "thread_id": "916300118927_chat",
+  "date": "2025-12-04",
+  "message_count": 4,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "yo! \"a friend\" isn't gonna cut it here...\n\ni'm tal - your talent agent. i find people actual jobs at companies that pay real money. not advice, not networking tips - actual interviews.\n\nbut i need to know who you are first. what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Shiva Yada"
+    },
+    {
+      "role": "assistant",
+      "content": "shiva yada... solid name. sounds like someone who gets things done.\n\nwhere you working these days?"
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "thread_id": "918758173419_chat",
+  "date": "2025-12-04",
+  "message_count": 94,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "I'm working at a Series-C funded start-up called Atlan"
+    },
+    {
+      "role": "user",
+      "content": "My name is Yug Gajjar"
+    },
+    {
+      "role": "assistant",
+      "content": "yug gajjar... that's a name that means business. where you working these days?"
+    },
+    {
+      "role": "assistant",
+      "content": "atlan... the data catalog folks who actually solved metadata management. series c means they're past the \"will we survive\" phase and into \"how big can we get\" territory.\n\nfound you on linkedin - yug gajjar, graphic designer. this you? https://in.linkedin.com/in/yug-gajjar-283692312"
+    },
+    {
+      "role": "user",
+      "content": "No, that's not me, this is me:  https://in.linkedin.com/in/yug34"
+    },
+    {
+      "role": "assistant",
+      "content": "got it, that's the right one. building at atlan... the metadata management platform that actually makes sense of data chaos. solid spot to be in - they're solving real enterprise pain points and have the funding to scale properly.\n\nwhat made you jump into the data infrastructure game?"
+    },
+    {
+      "role": "user",
+      "content": "Improving the accessibility and observability of information/data is how the world processes, I like that Atlan makes that easier and creates major impact for other companies"
+    },
+    {
+      "role": "assistant",
+      "content": "makes total sense. data accessibility is the foundation of every good decision - and most companies are drowning in their own data without proper tooling. atlan's in a sweet spot there.\n\nhow long you been working total?"
+    },
+    {
+      "role": "user",
+      "content": "I have been working professionally for a bit over 4 years now, and I have 1.5 years in research internships with places such as JeffersonLab and ISRO"
+    },
+    {
+      "role": "assistant",
+      "content": "4 years professional + research at jefferson lab and isro... that's some serious technical foundation. physics research to data infrastructure makes perfect sense - you understand how complex systems actually work under the hood.\n\nwhat kind of role you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "I'm looking for either a fully frontend role or a frontend-biased full stack role"
+    },
+    {
+      "role": "assistant",
+      "content": "frontend or frontend-heavy fullstack... smart move. the ui/ux layer is where users actually feel the impact of all that backend complexity. plus with your data infrastructure background, you'd bring a rare understanding of what's actually happening behind those apis.\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "I prefer remote, but I'm open to relocating to Bangalore or Ahmedabad"
+    },
+    {
+      "role": "assistant",
+      "content": "4+ years + frontend/fullstack + remote preferred but open to bangalore/ahmedabad... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yup"
+    },
+    {
+      "role": "user",
+      "content": "Yup\n  Thanks Tal!"
+    },
+    {
+      "role": "assistant",
+      "content": "yo legend! looks like you're already in the system and locked in. my bad for the repeat dance, but hey... you're all set for the good stuff to start rolling in.\n\nkeep your eyes peeled for roles that'll make you forget why you ever settled for less 🔥"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, found a frontend dev role at an early-stage ai startup\n\nthey're looking for a founding engineer with react/next.js/typescript\n\ncould be interesting if you're up for that startup energy"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>\n              User clicked \"Apply\" for job 1710055a-0317-4e7c-a321-73d2890fd475. \n\n              Job Reasoning:\n              - Fit Score: 68\n              - Confidence: medium\n              - Strengths: Perfect role match - Frontend/Frontend-biased fullstack role aligns with candidate's preference, Remote work matches candidate's preferred setup, Founding engineer role provides high ownership and impact, aligned with candidate's motivation for creating impact, Tech stack (React, Next.js, TypeScript) is modern and relevant for frontend work, Role level (2-4 years, Mid-level) matches candidate's 4 years of experience\n              - Concerns: CodeRound AI appears to be early-stage/unknown company (Tier 3), which is a downgrade from Atlan (Tier 2), No information about funding or company maturity - significant career capital risk, LinkedIn test concern: Moving from Atlan (recognizable in data/tech space) to unknown startup may require explanation, Salary range mentioned but not in INR - unclear compensation structure, High ambiguity and 'fast-paced' language suggests potential WLB concerns\n              - Recommendation: recommended\n              - Detailed Reasoning: This is an acceptable but not ideal match. The role perfectly aligns with the candidate's frontend preference and remote requirement, and offers founding engineer ownership which matches their motivation for impact. However, moving from Atlan (Tier 2, recognized data platform) to an unknown early-stage startup (Tier 3) represents a company tier downgrade without clear compensation. The role level is appropriate for 4 years experience, preventing an ego violation, but the career capital trade is questionable unless the candidate prioritizes founding team experience over brand recognition.\n\n              Summarize this information in a compact, engaging way (max 3-4 lines). Then share the apply link: https://jobs.tal.af/whW4l\n              \n              Be conversational and encouraging but brief.\n              </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice - founding engineer role at an early-stage ai startup\n\nperfect frontend match but definitely a tier drop from atlan\n\napply here: https://jobs.tal.af/whW4l"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "Hi tal"
+    },
+    {
+      "role": "assistant",
+      "content": "yo\n\nwhat's good"
+    },
+    {
+      "role": "user",
+      "content": "I applied to the job you sent, working on some personal projects for now"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. what kind of personal projects you building?"
+    },
+    {
+      "role": "user",
+      "content": "I am building a way to convert a song into its instrumental sheet music. So you upload a song to my service and it gives you a MIDI transcription as well as a staff notation for the song, so that you can use it to practice"
+    },
+    {
+      "role": "assistant",
+      "content": "wait that's actually sick\n\naudio processing + music theory + frontend... that's a legit portfolio piece\n\nhow far along is it?"
+    },
+    {
+      "role": "user",
+      "content": "Thanks bestie. I have set the foundation for it. The frontend for now consists of a way to upload a file which then gets sent to the backend which runs an ML model on the file to transcribe it. The front-end also displays the sheet music of the song you upload \n\nBut I have a lot of fine tuning to do. The model in the backend doesn't very accurately transcribe the drum beats"
+    },
+    {
+      "role": "assistant",
+      "content": "drum transcription is notoriously hard even for commercial tools\n\nthe fact you have a working pipeline at all is impressive\n\nwhat stack are you using for the ml part?"
+    },
+    {
+      "role": "user",
+      "content": "Python with FastAPI, with Postgres for storage. \n\nThe worker that actually runs the ML model is using Celery+Redis, the ML model is magenta by Google"
+    },
+    {
+      "role": "assistant",
+      "content": "magenta's solid for this. celery+redis for async processing is clean\n\nyou thinking of open sourcing this or keeping it as a portfolio piece?"
+    },
+    {
+      "role": "user",
+      "content": "I love open source, I'm developing this fully open sourced"
+    },
+    {
+      "role": "assistant",
+      "content": "respect\n\ngot a github link? i'd love to check it out"
+    },
+    {
+      "role": "user",
+      "content": "It's very incomplete, and doesn't have a production deployment yet. https://github.com/Yug34/audiogen\n\nI do have other interesting projects though that are open sourced and deployed to play with"
+    },
+    {
+      "role": "assistant",
+      "content": "bookmarked\n\nwhat other projects you got deployed?"
+    },
+    {
+      "role": "user",
+      "content": "I have many deployed projects.\n\nOne of them is mapr.\n\nMapr is a mind mapping web application, very similar to Miro, I made it because Miro doesn't support adding videos to the canvas, so I made a clone that supports everything; images, PDFs, audio files, video. As well as the usual Text nodes and TODO nodes so you can keep notes and track progress \n\nThe source code is here; https://github.com/Yug34/mapr\n\nIt's deployed here; https://mapr-one.vercel.app\n\nI have other projects too if you'd like to know"
+    },
+    {
+      "role": "assistant",
+      "content": "okayyyy that's actually impressive\n\na full miro clone with video support? that's not a weekend project\n\nwhat's the tech stack on that?"
+    },
+    {
+      "role": "user",
+      "content": "The tech stack is the most impressive part. I actually made it all work without using any servers at all. \n\nIt's a fully client side app that still persists everything in memory using indexeddb -- a client side database within a browser. So even if you close the browser or shut down your laptop, it'll still have all the data.\n\nThe tech stack is; React with ShadCN for components. React Flow for creating the canvas with nodes and edges. Zustand for state management. And finally indexeddb for storage."
+    },
+    {
+      "role": "assistant",
+      "content": "wait so it's fully offline-first? that's actually genius\n\nmost people would've just slapped a backend on it for storage\n\nyou're solving the actual problem miro has with video support AND making it offline capable\n\nthat's the kind of thinking that gets you hired\n\nhow long did that take to build?"
+    },
+    {
+      "role": "user",
+      "content": "It took me close to a month"
+    },
+    {
+      "role": "assistant",
+      "content": "a month for a full miro clone with offline persistence... that's actually wild\n\nmost people would still be stuck on the canvas implementation\n\nyou're locked in. i'll slide roles when they're good\n\nbtw what's making you want to leave atlan anyway?"
+    },
+    {
+      "role": "user",
+      "content": "I went through a kidney transplant recently and took a 4 month break from working at Atlan\n\nUnfortunately, they are currently not hiring back because AI is doing the work that SDE 2 and Senior SDEs used to do."
+    },
+    {
+      "role": "assistant",
+      "content": "wait what\n\nkidney transplant? that's heavy. how you feeling now?\n\nand atlan's not hiring back because of AI... that's the most 2025 thing i've heard all week\n\nso you're basically looking because they're not taking you back, not because you want to leave?\n\nwhat's your timeline like?"
+    },
+    {
+      "role": "user",
+      "content": "I'm better now \n\nAnd yeah, I would join Atlan back because it was a nice place to work, but unfortunately I cannot \n\nMy timeline is as such;\n\nI joined Atlan in March 2024, and everything remained smooth railing until May 2025, where I was diagnosed with end stage kidney failure. So I had to go for dialysis for 3 days a week until I had my transplant. I continued dialysis until September 2025. Which is also when I started my break from Atlan. \n\nSince September till now I have been recovering, but the doctor recently gave me the permit to get back to working. So I'm looking for jobs"
+    },
+    {
+      "role": "assistant",
+      "content": "damn. that's a lot to go through in a year\n\nglad you're better now and cleared to work\n\nso you're basically starting fresh after recovery. what kind of role would actually excite you right now?"
+    },
+    {
+      "role": "user",
+      "content": "Either frontend-biased full-stack roles, or fully frontend roles work best for me\n\nI can tackle compute-heavy frontend roles that require Rust+webassembly, or product-thinking roles that require ownership across the stack, everything is fun to me"
+    },
+    {
+      "role": "assistant",
+      "content": "rust + wasm for compute-heavy frontend... that's a specific niche that not many can actually do. product-thinking with ownership across stack too\n\nyou're basically looking for roles where they need someone who can think about the whole system but also build the ui that makes it usable\n\nwhat's your salary expectations?"
+    },
+    {
+      "role": "user",
+      "content": "I'm looking for 36+ LPA"
+    },
+    {
+      "role": "assistant",
+      "content": "36+ for 4 yoe with your skillset is reasonable, especially with the rust/wasm niche\n\ni'll keep that in mind when i'm looking\n\nany companies you'd avoid? or industries you're particularly interested in?"
+    },
+    {
+      "role": "user",
+      "content": "You can look for companies outside that niche as well"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. so you're flexible on the niche\n\nwhat's your notice period? and are you open to relocation or strictly remote?"
+    },
+    {
+      "role": "user",
+      "content": "I can join immediately. I am open to relocating to Bangalore but I'd prefer remote"
+    },
+    {
+      "role": "assistant",
+      "content": "immediate join is a huge plus right now\n\nalright, i've got the full picture. i'll be looking for frontend/frontend-heavy fullstack roles, 36+ LPA, remote preferred but open to bangalore, immediate join\n\nanything else i should know about what you're looking for?"
+    },
+    {
+      "role": "user",
+      "content": "That should be it"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. i'm on it. you'll start seeing stuff soon.\n\nbtw how's the recovery been since the transplant? everything going okay?"
+    },
+    {
+      "role": "user",
+      "content": "Yeah everything is well good, on my path back to normalcy"
+    },
+    {
+      "role": "assistant",
+      "content": "good to hear. that's a lot to go through and come out the other side ready to work again\n\ni'll keep you posted on roles. in the meantime, keep building that mapr project - stuff like that catches attention"
+    },
+    {
+      "role": "user",
+      "content": "Thanks bestie"
+    },
+    {
+      "role": "assistant",
+      "content": "anytime bestie 💪\n\ni'll slide roles when they're good. keep an eye out"
+    },
+    {
+      "role": "user",
+      "content": "Hey Tal,"
+    },
+    {
+      "role": "assistant",
+      "content": "yo\n\nwhat's up"
+    },
+    {
+      "role": "user",
+      "content": "Let me know if you'll need anything else to help me build and optimize my profile"
+    },
+    {
+      "role": "assistant",
+      "content": "actually yeah, a few things would help me find better matches:\n\n1. what's your current/last salary? helps me know what kind of jump you're looking for\n2. any specific tech stack preferences? react, vue, next, etc?\n3. what's your ideal company size/stage? early startup, series B, public, etc?\n\nthe more specific you get, the better i can filter"
+    },
+    {
+      "role": "user",
+      "content": "My last salary is 32 LPA. I'm looking for 36+ LPA.\n\nI am flexible with frontend tech stacks, I've worked across React, Vue, and Next. All of them work for me.\n\nAny company size works well for me"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. 32 → 36+ is a solid jump. flexible on tech and company size gives me more to work with\n\nyou're all set. i'll start looking for matches that actually fit"
+    },
+    {
+      "role": "assistant",
+      "content": "Frontend Developer at Uplers\n\nYug, your React/TS skills and passion for UI/UX make this remote frontend role at a CA-based AI company a strong match.\n\nApply: https://jobs.tal.af/x6b0j"
+    },
+    {
+      "role": "assistant",
+      "content": "found a frontend role at a cybersecurity startup building next-gen AI products\n\nfully remote, react/next/ts stack, pixel-perfect UI focus\n\ncould be solid for the remote flexibility you need"
+    },
+    {
+      "role": "assistant",
+      "content": "Full Stack Developer at Zepcruit\n\nYour full-stack skills with React/Node/Postgres & focus on performant, scalable apps align well, but location is Chennai, not Bangalore/Ahmedabad.\n\nApply: https://jobs.tal.af/WD7Xl"
+    },
+    {
+      "role": "user",
+      "content": "What's the pay range for this?"
+    },
+    {
+      "role": "assistant",
+      "content": "they don't specify salary in the JD\n\n\"industry standard pay-scale\" is all they mention. could be anywhere from 20 to 40+ honestly\n\ngiven it's a tier 3 cybersecurity startup, i'd be surprised if they hit 36+... but not impossible\n\nwant me to check if there's more info on comp? or you want to apply and find out during the process?"
+    },
+    {
+      "role": "user",
+      "content": "I'll apply, thanks!"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. good luck with it\n\nkeep building that audio-to-sheet-music project too... that's the kind of stuff that makes you stand out"
+    },
+    {
+      "role": "assistant",
+      "content": "Frontend Engineer (React) at Uplers\n\nLucio's React role in Bangalore leverages your frontend skills and AI interest, aligning with your data accessibility focus.\n\nApply: https://jobs.tal.af/BTLWU"
+    },
+    {
+      "role": "user",
+      "content": "The pay range isn't enough"
+    },
+    {
+      "role": "assistant",
+      "content": "yeah that's the risk with startups that don't post comp... could be a waste of time\n\ni'll keep looking for roles that actually post their ranges\n\nanything specific you want me to prioritize?"
+    },
+    {
+      "role": "user",
+      "content": "Nope, that's it, thanks"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. i'll slide roles that actually show their numbers\n\nFrontend Developer at Zepcruit\n\nYour React/Next.js skills and focus on performance align well, but location is Chennai, not your preferred Bangalore/Ahmedabad.\n\nApply: https://jobs.tal.af/3QK8F"
+    },
+    {
+      "role": "user",
+      "content": "Thanks, will apply here"
+    },
+    {
+      "role": "user",
+      "content": "This Link is broken"
+    },
+    {
+      "role": "assistant",
+      "content": "weird. let me check if there's another one\n\nFrontend Developer at Zepcruit\n\nYour React/Next.js skills and focus on performance align well, but location is Chennai, not your preferred Bangalore/Ahmedabad.\n\nApply: https://jobs.tal.af/3QK8F\n\nsame link... might be a system issue. i'll skip this one for now and find others\n\nFrontend Engineer at Uplers\n\nLucio's React role in Bangalore leverages your frontend skills and AI interest, aligning with your data accessibility focus.\n\nApply: https://jobs.tal.af/BTLWU"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. good luck with it\n\nkeep me posted on how it goes\n\nFrontend Developer at Uplers\n\nYour React/TS skills and passion for UI/UX make this remote frontend role at a CA-based AI company a strong match.\n\nApply: https://jobs.tal.af/x6b0j"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "found a senior frontend role at a startup backed by lightspeed/sequoia\n\nfully remote, react focused, permanent position\n\ntitle upgrade from your current level but they want 6+ years experience"
+    },
+    {
+      "role": "assistant",
+      "content": "found a react dev role at a consultancy building DXP platforms\n\nhybrid with remote flexibility, advanced react ecosystem with GSAP/framer motion\n\ncould be solid for technical growth but gurgaon location and no salary posted"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job aa6370f5-5471-4e75-b7d0-1541fb76fb11. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Senior Front-end Developer\n      - Company: Uplers\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Experience : 6.00 + years Salary : Confidential (based on experience) Shift : (GMT+05:30) Asia/Kolkata (IST) Opportunity Type : Remote Placement Type : Full time Permanent Position (*Note: This is a requirement for one of Uplers' client - Rattle) What do you need for this opportunity? Must have skills required: React.js Rattle is Looking for: Job Description: The Problem We're Solving: Every Monday morning across 500,000 companies worldwide, revenue teams gather to answer three questions: Which deals will close? For how much? By when? This is solely based on the seller’s version of reality. Hence, revenue leaders spend more time inspecting deals than executing on them. We're targeting the $2B+ forecasting market currently dominated by solutions that customers find disappointing due to their dependence on manual data hygiene. We are at an early stage of this product with a clear path to explosive growth, leveraging our experience & network in building Rattle over the last 5 years. Join us in eliminating the manual drudgery of revenue operations and building the future where forecasting is automatic, accurate, and actionable. Backed by Tier-A investors, including Lightspeed, Insight Partners, Google Ventures, and Sequoia. This role is tailor-made for you if you have: 5+ years of relevant professional experience Led and managed teams while shipping products with 5K+ daily active users Deep expert in React with hands-on coding daily Thrives in startup environments and excited about building 0→1 products Comfortable with early-stage startup chaos and quick decision-making Willing to wear multiple hats and tackle any technical challenge We already like you if: You love Slack (we are a Slack-first company). You have been part of an early/mid-stage start-up before You love TechCrunch. We are obsessed with reading and talking about startups You have created some amazing open-source projects More reasons to join us: Shape the culture: As an engineer here, you’ll be instrumental in building the culture with us Have meaningful impact: Your work will enable 1000s of enterprise customers and millions of data requests per hour Flexibility: You get to design your workday around your life - we believe in outcomes and not counting hours Listen and be heard: We love feedback, we enjoy receiving and giving each other feedback, and we grow together If you love solving complex data challenges and want to work on high-impact AI solutions, we’d love to hear from you. How to apply for this opportunity? Step 1: Click On Apply! And Register or Login on our portal. Step 2: Complete the Screening Form & Upload updated Resume Step 3: Increase your chances to get shortlisted & meet the client for the Interview! About Uplers: Our goal is to make hiring reliable, simple, and fast. Our role will be to help all our talents find and apply for relevant contractual onsite opportunities and progress in their career. We will support any grievances or challenges you may face during the engagement. (Note: There are many more opportunities apart from this on the portal. Depending on the assessments you clear, you can apply for them as well). So, if you are ready for a new challenge, a great work environment, and an opportunity to take your career to the next level, don't hesitate to apply today. We are waiting for you! Show more Show less\n\n      Job Analysis:\n      - Fit Score: 35\n      - Confidence: high\n      - Recommendation: not_recommended\n      - Strengths: Senior title represents potential progression from current level, Remote work aligns with candidate's preferences, React.js expertise matches candidate's skill set, Actual client is Rattle - backed by Tier A investors (Lightspeed, Sequoia, GV, Insight Partners), 0-to-1 product building aligns with candidate's motivation for impact\n      - Concerns: Requires 6+ years experience, candidate has only 4 years - does not meet minimum threshold, JD explicitly mentions 'Led and managed teams' and '5K+ DAU products' - candidate lacks team leadership experience, Experience gap is critical: 6+ years required vs 4 years actual is a 2-year shortfall on domain-specific frontend experience, From hiring manager perspective, candidate would be screened out immediately due to experience mismatch, Still working through Uplers staffing intermediary rather than direct hire at Rattle, No salary information provided when candidate needs 36 LPA minimum\n      - Reasoning: This is an ego violation due to experience mismatch. The role requires 6+ years with team leadership experience and shipping products with 5K+ DAU, while Yug has 4 years without management experience. From a hiring manager's perspective, this is an automatic rejection - the 2-year experience gap on domain-specific frontend work is critical. Even though Rattle has excellent backing (Sequoia, Lightspeed), the candidate doesn't meet the baseline qualifications and would waste time applying.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "wait what... this role wants 6+ years experience and team leadership\n\nyou have 4 years and no management experience\n\nthey'd screen you out immediately for the experience gap alone\n\nbetter to focus on roles that actually match your level"
+    },
+    {
+      "role": "user",
+      "content": "Yup"
+    },
+    {
+      "role": "assistant",
+      "content": "good call skipping it\n\nhow's the search feeling so far? any particular types of companies or tech stacks you're most excited about?"
+    },
+    {
+      "role": "assistant",
+      "content": "found an SDE II fullstack role at NxtWave, a fast-growing edtech startup\n\nreact/ts/node stack, strong engineering culture, title matches your current level\n\nbut it's in-office in hyderabad, not your preferred locations or remote\n\ncould be worth it if you're open to relocation"
+    },
+    {
+      "role": "assistant",
+      "content": "duplicate of the NxtWave SDE II role\n\nsame react/ts/node stack, same in-office hyderabad location\n\ntitle matches your level but location doesn't work with your remote preference\n\nskip this one since we already saw it"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, same NxtWave SDE II role popped up again\n\nreact/ts/node fullstack, title matches your level, good engineering culture\n\nbut still hyderabad in-office, not remote or your preferred cities\n\nduplicate of the earlier one"
+    }
+  ]
+}

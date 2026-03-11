@@ -1,0 +1,227 @@
+{
+  "thread_id": "917588756688_chat",
+  "date": "2025-12-04",
+  "message_count": 55,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Tushar Gaikwad"
+    },
+    {
+      "role": "assistant",
+      "content": "tushar gaikwad... solid name, sounds like someone who gets things done. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "user",
+      "content": "Ather Energy Ltd. Bangalore"
+    },
+    {
+      "role": "assistant",
+      "content": "ather energy... the ev scooter folks who are actually building the future of indian mobility instead of just talking about it. found you on linkedin - tushar gaikwad, application developer at ather energy. this you? https://in.linkedin.com/in/contact-tushargaikwad"
+    },
+    {
+      "role": "assistant",
+      "content": "application developer at ather... building the tech that powers those sleek scooters everyone wants but can't get their hands on. you're literally coding the future of how india moves. what made you jump into the ev space?"
+    },
+    {
+      "role": "user",
+      "content": "Didn't have a choice, it was my first job. I joined as a fresher 3 years ago.\nBut the passion for microcontrollers and firmware was always there and the culture at Ather helped grow that passion even more."
+    },
+    {
+      "role": "user",
+      "content": "Yes, I have seen Ather become a fully fledged company from a struggling startup. The code I wrote 3 years back still runs thousands of scooters across all generations and models. I was one of my most productive years. I've been working for 3 years 3 months 4 days"
+    },
+    {
+      "role": "assistant",
+      "content": "lmaooo 3 years 3 months 4 days... someone's been counting. that's the kind of precision i'd expect from a firmware engineer. \n\nyour code running thousands of scooters across generations... that's actually pretty sick. most devs write code that gets refactored in 6 months, yours is literally moving people around the country. what kind of role you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "Mostly related to controllers, like firmware or embedded"
+    },
+    {
+      "role": "assistant",
+      "content": "controllers, firmware, embedded... staying in your lane. smart. you've got that deep hardware-software interface experience that's actually rare. bangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "Any location will work"
+    },
+    {
+      "role": "assistant",
+      "content": "3+ years + firmware/embedded controllers + open to any location... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yup"
+    },
+    {
+      "role": "user",
+      "content": "Yup\n  Sure"
+    },
+    {
+      "role": "user",
+      "content": "Sure\n  Cool"
+    },
+    {
+      "role": "assistant",
+      "content": "perfect. now we wait for the right thing to show up."
+    },
+    {
+      "role": "user",
+      "content": "Okay"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. firmware/embedded controllers, 3+ years, any location. i'm on it."
+    },
+    {
+      "role": "assistant",
+      "content": "hey, saw an embedded software dev role at EMO.energy\n\nthey're doing firmware for EV power electronics and battery systems - right up your alley with controllers\n\nearly-stage EV startup in bangalore, similar vibe to ather's early days"
+    },
+    {
+      "role": "assistant",
+      "content": "found an embedded firmware role at EMO.energy working on battery systems and power electronics\n\nthey're doing embedded C, RTOS, CAN - basically the exact controller work you mentioned\n\nearly-stage EV startup in bangalore, similar vibe to ather's early days"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 3087e0aa-b49d-4490-ab72-322f311e007c. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Embedded Software Developer\n      - Company: EMO.energy\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Position: Embedded Software Developer  Location: Bangalore  Experience: 2-5 Years  About Us At EMO Energy, we’re a fast-moving deep-tech organization revolutionizing the electric mobility space. We are building a complete end-to-end EV technology stack from high-performance battery systems to intelligent control electronics powering the next generation of electric vehicles. We thrive on innovation, speed, and real-world impact, building products from the ground up. If you want to build, scale, and own products that change how the world moves, this is your stage. ⚡ Job Summary We’re looking for a passionate Embedded Software Developer to design and develop embedded firmware for our next-generation EV power electronics and battery systems. You’ll be working on developing code, the intersection of hardware and software, and solving challenging problems in real-time systems, safety-critical code, and performance optimization that directly impact how electric mobility is built and scaled.  What You Will Do Proven expertise in embedded C development, with hands-on experience in designing, coding, and optimizing firmware for real-time embedded systems (ARM/STM32 or equivalent MCUs). Strong ability to architect, build, and integrate firmware with custom hardware platforms, ensuring seamless interaction across power electronics, sensors, and battery systems. Solid understanding and practical experience with communication protocols such as CAN, UART, SPI, and I2C, including protocol stack implementation and validation. Demonstrated capability in firmware testing and validation, using tools such as oscilloscopes, logic analyzers, in-circuit debuggers, and hardware-in-loop (HIL) setups to ensure robustness and reliability under real-world EV operating conditions. Experience with RTOS-based development, interrupt-driven programming, and low-level driver development, with a focus on performance, safety, and scalability. Strong debugging and problem-solving skills, capable of identifying root causes in tightly coupled hardware-software systems. Exposure to functional safety standards (ISO 26262, MISRA C), power electronics, battery management systems (BMS), or motor control algorithms will be considered a strong advantage. Passionate about electric mobility technologies, with the drive to build and deploy cutting-edge solutions at scale. Maintain clear technical documentation for firmware modules and contribute to code reviews and best practices. ✅ What We’re Looking For Bachelor’s or Master’s in Electronics, Electrical, Computer Engineering, or related field. 2–5 years of experience in embedded firmware development. Strong expertise in C programming for real-time embedded systems. Hands-on experience with RTOS, interrupt-driven programming, and low-level drivers. Knowledge of automotive/EV standards (ISO 26262, functional safety, MISRA C) is a plus. Familiarity with power electronics, battery systems, or motor control is highly desirable. Solid debugging skills with oscilloscopes, logic analyzers, and in-circuit debuggers. Passionate about electric mobility and clean energy technologies.  Why Join Us? Be at the forefront of EV innovation, building technology that drives the future of mobility. Opportunity to own and lead modules end-to-end, from idea to deployment. Fast-paced startup environment with immense learning and growth potential. Work with a world-class team of engineers, innovators, and problem-solvers. Competitive compensation with equity opportunities grows as we grow. Skills: in-circuit debuggers,safety standards (iso 26262, misra c),coding,i2c,embedded c,can,power electronics,battery management systems,logic analyzers,uart,communication protocols,hardware-in-loop (hil),designing,firmware integration,rtos,mobility Show more Show less\n\n      Job Analysis:\n      - Fit Score: 78\n      - Confidence: high\n      - Recommendation: recommended\n      - Strengths: Perfect domain match: Embedded firmware development for EV power electronics and battery systems aligns exactly with candidate's firmware/controller focus, Automotive/EV industry matches candidate's background at Ather Energy and stated preference, Experience requirement 2-5 years fits candidate's 3+ years perfectly, Role involves embedded C, RTOS, CAN, UART, SPI, I2C - core skills for firmware developers, Deep-tech EV startup similar to Ather's culture, candidate would understand the environment well, Location in Bengaluru matches current location and candidate is open to any location, Emphasis on battery systems and power electronics directly relevant to EV controller work\n      - Concerns: EMO.energy appears to be an early-stage startup (Tier 3), lateral move from Ather Energy (Tier 2-3), Company is less established than Ather, potential brand downgrade, Fast-paced startup environment mentioned - may indicate high-pressure/WLB concerns though candidate hasn't stated WLB as priority\n      - Reasoning: Excellent domain fit for an embedded firmware developer seeking controller-focused roles in automotive/EV. The role perfectly matches the candidate's expertise and stated preferences. While EMO.energy may be a lateral or slight downgrade in company tier from Ather, the role offers deep technical work in the exact specialization the candidate is passionate about. The experience requirement aligns well, and as a hiring manager, this candidate would be a strong fit given their Ather background in similar EV firmware work.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. the link's on its way.\n\nthis one's actually solid for you - embedded firmware for EV power electronics and battery systems. basically the exact controller work you're into.\n\nthey're doing embedded C, RTOS, CAN, all the protocols you know. early-stage EV startup in bangalore, similar to ather's early days vibe.\n\nexperience requirement is 2-5 years, you're right in that sweet spot with your 3+ at ather.\n\nonly thing is they're tier 3 vs ather's tier 2-3 now, so it's a lateral move brand-wise. but the technical match is spot on.\n\ngood find."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "Hey"
+    },
+    {
+      "role": "assistant",
+      "content": "hey. what's up?"
+    },
+    {
+      "role": "assistant",
+      "content": "what's on your mind?"
+    },
+    {
+      "role": "user",
+      "content": "Nothing"
+    },
+    {
+      "role": "assistant",
+      "content": "cool. just checking in. that emo.energy role looked solid for you - embedded firmware for EV battery systems, right up your alley.\n\nanything else you're looking for specifically or just seeing what's out there?"
+    },
+    {
+      "role": "user",
+      "content": "I prefer mostly Pune or remote work"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. pune or remote. firmware/embedded controllers, 3+ years.\n\ni'll keep an eye out for those specifically."
+    },
+    {
+      "role": "assistant",
+      "content": "Sr. Software Engineer at UNIDEL\n\nTushar, this Pune-based Sr. Embedded Linux role leverages your passion for firmware & controllers with wireless protocols like Zigbee and Matter.\n\nApply: https://jobs.tal.af/KBa9X"
+    },
+    {
+      "role": "assistant",
+      "content": "found a sr. software engineer role at UNIDEL in pune\n\nthey're doing embedded firmware for IoT smart lighting with zigbee and matter protocols\n\nsenior title with 4-7 years experience, you're at 3.3 but your ather background might bridge that gap\n\npune location matches your preference exactly"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job a9a0df8b-02eb-4351-91da-f5719f27e8a5. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Sr. Software Engineer\n      - Company: UNIDEL\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Designation – Senior Software Engineer (Firmware Developer) Qualification – BE in IT/E&TC/ Computers or equivalent Location – Pune Experience – 4 – 7 Years JOB Description Required Technical Expertise: We are seeking a highly skilled Senior Embedded Firmware Engineer with proven experience in developing firmware for smart lighting solutions. The role demands strong expertise in lighting protocols and wireless connectivity (Zigbee, BLE, Wi-Fi, Z-Wave, DALI, DMX, 0–10V) to design, optimize, and deliver advanced IoT-based lighting control systems. The ideal candidate will bring a blend of embedded firmware expertise, lighting domain knowledge, and hands-on protocol integration experience to build scalable and reliable connected lighting products. Key Responsibilities Development of embedded firmware for smart lighting products using Zigbee, BLE, Wi-Fi, Z-Wave, and traditional lighting protocols (DALI, DMX512, 0–10V). Integrate and customize lighting control stacks (Zigbee ZCL – Lighting Clusters, BLE Mesh Lighting Models, Z-Wave Lighting Command Classes). Ensure interoperability with lighting ecosystems (Zigbee Home Automation, Matter, BLE Mesh Lighting, Smart Energy, etc.). Debug, troubleshoot, and optimize lighting communication stacks, wireless performance, and real-time responsiveness. Collaborate with hardware, software, mechanical, and QA teams for complete lighting product lifecycle development. Optimize firmware for low-power lighting devices (sensors, switches, luminaires). Conduct protocol performance analysis, network scalability testing, and lighting scene management optimization. Create technical documentation Experienced in implementing secure development methodologies, ensuring robust protection of sensitive data and systems integrity. Required Skills & Qualifications Bachelor’s/Master’s in Electronics, Communication, or Embedded Systems Engineering. 3-7 years of embedded firmware development experience with focus on IoT and lighting applications. Strong expertise in C/C++ for real-time embedded systems. Hands-on experience with Zigbee (ZCL Lighting Clusters, ZHA, ZSE), BLE Mesh (Lighting Models), Wi-Fi, Z-Wave (Lighting Command Classes). Practical knowledge of lighting control protocols: DALI, DMX512, 0–10V, PWM dimming. Experience in RTOS-based systems and low-power design for lighting nodes. Familiarity with debugging tools (JTAG, Logic Analyzer, Oscilloscope) and protocol analyzers (Ubiqua, Wireshark). Strong problem-solving, debugging, and optimization skills. Preferred Skills Experience with MCUs used in lighting applications: Silabs (EFR32), Nordic, TI, STM32. Exposure to Matter (CHIP) and its Lighting Device Types. Knowledge of smart lighting ecosystems (Philips Hue, Leviton, Lutron, etc.). Experience developing dimmable, tunable-white, or RGB/RGBW lighting solutions. Familiarity with safety, compliance, and certification processes for lighting products. Job Type: Full Time Engineering: Engineering - Core Skills: Firmware Developer Qualification: BE in IT/E&TC/ Computers or equivalent Experience: 4 - 7 Years Job Location: Pune Industry: Industrial & Buildings IoT Apply for this position Full Name * Email * Phone * Cover Letter * Upload CV/Resume *Allowed Type(s): .pdf, .doc, .docx By using this form you agree with the storage and handling of your data by this website. * << Back to Job Listing page Show more Show less\n\n      Job Analysis:\n      - Fit Score: 72\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Perfect match for firmware/embedded development focus with IoT and smart lighting solutions, Strong alignment with candidate's expertise in microcontrollers and embedded systems, Location in Pune matches stated preference exactly, IoT lighting protocols (Zigbee, BLE, DALI, DMX) align well with controller expertise, Experience range 4-7 years allows for growth from candidate's 3.3 years, Industry focus on IoT/embedded aligns with candidate's background at Ather Energy (EV/IoT company)\n      - Concerns: Requires 4-7 years experience, candidate has 3.3 years - slightly below minimum, Requires deep expertise in lighting protocols (DALI, DMX512, 0-10V) which candidate may not have, Unknown company tier (likely Tier 3), not a brand upgrade from Ather Energy (Tier 1), Title is 'Senior' which would be a promotion from current 'Application Developer' level, may be competitive\n      - Reasoning: This is a strong match for Tushar's core interests and expertise in firmware/embedded controllers. The role is in Pune (perfect location match), focuses on embedded firmware for IoT smart lighting with wireless protocols, and aligns with his microcontroller passion. While the company is unknown (likely Tier 3 vs Ather's Tier 1), the role represents legitimate career growth in his specialized domain. The 4-7 year requirement is a slight stretch from his 3.3 years, but his Ather experience with production-grade embedded systems is relevant.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. link's coming through.\n\nthis one's in pune - exactly what you wanted. sr. software engineer role doing embedded firmware for IoT smart lighting with zigbee, matter, all those wireless protocols.\n\nexperience requirement is 4-7 years, you're at 3.3 but your ather background with production-grade embedded systems might bridge that gap.\n\ncompany tier is likely tier 3 vs ather's tier 1, but it's a senior title and pune location matches perfectly.\n\ngood find."
+    },
+    {
+      "role": "user",
+      "content": "Suggest some more options"
+    },
+    {
+      "role": "assistant",
+      "content": "nothing else matching you right now. i'm picky about what i share - only stuff that actually fits.\n\ni'll keep looking though. anything specific you want me to watch for besides pune/remote firmware controllers?"
+    },
+    {
+      "role": "user",
+      "content": "Can I share my CV?"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. your CV shows solid embedded firmware work at ather - OTA updates, CAN parsing, smart vehicle features, battery optimization.\n\nyou've got the exact controller experience i look for. renensas RA6M4, ESP32, all the good stuff.\n\ni'll keep this in mind when i'm scanning for roles. anything specific in your CV you want me to highlight when matching?"
+    },
+    {
+      "role": "assistant",
+      "content": "send it over"
+    },
+    {
+      "role": "user",
+      "content": "Skills and work"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. embedded C, controllers (renesas, ESP32, ATmega), CAN protocol, OTA architecture, smart vehicle features, battery optimization.\n\nthat's the good stuff. i'll watch for roles that need exactly that."
+    },
+    {
+      "role": "assistant",
+      "content": "Engineer - WLAN FW at Qualcomm\n\nQualcomm offers a brand upgrade & aligns with your firmware/embedded expertise using C, though in Hyderabad.\n\nApply: https://jobs.tal.af/N0LP0"
+    },
+    {
+      "role": "user",
+      "content": "Preferred location is Pune or remote"
+    },
+    {
+      "role": "assistant",
+      "content": "right, pune or remote. qualcomm's hyderabad so that's out.\n\ni'll keep looking for pune/remote firmware roles specifically."
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "AI/ML Engineer – XR Software (All levels)) at Qualcomm\n\nYour embedded C and controllers experience at Ather makes you a great fit for Qualcomm's XR team, blending AI/ML with hardware.\n\nApply: https://jobs.tal.af/Bwdu7"
+    },
+    {
+      "role": "user",
+      "content": "Location?"
+    },
+    {
+      "role": "assistant",
+      "content": "hyderabad again. qualcomm's big there.\n\nstill not pune/remote. i'll skip these for now.\n\nanything else you want me to watch for besides location?"
+    },
+    {
+      "role": "user",
+      "content": "Skills and work experience"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. embedded C, controllers, CAN, OTA, smart vehicle features, battery optimization.\n\nthat's your core. i'll watch for roles that need exactly that combo.\n\nnothing matching right now but i'll keep looking."
+    }
+  ]
+}

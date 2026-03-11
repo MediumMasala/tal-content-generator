@@ -1,0 +1,175 @@
+{
+  "thread_id": "918465838288_chat",
+  "date": "2025-12-04",
+  "message_count": 42,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "yo! \n\ni'm tal - your talent agent. not just any friend, but the kind who'll tell you the truth about your career and actually get you paid.\n\nthink of me as your inside person in bangalore tech. i know which startups are actually hiring, who's paying real money, and what roles are worth your time.\n\nhere's how this works: you tell me about yourself, i send you roles that fit. no fluff, no false promises.\n\nso... what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Rama Kiran"
+    },
+    {
+      "role": "assistant",
+      "content": "rama kiran... solid name. has that \"i've been coding since college and probably know more than my manager\" energy.\n\nwhere you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "in bengaluru"
+    },
+    {
+      "role": "assistant",
+      "content": "rama kiran... that's a name with some gravitas to it.\n\nbut yo, i meant which company? bangalore's got like 10,000 startups and half of them are dying. where you putting in your hours?"
+    },
+    {
+      "role": "user",
+      "content": "Fi money Fintech startup 🔥"
+    },
+    {
+      "role": "assistant",
+      "content": "fi money... the neobank trying to make banking actually usable instead of a nightmare. solid choice - fintech that doesn't make you want to throw your phone.\n\nfound you on linkedin - NITTALA RAMA KIRAN, data scientist at fi. this you? https://in.linkedin.com/in/nittala-rama-kiran-b79827205"
+    },
+    {
+      "role": "user",
+      "content": "Yupp"
+    },
+    {
+      "role": "assistant",
+      "content": "data scientist at fi money... building the models that decide whether someone gets that instant loan or has to explain their life story to a banker. that's some serious fintech muscle right there.\n\nwhat made you get into data science? were you one of those \"i love math\" kids or did you stumble into it because someone said \"data is the new oil\"?"
+    },
+    {
+      "role": "user",
+      "content": "I LOVE MATH. And every new problem lead you to explore new things. Every time a new thing learnt it fascinates me more"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nNITTALA RAMA KIRAN's profile indicates an association with the company Fi. The profile does not specify a role, career history timeline, or responsibilities.\n\n**ROLE-BY-ROLE**\n*   Fi ([start date not specified]) – [Role title not specified] – [Responsibilities not listed]\n\n**EDUCATION HIGHLIGHTS**\n*   Certificate of Participation in Level 1: E-Commerce – Unstop (formerly Dare2Compete), issued Jul 2022."
+    },
+    {
+      "role": "assistant",
+      "content": "ah, a genuine math nerd! that's rare in this sea of \"i learned python in 3 months and now i'm a data scientist\" people. the fact that you actually get excited about new problems... that's the real deal.\n\nbuilding models at fi that probably touch millions of transactions. bet you're the one figuring out fraud patterns and credit risk algorithms while everyone else is still arguing about which visualization library to use.\n\nhow long you been working total?"
+    },
+    {
+      "role": "user",
+      "content": "2 years including 6 months internship"
+    },
+    {
+      "role": "assistant",
+      "content": "2 years total... so you're past the \"what's a jupyter notebook\" phase but still early enough to be hungry. that's the sweet spot where you actually know what you're doing but haven't gotten cynical about data quality yet.\n\nwhat kind of role you looking for next? staying in data science or thinking about pivoting to something like ml engineering, product analytics, maybe even founding something?"
+    },
+    {
+      "role": "user",
+      "content": "The name might be a data scientist but I work from end to end right from data pipelines, data analysis, model building, and monitoring and deploying the models In prod enviornment"
+    },
+    {
+      "role": "assistant",
+      "content": "ahhhh so you're not just a \"data scientist\" who makes pretty charts and calls it a day. you're doing the full stack - pipelines, models, production deployments. that's basically ml engineering with a data scientist title. \n\nfi's got you wearing all the hats because startup life, but that's actually gold for your resume. most people at big tech are stuck doing one tiny piece of the puzzle.\n\nso when you say \"next role\" - you want to keep doing this full-stack ml thing? or are you thinking more specialized like pure ml engineering, or maybe senior data scientist roles where you get to architect the whole data strategy?"
+    },
+    {
+      "role": "user",
+      "content": "Actually I want to deep dive more into modelling and researching and yeah also like to build end to end fullstack ml roles"
+    },
+    {
+      "role": "assistant",
+      "content": "so you want the best of both worlds - the deep research rabbit holes where you can geek out on new architectures and algorithms, but also the satisfaction of seeing your models actually work in production with real users.\n\nthat's a smart combo. most people get stuck either in pure research (cool papers, zero impact) or pure engineering (fast deploys, boring models). you're thinking like someone who wants to build the next breakthrough that actually ships.\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "Bangalore or Hyderabad or remote"
+    },
+    {
+      "role": "assistant",
+      "content": "2 years + full-stack ml + research focus + bangalore/hyderabad/remote... sound right?\n\nwant roles where you can publish papers AND ship models that millions of people use?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Works 😃"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi"
+    },
+    {
+      "role": "user",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "hey! just finished setting you up in my system. you're locked in now.\n\nso... what's making you want to leave fi money anyway? just growth or something else?"
+    },
+    {
+      "role": "user",
+      "content": "Growth and also want to explore new domains and new problem statements"
+    },
+    {
+      "role": "assistant",
+      "content": "makes sense. fintech's cool but after a while all the problems start looking the same - fraud detection, credit scoring, churn prediction. you want to apply those ml skills to something completely different.\n\nwhat domains are you curious about? healthcare, climate tech, maybe something wild like space tech or computational biology?"
+    },
+    {
+      "role": "assistant",
+      "content": "just saw a data science analyst role at ebay in bangalore\n\nthey're working on LLM/NLP research but also want you to build and deploy the models end-to-end\n\nsounds like exactly what you wanted - deep research plus shipping to production"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 162eb025-c3e5-4927-8060-8928057bea6f. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Data Science Analyst\n      - Company: eBay\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: At eBay, we're more than a global ecommerce leader — we’re changing the way the world shops and sells. Our platform empowers millions of buyers and sellers in more than 190 markets around the world. We’re committed to pushing boundaries and leaving our mark as we reinvent the future of ecommerce for enthusiasts. Our customers are our compass, authenticity thrives, bold ideas are welcome, and everyone can bring their unique selves to work — every day. We're in this together, sustaining the future of our customers, our company, and our planet. Join a team of passionate thinkers, innovators, and dreamers — and help us connect people and build communities to create economic opportunity for all. About The Role And The Team eBay’s India Analytics Center is a vital hub within our global analytics organization, bringing together a team of 75+ talented business analysts, data scientists, and machine learning engineers. We partner across key business areas — including Customer Service, Finance, Category Management, Seller Experience, Shipping & Logistics, and Monetization — to deliver data-driven insights that shape eBay’s strategy and customer experience. We’re looking for a Data Science Analyst to join our Customer Service Science team, with deep expertise in Large Language Models (LLMs) and natural language understanding (NLU) . In this role, you’ll help evolve Nexus , our intelligent AI-powered system that analyzes, summarizes, and surfaces customer pain points from massive volumes of unstructured data — spanning eBay’s listing posts, customer support conversations, surveys, and social media feedback. As part of this team, you’ll play a key role in transforming how eBay listens to and acts on customer feedback. You’ll work at the intersection of AI research, data science, and business intelligence , collaborating closely with product managers, UX researchers, engineers, and analysts. You’ll design and deploy models that turn qualitative feedback into actionable insights and integrate seamlessly with a JavaScript-based front end that empowers business and product stakeholders to explore and act on customer sentiment in real time. What You Will Accomplish Modeling & NLP Development Design LLM-based pipelines (e.g., using Langchain frameworks) to identify and summarize customer pain points from textual data. Develop summarization, clustering, and topic modeling approaches to group recurring themes across markets and product lines. Apply prompt engineering, retrieval-augmented generation (RAG), and embedding search to improve model accuracy and relevance. Use machine learning methods in concert with LLM. Data Engineering & Processing Build and maintain data pipelines to ingest and clean data from diverse sources (e.g., surveys, customer support tickets, product reviews, social media, and CRM systems). Ensure data quality, scalability, and compliance with internal governance and data privacy policies. Productionize models and integrate outputs with downstream systems and dashboards. Insights Delivery & Visualization Design and build interactive visualizations (in JavaScript) that make model outputs accessible and actionable for non-technical stakeholders. Partner with Insights teams to create data stories and presentations that influence business strategy using clear, human-readable summaries of complex findings. What You Will Bring Ability to derive insight from data, visualize it appropriately and influence others to drive outcomes MSc or PhD in Computer Science, Data Science, Statistics, or a related field. 4+ years of experience in machine learning, NLP, or data-driven product development. Strong coding proficiency in Python (Pandas, PyTorch, Hugging Face, LangChain, umap, hdbscan, etc.) Strong experience with front end development with JavaScript and data visualization libraries (e.g. D3.js) Experience deploying and managing machine learning services in containerized environments using Docker and Kubernetes. Deep understanding of vector databases, semantic search, and embedding-based retrieval systems. Proficient with GitHub and modern version control best practices (e.g. code reviews, CI/CD workflows). Proven experience working with large-scale unstructured text data. Please see the Talent Privacy Notice for information regarding how eBay handles your personal data collected when you use the eBay Careers website or apply for a job with eBay. eBay is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, sexual orientation, gender identity, veteran status, and disability, or other legally protected status. If you have a need that requires accommodation, please contact us at talent@ebay.com. We will make every effort to respond to your request for accommodation as soon as possible. View our accessibility statement to learn more about eBay's commitment to ensuring digital accessibility for people with disabilities. The eBay Jobs website uses cookies to enhance your experience. By continuing to browse the site, you agree to our use of cookies. Visit our Privacy Center for more information. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 72\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: eBay is a Tier 1 company - major brand upgrade from Fi Money (Tier 3 fintech startup), Location is Bengaluru which matches user's stated preference perfectly, Excellent alignment with user's interests: combines LLM/NLP research with practical full-stack ML deployment, Requires 4+ years experience while candidate has 2 years - this is aspirational but within reasonable stretch (2 year gap), Role involves both research depth (LLM modeling, NLP) and end-to-end implementation (pipelines, deployment) exactly matching user's stated goals, Strong technical fit with Python, ML, NLP, and production deployment skills candidate already has, Prestigious role at elite global tech company would be LinkedIn-announcement worthy\n      - Concerns: Experience gap of ~2 years (requires 4+, candidate has 2) makes this a stretch - candidate may face screening challenges, Requires MS/PhD while candidate's education background is unknown - potential qualification gap, Requires JavaScript/front-end skills which aren't mentioned in candidate's profile, Requires Docker/Kubernetes production experience which may be beyond current scope\n      - Reasoning: This is a strong aspirational role that represents an excellent prestige trade opportunity. The candidate would move from a Tier 3 startup (Fi Money) to a Tier 1 global tech leader (eBay), which is a significant brand upgrade. While there's a 2-year experience gap (requires 4+, has 2), this falls within acceptable aspirational stretch territory - not an ego violation. The role perfectly aligns with the user's passion for research-oriented ML work combined with practical implementation. The technical skills (Python, ML, NLP, LLMs) align well with the candidate's current full-stack ML work. From a hiring manager perspective, a strong candidate with 2 years of deep full-stack ML experience at a fintech startup could potentially be considered, especially given eBay's large analytics team that may have flexibility. The location match and career capital gain make this worth applying to.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice! link's on its way.\n\nngl this is a stretch role - they want 4+ years and you've got 2. but here's why you should still go for it:\n\n1. you're doing full-stack ml at fi - that's basically 2 years of compressed experience. most people at big tech only see one piece of the puzzle.\n2. they're working on LLM/NLP research AND deployment - exactly what you wanted\n3. moving from tier 3 startup to tier 1 global company is a massive brand upgrade\n\nthe javascript and docker/kubernetes stuff you can learn or fake till you make it. the experience gap is the real hurdle, but your fintech background might actually be a strength - you've probably seen more production issues than someone at a cushy big tech role.\n\nworth a shot. worst case you get rejected but now ebay knows your name."
+    },
+    {
+      "role": "assistant",
+      "content": "found a data scientist role at tesslogs in bangalore\n\nthey're working on genAI and LLMs, want someone to build and deploy models end-to-end\n\nit's an IT services company though - not sure if that's the research depth you're looking for"
+    },
+    {
+      "role": "assistant",
+      "content": "Data Scientist at Equifax\n\nEquifax's Data Scientist role in Bangalore lets you deep dive into modeling & build deployable ML solutions in the fintech space.\n\nApply: https://jobs.tal.af/Iuaq5"
+    },
+    {
+      "role": "assistant",
+      "content": "Data Scientist at Equifax\n\nEquifax's Data Scientist role offers a blend of model building & deployment, aligning with your full-stack ML & research interests in fintech.\n\nApply: https://jobs.tal.af/XXgRZ"
+    },
+    {
+      "role": "assistant",
+      "content": "earnin's hiring a senior ML engineer in bangalore\n\nthey're a tier 1 fintech backed by a16z and matrix - basically the big leagues\n\nyou'd be building end-to-end ML systems and deploying to production, exactly what you're doing now but at a much bigger scale\n\nit's a senior role though - they want 4+ years and you've got 2. but your fintech experience might bridge that gap"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, happy monday - if it’s not, we’ll work together on making it happen soon :)\nhow’s the week looking? what would you like me to focus on this week with the search?"
+    },
+    {
+      "role": "assistant",
+      "content": "meesho's hiring a data scientist II in bangalore\n\nthey want 2-4 years experience - perfect match for your timeline\n\nyou'd be building models, pipelines, and deploying them end-to-end. they mention fraud detection and payment ML work too\n\nmight be more business-focused than pure research though"
+    },
+    {
+      "role": "assistant",
+      "content": "meesho's hiring a data scientist II in bangalore\n\nthey want 2-4 years experience - perfect match for your timeline\n\nyou'd be building models, pipelines, and deploying them end-to-end. they mention fraud detection and payment ML work too\n\nmight be more business-focused than pure research though"
+    },
+    {
+      "role": "assistant",
+      "content": "found an automatic speech recognition role at recro in bangalore\n\nthey want 2+ years experience - perfect match for you\n\nyou'd be training and fine-tuning models, building evaluation frameworks, and deploying to production. research depth plus practical implementation\n\nit's speech recognition in healthcare though - pretty specialized. and recro isn't a big brand name"
+    },
+    {
+      "role": "assistant",
+      "content": "navgurukul's hiring an AI engineer - fully remote with 30% travel\n\nthey're working on LLMs, RAG, vector databases, MLOps - all the cutting-edge stuff\n\nthey literally want someone with excellent math scores and curiosity about learning. that's you\n\nbut it's a nonprofit so the salary will be 60-80% below market. they're upfront about it"
+    },
+    {
+      "role": "assistant",
+      "content": "navgurukul's hiring an AI engineer - fully remote with some travel\n\nthey're building AI for underserved students. you'd be fine-tuning LLMs, building RAG systems, and deploying to production\n\nthe mission is incredible and they value math skills, but it's a nonprofit so salary will be 60-80% below market\n\nif you can afford the pay cut, this could be deeply fulfilling work"
+    },
+    {
+      "role": "assistant",
+      "content": "gartner's hiring an associate AI/ML engineer in gurgaon\n\nthey want 0.5-2 years experience - you're right at the top end\n\nyou'd be working on LLMs, transformers, BERT - deep NLP research plus production deployment\n\nthe 'associate' title feels junior but gartner's a global brand and the work is exactly what you want"
+    }
+  ]
+}

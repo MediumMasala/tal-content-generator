@@ -1,0 +1,39 @@
+{
+  "thread_id": "917874629669_chat",
+  "date": "2025-12-04",
+  "message_count": 8,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Vaishnav Vishal"
+    },
+    {
+      "role": "assistant",
+      "content": "vaishnav vishal... that's a name that sounds like it belongs on a founding team somewhere. where you working these days?"
+    },
+    {
+      "role": "user",
+      "content": "Gojek"
+    },
+    {
+      "role": "assistant",
+      "content": "gojek... the super app that's trying to do everything from rides to food to payments. ambitious play. found vishal vaishnav on linkedin - tech at gojek, iiit vadodara. this you? https://in.linkedin.com/in/vish3011"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "iiit vadodara to gojek... from the tech institute that's quietly building solid engineers to the company that's trying to own southeast asia's daily life. that's a smart move. what made you jump into the super app game?"
+    }
+  ]
+}

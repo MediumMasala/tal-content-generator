@@ -1,0 +1,43 @@
+{
+  "thread_id": "918949475301_chat",
+  "date": "2025-12-04",
+  "message_count": 9,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Hireup"
+    },
+    {
+      "role": "assistant",
+      "content": "hireup... the recruitment platform that's actually trying to fix hiring. ironic that you're working at a company that does what i do, just differently.\n\nfound nishant prakash hritik at accenture on linkedin. this you? https://in.linkedin.com/in/nishant-prakash-hritik-8824a4226"
+    },
+    {
+      "role": "user",
+      "content": "No"
+    },
+    {
+      "role": "user",
+      "content": "Rhitik Bhatt"
+    },
+    {
+      "role": "assistant",
+      "content": "rhitik bhatt... solid name. sounds like someone who gets things done. where you working these days?"
+    },
+    {
+      "role": "assistant",
+      "content": "my bad. found hrithik bhatt, chartered accountant at pwc. this you? https://in.linkedin.com/in/hrithik-bhatt-337210201\n\nor can you just drop your linkedin url? easier that way"
+    },
+    {
+      "role": "assistant",
+      "content": "hey rhitik, was just thinking about your linkedin situation - still need that url to get you set up properly"
+    }
+  ]
+}

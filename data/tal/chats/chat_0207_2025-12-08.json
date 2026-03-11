@@ -1,0 +1,263 @@
+{
+  "thread_id": "917077968075_chat",
+  "date": "2025-12-08",
+  "message_count": 64,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi tal, I'm a friend"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, i'm tal\n\nthink of me as your personal talent agent, your inside man… or fox\n\none of these days, I might slide a role right here in chat. the kind that feels like your calling.\n\nso… what's your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Ashutosh Routray"
+    },
+    {
+      "role": "assistant",
+      "content": "ashutosh routray... that's a name with some weight to it. where you working these days?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey ashutosh, was just thinking about our chat earlier... you never got to tell me where you're working these days\n\nwhat's the current gig?"
+    },
+    {
+      "role": "user",
+      "content": "at Nestle, the role is called “Technical Specialist Jr”.\nBasically I work with the Cloud and Edge team, mostly in automation, finops and infra."
+    },
+    {
+      "role": "assistant",
+      "content": "found ashutosh routray at nestle, iiit bhubaneswar '23. this you? https://in.linkedin.com/in/ashutosh-routray"
+    },
+    {
+      "role": "user",
+      "content": "Yep, thats me"
+    },
+    {
+      "role": "assistant",
+      "content": "iiit bhubaneswar '23 to nestle cloud engineer... fresh out of college and already making corporate giants sweat about their cloud costs. that's solid work. what made you pick the fmcg route over pure tech startups?"
+    },
+    {
+      "role": "user",
+      "content": "I was working with a fintech startup called iServeU, as a DevOps engineer - but the work-life balance was non-existent and the culture was very toxic. \nSo I decided to switch and Nestle presented itself at the right place and right time.\nI would generally have wanted to delve into ML and Finance"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nAshutosh Routray is currently associated with Nestlé and is based in Bengaluru, Karnataka. He describes himself as a DevOps, ML, and Backend aficionado with a math-driven problem-solving mindset.\n\n**ROLE-BY-ROLE**\n*   Nestlé ([Start date not specified]) – [Role title not specified] – [Responsibilities not listed]\n\n**EDUCATION HIGHLIGHTS**\n*   [No education history listed on the profile.]\n\n**CERTIFICATIONS**\n*   Tensorflow on GCP: Google Cloud Skills Boost (Google, Aug 2025)\n*   Communicating with Confidence (LinkedIn, Dec 2024)\n*   Neural Networks and Deep Learning (Coursera, Aug 2020)\n*   Python (Kaggle, Jul 2020)\n*   MTA: Introduction to Programming Using Python - Certified 2019 (Microsoft, Oct 2019)"
+    },
+    {
+      "role": "assistant",
+      "content": "ah the classic fintech burnout story... iserveu sounds like they served you a reality check instead of work-life balance. smart move jumping to nestle - at least when they mess up your weekend, they'll probably send you some maggi as compensation.\n\nml and finance though... that's where the real money is. how long you been working total?"
+    },
+    {
+      "role": "user",
+      "content": "2 years as FTE and 7 months as an intern"
+    },
+    {
+      "role": "assistant",
+      "content": "2.5 years total... so you're past that \"i have no idea what i'm doing\" phase but still hungry enough to make moves. what kind of role you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "I don’t mind working hard and missing a bit of the balance, but I wish to be compensated fairly"
+    },
+    {
+      "role": "assistant",
+      "content": "fair enough. you learned the hard way that \"we're a family\" usually means \"we'll exploit you like family\". \n\nbut i need specifics - what kind of role you targeting? devops? ml engineer? backend? fintech again but with better boundaries?"
+    },
+    {
+      "role": "user",
+      "content": "I want to delve into ML, thats my final goal. The sectors can be Finance, FinTech, etc"
+    },
+    {
+      "role": "assistant",
+      "content": "ml engineer in fintech... smart move. finance + machine learning = where the real money is. plus you already know the devops side, so you won't be that ml engineer who builds models that never see production.\n\nbangalore or open to remote/other cities?"
+    },
+    {
+      "role": "user",
+      "content": "I am currently in bangalore and am open to all available open\n  *available options"
+    },
+    {
+      "role": "assistant",
+      "content": "2.5 years + ml engineer + fintech focus + open to anywhere... sound right?"
+    },
+    {
+      "role": "assistant",
+      "content": "done. i'm spinning things up on my end. you'll start seeing good stuff soon."
+    },
+    {
+      "role": "user",
+      "content": "Yes sounds about right"
+    },
+    {
+      "role": "user",
+      "content": "Yes sounds about right\n  Definitely, thanks a bunch. Anything else?"
+    },
+    {
+      "role": "assistant",
+      "content": "just one thing - what's your current salary? helps me know what \"fair compensation\" actually means for you"
+    },
+    {
+      "role": "assistant",
+      "content": "hey, found an AI engineer role with BON Credit (US fintech) through Uplers\n\nit's remote and exactly the fintech/ml combo you wanted\n\nthey're looking for 2-5 years experience, think you'd be a good fit?"
+    },
+    {
+      "role": "assistant",
+      "content": "hey ashutosh, you never got back to me about that AI engineer role with BON Credit\n\nremote fintech/ml gig... you thinking about applying?"
+    },
+    {
+      "role": "user",
+      "content": "I feel this is a great fit, will apply bu tonight"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. btw what's your current salary? helps me know what \"fair compensation\" actually means for you"
+    },
+    {
+      "role": "user",
+      "content": "Its 11LPA"
+    },
+    {
+      "role": "assistant",
+      "content": "11LPA at nestle with 2.5 years... you're definitely ready for a bump. what's your target range?"
+    },
+    {
+      "role": "user",
+      "content": "15 atleast. 18 optimally"
+    },
+    {
+      "role": "assistant",
+      "content": "15-18LPA for ml engineer in fintech is realistic with your background. that's a solid 36-63% jump from nestle.\n\nyou're thinking about that uplers role... any concerns about it being through a staffing agency?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job 481d346e-0c44-474e-8de5-772ecf02cf94. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: AI Engineer\n      - Company: Uplers\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Experience : 2.00 + years Salary : Confidential (based on experience) Shift : (GMT+05:30) Asia/Kolkata (IST) Opportunity Type : Remote Placement Type : Full time Permanent Position (*Note: This is a requirement for one of Uplers' client - Bon) What do you need for this opportunity? Must have skills required: Python, LangChain, LlamaIndex, LLMs, PostgreSQL Bon is Looking for: AI Engineer – BON Credit Location: Remote (India) Type: Full-time Experience: 2–5 years About BON BON is a premium fintech-lifestyle app for US consumers, helping credit card holders reduce and manage debt using AI-driven insights and an intuitive mobile experience. We’re building a mobile-first, automation-led product that simplifies financial wellness for millions of users. Role Overview We’re looking for an AI Engineer who can work with our 3rd-party AI agency and build agentic workflows that automate real user tasks end-to-end. You’ll play a key role in designing and orchestrating AI agents, ensuring they reliably execute financial and operational workflows within the BON ecosystem. The role suits someone with strong hands-on engineering experience, solid ML foundations, and the ability to adapt quickly in a fast-moving, PMF-stage startup. Key Responsibilities Build and deploy agentic workflows for user task automation. Work closely with and manage delivery from a 3rd-party AI agency. Integrate AI agents with BON’s backend (Firebase) and internal tools. Build LLM workflows using LangChain or LlamaIndex and work with vector databases. Design workflows leveraging Lamagraph, CodeDB, and vector search systems. Oversee integrations with backend services built on Node.js. Implement caching and data storage solutions using PostgreSQL and Redis. Deploy and optimize workflows across AWS, Google Cloud, or Cloudflare-based environments. Experiment with new AI capabilities, evaluate models, and optimize pipeline performance. Collaborate with product, design, and engineering teams to translate user needs into automated experiences. Maintain reliability, accuracy, and safety across all AI-driven features. Requirements 2–5 years of software engineering or applied AI experience. Strong ML knowledge with proficiency in Python. Experience building AI agents / agentic workflows. Solid understanding of orchestration, tool use, and workflow automation. Familiarity with Node.js backend ecosystem. Database experience: PostgreSQL + Redis (cache & state). Experience working with LangChain / LlamaIndex, vector DBs, and embedding-based retrieval. Exposure to workflows involving Lamagraph, CodeDB, or similar. Cloud familiarity: AWS, Google Cloud, and Cloudflare environments. Flexibility to work with different LLMs (current stack includes Sonnet & LLaMA 3.1). Comfortable working with Firebase and modern backend stacks. Adaptable, hands-on, and eager to work in a PMF-seeking, fast-iteration environment. Experience in B2B or B2C product companies. What We Value Flexibility: Ability to jump into new tools, systems, and problem areas. Product mindset: You care about user outcomes, not just model performance. Startup attitude: Fast-moving, iterative, and proactive. Ownership: Ability to independently manage workflows and external partners. Work You Will Own Designing and maintaining AI-driven automation flows. Ensuring agentic workflows are stable, fast, and reliable in production. Coordinating with a 3rd-party AI development partner. How to apply for this opportunity? Step 1: Click On Apply! And Register or Login on our portal. Step 2: Complete the Screening Form & Upload updated Resume Step 3: Increase your chances to get shortlisted & meet the client for the Interview! About Uplers: Our goal is to make hiring reliable, simple, and fast. Our role will be to help all our talents find and apply for relevant contractual onsite opportunities and progress in their career. We will support any grievances or challenges you may face during the engagement. (Note: There are many more opportunities apart from this on the portal. Depending on the assessments you clear, you can apply for them as well). So, if you are ready for a new challenge, a great work environment, and an opportunity to take your career to the next level, don't hesitate to apply today. We are waiting for you! Show more Show less\n\n      Job Analysis:\n      - Fit Score: 72\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Remote role perfectly matching candidate's preference, Fintech domain (BON Credit) aligns exactly with candidate's stated interest in fintech/finance, 2-5 years experience range fits candidate's 2.5 years profile, Strong ML/AI focus supporting career transition into ML engineering, Tech stack alignment: Python, PostgreSQL, LangChain, LlamaIndex, Client is US-based fintech product - decent brand value compared to unknown startups, Full-time permanent position with stability\n      - Concerns: Uplers is a staffing/placement company (Tier 3) though client BON may be better, Role requires hands-on agentic workflow experience which candidate may lack, Candidate's background is DevOps/Cloud, not production ML engineering, 'Confidential' salary raises transparency concerns given candidate's explicit need for fair compensation clarity, Requires managing 3rd-party AI agency - may need more senior coordination experience, Node.js backend requirement when candidate's backend experience unclear\n      - Reasoning: This role hits key candidate preferences: remote work, fintech domain, and ML engineering focus. The BON Credit client is a US-based fintech product providing better brand value than typical Tier 3 startups. While the candidate lacks direct ML production experience, the remote setup and fintech alignment create a valid trade for the experience gap. The confidential salary is a concern but the overall package of remote + fintech + ML makes this worth pursuing despite the stretch in technical requirements.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "nice, you applied. solid move.\n\nthis role is actually a good fit - remote fintech/ml combo you wanted, plus BON Credit is a legit US fintech product (way better than random startups).\n\nthe \"confidential salary\" thing is annoying but with your 11LPA current, even a modest bump gets you to your 15LPA target. plus you get actual ml engineering experience which is what you're after.\n\nconcern is you're coming from devops/cloud, not production ml... but that's why this role works - they're building agentic workflows, not just training models. your infrastructure background might actually help.\n\nhow you feeling about it?"
+    },
+    {
+      "role": "user",
+      "content": "I didn’t get you"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm saying this AI engineer role at BON Credit is a good match for you\n\nremote fintech/ml work, which is exactly what you wanted. and BON is a real US fintech product, not some random startup.\n\nthe salary being \"confidential\" is annoying, but even a modest bump from your 11LPA gets you to your 15LPA target.\n\nmain thing is you get actual ml engineering experience, which is what you're trying to move into. your devops/cloud background might actually help with the infrastructure side of building ai agents.\n\nmake sense?"
+    },
+    {
+      "role": "user",
+      "content": "Will go for it\nWould have to curate my CV accordingly"
+    },
+    {
+      "role": "assistant",
+      "content": "exactly. your resume needs to scream \"i can build ai agents that actually work in production\" not just \"i know python and tensorflow\"\n\nfocus on:\n- automation you've built at nestle (even if it's not ml)\n- any python projects that show you can ship code\n- infrastructure/deployment experience (that's actually valuable for ml ops)\n- problem-solving mindset\n\nyou're not a pure ml researcher, you're an engineer who can make ml work in real systems. that's what they want.\n\nneed help tweaking it?"
+    },
+    {
+      "role": "user",
+      "content": "Yeah absolu"
+    },
+    {
+      "role": "assistant",
+      "content": "alright hit me with your resume. paste it here or share a link. let's see what we're working with."
+    },
+    {
+      "role": "user",
+      "content": "alright, will get back to you w my resume in a bit"
+    },
+    {
+      "role": "assistant",
+      "content": "sounds good. i'll be here."
+    },
+    {
+      "role": "assistant",
+      "content": "okay looking at this... your resume is solid for cloud/devops roles but reads like you're applying for another cloud engineer position, not an AI engineer building agentic workflows.\n\nthe BON Credit role wants someone who can:\n- build ai agents with langchain/llamaindex\n- work with vector databases and embeddings\n- deploy ml workflows on aws/gcp\n- integrate with node.js backends\n\nyour resume has:\n- cloud infrastructure (good)\n- python (good)\n- automation (good)\n- but zero mention of ml/ai projects in production\n\nyou need to pivot the narrative from \"cloud automation guy\" to \"engineer who can make ml work in production systems\"\n\nwhat ml projects have you actually built? even personal ones?"
+    },
+    {
+      "role": "user",
+      "content": "There are two projects in my resume - a credit card fraud detection project and a Tech stocks analysis using Monte Carlo simu. But nothing based on Agentic AI."
+    },
+    {
+      "role": "user",
+      "content": "Can you read it from here or should I share a link?"
+    },
+    {
+      "role": "assistant",
+      "content": "i can read the text from the document you uploaded. let me see the full thing - the analysis only shows part of it. can you paste the full resume text here?"
+    },
+    {
+      "role": "user",
+      "content": "https://www.overleaf.com/read/rqsdrmfhkjbv#ec545a\n\n\nCan you read from this link?"
+    },
+    {
+      "role": "assistant",
+      "content": "can't access overleaf links directly. just paste the text here - it'll be faster."
+    },
+    {
+      "role": "user",
+      "content": "But you wanted me to share the resume by text and this is how long resumes are going to be.\nTell me a work around."
+    },
+    {
+      "role": "assistant",
+      "content": "you're right, resumes are long. here's the workaround:\n\npaste just the sections that matter for this AI engineer role:\n1. your summary/objective at the top\n2. the ml projects section (fraud detection + monte carlo)\n3. skills section (python, ml libraries, cloud, databases)\n4. maybe your current role's most relevant bullet points\n\nthat's like 10-15 lines total. we can work with that.\n\nwhat's the one-line summary you have at the top of your resume right now?"
+    },
+    {
+      "role": "user",
+      "content": "Not sure, what would your suggestion be?"
+    },
+    {
+      "role": "assistant",
+      "content": "found an ML engineer role at Enerture Technologies\n\nit's 1-3 years experience, perfect for your 2.5 years. python, tensorflow, pytorch stack\n\nnot fintech though - it's renewable energy. and it's in gurugram, not remote\n\nworth checking if you're serious about the ml pivot?"
+    },
+    {
+      "role": "assistant",
+      "content": "found an AI engineer role at NavGurukul - they're a nonprofit teaching underserved students\n\nremote-first, 2+ years experience, and they say \"apply if you meet 60% of requirements\"\n\ntech stack is python, tensorflow, pytorch, fastapi, llm work\n\nbig catch: nonprofit salaries are 60-80% below market. probably won't hit your 15L target\n\ninteresting if you care about mission over money?"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job a24c1e22-e7df-403a-beed-14f790278159. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: AI Engineer\n      - Company: NavGurukul\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Title: AI Engineer Location: Remote first with 30 percent travel. We either spend time on our Campuses or build with the team at our Igatpuri HQ together About NavGurukul We dream of a world where every learner has a fair chance to grow. At NavGurukul’s AI learning labs, We are on a mission to impact 1 crore underserved students in the next 1 year. We aim to leverage AI and build meaningful, joyful learning experiences. If you believe that technology can be a tool for equity, AI can be leveraged to bridge the learning gap, and want your work to directly touch lives — this might be for you! : ) In this role, you’ll experiment, architect and build solutions, mentor engineers, and shape AI strategy that drives learning outcomes and equity for all. What You’ll Be Doing You will Experiment, Architect & Build AI solutions for learning at scale. You will Design, fine-tune & deploy advanced LLMs (GPT, BERT, open-source models), MOE applications for diverse real-world Learning applications. You will establish AI-driven decision intelligence frameworks to enhance organizational efficiency and impact. This includes implementing automated evaluation and A/B testing for prompts and model outputs, with quality measured through metrics and human-in-the-loop feedback. You are committed to a careful, iterative, and data-driven approach for optimization, innovation, and continuous experimentation. You also have experience developing evaluation datasets for benchmarking model fit and task-specific performance, ensuring AI systems deliver reliable, high-quality result Create prompt and chain flows using best practices — build prompt templates, orchestration and tool/chain integrations. Mentor junior engineers and guide them in AI best practices, experimentation, and rapid prototyping Expose models and pipelines via clean, secure APIs (FastAPI/Flask) and work with infra/ops for deployment and monitoring.Write high-quality, well-tested production code (typing, pytest, packaging) and maintain good documentation. What We’re Looking For. Expert-level programming in Python and AI/ML frameworks (TensorFlow, PyTorch, Hugging Face, LangChain, RAG, vector search solutions). LLM & NLP expertise – hands-on experience with GPT, BERT, vector databases, prompt engineering, and fine-tuning. Strong MLOps and deployment experience – model training, serving, monitoring, lifecycle management, and building production-grade AI systems at scale. A strategic mindset with hands-on execution ability – you can design architecture as well as roll up your sleeves and code. You keep informed about developments in AI and take an active interest in emerging research and industry trends, and you understand the implications for our product’s competitiveness and performance. Contributions to open-source AI projects or thought leadership in the AI community is a heavy plus :) Why Join NavGurukul? Real-World Impact – Navgurukul’s AI learning labs is on a mission to empower 1Cr underserved students by building pedagogically enabled AI applications. You will join a team of people who intend to build real world impact that can change lives, enhance learning, and optimize social impact systems. A Place to Belong – A community that cares for your soul, challenges your mind, and strengthens your body. :) A place where you are encouraged to take paid vipassana breaks, Join 26 Paid learning Saturdays, inspire each other to make healthy lifestyle choices and grow with a circle of curious, kind, and passionate people. Leadership & Innovation – Shape AI strategy, mentor the next generation of engineers, and drive organizational AI adoption. Purpose Over Pay – As a nonprofit, our salaries are significantly lower than corporate benchmarks (often 60–80% lower for senior members). But what we offer in return is immense purpose, autonomy, and the chance to work with passionate, mission-driven people. Years of experience: We are hiring at all levels, from engineers with 2+ years of experience to senior leadership/CTO. What matters most is strong real-world AI/ML experience. If you meet 60 percent of the technical requirements, enjoy learning (Bonus points if you had excellent Math scores :P) we encourage you to apply! :) If this speaks to you, or someone you know! Please do reach out for any questions on careers@navgurukul.org Let's build this future together! <3 Show more Show less\n\n      Job Analysis:\n      - Fit Score: 78\n      - Confidence: medium\n      - Recommendation: recommended\n      - Strengths: Remote first with only 30% travel - matches your openness to remote work, They explicitly say '2+ years of experience' and 'if you meet 60% of requirements, apply' - inclusive and realistic, Mission-driven social impact (empowering underserved students) - might resonate with you beyond just salary, Tech stack aligns: Python, TensorFlow, PyTorch, FastAPI/Flask, LLM work, They value learning and curiosity over perfect experience match, Unique perks like paid learning Saturdays and vipassana breaks show they care about growth, They're hiring at multiple levels, so there's room for your profile\n      - Concerns: Nonprofit = significantly lower salary (60-80% below market). They're transparent about this but it likely won't meet your 15L minimum target, Your salary is critical given your past fintech experience and stated need for fair compensation, Not fintech/finance industry, it's EdTech, Company is unknown (Tier 3) - no brand boost, Role seems quite senior in scope (mentoring, architecture) but they're open to 2+ years - might be chaotic/unclear expectations, 30% travel to campuses/HQ in Igatpuri might be disruptive\n      - Reasoning: Ashutosh, this one's interesting but comes with a major trade-off. The good: it's remote-first, they explicitly want 2+ years (you fit), the tech stack is exactly what you're learning (LLMs, PyTorch, TensorFlow, FastAPI), and they value curiosity over perfect experience. The deal-breaker: it's a nonprofit, and they're upfront that salaries are 60-80% below market. Given your current 11L and target of 15L minimum, this likely won't work financially. You've also said you left iServeU partly due to compensation issues and want fair pay. If salary wasn't a constraint, I'd be excited about this - but I know you need that 15L minimum. Maybe worth a conversation to see their number, but manage expectations.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied. interesting one.\n\nthey're upfront about the salary being 60-80% below market, which means... maybe 4-6LPA? that's way below your 15L target.\n\nbut if you're curious about the mission and want to see what they offer, worth the conversation. just know the number will be low.\n\nwhat's your take on the nonprofit angle?"
+    },
+    {
+      "role": "user",
+      "content": "Its alright\nIt’ll be worth the experience I guess"
+    },
+    {
+      "role": "assistant",
+      "content": "fair enough. experience over money sometimes makes sense, especially when you're pivoting into ml.\n\nthey seem like good people - paid learning saturdays, vipassana breaks, actually care about growth.\n\nkeep me posted on what they say."
+    },
+    {
+      "role": "assistant",
+      "content": "found a python & machine learning engineer role at Zixflow\n\nthis is literally the title you're building toward. 2+ years experience, perfect match\n\ntech stack is pyTorch, tensorflow, scikit-learn, nlp, mlops - exactly what you want\n\nthey're building production ml systems at scale, not just notebooks\n\nyour devops background is actually a strength here for mlops\n\nstartup though, so check salary and remote options"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Apply\"\n\n\n<button_context>User clicked \"Apply\" for job a2d9f91c-f27c-49f3-986f-d9e6009e197a. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Python & Machine Learning Engineer\n      - Company: Zixflow\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Are you a Python developer with a passion for machine learning who gets excited about building intelligent systems that learn and adapt? We're seeking a Python & ML Engineer to help us build the AI brain powering our next-generation customer engagement platform. You'll design and deploy ML models that personalize millions of customer interactions, build intelligent automation pipelines, and solve challenging prediction and classification problems—all while pushing the boundaries of what's possible with AI. If you love turning data into actionable intelligence, thrive on building models that work at scale, and want to shape the future of AI-driven engagement, let's talk! ________________________________ What We're Looking For Must Have 2+ years of production experience with Python Strong hands-on experience with ML frameworks (PyTorch, TensorFlow, scikit-learn) Experience building and deploying ML models in production environments Solid understanding of NLP, recommendation systems, or predictive analytics Proficiency with data processing libraries (Pandas, NumPy, PySpark) Experience with ML pipelines and MLOps practices Strong knowledge of SQL and working with large datasets Familiarity with containerization (Docker) and cloud platforms Nice to Have Experience with Go (Golang) for building high-performance services Knowledge of LLMs and generative AI (OpenAI, Anthropic, Hugging Face) Experience with vector databases (Pinecone, Weaviate, Milvus) Background in real-time ML inference at scale Familiarity with Kubernetes and microservices architecture Experience with A/B testing and experimentation frameworks Prior work in marketing technology, personalization, or customer engagement platforms ________________________________ Tech Stack You'll Work With Languages: Python, Go (bonus) ML/AI: PyTorch, TensorFlow, scikit-learn, Hugging Face, LangChain Data: Pandas, PySpark, SQL, MongoDB Infrastructure: Docker, Kubernetes, AWS/GCP MLOps: MLflow, Kubeflow, or similar APIs: FastAPI, REST Monitoring: Prometheus, Grafana, ML-specific observability tools ________________________________ Why Join Us? Build the AI layer of a platform transforming how businesses engage customers Work on cutting-edge problems in NLP, personalization, and predictive intelligence Ship ML to production—not just notebooks, but real systems at scale Collaborate with a talented team passionate about solving hard problems Ownership and autonomy over technical and architectural decisions Shape the roadmap as we invest heavily in AI and ML capabilities ________________________________ Zixflow is building the next generation of AI-powered customer engagement. If you're ready to work on technology that matters and grow with a team that values innovation, we'd love to hear from you. Show more Show less\n\n      Job Analysis:\n      - Fit Score: 78\n      - Confidence: high\n      - Recommendation: recommended\n      - Strengths: This is THE role - Python & ML Engineer is exactly your target career path, Experience requirement is 2+ years, you have 2.5 - perfect match, Tech stack is incredible: PyTorch, TensorFlow, scikit-learn, NLP, MLOps - everything you want to work with, Focus on 'production ML' and 'real systems at scale' not just notebooks - serious engineering, Your Go/Golang experience from side projects could be a differentiator (they list it as 'nice to have'), Customer engagement platform with AI - combines ML with practical business impact, Startup environment means more ownership and faster growth - could jump levels quickly, They emphasize 'ownership and autonomy' which suits your ambitious, self-driven profile\n      - Concerns: Zixflow is likely an early-stage startup (Tier 2/3) - unknown brand, less resume value than Equifax, No salary information - might not meet your 15-18 LPA target depending on startup funding stage, No clear indication of remote work despite no location listed - could be onsite, Startup risk - less stability than corporate, though you've done startups before (iServeU), May have similar 'wear many hats' pressure as iServeU which contributed to your burnout\n      - Reasoning: Dude, this is the one that made me lean forward. 'Python & Machine Learning Engineer' - that's literally the title you're building toward. The tech stack is perfect (PyTorch, TensorFlow, MLOps, NLP), you're exactly in their experience range, and they want to build 'real ML systems at scale' not just experiments. Your DevOps background is actually a strength here for MLOps, and your Go experience is a bonus. Yes, Zixflow isn't a household name, but the work itself is exactly what you want to be doing. The only red flags are typical startup stuff - unclear on salary/remote, might be intense. But if the mission excites you and they pay fairly? This could be the role that gets you into ML engineering properly.\n      \n      Based on the above job details and analysis, explain to the user why this job is a great fit for them. Highlight the key strengths and address any concerns if present. Keep your response engaging and encouraging. Keep it short and easy to understand. \n    </button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "applied. this one's exciting.\n\npython & ml engineer is literally the title you want. tech stack is perfect - pytorch, tensorflow, mlops, nlp\n\nthey're building production ml systems at scale, not just notebooks. your devops background is actually a strength here for mlops\n\nstartup risk is real, but the work is exactly what you're after. let's see what they say about salary and remote options"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I have applied"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. two solid applications out there - one mission-driven nonprofit, one startup doing exactly the ml engineering work you want.\n\nkeep me posted on any responses. meanwhile, i'm still looking for more fintech/ml roles that might fit better with your salary target."
+    },
+    {
+      "role": "user",
+      "content": "I have applied to NavGurukul and Zixflow\nGive me a list of the other postings that you’ve already sent me"
+    },
+    {
+      "role": "assistant",
+      "content": "let me check what i've sent you so far...\n\n1. **AI Engineer at BON Credit** (Uplers client) - remote fintech/ml role. you said you'd apply tonight.\n\n2. **Machine Learning Engineer at Enerture Technologies** - gurugram, renewable energy, 1-3 years experience.\n\n3. **AI Engineer at NavGurukul** - nonprofit, remote-first, 2+ years. you applied.\n\n4. **Python & Machine Learning Engineer at Zixflow** - startup, production ml systems. you applied.\n\nthat's four total. two applied, one pending (BON Credit), one location mismatch (Enerture).\n\nany of those you want me to resend?"
+    }
+  ]
+}
