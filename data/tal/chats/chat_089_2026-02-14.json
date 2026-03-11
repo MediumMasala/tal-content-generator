@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-14",
+  "user_name": "Aakriti Kumari",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "hi, i’m tal\n\ni help people find the best ‘next job’\ni scan 50,000 roles a day to find the best 1 for you.\n\nso… what’s your full name?"
+    },
+    {
+      "role": "user",
+      "content": "My name is Aakriti Kumari how are you"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "Frankly speaking I am unemployed right now"
+    },
+    {
+      "role": "assistant",
+      "content": "between roles. a good time to be intentional.\n\nwhat was the last company you were with?"
+    },
+    {
+      "role": "user",
+      "content": "The only reason I want to talk with you to tell you about myself and I only want a guidance from you"
+    },
+    {
+      "role": "assistant",
+      "content": "i hear you.\n\nthe best guidance comes from understanding the story.\nto do that, i need to know where you've been.\n\nwhat was your last role? and at which company?"
+    },
+    {
+      "role": "user",
+      "content": "My last company is halcom marketing private limited it is in a Sector 63 Noida"
+    },
+    {
+      "role": "assistant",
+      "content": "halcom marketing... and what did you do there?"
+    },
+    {
+      "role": "user",
+      "content": "Business associate my overall work is lead generation internationally"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"format\":2,\"parts\":[{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"toolCallId\":\"JOxBLi1ShJ8xKM9H\",\"toolName\":\"searchLinkedInProfile\",\"args\":{\"search_queries\":[\"Aakriti Kumari Halcom Marketing Private Limited Business Associate\"],\"confirmed\":false},\"result\":{\"success\":false,\"profilePreviews\":[],\"message\":\"No LinkedIn profiles found\"}}}],\"toolInvocations\":[{\"state\":\"result\",\"toolCallId\":\"qY6phMDS1OjsR4sP\",\"toolName\":\"updateWorkingMemory\",\"args\":{\"memory\":\"U:[name:Aakriti Kumari]|[onb:P]|[li:N]|[res:N]|[voice:N]\\n\\nJOB:[yoe:]|[fn:Sales/BD]|[spec:Lead Generation]|[lvl:J]\\nLOC:[citi"
+    },
+    {
+      "role": "user",
+      "content": "in u.S"
+    },
+    {
+      "role": "assistant",
+      "content": "us market... got it.\n\ni'm not finding you on linkedin. can you drop the url for me?"
+    },
+    {
+      "role": "user",
+      "content": "I am in Linkedin but I I do not have mention my experience yet in my LinkedIn"
+    },
+    {
+      "role": "assistant",
+      "content": "no problem. send the url, let's start there."
+    },
+    {
+      "role": "user",
+      "content": "You search on lending Aakriti Kumari APJ Abdul Kalam technical University BTech 1st year you gonna get that if it is not I send it to you url"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. is this you?\n\nhttps://in.linkedin.com/in/aakriti-kumari-9479ba363"
+    },
+    {
+      "role": "user",
+      "content": "No I help you with my you url give me moment"
+    },
+    {
+      "role": "assistant",
+      "content": "take your time."
+    },
+    {
+      "role": "user",
+      "content": "https://www.linkedin.com/in/aakriti-kumari-65546339b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+      "role": "user",
+      "content": "This is I am"
+    },
+    {
+      "role": "assistant",
+      "content": "a first-year b.tech student who's already done a stint in international sales... that's not a typical student path.\n\nyou're not waiting for permission to start your career. you just started.\n\nhow many years have you been working, total?"
+    },
+    {
+      "role": "user",
+      "content": "Actually I just wanna to see you my experience it is starting from 2023 then I came to go Noida first I got job investors clinic and the best part when I get a job that come that company I was only 16.5 year old by my Aadhar Card yes I do a job around 1.3  like month precisely and I left that then I go with another company after 3 or 4 months with ritvijay enterprises that was hr it recruitment company screening part was mine call the candidate provide information of process of interview provide a job in Bangalore and South India 6 month of experience I left that company and of course I don't "
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nAakriti Kumari is a student at Dr. A.P.J. Abdul Kalam Technical University (AKTU), Lucknow. Her profile does not list any professional work experience.\n\n**ROLE-BY-ROLE**\n*   No professional experience is listed on the profile.\n\n**EDUCATION HIGHLIGHTS**\n*   Dr. A.P.J. Abdul Kalam Technical University (AKTU), Lucknow: Bachelor of Technology - BTech in Ai/ml."
+    }
+  ]
+}

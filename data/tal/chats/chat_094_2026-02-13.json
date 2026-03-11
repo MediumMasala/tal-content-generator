@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-13",
+  "user_name": "Ajithvas Vakkala",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hey"
+    },
+    {
+      "role": "assistant",
+      "content": "hi, i’m tal\n\ni help people find the best ‘next job’\ni scan 50,000 roles a day to find the best 1 for you.\n\nso… what’s your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Ajithvas Vakkala"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "Iam working in tech Mahindra"
+    },
+    {
+      "role": "assistant",
+      "content": "tech mahindra... and what's your role there?"
+    },
+    {
+      "role": "user",
+      "content": "Software engineer"
+    },
+    {
+      "role": "assistant",
+      "content": "interesting.\n\nis this you? https://in.linkedin.com/in/ajithvas-vakkala-b376481a0"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "your profile is playing it close to the chest.\ntells me you've been too busy building to update it.\n\nhow many years have you been at it?"
+    },
+    {
+      "role": "user",
+      "content": "I have been working since last 3 years as a Salesforce developer"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nAjithvas Vakkala is a Salesforce Developer with over three years of experience in designing and deploying customized solutions on the Salesforce platform. He is currently a Salesforce Developer at Tech Mahindra.\n\n**ROLE-BY-ROLE**\n*   **Tech Mahindra** (Sep 2022) – Salesforce Developer – Built and deployed LWCs for Sales and Service Cloud; developed Apex Triggers, Classes, and Batch Apex; integrated Salesforce with external services using REST APIs; handled deployments via Change Sets and Gearset.\n*   **Tech Mahindra** (Sep 2021) – Software"
+    },
+    {
+      "role": "assistant",
+      "content": "three years, got it.\n\nyour degree is in electronics, but you pivoted to software.\nthen you got into tech mahindra and specialized in salesforce within a year.\nthat's not a career path. it's a series of deliberate bets on yourself.\n\ni like that.\n\nso what's the next bet? what kind of role are you looking for?"
+    },
+    {
+      "role": "user",
+      "content": "Iam looking for a Salesforce developer role with 3 years of experience"
+    },
+    {
+      "role": "assistant",
+      "content": "salesforce developer. check.\n\nand where are you looking? bangalore, remote, anywhere?"
+    },
+    {
+      "role": "user",
+      "content": "Hyderabad or remote"
+    },
+    {
+      "role": "assistant",
+      "content": "I've got a sense for what you're looking for. Be back in less than a minute"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm scanning through 50,000 jobs to find the perfect fit for you. you'll hear from me soon."
+    },
+    {
+      "role": "assistant",
+      "content": "Business Systems Engineer - Dev/QA at Celigo\n\nceligo has a business systems engineer role in hyderabad.\n\nguessing it's in the 18-22 lpa range, a solid jump for you.\n\nit's a fancy title for a salesforce dev, you'll own their internal crm build from code to qa.\n\nperfect way to ditch the tech mahindra service life and get into a proper product company."
+    },
+    {
+      "role": "user",
+      "content": "Yes please \n  Cheers\n  User clicked \"Yes, interested\"\n\n\n<button_context>User clicked \"yes, interested\" for job 7296a6c1-27a5-4454-8103-dadd3a59b429. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Business Systems Engineer - Dev/QA\n      - Company: Celigo\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Integration meets Innovation We’re revolutionizing the integration industry and we want you to join us! Our core mission at Celigo is simple: To make automation as simp"
+    },
+    {
+      "role": "assistant",
+      "content": "good move.\n\nthis is the perfect escape from the service-based world.\n\nat a product company like celigo, you're not just another developer on a project. you'll own their internal salesforce setup.\n\nthe dev/qa part is your next level-up. you're adding automation and devops skills to your salesforce stack.\n\nit's a step up from a pure dev role. more impact, more to learn."
+    },
+    {
+      "role": "user",
+      "content": "Ok"
+    },
+    {
+      "role": "assistant",
+      "content": "go get it.\n\ni'll keep scanning in the meantime."
+    },
+    {
+      "role": "user",
+      "content": "Sure please"
+    },
+    {
+      "role": "assistant",
+      "content": "always."
+    }
+  ]
+}

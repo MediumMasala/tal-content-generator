@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-13",
+  "user_name": "Akshita Maylin",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hey"
+    },
+    {
+      "role": "assistant",
+      "content": "hi, i’m tal\n\ni help people find the best ‘next job’\ni scan 50,000 roles a day to find the best 1 for you.\n\nso… what’s your full name?"
+    },
+    {
+      "role": "user",
+      "content": "I'm Akshita Maylin!"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "Reminder ID: 917795691401_reminder-13-02-2026-1770992943847-j9rdlp\n\n          It's time to execute this reminder:\n          - Task Details: CONTEXT: User started onboarding but dropped off mid-conversation. This is a natural re-engagement touchpoint.\n\nYOUR MISSION: Seamlessly re-engage the user as if you're continuing a conversation, not triggering a scheduled reminder.\n\nCRITICAL INSTRUCTIONS:\n1. ACCESS MEMORY: Review the last 3-5 messages in conversation history. Understand what topic they were discussing (job search, skills, preferences, LinkedIn, etc.)\n\n2. CONTEXTUAL RE-ENTRY:\n   - If they "
+    },
+    {
+      "role": "assistant",
+      "content": "hey akshita\n\nanyway, what's keeping you busy at work these days?"
+    },
+    {
+      "role": "user",
+      "content": "Well I'm not working as of now....but i want to work as an ui/ux designer or a product manager"
+    },
+    {
+      "role": "assistant",
+      "content": "ui/ux or product manager... the classic battle between art and chaos. i like it.\n\na good time to be picky about what comes next.\n\nto find you the right fit, drop your linkedin url."
+    },
+    {
+      "role": "user",
+      "content": "Well I'm not necessarily busy as of now but I'd like it if you could help me find and land a job"
+    },
+    {
+      "role": "assistant",
+      "content": "understood.\n\nand i can't find you the right job without seeing your work.\n\ndrop your linkedin url."
+    },
+    {
+      "role": "user",
+      "content": "https://www.linkedin.com/in/akshita-maylin-g-a72303247"
+    },
+    {
+      "role": "assistant",
+      "content": "b.tech in electronics but your entire focus is on product and design.\n\nyou figured out what they don't teach in engineering class. that's a head start.\n\nso where are you looking? bangalore, remote, open to anything?"
+    },
+    {
+      "role": "user",
+      "content": "Nope MCA graduate and I'm looking for hybrid job in Bangalore please"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\n\nAkshita Maylin G is a student currently pursuing a Master of Computer Applications at Manipal Institute of Technology. Her most recent professional experience was a five-month role as a Technical Support Engineer at HP.\n\n**ROLE-BY-ROLE**\n\n*   HP (Dec 2022 – Apr 2023) – Technical Support Engineer – [Responsibilities not listed]\n\n**EDUCATION HIGHLIGHTS**\n\n*   Manipal Institute of Technology (2023 – 2025): Master of Computer Applications - MCA, Computer Science\n*   REVA University (2019 – 2022): BCA, Computer Science\n*   Coursera (Issued Apr"
+    },
+    {
+      "role": "assistant",
+      "content": "ah, my mistake. mca, not b.tech.\n\nso you did the support role at hp, and now you're deep into figma.\nyou decided you'd rather build the product than fix it. i respect that.\n\nbetween ui/ux and product manager, which one are you leaning into more right now?"
+    },
+    {
+      "role": "user",
+      "content": "Haha yeah I'm leaning more towards product manager but I'm not sure if I'm qualified"
+    },
+    {
+      "role": "assistant",
+      "content": "not sure if you're qualified?\n\nakshita, you spent months at hp listening to every single thing users hated about a product.\n\nmost pms have to pay for that kind of feedback. you got paid to listen.\n\nthat's not a lack of qualification. that's a head start."
+    },
+    {
+      "role": "user",
+      "content": "Alright if you say so tal"
+    },
+    {
+      "role": "assistant",
+      "content": "i say so.\n\nand how many years has the journey been so far, akshita? total years working."
+    },
+    {
+      "role": "user",
+      "content": "Well 5 months in hp....2 years in MCA and 4 months in an internship"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. that makes sense.\n\nnow that i have a clearer picture, i'm going to start scanning. you'll hear from me soon."
+    },
+    {
+      "role": "user",
+      "content": "Oh okay so what is it exactly you'll be doing?"
+    },
+    {
+      "role": "assistant",
+      "content": "i look for the 1 job out of 50,000 that's actually worth your time.\n\ni'm not just matching keywords on a resume.\n\ni'm looking for a story that fits. a team that needs someone who's actually heard a user's frustration.\n\nyou'll see."
+    },
+    {
+      "role": "user",
+      "content": "Also i don't have a resume yet and i haven't added my internship details yet"
+    },
+    {
+      "role": "assistant",
+      "content": "let's slow down.\n\nresumes are for recruiters who don't know what to look for.\n\ni already see the story. the rest is just details.\n\nadd the internship to your profile. not for me, for you."
+    }
+  ]
+}

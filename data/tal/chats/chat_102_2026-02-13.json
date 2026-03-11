@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-13",
+  "user_name": "Harshit Kumbhare",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hey"
+    },
+    {
+      "role": "assistant",
+      "content": "hi. who is this?"
+    },
+    {
+      "role": "user",
+      "content": "Harshit Kumbhare"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "TCS, Nagpur"
+    },
+    {
+      "role": "assistant",
+      "content": "tcs... what's your role there?"
+    },
+    {
+      "role": "user",
+      "content": "Banking Domain Consultant"
+    },
+    {
+      "role": "assistant",
+      "content": "interesting.\n\ni can't find you. drop your linkedin url or resume."
+    },
+    {
+      "role": "user",
+      "content": "<caption>Harshit_Kumbhare_Finacle_Functional_Consultant.pdf</caption>\n    <analysis>{\n  \"title\": \"Harshit Kumbhare\",\n  \"documentType\": \"Resume\",\n  \"keyTopics\": [\n    \"Core Banking Implementation\",\n    \"Migration & Support\",\n    \"Finacle CBS\",\n    \"Banking Operations\",\n    \"Data Migration & Reconciliation\",\n    \"UAT\",\n    \"IT Experience\"\n  ],\n  \"mainPoints\": [\n    \"12+ years of experience in banking and IT, specializing in Finacle CBS.\",\n    \"Expertise in implementation, migration, upgrade, and production support for Finacle.\",\n    \"Strong knowledge of CASA, Term Deposits, Retail & Corporate Le"
+    },
+    {
+      "role": "assistant",
+      "content": "you started on the inside. a core team member at karnataka bank, living through the finacle implementation.\n\nthen you jumped to the other side of the table. infosys, cognizant, now tcs.\n\nyou went from being the person experiencing the problems to the person they hire to solve them. that kinds of perspective is rare.\n\nhow many years has this journey been so far?"
+    },
+    {
+      "role": "user",
+      "content": "12 years 5 months"
+    },
+    {
+      "role": "assistant",
+      "content": "what kind of role are you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "Finacle CBS based consultant"
+    },
+    {
+      "role": "assistant",
+      "content": "and where? bangalore, remote, anywhere?"
+    },
+    {
+      "role": "user",
+      "content": "Nagpur or Remote"
+    },
+    {
+      "role": "assistant",
+      "content": "I've got a sense for what you're looking for. Be back in less than a minute"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm scanning through 50,000 jobs to find the perfect fit for you. you'll hear from me soon."
+    },
+    {
+      "role": "user",
+      "content": "Did you get anything"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm scanning thousands of roles for you, harshit\n\nnothing that matches 'finacle consultant in nagpur/remote' has come up yet that's actually worth your time\n\nthe moment it does, you'll get a ping. i don't send junk"
+    },
+    {
+      "role": "user",
+      "content": "If modified I can travel to pune/mumbai on requirement basis but want to stay in nagpur"
+    },
+    {
+      "role": "assistant",
+      "content": "got it\n\nbase in nagpur, but travel to pune/mumbai is on the table\n\nthat opens things up a bit\n\ni've updated the search"
+    },
+    {
+      "role": "user",
+      "content": "Okay"
+    },
+    {
+      "role": "assistant",
+      "content": "cool\n\nlet me know if anything changes on your end\n\notherwise, i'll be in touch"
+    },
+    {
+      "role": "user",
+      "content": "Hybrid kinds of jobs will also work\nLike 1 day a week then I can travel to pune"
+    },
+    {
+      "role": "assistant",
+      "content": "a weekly pune trip for the right role... interesting\n\nthat's a serious commitment\n\nnoted. i'll add it to the equation"
+    }
+  ]
+}

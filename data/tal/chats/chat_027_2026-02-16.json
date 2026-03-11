@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-16",
+  "user_name": "Yaswanth chinta",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hey"
+    },
+    {
+      "role": "assistant",
+      "content": "hi, i’m tal\n\ni help people find the best ‘next job’\ni scan 50,000 roles a day to find the best 1 for you.\n\nso… what’s your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Yaswanth chinta"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "Infosys limited"
+    },
+    {
+      "role": "assistant",
+      "content": "what's your role at infosys limited?"
+    },
+    {
+      "role": "user",
+      "content": "Current system engineer recently got promoted to"
+    },
+    {
+      "role": "assistant",
+      "content": "interesting.\n\nhttps://in.linkedin.com/in/ychintaqa\n\nis this you?"
+    },
+    {
+      "role": "user",
+      "content": "Ha. why so ?"
+    },
+    {
+      "role": "assistant",
+      "content": "promotions are always interesting. they tell a story.\n\nbut first, is that your profile?"
+    },
+    {
+      "role": "user",
+      "content": "Which one ur talking about your profile? means?"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm looking at a linkedin profile for a yaswanth c. at infosys.\n\nit says system engineer.\n\nis that you? just need to be sure i'm talking to the right person."
+    },
+    {
+      "role": "user",
+      "content": "Yeh, it's me. I'm the one, Yaswanth Chinta. Joined on 2022"
+    },
+    {
+      "role": "assistant",
+      "content": "infosys since 2022. a classic start.\n\nmost people either leave in 2 years or stay for 20. you're at that crossroads.\n\nhow many years have you been working in total?"
+    },
+    {
+      "role": "user",
+      "content": "Haha, thanks. for voice talk, so do you think what suits me best based on my LinkedIn andy expertise in projects or the one i mentioned as ive worked on my learnings myself from linkedin"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nYaswanth C. is a System Engineer at Infosys, a position he has held since October 2022. His career focuses on quality assurance, specializing in manual and regression testing for mobile, web, and desktop platforms.\n\n**ROLE-BY-ROLE**\n*   Infosys (Oct 2022 - Present) – System Engineer – Responsibilities include validating system functionality and UI/UX across Android, iOS, and desktop; leading test planning, execution, and defect management using Azure DevOps and Buganizer; specializing in Android OS build validation and ensuring device comp"
+    },
+    {
+      "role": "assistant",
+      "content": "that's the right question to ask.\n\nyour linkedin says 'system engineer' at infosys.\nbut your recent certifications in rag and vector search tell a different story.\n\nthat's not just 'learning'.\nthat's building an escape route from traditional qa.\n\nthe world has enough manual testers.\nwhat it needs are people who can break ai systems.\n\nhave you considered a role like 'ai qa engineer' or 'test strategist for ml models'?\nor is there another path you're seeing?"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, I considered it, but where could I find enough worth to start? As you asked earlier, I've been trying for the past three years continuously. tried n number of companies whole new thinking whether i could be a part of any of these companies but unexpectedly i cant able to clear anything till now felt hopeless and helpless and i havent tried to learn anything new so i thought ki like i could learn python an something new instead of wasting the time here"
+    },
+    {
+      "role": "assistant",
+      "content": "three years is a long time to be pushing a boulder uphill.\nit's normal to feel hopeless when the scenery doesn't change.\n\nbut you didn't stop.\nyou started learning python. you got those certs.\nthat's not 'wasting time'. that's reloading.\n\nthe problem isn't your worth.\nthe problem is you've been knocking on the front door.\nfor people like you, with a non-obvious story, the front door is locked.\n\nwe need to find the side door.\n\nlet's start with this: what kind of companies have you been applying to?"
+    },
+    {
+      "role": "user",
+      "content": "Could you check it from LinkedIn because I haven't even remembered the names? I've tried applying more than 3000 times. 0 with ease"
+    },
+    {
+      "role": "assistant",
+      "content": "linkedin doesn't keep a record of your applications.\nthat's your history, not theirs.\n\nbut 3000 applications tells me everything i need to know.\nyou've been trying to win the lottery.\nthat's not a strategy, that's a habit.\n\nand it's clearly not working.\n\nso we're going to stop that now.\nno more applying into the void.\n\ni'll bring the opportunities to you.\nbut first, tell me where you want to work.\n\nbangalore, remote, somewhere else?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, list out the preferred\nRemote\nVisakhapatnam \nHyderabad\nBangalore\nPune\nMumbai\nKerala \nGurgaon \nDelhi \nOnsite \nUs \nAmerica\nNetherlands\nWas that fine? \nOn a note anywhere in India and also an outside of india to earn more"
+    },
+    {
+      "role": "assistant",
+      "content": "I've got a sense for what you're looking for. Be back in less than a minute"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. anywhere and everywhere. tells me you're hungry for a real change, not just a new title.\n\ni'm on it. scanning the 50,000 jobs that get posted every day to find the one that's been waiting for you.\n\nyou'll hear from me soon."
+    },
+    {
+      "role": "assistant",
+      "content": "QA Engineer at Xoxoday\n\nxoxoday is looking for a qa engineer in bangalore.\n\nprobably a soft 10-15 lpa, given their series c funding.\n\nyou'll use that python you've been learning to break things before they go live.\n\nlook, this isn't the sde-1 dream, it's the side door you've been looking for to finally ditch the service-based tag."
+    }
+  ]
+}

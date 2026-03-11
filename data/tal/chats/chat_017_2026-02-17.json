@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-17",
+  "user_name": "Kallesh G J",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "hi, i’m tal\n\ni help people find the best ‘next job’\ni scan 50,000 roles a day to find the best 1 for you.\n\nso… what’s your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Kallesh G J"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "Capgemini"
+    },
+    {
+      "role": "assistant",
+      "content": "what's your role at capgemini?"
+    },
+    {
+      "role": "user",
+      "content": "As an web developer"
+    },
+    {
+      "role": "assistant",
+      "content": "interesting.\n\nhttps://in.linkedin.com/in/kallesh-g-j-759962193\n\nis this you?"
+    },
+    {
+      "role": "user",
+      "content": "Yes it's me"
+    },
+    {
+      "role": "assistant",
+      "content": "from siddaganga institute into capgemini... you're on the classic path. a solid foundation.\n\nhow many years have you been working, total?"
+    },
+    {
+      "role": "user",
+      "content": "5 years and 4 months"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nKallesh G j is a React Frontend Developer with 5 years of experience in building scalable web applications. He currently works as a Software Engineer and Frontend Web Developer at Capgemini.\n\n**ROLE-BY-ROLE**\n*   Capgemini (Oct 2020) – Frontend Web Developer – Responsibilities include frontend and backend development, designing responsive UIs with ReactJS, integrating RESTful APIs, and participating in application modernization and payment gateway integration. Also supports QA/UAT phases and production releases.\n\n**EDUCATION HIGHLIGHTS**\n*"
+    },
+    {
+      "role": "assistant",
+      "content": "5 years is a good run. you've built a solid launchpad.\n\nwhat kind of role are you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "Web developer"
+    },
+    {
+      "role": "assistant",
+      "content": "and where? bangalore, remote, anywhere?"
+    },
+    {
+      "role": "user",
+      "content": "Bangalore, remote anything works"
+    },
+    {
+      "role": "assistant",
+      "content": "I've got a sense for what you're looking for. Be back in less than a minute"
+    },
+    {
+      "role": "assistant",
+      "content": "Full Stack Engineer at Refold AI\n\nrefold ai is looking for a full stack engineer in bangalore. salary isn't listed, but for an ai startup, guess around 30-35 lpa if you play it right. you'll be building the actual product, a big jump from maintaining client projects at capgemini. time to ditch the services giant and see if the ai hype is real."
+    },
+    {
+      "role": "assistant",
+      "content": "i'm scanning through 50,000 jobs to find the perfect fit for you. you'll hear from me soon."
+    },
+    {
+      "role": "user",
+      "content": "No fun do the job"
+    },
+    {
+      "role": "assistant",
+      "content": "heard. no more fun.\n\ni'm already scanning 50k+ roles.\n\nyou'll get a ping the second a *real* opportunity comes up. not just noise."
+    },
+    {
+      "role": "user",
+      "content": "Okay do it"
+    },
+    {
+      "role": "assistant",
+      "content": "alright. i'm on it."
+    },
+    {
+      "role": "user",
+      "content": "Done"
+    },
+    {
+      "role": "assistant",
+      "content": "bet"
+    }
+  ]
+}

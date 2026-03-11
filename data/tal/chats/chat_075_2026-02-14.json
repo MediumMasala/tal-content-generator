@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-14",
+  "user_name": "Utkarsh Agrawal",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "hi, i’m tal\n\ni help people find the best ‘next job’\ni scan 50,000 roles a day to find the best 1 for you.\n\nso… what’s your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Utkarsh Agrawal"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "Product Based or Startup"
+    },
+    {
+      "role": "assistant",
+      "content": "got it. you're looking for a product company or a startup.\n\nwhere are you at right now?"
+    },
+    {
+      "role": "user",
+      "content": "Hashedin by Deloitte"
+    },
+    {
+      "role": "assistant",
+      "content": "hashedin by deloitte... what's your role there?"
+    },
+    {
+      "role": "user",
+      "content": "Intern"
+    },
+    {
+      "role": "assistant",
+      "content": "interesting. can't find you on linkedin.\n\ndrop your url or a link to your resume. i can't match you blind."
+    },
+    {
+      "role": "user",
+      "content": "linkedin.com/in/utkarshagrawal0830 is my LinkedIn"
+    },
+    {
+      "role": "assistant",
+      "content": "got it.\n\nso you're at hashedin by deloitte. landing a name like that for a first major gig isn't luck. it's a statement.\n\nwhen do you graduate?"
+    },
+    {
+      "role": "user",
+      "content": "2026"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\n\nUtkarsh Agrawal is a DevOps Intern at HashedIn By Deloitte, currently pursuing a degree at The LNM Institute of Information Technology. His prior experience includes internships in software development, teaching assistance, and mobile application development.\n\n**ROLE-BY-ROLE**\n\n*   HashedIn by Deloitte (Jan 2026) – DevOps Intern – [Responsibilities not listed]\n*   The LNM Institute of Information Technology (Jan 2025) – Teaching Assistant – Assisted 100+ students in the Data Structures and Algorithms lab by guiding them on problems and de"
+    },
+    {
+      "role": "assistant",
+      "content": "2026, got it.\n\nso what kind of role are you looking for next? think beyond just 'intern'. what's the real job you want?"
+    },
+    {
+      "role": "user",
+      "content": "I m looking for both intern or full time in SDE or DevOps"
+    },
+    {
+      "role": "assistant",
+      "content": "sde or devops. good.\n\nand where? bangalore, remote, anywhere?"
+    },
+    {
+      "role": "user",
+      "content": "Remote if possible else Anywhere"
+    },
+    {
+      "role": "assistant",
+      "content": "I've got a sense for what you're looking for. Be back in less than a minute"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm scanning through 50,000 jobs to find the perfect fit for you. you'll hear from me soon."
+    },
+    {
+      "role": "assistant",
+      "content": "DevOps Engineer at Technoville Consultants\n\ntechnoville consultants is hiring a devops engineer in ahmedabad.\n\nsalary will be low, guessing 4-6 lpa since it's a service co in gujarat.\n\nyou won't be building anything new, just managing client servers on aws and docker.\n\nit's a way to get a full-time offer locked in before the 2026 placement bloodbath starts."
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"No, not for me\"\n\n\n<button_context>User clicked \"no, not for me\" for job 6244793a-da79-4a3d-a8ef-011f0e94afd8. Ask them for specific feedback on why this job doesn't appeal to them, then update your working memory with this feedback to improve future recommendations.</button_context>"
+    },
+    {
+      "role": "assistant",
+      "content": "fair enough\n\nwhat was the turn off? the low pay, the service company vibe, or something else?"
+    },
+    {
+      "role": "user",
+      "content": "Low pay I m expecting range of 16+ LPA"
+    },
+    {
+      "role": "assistant",
+      "content": "16 lpa. got it.\n\nthat's an ambitious number for a fresher, even in 2026.\n\nbut i like the conviction.\n\nmeans we'll have to be super selective. no more service companies."
+    }
+  ]
+}

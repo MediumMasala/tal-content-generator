@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-15",
+  "user_name": "Harshini gayam",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "hi, i’m tal\n\ni help people find the best ‘next job’\ni scan 50,000 roles a day to find the best 1 for you.\n\nso… what’s your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Harshini"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "Why"
+    },
+    {
+      "role": "assistant",
+      "content": "i can't know where you're going if i don't know where you are."
+    },
+    {
+      "role": "user",
+      "content": "Salesforce"
+    },
+    {
+      "role": "assistant",
+      "content": "salesforce... what do you do there?"
+    },
+    {
+      "role": "user",
+      "content": "Developer"
+    },
+    {
+      "role": "assistant",
+      "content": "interesting.\n\nis this you? https://in.linkedin.com/in/harshini-mudarabilli-3a4b98143"
+    },
+    {
+      "role": "user",
+      "content": "No"
+    },
+    {
+      "role": "user",
+      "content": "Harshini gayam"
+    },
+    {
+      "role": "assistant",
+      "content": "https://in.linkedin.com/in/harshini-reddy-gayam-99621417a\n\nthis one?"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "iit hyderabad to goldman sachs... and then you left for salesforce.\n\nmost people cling to the goldman name for life.\nyou chose to go deeper into pure tech. that's a builder's move, not a banker's.\n\nhow many years have you been in the game, counting both chapters?"
+    },
+    {
+      "role": "user",
+      "content": "4 years"
+    },
+    {
+      "role": "assistant",
+      "content": "so, 4 years in. you've seen enough to know what you don't want.\n\nwhat kind of role are you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "Developer"
+    },
+    {
+      "role": "assistant",
+      "content": "and where? bangalore, remote, anywhere?"
+    },
+    {
+      "role": "user",
+      "content": "Remote or hyderabad only"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nHarshini Reddy Gayam is a Member of Technical Staff at Salesforce, with prior experience at Goldman Sachs and Electronic Arts (EA). She is a graduate of the Indian Institute of Technology Hyderabad.\n\n**ROLE-BY-ROLE**\n*   Salesforce (May 2025) – Member of Technical Staff – [Responsibilities not listed]\n*   Goldman Sachs (Dec 2022) – Associate – [Responsibilities not listed]\n*   Goldman Sachs (Jul 2020) – Analyst – [Responsibilities not listed]\n*   Electronic Arts (EA) (May 2019) – Summer Intern – [Responsibilities not listed]\n\n**EDUCATION H"
+    },
+    {
+      "role": "assistant",
+      "content": "I've got a sense for what you're looking for. Be back in less than a minute"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm scanning through 50,000 jobs to find the perfect fit for you. you'll hear from me soon."
+    },
+    {
+      "role": "assistant",
+      "content": "Senior Full Stack Engineer at Workato\n\nworkato wants a senior full stack engineer in hyderabad.\n\nthey're pre-ipo and backed by big names, so i'd guess around 60-70 lpa is on the table.\n\nyou're not building a product, you're building the pipes between products for enterprise giants – basically legos for apis, and with your salesforce background, you'll walk right in.\n\nit's a ticket to a silicon valley company without the visa hassle, could be a fast track to an exit if they ipo soon."
+    },
+    {
+      "role": "user",
+      "content": "No startups please"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-14",
+  "user_name": "Akshit Patel",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "hi, i’m tal\n\ni help people find the best ‘next job’\ni scan 50,000 roles a day to find the best 1 for you.\n\nso… what’s your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Akshit Patel"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "Capgemini"
+    },
+    {
+      "role": "assistant",
+      "content": "what's your role at capgemini?"
+    },
+    {
+      "role": "user",
+      "content": "Analyst"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"format\":2,\"parts\":[{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"toolCallId\":\"YVVfnrwRfy9nOCVm\",\"toolName\":\"searchLinkedInProfile\",\"args\":{\"confirmed\":false,\"search_queries\":[\"Akshit Patel Capgemini Analyst\"]},\"result\":{\"success\":true,\"profilePreviews\":[{\"url\":\"https://in.linkedin.com/in/akshit-patel-153509201?trk=public_profile_browsemap\",\"title\":\"Akshit Patel - C++ | Java | Data Structures and Algorithms | LinkedIn\",\"excerpt\":\"C++ | Java | Data Structures and Algorithms · Experience: Capgemini · Education: TIT Technocrats Group of Institutions, Bhopal · Location: 462023 · 5"
+    },
+    {
+      "role": "user",
+      "content": "Software engineer"
+    },
+    {
+      "role": "assistant",
+      "content": "interesting. is this you? https://in.linkedin.com/in/akshit-patel-153509201"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "less than a year at capgemini and you're already here.\n\nyou're not restless, you just have a low tolerance for plateaus.\n\nhow long you been in the game, total years?"
+    },
+    {
+      "role": "user",
+      "content": "1 year"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nAkshit Patel is a student with internship experience in software development. He has an upcoming role as a Software Analyst at Capgemini, scheduled to begin in August 2025.\n\n**ROLE-BY-ROLE**\n*   Capgemini (Aug 2025) – Software Analyst – [Responsibilities not listed]\n*   Capgemini (May 2025) – Software Analyst – [Responsibilities not listed]\n*   Averoft (Mar 2023) – Software Developer Internship – Developed web applications using Laravel, HTML, and CSS; collaborated with a team to create dynamic interfaces integrated with back-end functiona"
+    },
+    {
+      "role": "assistant",
+      "content": "what kind of role are you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "Software engineer or maybe devops engineer"
+    },
+    {
+      "role": "assistant",
+      "content": "and where? bangalore, remote, anywhere?"
+    },
+    {
+      "role": "user",
+      "content": "Remote Bengaluru or indore"
+    },
+    {
+      "role": "assistant",
+      "content": "I've got a sense for what you're looking for. Be back in less than a minute"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm scanning through 50,000 jobs to find the perfect fit for you. you'll hear from me soon."
+    },
+    {
+      "role": "assistant",
+      "content": "Full Stack Engineer at Accenture in India\n\naccenture wants a full stack engineer in bengaluru.\n\nthe pay is probably a standard service co bump, maybe 7-9 lpa.\n\nyou're jumping from one big consulting ship to another, working on whatever client project they throw at you.\n\nit's a safe play to get a bigger brand on your resume, but don't expect to be changing the world."
+    },
+    {
+      "role": "user",
+      "content": "Is it goot to switch now"
+    },
+    {
+      "role": "assistant",
+      "content": "the whole 'job hopper' thing is a ghost story hr tells to keep you scared and underpaid\n\nthe real risk isn't leaving a job after 1 year\nthe real risk is staying in a job for 3 years where you only learned 1 year of stuff\n\nso the question isn't 'is it good to switch'\nit's 'have you stopped learning at capgemini?'"
+    },
+    {
+      "role": "user",
+      "content": "Actually no I am still learning"
+    },
+    {
+      "role": "assistant",
+      "content": "okay, so the learning is good\nthat makes this more interesting\n\npeople don't look for a new job when they're happy, learning, and paid well\n\nyou said the learning is good\nso it's either the people or the money"
+    }
+  ]
+}

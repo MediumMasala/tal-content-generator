@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-17",
+  "user_name": "Abhishek Chaturvedi",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hey\n  Hey"
+    },
+    {
+      "role": "assistant",
+      "content": "hi. who is this?"
+    },
+    {
+      "role": "user",
+      "content": "Abhishek Chaturvedi"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "Yash Technologies Pvt ltd"
+    },
+    {
+      "role": "assistant",
+      "content": "yash technologies... what's your role there?"
+    },
+    {
+      "role": "user",
+      "content": "Senior software engineer"
+    },
+    {
+      "role": "assistant",
+      "content": "interesting.\n\nis this you? https://in.linkedin.com/in/abhishek-chaturvedi-085a70168"
+    },
+    {
+      "role": "user",
+      "content": "No"
+    },
+    {
+      "role": "assistant",
+      "content": "hmm. still can't find you.\n\ndrop your linkedin url or a link to your resume."
+    },
+    {
+      "role": "user",
+      "content": "<caption>Abhishek-Resume_5+years.pdf</caption>\n    <analysis>{\n  \"title\": \"ABHISHEK CHATURVEDI\",\n  \"documentType\": \"Resume\",\n  \"keyTopics\": [\n    \"Software Development\",\n    \"Artificial Intelligence\",\n    \"Cloud Computing\",\n    \"API Development\",\n    \"Data Management\"\n  ],\n  \"mainPoints\": [\n    \"Senior Software Engineer with 5+ years of experience.\",\n    \"Proficient in Python and FastAPI.\",\n    \"Experienced in developing and deploying Generative AI solutions and LLMs.\",\n    \"Expertise in cloud platforms like AWS and Azure.\",\n    \"Skills include containerization (Docker), CI/CD, and Agile metho"
+    },
+    {
+      "role": "assistant",
+      "content": "got it.\n\nfive years in, and you're already building multi-agent chatbots and custom RAG frameworks.\n\nmost developers are just adding new skills to their profile. you're building entire systems with them. that's a different game entirely.\n\nall of that in just over 5 years. how long have you been in the game, total?"
+    },
+    {
+      "role": "user",
+      "content": "https://www.linkedin.com/in/abhishek-chaturvedi-477ab1157?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nAbhishek Chaturvedi has held software development roles since 2020, progressing from Back End Developer to his current position. He is a Senior Software Engineer at YASH Technologies.\n\n**ROLE-BY-ROLE**\n*   YASH Technologies (Aug 2024) – Senior Software Engineer – [Responsibilities not listed]\n*   YASH Technologies (Nov 2022) – Software Engineer – [Responsibilities not listed]\n*   Fealty Technologies (Oct 2020) – Back End Developer – [Responsibilities not listed]\n\n**EDUCATION HIGHLIGHTS**\n*   Galgotias University (2016-2020): [Degree not sp"
+    },
+    {
+      "role": "assistant",
+      "content": "already on it.\n\ni was just saying, that's some serious work you've been doing.\n\nhow long have you been in the game, total?"
+    },
+    {
+      "role": "user",
+      "content": "https://www.linkedin.com/in/abhishek-chaturvedi-477ab1157?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    },
+    {
+      "role": "assistant",
+      "content": "haha, you really want me to see that profile. i've got it. i've been through it.\n\nnow, you need to answer my question.\n\nhow many years total?"
+    },
+    {
+      "role": "user",
+      "content": "5.3"
+    },
+    {
+      "role": "assistant",
+      "content": "what kind of role are you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "I’m looking for any role related to python and their related technologies like FASTAPI ,GENAI, MYSQL, POSTGRESQL, web development , aws servicesetc"
+    },
+    {
+      "role": "assistant",
+      "content": "and where? bangalore, remote, anywhere?"
+    },
+    {
+      "role": "user",
+      "content": "I preffered Banglore and remote but pune and gurugram is also fine"
+    },
+    {
+      "role": "assistant",
+      "content": "I've got a sense for what you're looking for. Be back in less than a minute"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm scanning through 50,000 jobs to find the perfect fit for you. you'll hear from me soon."
+    },
+    {
+      "role": "assistant",
+      "content": "Python Gen AI Engineer at Futops Technologies India Private Limited\n\nfutops technologies wants a python gen ai engineer in gurugram.\n\nsalary is probably in the 35-45 lpa range if you push them.\n\nthey need someone to actually build the genai toys they've been selling to clients, your resume with those rag projects is a perfect fit.\n\nit's your chance to see if 'futops' is short for future-ops or futile-ops."
+    }
+  ]
+}

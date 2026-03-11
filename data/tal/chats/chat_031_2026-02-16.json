@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-16",
+  "user_name": "Suma Priya",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hey"
+    },
+    {
+      "role": "user",
+      "content": "Gi"
+    },
+    {
+      "role": "user",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "hi. who is this?"
+    },
+    {
+      "role": "user",
+      "content": "Who are you"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm tal. i find people jobs they actually want.\n\nand you are?"
+    },
+    {
+      "role": "user",
+      "content": "I am Suma Priya from Hyderabad"
+    },
+    {
+      "role": "user",
+      "content": "Looking for a job"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "ServiceNow"
+    },
+    {
+      "role": "assistant",
+      "content": "servicenow... what do you do there?"
+    },
+    {
+      "role": "user",
+      "content": "I am working for Ltimindtree"
+    },
+    {
+      "role": "user",
+      "content": "Now LTM"
+    },
+    {
+      "role": "assistant",
+      "content": "ltimindtree. got it. and what's your role there?"
+    },
+    {
+      "role": "user",
+      "content": "My role is Senior engineer"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"format\":2,\"parts\":[{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"toolCallId\":\"oDTAAl4aRclI3kwa\",\"toolName\":\"searchLinkedInProfile\",\"args\":{\"confirmed\":false,\"search_queries\":[\"Suma Priya Ltimindtree Senior engineer\"]},\"result\":{\"success\":true,\"profilePreviews\":[{\"url\":\"https://in.linkedin.com/in/suma-priya-ab4131174\",\"title\":\"Suma Priya - LTIMindtree | LinkedIn\",\"excerpt\":\"I'm a Analyst & Cloud Support Engineer with 7+ years of experience across Microsoft &… · Experience: LTIMindtree · Education: B Vishnu Raju college of ...\"},{\"url\":\"https://in.linkedin.com/in/suma-priya-kar"
+    },
+    {
+      "role": "user",
+      "content": "My role is Senior engineer \n  Do you want my resume"
+    },
+    {
+      "role": "assistant",
+      "content": "interesting. is this you? https://in.linkedin.com/in/suma-priya-ab4131174"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "seven years in the game... and you've seen the inside of both a giant like microsoft and an engine room like ltimindtree. that's a rare combination of scale and grit.\n\nhow many years has the journey been in total?"
+    },
+    {
+      "role": "user",
+      "content": "7years 4 months"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\n\nSuma Priya is a Senior Engineer at LTIMindtree with over seven years of experience in technical support, engineering, and business analyst roles. She is currently focused on exploring AI-assisted content support and turning AI into practical workflows.\n\n**ROLE-BY-ROLE**\n\n*   LTIMindtree (Sep 2021) – Senior Engineer – [Responsibilities not listed]\n*   Accenture solutions pvt ltd (Mar 2019) – Associate Business Analyst – [Responsibilities not listed]\n*   Cognizant Technoloy Solutions (Jul 2017) – Process Executive – [Responsibilities not li"
+    },
+    {
+      "role": "assistant",
+      "content": "what kind of role are you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "Specialist or senior specialist"
+    },
+    {
+      "role": "assistant",
+      "content": "and where? bangalore, remote, anywhere?"
+    }
+  ]
+}

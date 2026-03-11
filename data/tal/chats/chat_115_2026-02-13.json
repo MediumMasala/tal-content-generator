@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-13",
+  "user_name": "L.Sankari Bharathi Priya",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hey"
+    },
+    {
+      "role": "assistant",
+      "content": "hi, i’m tal\n\ni help people find the best ‘next job’\ni scan 50,000 roles a day to find the best 1 for you.\n\nso… what’s your full name?"
+    },
+    {
+      "role": "user",
+      "content": "L.Sankari Bharathi Priya"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "Coforge BPS"
+    },
+    {
+      "role": "assistant",
+      "content": "what's your role at coforge bps?"
+    },
+    {
+      "role": "user",
+      "content": "Assocaiate"
+    },
+    {
+      "role": "assistant",
+      "content": "interesting.\n\nhttps://in.linkedin.com/in/sankari-bharathi-priya-l-8664332a0\n\nis this you?"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "your profile is playing it close to the chest.\neither you're private or you've been too busy building to update it.\n\nhow long have you been in the game? total years working?"
+    },
+    {
+      "role": "user",
+      "content": "12 months"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nSankari Bharathi Priya.L is currently an Associate Team Member at Coforge, a position held since March 2025. Prior experience includes internships in data analysis and web development.\n\n**ROLE-BY-ROLE**\n*   Coforge (Mar 2025) – Associate Team Member – [Responsibilities not listed]\n*   Innobytes service pvt ltd (Aug 2024) – Data Analyst Intern – Analyze the Data and purify by using Pivot table in Excel after that demonstrate in to the visualization by using Mivrosoft Power. BI.\n*   Media Wave (Jan 2024) – Web Developer – python web developm"
+    },
+    {
+      "role": "assistant",
+      "content": "got it.\n\nwhat kind of role are you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "Python Full stack developerrr"
+    },
+    {
+      "role": "assistant",
+      "content": "and where? bangalore, remote, anywhere?"
+    },
+    {
+      "role": "user",
+      "content": "Only chennai"
+    },
+    {
+      "role": "assistant",
+      "content": "I've got a sense for what you're looking for. Be back in less than a minute"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm scanning through 50,000 jobs to find the perfect fit for you. you'll hear from me soon."
+    },
+    {
+      "role": "assistant",
+      "content": "Data Services Analyst II at ZoomInfo\n\nzoominfo has a data services analyst role in chennai.\n\nguessing it's in the 8-12 lpa range, a solid jump from coforge.\n\nyou'll basically use your python skills to clean and make sense of the massive amounts of company data they sell.\n\nit's a data-heavy role, not pure dev, but a good way to get into a us product company without leaving home."
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Refer a friend\"\n\n\n<button_context>User clicked \"refer a friend\" for job d1f664ab-ede6-48db-ad5d-323fbf2d3781. Ask them to share their friend's contact card or type their friend's phone number. \n          Just ask user for their friend's phone number or contact card. Don't tell them format or anything else. Keep it short, sweet and direct. Don't forget to mention both options phone number and contact card.\n          \n          NOTE: If user refuses to share their friends's contact or number then don't argue, simply ask the friend's name and draft a short message and ask them to fo"
+    },
+    {
+      "role": "assistant",
+      "content": "sweet. drop their contact card or number."
+    },
+    {
+      "role": "user",
+      "content": "6381314147"
+    },
+    {
+      "role": "assistant",
+      "content": "what's their name?"
+    },
+    {
+      "role": "user",
+      "content": "Lugeshini"
+    },
+    {
+      "role": "assistant",
+      "content": "done. lugeshini will get the details."
+    }
+  ]
+}

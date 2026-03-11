@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-16",
+  "user_name": "Sarvesh Gandhi",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "hi, i’m tal\n\ni help people find the best ‘next job’\ni scan 50,000 roles a day to find the best 1 for you.\n\nso… what’s your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Sarvesh Gandhi"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "I work at Wayfair Global"
+    },
+    {
+      "role": "assistant",
+      "content": "what's your role at wayfair global?"
+    },
+    {
+      "role": "user",
+      "content": "Software engineer 2"
+    },
+    {
+      "role": "assistant",
+      "content": "interesting.\n\nhttps://in.linkedin.com/in/sarvesh-gandhi-71187b283\n\nis this you?"
+    },
+    {
+      "role": "user",
+      "content": "Not this"
+    },
+    {
+      "role": "assistant",
+      "content": "can't find you. drop your linkedin url or resume"
+    },
+    {
+      "role": "user",
+      "content": "<caption>Sarvesh Gandhi.pdf</caption>\n    <analysis>{\n  \"title\": \"Resume\",\n  \"documentType\": \"Resume\",\n  \"keyTopics\": [\n    \"Software Development\",\n    \"Java\",\n    \"Springboot\",\n    \"React\",\n    \"AWS\",\n    \"PostgreSQL\"\n  ],\n  \"mainPoints\": [\n    \"Experience in software development across multiple companies and roles.\",\n    \"Proficient in Java, Springboot, React, AWS, and PostgreSQL.\",\n    \"Experience with designing, developing, and deploying software solutions.\",\n    \"Strong skills in problem-solving, teamwork, and communication.\"\n  ],\n  \"entities\": [\n    \"Sarvesh Gandhi\",\n    \"Wayfair Global\""
+    },
+    {
+      "role": "assistant",
+      "content": "got it.\n\nyou went from a services company to handling systems at wayfair's scale... 480 rps, 30 million skus.\n\nthat's not a job change. that's a deliberate leap from the minor leagues to the majors.\n\nyou've packed a lot in. how many years have you been working, total since you started?"
+    },
+    {
+      "role": "user",
+      "content": "4y 9m"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nSarvesh G. is a software engineer with experience at companies including HashedIn by Deloitte, Avis Budget Group, and Wayfair. His most recent listed role was Software Development Engineer II at Wayfair, which concluded in January 2026.\n\n**ROLE-BY-ROLE**\n*   Wayfair (Apr 2024 - Jan 2026) – Software Development Engineer II – [Responsibilities not listed]\n*   Avis Budget Group (Sep 2023 - Apr 2024) – Software Engineer II – [Responsibilities not listed]\n*   HashedIn by Deloitte (May 2023 - Sep 2023) – SDE 2 – [Responsibilities not listed]\n*  "
+    },
+    {
+      "role": "assistant",
+      "content": "what kind of role are you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "Software Development Engineer 2/3 both. Primarily backend work. Java / Kafka / Relational databases / Kubernetes deployments / AWS / GCP / Python / Event Sourcing framework/ Axon framework/ Springboot has all been my tech stack"
+    },
+    {
+      "role": "assistant",
+      "content": "and where? bangalore, remote, anywhere?"
+    },
+    {
+      "role": "user",
+      "content": "Bangalore / remote / pune / hyderabad / Gandhinagar"
+    },
+    {
+      "role": "assistant",
+      "content": "I've got a sense for what you're looking for. Be back in less than a minute"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm scanning through 50,000 jobs to find the perfect fit for you. you'll hear from me soon."
+    },
+    {
+      "role": "assistant",
+      "content": "Senior Backend Engineer at Zopsmart\n\nzopsmart wants a senior backend engineer here in bangalore.\n\nguessing it's in the 40-50 lpa range, so a decent bump for your experience.\n\ngiven your wayfair background, this is your zone – you'll be building the backend that powers all those quick-commerce apps.\n\nit's less about fancy features and more about making sure millions of grocery orders don't disappear into the void."
+    },
+    {
+      "role": "user",
+      "content": "Yeah\n  🥂"
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Yes, interested\"\n\n\n<button_context>User clicked \"yes, interested\" for job 9e018f05-ce25-4fc5-ab2a-5a90e541c844. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Senior Backend Engineer\n      - Company: Zopsmart\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: We are a fast-growing product-based company that thrives on innovation, scalability, and delivering high-quality solutions to global customers. As a Backend Engineer, you will play a pivotal role in d"
+    },
+    {
+      "role": "assistant",
+      "content": "good call.\n\nthis jd basically reads like your resume.\n\nthey need java, postgres, k8s, cloud... all the stuff you've been doing at wayfair.\n\nit's a senior role that needs 4+ years, and you're sitting at 4.75. it's a perfect fit.\n\nthis is a solid next step. no-nonsense, pure backend scale. let me know what you hear back."
+    },
+    {
+      "role": "assistant",
+      "content": "Software Engineer III - Java Full Stack at hackajob\n\nhackajob is looking for a java full stack swe in bangalore.\n\nguessing it's in the 40-50 lpa range given your experience.\n\nit's a fintech platform, so you'll be building the pipes for payments and lending, not just another crud app.\n\nthe meta part is you're building a fintech product for a recruiting company, could be a mess or a masterstroke, but your wayfair background is a direct fit."
+    }
+  ]
+}

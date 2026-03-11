@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-17",
+  "user_name": "Selvamuthukumar Rajulu",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "hi, i’m tal\n\ni help people find the best ‘next job’\ni scan 50,000 roles a day to find the best 1 for you.\n\nso… what’s your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Selvamuthukumar Rajulu"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "Concentrix"
+    },
+    {
+      "role": "assistant",
+      "content": "concentrix... what's your role there?"
+    },
+    {
+      "role": "user",
+      "content": "Senior Software Engineer"
+    },
+    {
+      "role": "assistant",
+      "content": "interesting.\n\nhttps://in.linkedin.com/in/sagaya-mary-a95287137\n\nis this you?"
+    },
+    {
+      "role": "user",
+      "content": "No"
+    },
+    {
+      "role": "assistant",
+      "content": "hmm, still not finding the right you.\n\ncan you drop your linkedin url? or a link to your resume?"
+    },
+    {
+      "role": "user",
+      "content": "https://www.linkedin.com/in/selvamuthukumar-rajulu-2a91ba69?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+    },
+    {
+      "role": "assistant",
+      "content": "ok, i see you now.\n\nselvamuthukumar at concentrix.\n\nyour profile is clean. tells a story without shouting.\n\nhow many years has this journey been so far? total years working."
+    },
+    {
+      "role": "user",
+      "content": "12 years"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nSelvamuthukumar Rajulu has over 10 years of experience in CRM implementation, customization, and project architecture. He is currently a Senior Software Engineer / Manager (Application Development) at Concentrix.\n\n**ROLE-BY-ROLE**\n*   Concentrix (Jun 2024) – Senior Software Engineer / Manager (Application Development) – [Responsibilities not listed]\n*   Concentrix (May 2019) – Software Engineer II – [Responsibilities not listed]\n*   ProV International (Aug 2017) – Software Engineer – [Responsibilities not listed]\n*   McLanSys (Feb 2014) – "
+    },
+    {
+      "role": "assistant",
+      "content": "12 years. and you climbed the ladder inside concentrix. from engineer to manager.\n\nthey clearly didn't want to lose you.\n\nso what's the next chapter? what kind of role are you looking for?"
+    },
+    {
+      "role": "user",
+      "content": "Lead or Manager or Sr Manager"
+    },
+    {
+      "role": "assistant",
+      "content": "and where? bangalore, remote, anywhere?"
+    },
+    {
+      "role": "user",
+      "content": "Chennai, Bangalore, Remote"
+    },
+    {
+      "role": "assistant",
+      "content": "I've got a sense for what you're looking for. Be back in less than a minute"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm scanning through 50,000 jobs to find the perfect fit for you. you'll hear from me soon."
+    },
+    {
+      "role": "assistant",
+      "content": "Lead AI Engineer at OutSystems\n\noutsystems wants a lead ai engineer in bangalore.\n\ngiven your 12 years, i'd bet on 60-75 lpa; they're a big player in low-code and need the talent.\n\nyou're not just coding ai, you're leading the team that embeds it into their platform for non-coders to use.\n\nperfect jump from a service giant to a core product role where you actually build the thing that sells."
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Yes, interested\"\n\n\n<button_context>User clicked \"yes, interested\" for job f16b79fa-9d1a-46ec-a36c-18069a47ebee. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Lead AI Engineer\n      - Company: OutSystems\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: There are NO limits to your career: come shape the future and be part of a truly unique global culture at OutSystems! About This Role As a Lead AI Engineer at OutSystems, you will bridge research innovatio"
+    },
+    {
+      "role": "assistant",
+      "content": "this is a classic power move\n\nfrom a service giant to a core product company where you build the actual product\n\nit's a lead role, so your manager experience is exactly what they want\n\nthis is how you level up for real"
+    },
+    {
+      "role": "user",
+      "content": "Do you have any other suggestions?"
+    },
+    {
+      "role": "assistant",
+      "content": "my process is continuous\n\ni'm scanning everything, always\n\nyour interest in the outsystems role helps me narrow the focus\n\nwhen another one that's actually a step up appears, i'll ping you immediately\n\ndon't settle for noise in between"
+    }
+  ]
+}

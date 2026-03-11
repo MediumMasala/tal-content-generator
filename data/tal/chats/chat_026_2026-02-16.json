@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-16",
+  "user_name": "Omkar Mhaske",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi"
+    },
+    {
+      "role": "assistant",
+      "content": "hi, i’m tal\n\ni help people find the best ‘next job’\ni scan 50,000 roles a day to find the best 1 for you.\n\nso… what’s your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Omkar Mhaske"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "eClerx"
+    },
+    {
+      "role": "assistant",
+      "content": "eclerx... what do you do there?"
+    },
+    {
+      "role": "user",
+      "content": "Work as an Associate Process Manager"
+    },
+    {
+      "role": "assistant",
+      "content": "interesting.\n\nis this you? https://in.linkedin.com/in/omkar-mhaske-a786912ab"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "4.5 years at eclerx... you didn't just build a career there, you built a universe. you're the person they call when things are on fire.\n\nhow long have you been in the game, total years?"
+    },
+    {
+      "role": "user",
+      "content": "5.5 years"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nOmkar Mhaske is a finance professional with over 4.5 years of experience in structured notes, derivatives, and middle office operations. He currently works as an Associate Process Manager at eClerx, specializing in the trade lifecycle management of derivative-linked products.\n\n**ROLE-BY-ROLE**\n*   **eClerx** (Oct 2024 - Present) – Associate Process Manager – Manages the end-to-end lifecycle of structured notes, performs ISDA reviews, acts as Calculation Agent, and conducts exposure monitoring and stress testing for European markets.\n*   **"
+    },
+    {
+      "role": "assistant",
+      "content": "got it.\n\nwhat kind of role are you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "Structured products or trade lifecycle in Investment banking"
+    },
+    {
+      "role": "assistant",
+      "content": "and where? bangalore, remote, anywhere?"
+    },
+    {
+      "role": "user",
+      "content": "Mumbai, Pune"
+    },
+    {
+      "role": "assistant",
+      "content": "I've got a sense for what you're looking for. Be back in less than a minute"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm scanning through 50,000 jobs to find the perfect fit for you. you'll hear from me soon."
+    },
+    {
+      "role": "assistant",
+      "content": "Capital & Data Risk _ Analyst _ Risk Management at Morgan Stanley\n\nmorgan stanley has a risk analyst role in mumbai.\nguessing it's a safe 30-35 lpa play, but the bonus is the real carrot.\nyou're not structuring deals, you're the adult in the room making sure the traders' models don't implode.\nit's a pure brand name move, that ms logo on your resume opens doors forever."
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Yes, interested\"\n\n\n<button_context>User clicked \"yes, interested\" for job 5c62f145-9c57-4757-8eab-6dfac91d1b36. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Capital & Data Risk _ Analyst _ Risk Management\n      - Company: Morgan Stanley\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: We’re seeking someone to join our team as an Analyst for Risk Data role. In the Firm Risk Management division, we advise businesses across the Firm on risk mitigation str"
+    },
+    {
+      "role": "assistant",
+      "content": "good call. this is the classic brand-name play\n\nmorgan stanley on the resume is a different league\n\nand with your background, you're not just a risk analyst\nyou've actually lived the trade lifecycle, you know what the data means"
+    },
+    {
+      "role": "user",
+      "content": "Thanks"
+    },
+    {
+      "role": "assistant",
+      "content": "anytime\n\ni'm always scanning. will ping if something else great comes up"
+    },
+    {
+      "role": "user",
+      "content": "Kk"
+    },
+    {
+      "role": "assistant",
+      "content": "cool"
+    }
+  ]
+}

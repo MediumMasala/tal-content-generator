@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-16",
+  "user_name": "Kaushik Urkude",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hey"
+    },
+    {
+      "role": "assistant",
+      "content": "hi, i’m tal\n\ni help people find the best ‘next job’\ni scan 50,000 roles a day to find the best 1 for you.\n\nso… what’s your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Kaushik Urkude"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "TCS"
+    },
+    {
+      "role": "assistant",
+      "content": "tcs... and what's your role there?"
+    },
+    {
+      "role": "user",
+      "content": "GenAI Developers"
+    },
+    {
+      "role": "assistant",
+      "content": "can't find you. drop your linkedin url or resume"
+    },
+    {
+      "role": "user",
+      "content": "https://www.linkedin.com/in/kaushik-urkude-63ba38183"
+    },
+    {
+      "role": "assistant",
+      "content": "genai developers at tcs... interesting.\n\nyour profile is pretty lean. either you're private or you've been too busy building to update it. which one?\n\nand how many years has this journey been so far?"
+    },
+    {
+      "role": "user",
+      "content": "<caption>KaushikU_Resume.pdf</caption>\n    <analysis>{\n  \"title\": \"Kaushik Urkude\",\n  \"documentType\": \"Resume\",\n  \"keyTopics\": [\n    \"AI/ML\",\n    \"GenAI\",\n    \"LLM\",\n    \"Fraud Detection\",\n    \"KYC Automation\",\n    \"Web Scraping\",\n    \"NLP\",\n    \"Deep Learning\",\n    \"Software Development\"\n  ],\n  \"mainPoints\": [\n    \"Experience as a GenAI Developer at TCS.\",\n    \"Developed BFSI workflow automation using LangGraph, reducing manual effort.\",\n    \"Built a Graph RAG-based fraud detection system.\",\n    \"Developed a KYC automation engine using Tesseract OCR and LLMs.\",\n    \"Architected a decoupled Fa"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nKaushik Urkude is an AI and NLP Engineer currently employed as a GenAI Developer at Tata Consultancy Services. His background includes experience as a Teaching Assistant and a Student Intern focused on machine learning and data analysis.\n\n**ROLE-BY-ROLE**\n*   Tata Consultancy Services (Oct 2024) – GenAI Developer – Key deliverables include developing a GenAI email automation system, an agentic AI chatbot for corporate banking, and an automated KYC compliance pipeline.\n*   Indian Institute Of Information Technology (Aug 2022) – Teaching Ass"
+    },
+    {
+      "role": "assistant",
+      "content": "okay, the resume tells a much different story.\n\njust over a year at tcs and you've built a fraud detection system, a kyc engine, and a multi-agent workflow.\n\nthat's not a job. that's a speedrun. you have a low tolerance for plateaus.\n\nso post-masters, we're looking at about a year and a half of total experience, right?"
+    },
+    {
+      "role": "user",
+      "content": "1yr 4Months\n  Right"
+    },
+    {
+      "role": "assistant",
+      "content": "right.\n\nnow for the important part. what kind of role are you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "<caption></caption>\n    <analysis>{\n  \"transcription\": \"We are looking for Genia jobs, machine learning, or anything related with data science.\",\n  \"language\": \"English\",\n  \"tone\": \"Casual and Informative\",\n  \"backgroundSounds\": \"None\"\n}</analysis>"
+    },
+    {
+      "role": "assistant",
+      "content": "genai, ml, data science. got it. the holy trinity.\n\nand where are you looking? bangalore, remote, anywhere?"
+    },
+    {
+      "role": "user",
+      "content": "<caption></caption>\n    <analysis>{\n  \"transcription\": \"Ya, most of the people in Hyderabad, Bangalore, Pune, remote everywhere just except Chennai.\",\n  \"language\": \"English\",\n  \"tone\": \"Casual\",\n  \"backgroundSounds\": \"None\"\n}</analysis>"
+    },
+    {
+      "role": "assistant",
+      "content": "I've got a sense for what you're looking for. Be back in less than a minute"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm scanning through 50,000 jobs to find the perfect fit for you. you'll hear from me soon."
+    },
+    {
+      "role": "assistant",
+      "content": "AI Software Engineer at zenda\n\nzenda is looking for an ai software engineer in bangalore.\n\nit's seed stage, so salary might be a gamble, but i'd guess around 18-24 lpa if you play your cards right.\n\nyou won't be just tweaking models; you'll be building their entire ai stack from the ground up using langgraph and llms.\n\nit's a seed-stage fintech, so expect chaos, but if it hits, you're basically set."
+    },
+    {
+      "role": "user",
+      "content": "Sure\n  User clicked \"Yes, interested\"\n\n\n<button_context>User clicked \"yes, interested\" for job e5319317-430f-4c52-8cb8-5005f794eaea. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: AI Software Engineer\n      - Company: zenda\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Responsibilities Design, develop, and deploy AI-powered software systems at great speeds using modern programming frameworks and AI tooling such as Antigravity, Cursor, and Claude Code. Build, orches"
+    },
+    {
+      "role": "assistant",
+      "content": "of course you're interested.\n\nthis jd is basically your resume.\nlanggraph, multi-agent systems, rag... it's all there.\n\nthis is the speedrun you're looking for.\nno corporate bs, just building from scratch.\n\nit's a perfect fit. go get it."
+    },
+    {
+      "role": "user",
+      "content": "Applied"
+    },
+    {
+      "role": "assistant",
+      "content": "nice. one down.\n\nnow, don't get attached. the market is a chaotic mess. we keep hunting.\n\nwhile we wait, what's your actual take on early-stage vs big companies? you've seen the belly of the beast at tcs."
+    }
+  ]
+}

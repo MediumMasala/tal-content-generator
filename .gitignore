@@ -34,3 +34,12 @@ build/
 
 # Node
 node_modules/
+
+# Data (user-generated, don't commit)
+data/profiles/
+data/personalities/
+data/generated/
+data/raw/
+
+# Keep Tal context
+!data/tal/

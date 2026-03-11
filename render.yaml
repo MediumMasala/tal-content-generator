@@ -1,33 +1,25 @@
 services:
-  # Node.js Backend (Prompt Enhancer API)
+  # Express.js Backend API
   - type: web
-    name: tal-backend
+    name: tal-content-api
     runtime: node
+    region: oregon
+    plan: starter
     buildCommand: npm install
-    startCommand: npm run start
+    startCommand: npx tsx server.ts
+    healthCheckPath: /api/health
     envVars:
       - key: NODE_ENV
         value: production
-      - key: GEMINI_API_KEY
-        sync: false
+      - key: PORT
+        value: 4000
       - key: GOOGLE_API_KEY
         sync: false
-
-  # Streamlit Frontend
-  - type: web
-    name: tal-frontend
-    runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run streamlit_app.py --server.port $PORT --server.address 0.0.0.0
-    envVars:
-      - key: BACKEND_URL
-        fromService:
-          name: tal-backend
-          type: web
-          property: host
-      - key: GOOGLE_API_KEY
+      - key: APIFY_API_TOKEN
         sync: false
-      - key: INSTAGRAM_ACCESS_TOKEN
-        sync: false
-      - key: INSTAGRAM_BUSINESS_ACCOUNT_ID
-        sync: false
+      - key: FRONTEND_URL
+        value: https://tal-content.vercel.app
+    disk:
+      name: tal-data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1

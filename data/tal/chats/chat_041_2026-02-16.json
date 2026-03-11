@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-16",
+  "user_name": "Prakash Choudhary",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hey"
+    },
+    {
+      "role": "assistant",
+      "content": "hi, i’m tal\n\ni help people find the best ‘next job’\ni scan 50,000 roles a day to find the best 1 for you.\n\nso… what’s your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Prakash Choudhary"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "Oracle"
+    },
+    {
+      "role": "assistant",
+      "content": "oracle... what do you do there?"
+    },
+    {
+      "role": "user",
+      "content": "I am a software developer"
+    },
+    {
+      "role": "assistant",
+      "content": "interesting.\n\nis this you? https://in.linkedin.com/in/prakash-choudhary-071b0b350"
+    },
+    {
+      "role": "user",
+      "content": "Working at position Senior member of technical staff"
+    },
+    {
+      "role": "assistant",
+      "content": "hmm, neither of those seem right.\n\ncan you just drop your linkedin url? or a resume is fine too. i can't match you to roles blind."
+    },
+    {
+      "role": "user",
+      "content": "https://www.linkedin.com/in/prakash1512?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    },
+    {
+      "role": "user",
+      "content": "This is my LinkedIn"
+    },
+    {
+      "role": "assistant",
+      "content": "got it.\n\nsenior member of technical staff at oracle... that's a serious title.\n\nhow many years have you been at it? total years working."
+    },
+    {
+      "role": "user",
+      "content": "3.5 years at oracle"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nPrakash Choudhary is a Software Engineer with over three years of experience delivering automation and AI-driven solutions. He currently serves as a Senior Member of Technical Staff at Oracle, where he builds cloud migration and Generative AI platforms.\n\n**ROLE-BY-ROLE**\n*   Oracle (Sep 2024) – Senior Member of Technical Staff – Designs and delivers enterprise-scale automation and AI platforms, including a zero-downtime migration utility and a Generative AI-powered RFP automation tool.\n*   Oracle (Jul 2022) – Member Of Technical Staff – [R"
+    },
+    {
+      "role": "assistant",
+      "content": "what kind of role are you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "I am looking for a job switch in same domain for good hike\nFAANG is my dream"
+    },
+    {
+      "role": "assistant",
+      "content": "faang is the dream. got it.\n\nand where? bangalore, remote, anywhere?"
+    },
+    {
+      "role": "user",
+      "content": "Bangalore or remote is good"
+    },
+    {
+      "role": "assistant",
+      "content": "I've got a sense for what you're looking for. Be back in less than a minute"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm scanning through 50,000 jobs to find the perfect fit for you. you'll hear from me soon."
+    },
+    {
+      "role": "assistant",
+      "content": "Gen AI Engineer - RAG Systems & AI Transformation at Gainwell Technologies\n\ngainwell technologies wants a gen ai engineer in bangalore.\n\nsalary will be meh, maybe 35-40 lpa tops.\n\nyou'll be building their core rag systems, basically dragging a legacy healthcare tech company into the genai world.\n\nnot the faang dream, but it's a pure-play genai role that could be a good leverage play for your next switch."
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Yes, interested\"\n\n\n<button_context>User clicked \"yes, interested\" for job d83cb792-4cf3-4d41-8f0e-0159faa099e5. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Gen AI Engineer - RAG Systems & AI Transformation\n      - Company: Gainwell Technologies\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Summary We are seeking a highly skilled and forward-thinking GenAI Engineer to join our AI innovation team. This role is ideal for someone with deep technical ex"
+    },
+    {
+      "role": "assistant",
+      "content": "good call\n\nthis is a pure-play RAG systems role. you'll be building their core ai engine from the ground up\n\nthat's a massive leverage point for a faang interview later\n\ndon't sweat the \"5+ years\" thing. your oracle + iit background gives you a pass."
+    },
+    {
+      "role": "user",
+      "content": "Okay will apply to this, keep giving me more openings, multiple numbers of offer letters are good"
+    }
+  ]
+}

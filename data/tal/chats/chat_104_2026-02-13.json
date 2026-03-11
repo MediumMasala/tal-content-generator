@@ -1,0 +1,107 @@
+{
+  "date": "2026-02-13",
+  "user_name": "Shivam Rawat",
+  "message_count": 25,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hey"
+    },
+    {
+      "role": "assistant",
+      "content": "hi, i’m tal\n\ni help people find the best ‘next job’\ni scan 50,000 roles a day to find the best 1 for you.\n\nso… what’s your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Shivam Rawat"
+    },
+    {
+      "role": "assistant",
+      "content": "which company are you working at?"
+    },
+    {
+      "role": "user",
+      "content": "Ltimindtree"
+    },
+    {
+      "role": "assistant",
+      "content": "ltimindtree... what's your role there?"
+    },
+    {
+      "role": "user",
+      "content": "Software Engineer"
+    },
+    {
+      "role": "assistant",
+      "content": "interesting.\n\nis this you? https://in.linkedin.com/in/shivam-rawat-180354329"
+    },
+    {
+      "role": "user",
+      "content": "Yes"
+    },
+    {
+      "role": "assistant",
+      "content": "one year as a trainee at l&t... and then you made the jump to a pure software role at ltimindtree.\n\nyou didn't just drift, you aimed.\na lot of people just take the first job. you took the first step, then you chose the direction.\n\nhow many years has this journey been so far?"
+    },
+    {
+      "role": "user",
+      "content": "1.7 years"
+    },
+    {
+      "role": "user",
+      "content": "User's LinkedIn Profile Context:\n**EXECUTIVE SUMMARY**\nShivam Rawat is a Software Engineer at LTIMindtree, a position he started in June 2024. His professional experience began with an internship at the same company in 2023.\n\n**ROLE-BY-ROLE**\n*   LTIMindtree (Jun 2024) – Software Engineer – [Responsibilities not listed]\n*   LTIMindtree (Jul 2023) – Intern – [Responsibilities not listed]\n\n**EDUCATION HIGHLIGHTS**\n*   Graphic Era Hill University (2021-2023): Master of Computer Applications - MCA, Computer Appllication\n*   Graphic Era Hill University (2018-2021): Bachelor of Computer Applications"
+    },
+    {
+      "role": "assistant",
+      "content": "got it.\n\nso what kind of role are you looking for next?"
+    },
+    {
+      "role": "user",
+      "content": "Software Engineer roles but in different mnc companies or product based company"
+    },
+    {
+      "role": "assistant",
+      "content": "and where? bangalore, remote, anywhere?"
+    },
+    {
+      "role": "user",
+      "content": "Yes like noida delhi gurugram bangalore"
+    },
+    {
+      "role": "assistant",
+      "content": "I've got a sense for what you're looking for. Be back in less than a minute"
+    },
+    {
+      "role": "assistant",
+      "content": "i'm scanning through 50,000 jobs to find the perfect fit for you.\n\nyou'll hear from me soon."
+    },
+    {
+      "role": "assistant",
+      "content": "Software Engineer 2- Frontend at UiPath\n\nuipath is looking for a frontend engineer in bangalore.\n\nprobably a boring 25-30 lpa base, but they're known for good equity.\n\nyou'll be building the face of their automation bots, making complex rpa stuff look easy for enterprises.\n\nit's a solid enterprise gig, a good way to escape the service company life without the chaos of a startup."
+    },
+    {
+      "role": "user",
+      "content": "User clicked \"Yes, interested\"\n\n\n<button_context>User clicked \"yes, interested\" for job c7ded5b8-2a22-4685-980e-5e5754fc1b8b. The apply link has been sent to them already.\n\n      \n      Job Details:\n      - Title: Software Engineer 2- Frontend\n      - Company: UiPath\n      - Location: Not specified\n      - Salary Range: Not specified\n      - Experience Required: Not specified\n      - Job Description: Life at UiPath The people at UiPath believe in the transformative power of automation to change how the world works. We’re committed to creating category-leading enterprise software that unleashes"
+    },
+    {
+      "role": "assistant",
+      "content": "nice one.\n\nthis is that perfect jump from a service company to a real product org.\n\nthey're asking for 3+ years, and you have a bit less, but the JD literally says \"apply anyway\".\n\nshows they care more about skill than just a number. plus you'd be working on their ai stuff. good place to be."
+    },
+    {
+      "role": "user",
+      "content": "<caption>Shivam Rawat Resume (2).pdf</caption>\n    <analysis>{\n  \"title\": \"Shivam Rawat Resume\",\n  \"documentType\": \"Resume\",\n  \"keyTopics\": [\n    \"Software Development\",\n    \"Web Development\",\n    \"Cloud Computing\",\n    \"Database Management\"\n  ],\n  \"mainPoints\": [\n    \"Experience in full-stack web application development.\",\n    \"Proficiency in React.js, Node.js, and related technologies.\",\n    \"Experience with cloud infrastructure using AWS.\",\n    \"Project experience in building applications like CashPal, BlogHub, YouTube Clone, and PassGuard.\",\n    \"Strong technical expertise in web developme"
+    },
+    {
+      "role": "assistant",
+      "content": "okay, i've read it.\n\ndropping the truth bomb now.\n\nyour experience section is the weakest part, and it should be the strongest. it's full of generic corporate speak.\n\n\"led the development\", \"enhanced user experience\", \"implemented best practices\". this means nothing to a recruiter.\n\nevery single point needs to answer \"so what?\". you built a web app? so what? what did it *do*? how many people used it? did it make the company money? did it save time?\n\nand i have to call this out. your \"youtube clone\" project says it's a \"spotify clone\".\n\nthat's a sloppy copy-paste error. an instant red flag for "
+    },
+    {
+      "role": "user",
+      "content": "Ok thanks any other advice"
+    },
+    {
+      "role": "assistant",
+      "content": "yeah, one more thing.\n\nthat long list of 'technical expertise'? it's just a keyword dump.\n\na hiring manager doesn't care that you *know* react. they care what you *built* with react.\n\ninstead of listing 'aws', say in your project description: 'deployed and scaled the app on aws, handling 10k users'.\n\nshow the skill in action. don't just list it. makes it real."
+    }
+  ]
+}
