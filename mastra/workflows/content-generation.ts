@@ -63,6 +63,7 @@ export const ContentGenerationInputSchema = z.object({
   linkedinUrl: z.string().url(),
   forceRefresh: z.boolean().optional().default(false),
   customContext: z.string().optional(),
+  regenerate: z.boolean().optional().default(false), // Skip extraction/personality, just regenerate content
 });
 
 export type ContentGenerationInput = z.infer<typeof ContentGenerationInputSchema>;
@@ -165,7 +166,8 @@ export async function executeContentGeneration(
     };
   }
 
-  console.log(`[workflow] Starting content generation for ${username}`);
+  const isRegeneration = input.regenerate || false;
+  console.log(`[workflow] Starting ${isRegeneration ? 'REGENERATION' : 'content generation'} for ${username}`);
   console.log(`[workflow] LinkedIn URL: ${input.linkedinUrl}`);
 
   // Step 1: Extract LinkedIn profile
@@ -257,6 +259,7 @@ export async function executeContentGeneration(
       options: {
         customContext: input.customContext,
         profileOnlyMode: hasNoPosts, // Use profile-only generation for zero-posts users
+        regenerate: isRegeneration, // Force different chats/angle on regeneration
       },
     };
 

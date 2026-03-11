@@ -34,6 +34,7 @@ export const LinkedInPostGeneratorInputSchema = z.object({
       targetWordCount: z.number().optional(), // Override calculated word count
       customContext: z.string().optional(),
       profileOnlyMode: z.boolean().optional(), // For users with zero posts
+      regenerate: z.boolean().optional(), // Force different chats/angle on regeneration
     })
     .optional(),
 });
@@ -175,8 +176,9 @@ export async function generateLinkedInPost(
   const { personality, tal, rawPosts, options } = input;
 
   const profileOnlyMode = options?.profileOnlyMode || false;
+  const isRegeneration = options?.regenerate || false;
   console.log(`[linkedin-post-generator] Generating for ${personality.username}`);
-  console.log(`[linkedin-post-generator] Mode: ${profileOnlyMode ? 'PROFILE-ONLY (zero posts)' : 'FULL (with posts)'}`);
+  console.log(`[linkedin-post-generator] Mode: ${profileOnlyMode ? 'PROFILE-ONLY (zero posts)' : 'FULL (with posts)'}${isRegeneration ? ' [REGENERATION]' : ''}`);
 
   // Calculate target word count from user's posts
   const wordCountStats = calculateWordCountFromPosts(rawPosts || []);
@@ -435,9 +437,16 @@ function detectPersonaType(personality: any): string {
   return "default";
 }
 
-function selectChatsForPersonality(allChats: any[], personality: any, count: number = 50): any[] {
+function selectChatsForPersonality(allChats: any[], personality: any, count: number = 50, forceRandom: boolean = false): any[] {
   // Strategy: Mix of themed chats (30%) + purely random chats (70%)
-  // This ensures variety while maintaining some relevance
+  // On regeneration (forceRandom=true): Use 100% random for completely different chats
+
+  // For regeneration: completely random selection
+  if (forceRandom) {
+    console.log(`[linkedin-post-generator] REGENERATION MODE: Using 100% random chat selection`);
+    const shuffled = [...allChats].sort(() => Math.random() - 0.5);
+    return shuffled.slice(0, Math.min(count, shuffled.length));
+  }
 
   const themedCount = Math.floor(count * 0.3); // ~15 themed chats
   const randomCount = count - themedCount;      // ~35 random chats
@@ -728,8 +737,10 @@ BANNED UNNATURAL PHRASES (NEVER use any variation of these):
 Use natural phrases instead: "tried", "used", "checked out", "spent time with", "saw"`);
 
   // Add PERSONALITY-MATCHED sample chats (uses all chats, selects based on persona)
+  // When regenerating, force completely random chat selection for variety
+  const isRegeneration = options?.regenerate || false;
   if (tal.sampleChats && tal.sampleChats.length > 0) {
-    const matchedChats = selectChatsForPersonality(tal.sampleChats, personality, 50);
+    const matchedChats = selectChatsForPersonality(tal.sampleChats, personality, 50, isRegeneration);
 
     sections.push(`\n## TAL CONVERSATIONS (matched to this person's likely interests)`);
 
@@ -765,6 +776,19 @@ ${options.customContext}`);
 The post should softly communicate that Tal is interesting, thoughtfully built, and worth attention.
 Tal is a career agent that helps Indian professionals find better work through conversational interaction.
 The post should reflect what someone with this personality profile would authentically notice and appreciate about Tal.`);
+
+  // ---- REGENERATION INSTRUCTION (if applicable) ----
+  if (isRegeneration) {
+    sections.push(`\n# ⚡ REGENERATION MODE ⚡
+This is a REGENERATION request. The user has already seen a previous version.
+You MUST:
+1. Use a COMPLETELY DIFFERENT discovery narrative/angle than typical
+2. Focus on a DIFFERENT TAL capability from the chats provided
+3. Use a DIFFERENT hook structure and opening line
+4. The post should feel fresh and distinct, not a variation of a template
+
+Be creative. Surprise the user with a new perspective.`);
+  }
 
   // ---- FINAL INSTRUCTION ----
   sections.push(`\n# TASK

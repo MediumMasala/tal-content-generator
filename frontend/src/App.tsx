@@ -81,6 +81,7 @@ function App() {
   const [currentPhase, setCurrentPhase] = useState(0);
   const [results, setResults] = useState<GenerationResult | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [isRegenerating, setIsRegenerating] = useState(false);
 
   // Handle the analysis
   const handleAnalyze = async (url: string) => {
@@ -120,6 +121,40 @@ function App() {
       console.error('Error:', err);
       setError(err instanceof Error ? err.message : 'An error occurred');
       setAppState('idle');
+    }
+  };
+
+  // Regenerate function - uses cached profile, generates new content
+  const handleRegenerate = async () => {
+    if (!results?.username) return;
+
+    setIsRegenerating(true);
+    setError(null);
+
+    try {
+      const response = await fetch(`${API_URL}/api/generate`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          username: results.username,
+          regenerate: true
+        }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Failed to regenerate content');
+      }
+
+      const data: GenerationResult = await response.json();
+      setResults(data);
+    } catch (err) {
+      console.error('Regenerate error:', err);
+      setError(err instanceof Error ? err.message : 'Failed to regenerate');
+    } finally {
+      setIsRegenerating(false);
     }
   };
 
@@ -328,7 +363,8 @@ function App() {
                   content={results.originalPost.content}
                   hookType="Original"
                   onCopy={() => navigator.clipboard.writeText(results.originalPost.content)}
-                  onRegenerate={() => console.log('Regenerating...')}
+                  onRegenerate={handleRegenerate}
+                  isRegenerating={isRegenerating}
                 />
               </div>
 
@@ -343,7 +379,8 @@ function App() {
                     content={results.originalPost.altContent}
                     hookType="Alternate"
                     onCopy={() => navigator.clipboard.writeText(results.originalPost.altContent)}
-                    onRegenerate={() => console.log('Regenerating...')}
+                    onRegenerate={handleRegenerate}
+                    isRegenerating={isRegenerating}
                   />
                 </div>
               )}
@@ -359,7 +396,8 @@ function App() {
                     content={results.recommendedPosts[0]?.content || ''}
                     hookType="LinkedIn-Optimized"
                     onCopy={() => navigator.clipboard.writeText(results.recommendedPosts[0]?.content || '')}
-                    onRegenerate={() => console.log('Regenerating...')}
+                    onRegenerate={handleRegenerate}
+                    isRegenerating={isRegenerating}
                   />
                   {/* Show second optimized version as alternative */}
                   {results.recommendedPosts[1] && (

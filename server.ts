@@ -26,19 +26,22 @@ app.get('/api/health', (req, res) => {
 
 // Main generation endpoint
 app.post('/api/generate', async (req, res) => {
-  const { linkedinUrl } = req.body;
+  const { linkedinUrl, username, regenerate } = req.body;
 
-  if (!linkedinUrl) {
-    return res.status(400).json({ error: 'linkedinUrl is required' });
+  // Support either linkedinUrl (new generation) or username+regenerate (regeneration)
+  if (!linkedinUrl && !username) {
+    return res.status(400).json({ error: 'linkedinUrl or username is required' });
   }
 
-  console.log(`[API] Starting generation for: ${linkedinUrl}`);
+  const isRegeneration = regenerate && username;
+  console.log(`[API] Starting ${isRegeneration ? 'regeneration' : 'generation'} for: ${linkedinUrl || username}`);
 
   try {
     // Step 1-3: Extract, Build Personality, Generate
     const result = await executeContentGeneration({
-      linkedinUrl,
+      linkedinUrl: linkedinUrl || `https://linkedin.com/in/${username}`,
       forceRefresh: false,
+      regenerate: isRegeneration,
     });
 
     if (!result.success) {
