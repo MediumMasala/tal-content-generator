@@ -68,6 +68,9 @@ export const LinkedInExtractorOutputSchema = z.object({
   profile: ProfileSchema,
   storagePath: z.string(),
   scrapedAt: z.string(),
+  // Social proof stats
+  originalPostCount: z.number(), // Number of original posts (not reposts)
+  averageWordCount: z.number().nullable(), // Average word count across original posts
 });
 
 export type LinkedInExtractorOutput = z.infer<typeof LinkedInExtractorOutputSchema>;
@@ -179,6 +182,40 @@ function combineProfileAndPosts(
   };
 }
 
+/**
+ * Calculate post statistics (original posts only, excluding reposts)
+ */
+function calculatePostStats(posts: z.infer<typeof PostSchema>[]): {
+  originalPostCount: number;
+  averageWordCount: number | null;
+} {
+  // Filter out reposts - only count original posts
+  const originalPosts = posts.filter((post) => {
+    const postType = (post.postType || "").toLowerCase();
+    // Exclude reposts, shares, and reshares
+    return !postType.includes("repost") &&
+           !postType.includes("share") &&
+           !postType.includes("reshare") &&
+           post.text && post.text.trim().length > 0;
+  });
+
+  const originalPostCount = originalPosts.length;
+
+  if (originalPostCount === 0) {
+    return { originalPostCount: 0, averageWordCount: null };
+  }
+
+  // Calculate average word count
+  const totalWords = originalPosts.reduce((sum, post) => {
+    const words = post.text.trim().split(/\s+/).filter((w) => w.length > 0);
+    return sum + words.length;
+  }, 0);
+
+  const averageWordCount = Math.round(totalWords / originalPostCount);
+
+  return { originalPostCount, averageWordCount };
+}
+
 
 /**
  * LinkedIn Extractor Tool
@@ -196,11 +233,24 @@ export async function extractLinkedIn(
     console.log(`[linkedin-extractor] Loading cached profile for ${username}`);
     const cached = loadProfile(username);
     if (cached) {
+      // For older cached profiles without stats, recalculate
+      let originalPostCount = cached.originalPostCount ?? 0;
+      let averageWordCount = cached.averageWordCount ?? null;
+
+      // If not stored, calculate from posts
+      if (cached.originalPostCount === undefined && cached.profile?.posts) {
+        const postStats = calculatePostStats(cached.profile.posts);
+        originalPostCount = postStats.originalPostCount;
+        averageWordCount = postStats.averageWordCount;
+      }
+
       return {
         username,
         profile: cached.profile,
         storagePath: getProfilePath(username),
         scrapedAt: cached.scrapedAt,
+        originalPostCount,
+        averageWordCount,
       };
     }
   }
@@ -265,11 +315,15 @@ export async function extractLinkedIn(
     const posts = parsePostsData(postItems || [], username);
     console.log(`[linkedin-extractor] Got ${posts.length} posts`);
 
+    // Calculate post statistics (original posts only)
+    const postStats = calculatePostStats(posts);
+    console.log(`[linkedin-extractor] Original posts: ${postStats.originalPostCount}, Avg word count: ${postStats.averageWordCount}`);
+
     // Combine data
     const profile = combineProfileAndPosts(profileData, posts);
     const scrapedAt = new Date().toISOString();
 
-    // Save to storage
+    // Save to storage (include post stats)
     const storageData = {
       username,
       scrapedAt,
@@ -282,6 +336,8 @@ export async function extractLinkedIn(
         posts: getRawPostsPath(username),
       },
       profile,
+      originalPostCount: postStats.originalPostCount,
+      averageWordCount: postStats.averageWordCount,
     };
 
     const storagePath = saveProfile(username, storageData);
@@ -293,6 +349,8 @@ export async function extractLinkedIn(
       profile,
       storagePath,
       scrapedAt,
+      originalPostCount: postStats.originalPostCount,
+      averageWordCount: postStats.averageWordCount,
     };
   } catch (error) {
     console.error(`[linkedin-extractor] Error scraping LinkedIn:`, error);

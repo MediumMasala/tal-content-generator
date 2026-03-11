@@ -73,6 +73,8 @@ app.post('/api/generate', async (req, res) => {
       username: result.username,
       writingStyleAvailable: result.writingStyleAvailable,
       postCount: result.postCount,
+      originalPostCount: result.originalPostCount,
+      averageWordCount: result.averageWordCount,
       personality: result.personality,
       knowledgeGraph: result.knowledgeGraph,
       writingStyle: result.writingStyle,

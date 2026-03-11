@@ -25,6 +25,8 @@ interface GenerationResult {
   username: string;
   writingStyleAvailable?: boolean;
   postCount: number;
+  originalPostCount: number;
+  averageWordCount: number | null;
   personality: {
     traits: string[];
     values: string[];
@@ -264,8 +266,25 @@ function App() {
                     {results.currentRole}{results.currentRole && results.currentCompany ? ' at ' : ''}{results.currentCompany}
                   </p>
                 )}
+                {/* Social proof stats - only show if there are original posts */}
+                {results.originalPostCount > 0 && results.averageWordCount && (
+                  <div className="flex items-center justify-center gap-4 mt-3">
+                    <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full glass border border-white/10">
+                      <svg className="w-3.5 h-3.5 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                      </svg>
+                      <span className="text-white/60 text-xs font-medium">{results.originalPostCount} posts</span>
+                    </div>
+                    <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full glass border border-white/10">
+                      <svg className="w-3.5 h-3.5 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                      </svg>
+                      <span className="text-white/60 text-xs font-medium">~{results.averageWordCount} words avg</span>
+                    </div>
+                  </div>
+                )}
                 {results.timing && (
-                  <p className="text-white/30 text-xs mt-1">
+                  <p className="text-white/30 text-xs mt-2">
                     Generated in {Math.round(results.timing.totalMs / 1000)}s
                   </p>
                 )}

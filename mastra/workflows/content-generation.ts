@@ -83,6 +83,8 @@ export const ContentGenerationOutputSchema = z.object({
   confidenceScore: z.number(),
   writingStyleAvailable: z.boolean(),
   postCount: z.number(),
+  originalPostCount: z.number(), // Original posts (not reposts)
+  averageWordCount: z.number().nullable(), // Avg word count of original posts
   personality: z.object({
     traits: z.array(z.string()),
     values: z.array(z.string()),
@@ -304,6 +306,8 @@ export async function executeContentGeneration(
     confidenceScore: generationResult.confidenceScore,
     writingStyleAvailable: personalityResult.writingStyle?.available ?? false,
     postCount,
+    originalPostCount: extractionResult.originalPostCount,
+    averageWordCount: extractionResult.averageWordCount,
     personality: fullPersonalityData?.analysis?.personalityGraph ? {
       traits: extractTraits(fullPersonalityData.analysis.personalityGraph),
       values: extractValues(fullPersonalityData.analysis.personalityGraph),
