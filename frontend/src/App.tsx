@@ -299,11 +299,11 @@ function App() {
                 />
               </div>
 
-              {/* Original Post - The Big One */}
-              <div className="mb-12">
+              {/* Version 1: Original Generated Post */}
+              <div className="mb-8">
                 <SectionHeader
-                  title="Generated Post"
-                  subtitle="Original content generated in their authentic voice"
+                  title="Version 1: Generated Post"
+                  subtitle="Original content in their authentic voice"
                 />
                 <MainRecommendationCard
                   content={results.originalPost.content}
@@ -311,39 +311,49 @@ function App() {
                   onCopy={() => navigator.clipboard.writeText(results.originalPost.content)}
                   onRegenerate={() => console.log('Regenerating...')}
                 />
-                {/* Alternative original version */}
-                {results.originalPost.altContent && (
-                  <div className="mt-4">
-                    <RecommendationTypeCard
-                      type="Alternative Angle"
-                      description="Different perspective, same authentic voice"
-                      preview={results.originalPost.altContent.substring(0, 100) + '...'}
-                      fullContent={results.originalPost.altContent}
-                      index={0}
-                    />
-                  </div>
-                )}
               </div>
 
-              {/* Recommended Posts - Optimized with viral patterns */}
+              {/* Version 2: Alternate Version */}
+              {results.originalPost.altContent && (
+                <div className="mb-8">
+                  <SectionHeader
+                    title="Version 2: Alternate Angle"
+                    subtitle="Different perspective, same authentic voice"
+                  />
+                  <MainRecommendationCard
+                    content={results.originalPost.altContent}
+                    hookType="Alternate"
+                    onCopy={() => navigator.clipboard.writeText(results.originalPost.altContent)}
+                    onRegenerate={() => console.log('Regenerating...')}
+                  />
+                </div>
+              )}
+
+              {/* Version 3: LinkedIn-Friendly */}
               {results.recommendedPosts && results.recommendedPosts.length > 0 && (
                 <div className="mb-12">
                   <SectionHeader
-                    title="Optimized Versions"
-                    subtitle="Refined using top-performing LinkedIn post patterns"
+                    title="Version 3: LinkedIn-Friendly"
+                    subtitle="Optimized for engagement using top-performing post patterns"
                   />
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    {results.recommendedPosts.map((post, index) => (
+                  <MainRecommendationCard
+                    content={results.recommendedPosts[0]?.content || ''}
+                    hookType="LinkedIn-Optimized"
+                    onCopy={() => navigator.clipboard.writeText(results.recommendedPosts[0]?.content || '')}
+                    onRegenerate={() => console.log('Regenerating...')}
+                  />
+                  {/* Show second optimized version as alternative */}
+                  {results.recommendedPosts[1] && (
+                    <div className="mt-4">
                       <RecommendationTypeCard
-                        key={post.type + index}
-                        type={post.type}
-                        description={post.description}
-                        preview={post.content?.substring(0, 100) + '...' || ''}
-                        fullContent={post.content || ''}
-                        index={index}
+                        type="Alternative LinkedIn-Friendly"
+                        description={results.recommendedPosts[1].description}
+                        preview={results.recommendedPosts[1].content?.substring(0, 100) + '...' || ''}
+                        fullContent={results.recommendedPosts[1].content || ''}
+                        index={1}
                       />
-                    ))}
-                  </div>
+                    </div>
+                  )}
                 </div>
               )}
 
