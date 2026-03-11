@@ -368,51 +368,68 @@ BAD:
 GOOD:
 "usually writes in short, controlled paragraphs with a calm, observant tone; rarely pushes hard conclusions; tends to sound more reflective than promotional"
 
-OUTPUT FORMAT
+OUTPUT FORMAT - RETURN VALID JSON ONLY
 
-PROFESSIONAL PERSONALITY PROFILE
-- professional identity:
-- public temperament:
-- inferred worldview / framing:
-- self-promotion comfort:
-- opinion style:
-- emotional openness:
-- likely public-image preference:
-- taste / restraint level:
-- context signals:
-- confidence notes:
+You MUST return a JSON object with this exact structure:
 
-WRITING STYLE / COMMUNICATION PROFILE
-- dominant tone:
-- sentence rhythm:
-- paragraph behavior:
-- casing pattern:
-- punctuation pattern:
-- line-break style:
-- emoji / hashtag behavior:
-- hook tendency:
-- storytelling tendency:
-- abstraction vs concreteness:
-- polish vs spontaneity:
-- promotion comfort:
-- CTA behavior:
-- audience-address tendency:
-- recurring writing moves:
-- likely natural post types:
-- likely unnatural post types:
-- likely natural vocabulary:
-- avoid these for voice match:
-- confidence notes:
-
-UNNATURAL FOR THIS PERSON
-- tone mismatches:
-- structure mismatches:
-- vocabulary mismatches:
-- promotional mismatches:
-
-FINAL WRITER GUIDANCE
-Write 8-12 bullet points that a downstream LinkedIn-writing model should follow in order to sound like this person.
-These bullets must be practical and style-relevant, not generic.
+{
+  "signalAnalysis": {
+    "mode": "Writing-First Analysis" or "Profile-Heavy Analysis",
+    "confidence": "High" / "Medium" / "Low",
+    "summary": "1-2 sentence summary of what drove this analysis"
+  },
+  "personalityGraph": {
+    "coreIdentity": {
+      "inference": "2-3 sentence description of who they are professionally",
+      "evidence": ["evidence 1", "evidence 2", "evidence 3"]
+    },
+    "intellectualStyle": {
+      "inference": "How they think and reason",
+      "evidence": ["evidence 1", "evidence 2"]
+    },
+    "communicationStyle": {
+      "inference": "How they communicate publicly",
+      "evidence": ["evidence 1", "evidence 2"]
+    },
+    "ambitionAndRisk": {
+      "inference": "Their relationship with ambition and risk",
+      "evidence": ["evidence 1", "evidence 2"]
+    },
+    "worldviewAndInfluences": {
+      "inference": "What shapes their perspective",
+      "evidence": ["evidence 1", "evidence 2"]
+    }
+  },
+  "knowledgeGraph": {
+    "deepExpertise": {
+      "topics": ["topic1", "topic2", "topic3"],
+      "evidence": "Why these are areas of deep expertise"
+    },
+    "workingKnowledge": {
+      "topics": ["topic1", "topic2"],
+      "evidence": "Why these are areas of working knowledge"
+    }
+  },
+  "writingStyleGraph": {
+    "styleSummary": "3-4 sentence summary of their writing style - THIS IS THE MOST IMPORTANT FIELD",
+    "toneProfile": ["tone1", "tone2", "tone3", "tone4"],
+    "structuralHabits": {
+      "sentenceLength": "Short & punchy" / "Medium" / "Long & flowing",
+      "formatting": ["habit 1", "habit 2", "habit 3"],
+      "capitalization": "sentence_case" / "Title Case" / "lowercase"
+    },
+    "signaturePhrases": ["phrase they often use 1", "phrase 2"],
+    "antiPatterns": {
+      "whatToAvoid": ["avoid 1", "avoid 2", "avoid 3"],
+      "reason": "Why these would break their voice"
+    }
+  },
+  "talCompatibilityLayer": {
+    "howTheyWouldPerceiveTal": "How this person would likely view Tal based on their profile",
+    "resonationAngle": "What aspect of Tal would resonate most with them and why - be specific",
+    "whatToAvoidInPost": "What NOT to do when writing a Tal post in their voice"
+  }
+}
 
 QUALITY BAR
 Before finalizing, check:
@@ -423,9 +440,7 @@ Before finalizing, check:
 5. have I captured formatting behavior, not just tone?
 6. have I identified what would sound wrong for this person?
 
-Return only the structured profile.
-Do not add disclaimers.
-Do not add meta commentary.
+Return ONLY the JSON object. No markdown, no code blocks, no explanations.
 `;
 
 /**
