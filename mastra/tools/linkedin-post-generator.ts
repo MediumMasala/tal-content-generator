@@ -156,18 +156,20 @@ BRANDING & FORMATTING RULES
 - No Hashtags: Strictly no hashtags. Do not include any text starting with '#' in the final output.
 
 FINAL QUALITY CHECK (INTERNAL MONOLOGUE)
-Before producing the final post, you must internally check your own work against this comprehensive 10-point list:
+Before producing the final post, you must internally check your own work against this comprehensive 12-point list:
 
-1. Authenticity: Does this sound exactly like them? Is the capitalization, punctuation, and emoji usage a perfect mirror of their writingStyleGraph?
-2. Creativity: Is this hook creative and genuinely different from a common pattern? Is the discovery narrative fresh and not one of the overused examples?
-3. Thematic Focus: Does the post clearly and compellingly center on the theme of "brutal honesty" being valuable?
-4. Personality Alignment: If the advanced "AI slop" angle was used, is it a perfect and undeniable fit for the user's inferred personality? If not, was it correctly avoided?
-5. Factual Grounding: Is the capability mentioned (the TAL Power) real and based only on the provided context? Has anything been invented or exaggerated?
-6. Context: Does the post contain the mandatory 'AI career agent' descriptor (or a close, natural variant)?
-7. Substance: Does the post focus on a single, sharp human consequence instead of listing features or capabilities?
-8. Vibe: Does the post successfully maintain a subtle, observational tone? Is it completely free of salesy language, hype, or the feeling of a formal endorsement?
-9. Formatting: Is the post well-spaced and easy to read? Are there absolutely no dense paragraphs? Are there absolutely no em dashes and no hashtags?
-10. Subtlety: Is the overall tone more "I noticed something interesting" and less "I am impressed by this product"?
+1. VARIATION COMPLIANCE: Did you follow the specific MOOD, STRUCTURE, and FOCUS AREA instructions? This is mandatory for output diversity.
+2. Authenticity: Does this sound exactly like them? Is the capitalization, punctuation, and emoji usage a perfect mirror of their writingStyleGraph?
+3. Creativity: Is this hook creative and genuinely different from a common pattern? Is the discovery narrative fresh and not one of the overused examples?
+4. Thematic Focus: Does the post clearly and compellingly center on the theme of "brutal honesty" being valuable?
+5. Personality Alignment: If the advanced "AI slop" angle was used, is it a perfect and undeniable fit for the user's inferred personality? If not, was it correctly avoided?
+6. Factual Grounding: Is the capability mentioned (the TAL Power) real and based only on the provided context? Has anything been invented or exaggerated?
+7. Context: Does the post contain the mandatory 'AI career agent' descriptor (or a close, natural variant)?
+8. Substance: Does the post focus on a single, sharp human consequence instead of listing features or capabilities?
+9. Vibe: Does the post successfully maintain a subtle, observational tone? Is it completely free of salesy language, hype, or the feeling of a formal endorsement?
+10. Formatting: Is the post well-spaced and easy to read? Are there absolutely no dense paragraphs? Are there absolutely no em dashes and no hashtags?
+11. Subtlety: Is the overall tone more "I noticed something interesting" and less "I am impressed by this product"?
+12. DIFFERENTIATION: Would this post feel meaningfully different from another generation for the same person? If it feels templated, rewrite it.
 
 OUTPUT FORMAT
 POST:
@@ -672,7 +674,114 @@ const OPENER_VARIANTS = [
   "saw a new tool called Tal"
 ];
 
-function getRandomPowers(username: string): { selectedPowers: string[], openerHint: string } {
+// ============================================
+// VARIATION POOLS - Force different outputs
+// ============================================
+
+// Different emotional tones for the post
+const POST_MOODS = [
+  {
+    name: "Curious Observer",
+    instruction: "Write as someone who found something interesting and is sharing an observation. Tone: curious, slightly detached, analytical. NOT impressed, just... noticing something.",
+    hookStyle: "Start with an observation or a question that arose from the experience."
+  },
+  {
+    name: "Reluctant Skeptic",
+    instruction: "Write as someone who was skeptical but had their skepticism addressed. Tone: measured, honest, slightly surprised. The surprise should be understated, not dramatic.",
+    hookStyle: "Start with your initial skepticism or low expectations."
+  },
+  {
+    name: "Pragmatic Professional",
+    instruction: "Write as someone focused purely on utility. Tone: practical, no-nonsense, efficiency-focused. Zero emotional language. Just: this does X, which is useful.",
+    hookStyle: "Start with a problem or friction point in your work life."
+  },
+  {
+    name: "Insider Sharing",
+    instruction: "Write as someone sharing something from their professional circle. Tone: casual, peer-to-peer, like you're telling a colleague about something you saw.",
+    hookStyle: "Start by mentioning the source (friend, colleague, someone in the space)."
+  },
+  {
+    name: "Thoughtful Contrarian",
+    instruction: "Write as someone who notices what's different about this compared to the norm. Tone: reflective, slightly contrarian, noticing a pattern break.",
+    hookStyle: "Start by noting what's typically broken or annoying about similar tools."
+  },
+  {
+    name: "Minimalist Sharer",
+    instruction: "Write the shortest possible version. Tone: extremely concise, almost curt. Get to the point immediately. No preamble, no buildup.",
+    hookStyle: "Start directly with the key insight or observation. No setup."
+  }
+];
+
+// Different structural templates
+const STRUCTURE_TEMPLATES = [
+  {
+    name: "Observation → Detail → Implication",
+    structure: "1. State what you noticed (1 sentence). 2. Give one specific detail (1-2 sentences). 3. What it means or why it matters (1 sentence)."
+  },
+  {
+    name: "Context → Discovery → Reflection",
+    structure: "1. Brief context of how you encountered it (1 sentence). 2. What you discovered (1-2 sentences). 3. A brief reflection or thought (1 sentence)."
+  },
+  {
+    name: "Problem → Experience → Outcome",
+    structure: "1. A problem or friction you face (1 sentence). 2. How this addressed it (1-2 sentences). 3. The result or your takeaway (1 sentence)."
+  },
+  {
+    name: "Question → Answer → Insight",
+    structure: "1. Open with a question (rhetorical or genuine). 2. Answer it with what you found (1-2 sentences). 3. A broader insight (1 sentence)."
+  },
+  {
+    name: "Contrast → Specific → Conclusion",
+    structure: "1. Contrast with what's typical (1 sentence). 2. One specific thing that was different (1-2 sentences). 3. Brief conclusion (1 sentence)."
+  },
+  {
+    name: "Direct Statement → Evidence → Close",
+    structure: "1. Make a direct statement/claim (1 sentence). 2. Support it with one specific example (1-2 sentences). 3. Simple close (1 sentence)."
+  }
+];
+
+// Different focus areas - what aspect of the experience to highlight
+const FOCUS_AREAS = [
+  {
+    name: "The Conversation Quality",
+    instruction: "Focus on HOW it felt to interact - the conversational quality, the tone, the back-and-forth. Not features, but the experience of talking to it."
+  },
+  {
+    name: "The Honesty Factor",
+    instruction: "Focus specifically on the directness/honesty of the feedback. Highlight a moment where it said something others wouldn't."
+  },
+  {
+    name: "The Specificity",
+    instruction: "Focus on how specific and tailored the response was. Not generic advice, but something that felt like it understood YOUR situation."
+  },
+  {
+    name: "The Time Saved",
+    instruction: "Focus on efficiency - how it cut through noise, saved time, got to the point faster than alternatives."
+  },
+  {
+    name: "The Unexpected Insight",
+    instruction: "Focus on something surprising it revealed - an insight you hadn't considered, a reframe you needed."
+  },
+  {
+    name: "The Human Feel",
+    instruction: "Focus on how it felt less robotic, more like talking to a knowledgeable person. Contrast with typical AI interactions."
+  }
+];
+
+interface VariationSeed {
+  mood: typeof POST_MOODS[0];
+  structure: typeof STRUCTURE_TEMPLATES[0];
+  focus: typeof FOCUS_AREAS[0];
+  selectedPowers: string[];
+  openerHint: string;
+}
+
+function getVariationSeed(username: string): VariationSeed {
+  // Shuffle and pick one from each pool
+  const mood = POST_MOODS[Math.floor(Math.random() * POST_MOODS.length)];
+  const structure = STRUCTURE_TEMPLATES[Math.floor(Math.random() * STRUCTURE_TEMPLATES.length)];
+  const focus = FOCUS_AREAS[Math.floor(Math.random() * FOCUS_AREAS.length)];
+
   // Shuffle all powers and pick 4-6 random ones
   const shuffled = [...ALL_POWERS].sort(() => Math.random() - 0.5);
   const count = 4 + Math.floor(Math.random() * 3); // 4-6 powers
@@ -682,9 +791,14 @@ function getRandomPowers(username: string): { selectedPowers: string[], openerHi
   const openerIndex = Math.floor(Math.random() * OPENER_VARIANTS.length);
   const openerHint = OPENER_VARIANTS[openerIndex];
 
-  console.log(`[linkedin-post-generator] Random ${count} powers for ${username}, opener: "${openerHint}"`);
+  console.log(`[linkedin-post-generator] Variation for ${username}:`);
+  console.log(`  Mood: ${mood.name}`);
+  console.log(`  Structure: ${structure.name}`);
+  console.log(`  Focus: ${focus.name}`);
+  console.log(`  Powers: ${count} selected`);
+  console.log(`  Opener: "${openerHint}"`);
 
-  return { selectedPowers, openerHint };
+  return { mood, structure, focus, selectedPowers, openerHint };
 }
 
 // ============================================
@@ -766,8 +880,28 @@ ${personality.personaPrompt}`);
 - Preferred tone: ${tcl.preferredTone || "Unknown"}`);
   }
 
-  // ---- SECTION 2: TAL CONTEXT (with random power rotation) ----
-  const { selectedPowers, openerHint } = getRandomPowers(personality.username);
+  // ---- SECTION 2: VARIATION SEED (forces different outputs) ----
+  const variationSeed = getVariationSeed(personality.username);
+  const { mood, structure, focus, selectedPowers, openerHint } = variationSeed;
+
+  sections.push(`# 🎲 VARIATION INSTRUCTIONS (MANDATORY)
+
+You MUST follow these randomly-selected variation parameters to ensure this post is unique:
+
+## POST MOOD: ${mood.name}
+${mood.instruction}
+Hook Style: ${mood.hookStyle}
+
+## STRUCTURE TEMPLATE: ${structure.name}
+${structure.structure}
+
+## FOCUS AREA: ${focus.name}
+${focus.instruction}
+
+These are NOT suggestions. You MUST follow the mood, structure, and focus area above.
+The goal is to ensure every generated post feels meaningfully different.`);
+
+  // ---- SECTION 3: TAL CONTEXT (with random power rotation) ----
 
   sections.push(`\n# TAL - WHAT THIS PERSON EXPLORED`);
 
