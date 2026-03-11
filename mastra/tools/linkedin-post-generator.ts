@@ -508,55 +508,46 @@ function selectChatsForPersonality(allChats: any[], personality: any, count: num
 // POWER POOLS FOR ROTATION
 // ============================================
 
-const POWER_POOLS = [
-  {
-    name: "Job Search",
-    powers: [
-      '"send me 1 job" → Tal scans 50k roles/day to find THE one, not 100 random ones. Filter energy, not spam.',
-      '"am i underpaid?" → brutal market verdict: "bro. you are being criminally underpaid. you\'re a ferrari being used as a city taxi."',
-      '"fix my resume" → brutal honest feedback, no rewriting it for them, no fake politeness'
-    ]
-  },
-  {
-    name: "Work & Daily",
-    powers: [
-      '"remind me to..." → sets reminders, bugs you when it\'s time, actually follows up',
-      '"help me with something at work" → drafts emails, slack messages, difficult conversation scripts',
-      '"help me take a day off" → crafts leave requests that actually work'
-    ]
-  },
-  {
-    name: "Fun & Play",
-    powers: [
-      '"roast my friend" → generates a savage roast card based on their company/role',
-      '"predict my future" → personalized career prediction based on patterns',
-      '"surprise me" → wildcard: spicy takes, roasts, unsolicited advice'
-    ]
-  },
-  {
-    name: "Intel & Research",
-    powers: [
-      '"decode this job post" → translates corporate speak, spots red flags, exposes title inflation',
-      '"what\'s the culture like at [company]" → researches glassdoor, blind, layoffs, gives real talk',
-      '"how much does this role earn" → salary lookup with real numbers, not "competitive"'
-    ]
-  },
-  {
-    name: "Honesty Powers",
-    powers: [
-      'BLUNT ROLE HONESTY: "you\'re not building the next chatgpt, you\'re just the guy who cleans the data"',
-      'TITLE DECONSTRUCTION: exposes inflated titles, "ignore the senior title, they\'ll lowball a fresher"',
-      'CALLS OUT LATERAL MOVES: "this isn\'t a step up, it\'s a sideways move with a shinier logo"'
-    ]
-  },
-  {
-    name: "Action Powers",
-    powers: [
-      'SALARY REALITY: gives real salary estimates when companies hide them, "expect 90-1.2cr easy"',
-      'ENCOURAGES ACTION: "apply anyway, the worst they can do is ghost you"',
-      'STRATEGIC REFRAMING: "they\'re not hiring you for what you know, they\'re hiring you for your ability to figure things out"'
-    ]
-  }
+// Individual powers - will be randomly sampled (not grouped)
+const ALL_POWERS = [
+  // Job Search
+  'Finds one specific job match instead of dumping 100 irrelevant listings',
+  'Gives honest salary reality checks based on actual market data',
+  'Reviews resumes with brutal honesty - no sugar coating',
+  'Tells you if a role is actually worth your time',
+  'Filters out jobs that are lateral moves dressed as promotions',
+
+  // Work & Daily
+  'Sets reminders and actually follows up on them',
+  'Helps draft difficult work conversations',
+  'Crafts leave requests that work',
+  'Helps with awkward workplace messages',
+
+  // Fun & Playful
+  'Roasts your career choices (surprisingly accurate)',
+  'Predicts career trajectories based on patterns',
+  'Gives unsolicited but useful career advice',
+  'Generates roast cards based on company/role',
+
+  // Intel & Research
+  'Decodes corporate job post jargon',
+  'Spots red flags in job descriptions',
+  'Researches company culture from multiple sources',
+  'Gives real salary numbers instead of "competitive"',
+  'Exposes inflated job titles',
+
+  // Honesty
+  'Calls out when a role is overhyped',
+  'Points out if you are being underpaid',
+  'Tells you when a move is actually lateral',
+  'Cuts through recruiter speak',
+  'Gives the uncomfortable truths about your market value',
+
+  // Action
+  'Encourages applying even when you feel underqualified',
+  'Reframes your experience in useful ways',
+  'Pushes you to negotiate instead of accepting first offers',
+  'Reminds you that rejection is just information'
 ];
 
 const OPENER_VARIANTS = [
@@ -574,18 +565,19 @@ const OPENER_VARIANTS = [
   "spent some time with Tal"
 ];
 
-function getRandomPowers(username: string): { pools: typeof POWER_POOLS[0][], openerHint: string } {
-  // Truly random selection each time for varied content
-  const shuffled = [...POWER_POOLS].sort(() => Math.random() - 0.5);
-  const selectedPools = shuffled.slice(0, 2);
+function getRandomPowers(username: string): { selectedPowers: string[], openerHint: string } {
+  // Shuffle all powers and pick 4-6 random ones
+  const shuffled = [...ALL_POWERS].sort(() => Math.random() - 0.5);
+  const count = 4 + Math.floor(Math.random() * 3); // 4-6 powers
+  const selectedPowers = shuffled.slice(0, count);
 
   // Random opener each time
   const openerIndex = Math.floor(Math.random() * OPENER_VARIANTS.length);
   const openerHint = OPENER_VARIANTS[openerIndex];
 
-  console.log(`[linkedin-post-generator] Random powers for ${username}: ${selectedPools.map(p => p.name).join(', ')}, opener: "${openerHint}"`);
+  console.log(`[linkedin-post-generator] Random ${count} powers for ${username}, opener: "${openerHint}"`);
 
-  return { pools: selectedPools, openerHint };
+  return { selectedPowers, openerHint };
 }
 
 // ============================================
@@ -668,7 +660,7 @@ ${personality.personaPrompt}`);
   }
 
   // ---- SECTION 2: TAL CONTEXT (with random power rotation) ----
-  const { pools: selectedPools, openerHint } = getRandomPowers(personality.username);
+  const { selectedPowers, openerHint } = getRandomPowers(personality.username);
 
   sections.push(`\n# TAL - WHAT THIS PERSON EXPLORED`);
 
@@ -687,21 +679,20 @@ ${truncated}`);
 ${tal.lore}`);
   }
 
-  // Build powers section with only the randomly selected pools
-  const powersSection = selectedPools.map(pool => {
-    return `### ${pool.name}\n${pool.powers.map(p => `- ${p}`).join('\n')}`;
-  }).join('\n\n');
+  // Build powers section with randomly selected individual powers
+  const powersSection = selectedPowers.map(p => `- ${p}`).join('\n');
 
   sections.push(`## TAL POWERS FOR THIS POST (USE ONLY THESE)
 
-🎯 THIS PERSON SHOULD FOCUS ON THESE SPECIFIC POWERS:
+These are the specific capabilities this person might have noticed:
 
 ${powersSection}
 
 IMPORTANT:
-- Use ONLY the powers listed above for this post
-- Pick ONE or TWO from the list, not more
-- Translate them into human consequences, not feature descriptions
+- Pick ONE capability from this list to highlight
+- Describe what it DOES for the person, not what it IS
+- Do NOT copy these descriptions verbatim - rephrase naturally
+- Do NOT invent capabilities not listed here
 
 ## OPENER SUGGESTION
 Consider starting with or weaving in: "${openerHint}"
