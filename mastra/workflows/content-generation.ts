@@ -314,7 +314,8 @@ export async function executeContentGeneration(
     angleUsed: generationResult.angleUsed,
     personalizationNotes: generationResult.personalizationNotes,
     confidenceScore: generationResult.confidenceScore,
-    writingStyleAvailable: personalityResult.writingStyle?.available ?? false,
+    writingStyleAvailable: personalityResult.writingStyle?.available ??
+      !!(fullPersonalityData?.analysis?.writingGraph || fullPersonalityData?.analysis?.autoWritingGraph),
     postCount,
     originalPostCount: extractionResult.originalPostCount,
     averageWordCount: extractionResult.averageWordCount,
@@ -329,16 +330,30 @@ export async function executeContentGeneration(
       technologies: [fullPersonalityData.analysis.knowledgeGraph.technicalLens].filter(Boolean),
       topics: extractTopics(fullPersonalityData.analysis.knowledgeGraph),
     } : null,
-    writingStyle: fullPersonalityData?.analysis?.autoWritingGraph ? {
+    writingStyle: fullPersonalityData?.analysis?.writingGraph ? {
+      voiceSummary: fullPersonalityData.analysis.writingGraph.dominantTone || null,
+      toneAttributes: [
+        fullPersonalityData.analysis.writingGraph.directnessVsSoftness,
+        fullPersonalityData.analysis.writingGraph.polishVsSpontaneity,
+        fullPersonalityData.analysis.writingGraph.narrativeVsAnalytical,
+      ].filter(Boolean),
+      formattingPatterns: {
+        usesEmojis: fullPersonalityData.analysis.writingGraph.emojiHashtagBehavior?.includes('emoji') ?? false,
+        usesHashtags: fullPersonalityData.analysis.writingGraph.emojiHashtagBehavior?.includes('hashtag') ?? false,
+        usesLineBreaks: fullPersonalityData.analysis.writingGraph.lineBreakStyle?.includes('Frequent') ?? true,
+      },
+    } : (fullPersonalityData?.analysis?.autoWritingGraph ? {
       voiceSummary: fullPersonalityData.analysis.autoWritingGraph.writingAlignmentGuidance || null,
       toneAttributes: fullPersonalityData.analysis.autoWritingGraph.toneProfile || [],
       formattingPatterns: fullPersonalityData.analysis.autoWritingGraph.lexicalFormattingHabits || null,
-    } : null,
-    // Raw analysis for logging (NEW schema)
+    } : null),
+    // Raw analysis for logging (supports both old and new schemas)
     rawAnalysis: fullPersonalityData?.analysis ? {
       signalMode: fullPersonalityData.analysis.signalAnalysis?.mode || null,
-      personalityBlurb: fullPersonalityData.analysis.personalityGraph?.dominantPersonalityBlurb || null,
-      writingStyleSummary: fullPersonalityData.analysis.writingStyleGraph?.styleSummary || null,
+      personalityBlurb: fullPersonalityData.analysis.personalityGraph?.inferredPublicPersonaSummary ||
+        fullPersonalityData.analysis.personalityGraph?.dominantPersonalityBlurb || null,
+      writingStyleSummary: fullPersonalityData.analysis.writingGraph?.dominantTone ||
+        fullPersonalityData.analysis.writingStyleGraph?.styleSummary || null,
       talResonationAngle: fullPersonalityData.analysis.talCompatibilityLayer?.resonationAngle || null,
     } : null,
     storagePaths: {
