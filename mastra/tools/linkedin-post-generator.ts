@@ -721,7 +721,7 @@ export async function generateLinkedInPost(
   const model = genAI.getGenerativeModel({
     model: process.env.GEMINI_MODEL || "gemini-2.5-pro",
     generationConfig: {
-      temperature: 0.8,
+      temperature: 0.95,  // Increased for more variety
     },
   });
 
@@ -952,15 +952,16 @@ function extractChatThemes(chat: any): ChatWithThemes {
 // PERSONALITY TO THEME MAPPING
 // ============================================
 
+// Rebalanced to reduce brutal-honesty dominance and add variety
 const PERSONA_THEME_MAP: Record<string, string[]> = {
-  "founder": ["startup-culture", "career-growth", "brutal-honesty", "focused-search", "title-deconstruction"],
-  "engineer": ["salary-negotiation", "big-company", "brutal-honesty", "job-frustration", "title-deconstruction"],
-  "job-seeker": ["salary-negotiation", "job-switching", "encouragement", "resume-help", "interview-prep"],
-  "recruiter": ["salary-negotiation", "experience-level", "title-deconstruction", "focused-search"],
-  "senior": ["career-growth", "salary-negotiation", "brutal-honesty", "big-company"],
-  "growth": ["startup-culture", "career-growth", "encouragement", "job-switching"],
-  "operator": ["brutal-honesty", "focused-search", "job-frustration", "title-deconstruction"],
-  "default": ["brutal-honesty", "salary-negotiation", "career-growth", "focused-search"]
+  "founder": ["startup-culture", "career-growth", "focused-search", "title-deconstruction", "fun-playful"],
+  "engineer": ["salary-negotiation", "big-company", "job-frustration", "title-deconstruction", "interview-prep"],
+  "job-seeker": ["encouragement", "job-switching", "resume-help", "interview-prep", "salary-negotiation"],
+  "recruiter": ["experience-level", "title-deconstruction", "focused-search", "location-preferences"],
+  "senior": ["career-growth", "salary-negotiation", "big-company", "focused-search"],
+  "growth": ["startup-culture", "career-growth", "encouragement", "job-switching", "fun-playful"],
+  "operator": ["focused-search", "job-frustration", "title-deconstruction", "career-growth"],
+  "default": ["salary-negotiation", "career-growth", "focused-search", "encouragement", "fun-playful"]
 };
 
 function detectPersonaType(personality: any): string {
@@ -1018,16 +1019,13 @@ function selectChatsForPersonality(allChats: any[], personality: any, count: num
   console.log(`[linkedin-post-generator] Persona type: ${personaType}`);
   console.log(`[linkedin-post-generator] Selection strategy: ${themedCount} themed + ${randomCount} random = ${count} total`);
 
-  // Score chats by theme overlap
+  // Score chats by theme overlap (no brutal-honesty bonus - removed to increase variety)
   const scored = chatsWithThemes.map(cwt => {
     let score = 0;
     for (const theme of preferredThemes) {
       if (cwt.themes.includes(theme)) {
         score += 2;
       }
-    }
-    if (cwt.themes.includes("brutal-honesty")) {
-      score += 1;
     }
     // Add random jitter to break ties and add variety
     score += Math.random() * 0.5;
@@ -1071,50 +1069,10 @@ function selectChatsForPersonality(allChats: any[], personality: any, count: num
 }
 
 // ============================================
-// POWER POOLS FOR ROTATION
+// POWERS REMOVED - Let model discover from chats
 // ============================================
-
-// Individual powers - will be randomly sampled (not grouped)
-const ALL_POWERS = [
-  // Job Search
-  'Finds one specific job match instead of dumping 100 irrelevant listings',
-  'Gives honest salary reality checks based on actual market data',
-  'Reviews resumes with brutal honesty - no sugar coating',
-  'Tells you if a role is actually worth your time',
-  'Filters out jobs that are lateral moves dressed as promotions',
-
-  // Work & Daily
-  'Sets reminders and actually follows up on them',
-  'Helps draft difficult work conversations',
-  'Crafts leave requests that work',
-  'Helps with awkward workplace messages',
-
-  // Fun & Playful
-  'Roasts your career choices (surprisingly accurate)',
-  'Predicts career trajectories based on patterns',
-  'Gives unsolicited but useful career advice',
-  'Generates roast cards based on company/role',
-
-  // Intel & Research
-  'Decodes corporate job post jargon',
-  'Spots red flags in job descriptions',
-  'Researches company culture from multiple sources',
-  'Gives real salary numbers instead of "competitive"',
-  'Exposes inflated job titles',
-
-  // Honesty
-  'Calls out when a role is overhyped',
-  'Points out if you are being underpaid',
-  'Tells you when a move is actually lateral',
-  'Cuts through recruiter speak',
-  'Gives the uncomfortable truths about your market value',
-
-  // Action
-  'Encourages applying even when you feel underqualified',
-  'Reframes your experience in useful ways',
-  'Pushes you to negotiate instead of accepting first offers',
-  'Reminds you that rejection is just information'
-];
+// Powers list was removed to allow more organic discovery from actual Tal conversations.
+// The model now picks what to highlight based on the chats themselves.
 
 const OPENER_VARIANTS = [
   "a friend showed me this",
@@ -1229,7 +1187,6 @@ interface VariationSeed {
   mood: typeof POST_MOODS[0];
   structure: typeof STRUCTURE_TEMPLATES[0];
   focus: typeof FOCUS_AREAS[0];
-  selectedPowers: string[];
   openerHint: string;
 }
 
@@ -1239,11 +1196,6 @@ function getVariationSeed(username: string): VariationSeed {
   const structure = STRUCTURE_TEMPLATES[Math.floor(Math.random() * STRUCTURE_TEMPLATES.length)];
   const focus = FOCUS_AREAS[Math.floor(Math.random() * FOCUS_AREAS.length)];
 
-  // Shuffle all powers and pick 4-6 random ones
-  const shuffled = [...ALL_POWERS].sort(() => Math.random() - 0.5);
-  const count = 4 + Math.floor(Math.random() * 3); // 4-6 powers
-  const selectedPowers = shuffled.slice(0, count);
-
   // Random opener each time
   const openerIndex = Math.floor(Math.random() * OPENER_VARIANTS.length);
   const openerHint = OPENER_VARIANTS[openerIndex];
@@ -1252,10 +1204,9 @@ function getVariationSeed(username: string): VariationSeed {
   console.log(`  Mood: ${mood.name}`);
   console.log(`  Structure: ${structure.name}`);
   console.log(`  Focus: ${focus.name}`);
-  console.log(`  Powers: ${count} selected`);
   console.log(`  Opener: "${openerHint}"`);
 
-  return { mood, structure, focus, selectedPowers, openerHint };
+  return { mood, structure, focus, openerHint };
 }
 
 // ============================================
@@ -1458,7 +1409,7 @@ ${personality.personaPrompt}`);
 
   // ---- SECTION 2: VARIATION SEED (forces different outputs) ----
   const variationSeed = getVariationSeed(personality.username);
-  const { mood, structure, focus, selectedPowers, openerHint } = variationSeed;
+  const { mood, structure, focus, openerHint } = variationSeed;
 
   sections.push(`# 🎲 VARIATION INSTRUCTIONS (MANDATORY)
 
@@ -1496,20 +1447,26 @@ ${truncated}`);
 ${tal.lore}`);
   }
 
-  // Build powers section with randomly selected individual powers
-  const powersSection = selectedPowers.map(p => `- ${p}`).join('\n');
+  // Instructions to discover from chats organically
+  sections.push(`## WHAT TO HIGHLIGHT (DISCOVER FROM CHATS)
 
-  sections.push(`## TAL POWERS FOR THIS POST (USE ONLY THESE)
+Read the TAL CONVERSATIONS below carefully. Pick ONE specific moment, exchange, or capability that would resonate with THIS person based on their personality and professional context.
 
-These are the specific capabilities this person might have noticed:
+DO NOT default to "brutal honesty" or "directness" as the angle unless:
+1. The person's writing graph shows they value bluntness
+2. You have NOT used this angle in similar posts
 
-${powersSection}
+VARIETY IS MANDATORY. Consider these diverse angles:
+- Speed/efficiency of getting to one answer
+- The conversational/human feel
+- Specific market intelligence (salary data, company insights)
+- Encouragement when someone feels stuck
+- The humor/roasts (for people who appreciate wit)
+- Practical daily work help (leave requests, awkward messages)
+- Career trajectory predictions
+- Resume/profile feedback
 
-IMPORTANT:
-- Pick ONE capability from this list to highlight
-- Describe what it DOES for the person, not what it IS
-- Do NOT copy these descriptions verbatim - rephrase naturally
-- Do NOT invent capabilities not listed here
+Pick the angle that fits THIS person's personality, not the most dramatic one.
 
 ## OPENER SUGGESTION
 Consider starting with or weaving in: "${openerHint}"
