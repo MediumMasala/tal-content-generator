@@ -1190,6 +1190,14 @@ interface VariationSeed {
   openerHint: string;
 }
 
+// Helper to safely join arrays or return strings (handles old vs new schema)
+function safeJoin(value: any, separator: string = ", "): string {
+  if (!value) return "";
+  if (Array.isArray(value)) return value.join(separator);
+  if (typeof value === "string") return value;
+  return String(value);
+}
+
 function getVariationSeed(username: string): VariationSeed {
   // Shuffle and pick one from each pool
   const mood = POST_MOODS[Math.floor(Math.random() * POST_MOODS.length)];
@@ -1245,7 +1253,7 @@ function buildUserPrompt(
     sections.push(`## Personality
 
 CORE IDENTITY: ${pg.coreIdentity?.inference || "Unknown"}
-Evidence: ${(pg.coreIdentity?.evidence || []).join("; ")}
+Evidence: ${safeJoin(pg.coreIdentity?.evidence, "; ")}
 
 INTELLECTUAL STYLE: ${pg.intellectualStyle?.inference || "Unknown"}
 
@@ -1289,10 +1297,10 @@ BEHAVIORS:
 - Conclusion Style: ${wg.conclusionStyle || "Unknown"}
 - Certainty vs Tentativeness: ${wg.certaintyVsTentativeness || "Unknown"}
 
-RECURRING MOVES: ${(wg.recurringWritingMoves || []).join("; ")}
-STRUCTURAL PATTERNS: ${(wg.recurringStructuralPatterns || []).join("; ")}
-NATURAL POST TYPES: ${(wg.naturalPostTypes || []).join(", ")}
-UNNATURAL POST TYPES: ${(wg.unnaturalPostTypes || []).join(", ")}`);
+RECURRING MOVES: ${safeJoin(wg.recurringWritingMoves, "; ")}
+STRUCTURAL PATTERNS: ${safeJoin(wg.recurringStructuralPatterns, "; ")}
+NATURAL POST TYPES: ${safeJoin(wg.naturalPostTypes, ", ")}
+UNNATURAL POST TYPES: ${safeJoin(wg.unnaturalPostTypes, ", ")}`);
   }
 
   // Handle newest schema: lexicalGraph
@@ -1301,23 +1309,23 @@ UNNATURAL POST TYPES: ${(wg.unnaturalPostTypes || []).join(", ")}`);
 
     sections.push(`## Lexical Style (VOCABULARY - CRITICAL)
 
-REPEATED WORDS: ${(lg.repeatedWords || []).join(", ")}
-REPEATED PHRASES: ${(lg.repeatedPhrases || []).join("; ")}
-FAVORED TRANSITIONS: ${(lg.favoredTransitions || []).join(", ")}
-FAVORED OPENERS: ${(lg.favoredSentenceOpeners || []).join("; ")}
-FAVORED CLOSERS: ${(lg.favoredSentenceClosers || []).join("; ")}
-FRAMING PATTERNS: ${(lg.recurringFramingPatterns || []).join("; ")}
+REPEATED WORDS: ${safeJoin(lg.repeatedWords, ", ")}
+REPEATED PHRASES: ${safeJoin(lg.repeatedPhrases, "; ")}
+FAVORED TRANSITIONS: ${safeJoin(lg.favoredTransitions, ", ")}
+FAVORED OPENERS: ${safeJoin(lg.favoredSentenceOpeners, "; ")}
+FAVORED CLOSERS: ${safeJoin(lg.favoredSentenceClosers, "; ")}
+FRAMING PATTERNS: ${safeJoin(lg.recurringFramingPatterns, "; ")}
 
 VOCABULARY STYLE:
 - Plain vs Polished: ${lg.plainVsPolishedVocabulary || "Unknown"}
 - Abstract vs Concrete: ${lg.abstractVsConcreteVocabulary || "Unknown"}
 - Domain Language: ${lg.domainLanguageTendencies || "Unknown"}
 
-SIGNATURE HABITS: ${(lg.signatureLexicalHabits || []).join("; ")}
+SIGNATURE HABITS: ${safeJoin(lg.signatureLexicalHabits, "; ")}
 
-✅ VOCABULARY TO LEAN INTO: ${(lg.preferredVocabularyToLeanInto || []).join(", ")}
-✅ PHRASES WORTH ECHOING: ${(lg.naturalPhrasesWorthEchoingLightly || []).join("; ")}
-❌ VOCABULARY TO AVOID: ${(lg.vocabularyToAvoidForVoiceMatch || []).join(", ")}`);
+✅ VOCABULARY TO LEAN INTO: ${safeJoin(lg.preferredVocabularyToLeanInto, ", ")}
+✅ PHRASES WORTH ECHOING: ${safeJoin(lg.naturalPhrasesWorthEchoingLightly, "; ")}
+❌ VOCABULARY TO AVOID: ${safeJoin(lg.vocabularyToAvoidForVoiceMatch, ", ")}`);
   }
 
   // Handle voice landmines
@@ -1326,13 +1334,13 @@ SIGNATURE HABITS: ${(lg.signatureLexicalHabits || []).join("; ")}
 
     sections.push(`## Voice Landmines (NEVER DO THESE)
 
-TONE MISMATCHES: ${(vl.toneMismatches || []).join("; ")}
-HOOK MISMATCHES: ${(vl.hookMismatches || []).join("; ")}
-STRUCTURE MISMATCHES: ${(vl.structureMismatches || []).join("; ")}
-VOCABULARY MISMATCHES: ${(vl.vocabularyMismatches || []).join("; ")}
-PROMOTIONAL MISMATCHES: ${(vl.promotionalMismatches || []).join("; ")}
-EMOTIONAL MISMATCHES: ${(vl.emotionalMismatches || []).join("; ")}
-LINKEDIN CLICHE MISMATCHES: ${(vl.linkedInClicheMismatches || []).join("; ")}`);
+TONE MISMATCHES: ${safeJoin(vl.toneMismatches, "; ")}
+HOOK MISMATCHES: ${safeJoin(vl.hookMismatches, "; ")}
+STRUCTURE MISMATCHES: ${safeJoin(vl.structureMismatches, "; ")}
+VOCABULARY MISMATCHES: ${safeJoin(vl.vocabularyMismatches, "; ")}
+PROMOTIONAL MISMATCHES: ${safeJoin(vl.promotionalMismatches, "; ")}
+EMOTIONAL MISMATCHES: ${safeJoin(vl.emotionalMismatches, "; ")}
+LINKEDIN CLICHE MISMATCHES: ${safeJoin(vl.linkedInClicheMismatches, "; ")}`);
   }
 
   // Handle final writer guidance
@@ -1351,16 +1359,16 @@ ${personality.finalWriterGuidance.map((g: string, i: number) => `${i + 1}. ${g}`
 
 STYLE SUMMARY: ${wsg.styleSummary || "Unknown"}
 
-TONE: ${(wsg.toneProfile || []).join(", ")}
+TONE: ${safeJoin(wsg.toneProfile, ", ")}
 
 STRUCTURAL HABITS:
 - Sentence Length: ${habits.sentenceLength || "Unknown"}
-- Formatting: ${(habits.formatting || []).join("; ")}
+- Formatting: ${safeJoin(habits.formatting, "; ")}
 - Capitalization: ${habits.capitalization || "sentence_case"}
 
-SIGNATURE PHRASES: ${(wsg.signaturePhrases || []).join("; ")}
+SIGNATURE PHRASES: ${safeJoin(wsg.signaturePhrases, "; ")}
 
-ANTI-PATTERNS (NEVER DO): ${(wsg.antiPatterns?.whatToAvoid || []).join("; ")}
+ANTI-PATTERNS (NEVER DO): ${safeJoin(wsg.antiPatterns?.whatToAvoid, "; ")}
 Reason: ${wsg.antiPatterns?.reason || ""}`);
   }
   // Fallback to oldest schema: autoWritingGraph
@@ -1371,7 +1379,7 @@ Reason: ${wsg.antiPatterns?.reason || ""}`);
 
     sections.push(`## Writing Style (CRITICAL - MATCH EXACTLY)
 
-TONE: ${(awg.toneProfile || []).join(", ")}
+TONE: ${safeJoin(awg.toneProfile, ", ")}
 
 CHARACTERISTICS:
 - Sentence Length: ${wc.sentenceLength || "Unknown"}
@@ -1379,9 +1387,9 @@ CHARACTERISTICS:
 - Hook Style: ${wc.hookStyle || "Unknown"}
 - CTA Behavior: ${wc.ctaBehavior || "Unknown"}
 
-RHETORICAL DEVICES: ${(awg.rhetoricalDevices || []).join(", ")}
+RHETORICAL DEVICES: ${safeJoin(awg.rhetoricalDevices, ", ")}
 
-SIGNATURE MOVES: ${(awg.signatureWritingMoves || []).join("; ")}
+SIGNATURE MOVES: ${safeJoin(awg.signatureWritingMoves, "; ")}
 
 FORMATTING:
 - Short Lines: ${habits.shortLines ? "Yes" : "No"}
@@ -1390,7 +1398,7 @@ FORMATTING:
 
 IMITATION GUIDANCE: ${awg.writingImitationGuidance || "Match their natural voice"}
 
-ANTI-PATTERNS (NEVER DO): ${(awg.antiPatterns || []).join("; ")}`);
+ANTI-PATTERNS (NEVER DO): ${safeJoin(awg.antiPatterns, "; ")}`);
   }
 
   if (personality.personaPrompt) {
