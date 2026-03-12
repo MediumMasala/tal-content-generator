@@ -13,7 +13,9 @@ export const LinkedInPostGeneratorInputSchema = z.object({
     profileSnapshot: z.any().optional(),
     personalityGraph: z.any().optional(),
     knowledgeGraph: z.any().optional(),
+    // Support both old schema (autoWritingGraph) and new schema (writingStyleGraph)
     autoWritingGraph: z.any().optional(),
+    writingStyleGraph: z.any().optional(),
     personaPrompt: z.string().optional(),
     talCompatibilityLayer: z.any().optional(),
   }),
@@ -855,6 +857,7 @@ function buildUserPrompt(
   // ---- SECTION 1: PERSONALITY ----
   sections.push(`# PERSON'S PERSONALITY & WRITING STYLE`);
 
+  // Handle both old schema (profileSnapshot) and new schema (personalityGraph.coreIdentity)
   if (personality.profileSnapshot) {
     const ps = personality.profileSnapshot;
     sections.push(`## Profile
@@ -864,19 +867,51 @@ function buildUserPrompt(
 - Seniority: ${ps.seniority || "Unknown"}
 - Domain: ${ps.domain || "Unknown"}
 - Summary: ${ps.summary || ""}`);
+  } else {
+    sections.push(`## Profile
+- Name/Username: ${personality.username}`);
   }
 
+  // Handle new schema: personalityGraph with nested objects
   if (personality.personalityGraph) {
     const pg = personality.personalityGraph;
     sections.push(`## Personality
-${pg.dominantPersonalitySummary || ""}
 
-- Core Identity: ${pg.coreIdentity?.inference || "Unknown"}
-- Communication Style: ${pg.communicationStyle?.inference || "Unknown"}
-- Public Brand Intent: ${pg.publicBrandIntent?.inference || "Unknown"}`);
+CORE IDENTITY: ${pg.coreIdentity?.inference || "Unknown"}
+Evidence: ${(pg.coreIdentity?.evidence || []).join("; ")}
+
+INTELLECTUAL STYLE: ${pg.intellectualStyle?.inference || "Unknown"}
+
+COMMUNICATION STYLE: ${pg.communicationStyle?.inference || "Unknown"}
+
+AMBITION & RISK: ${pg.ambitionAndRisk?.inference || "Unknown"}
+
+WORLDVIEW: ${pg.worldviewAndInfluences?.inference || "Unknown"}`);
   }
 
-  if (personality.autoWritingGraph) {
+  // Handle new schema: writingStyleGraph
+  if (personality.writingStyleGraph) {
+    const wsg = personality.writingStyleGraph;
+    const habits = wsg.structuralHabits || {};
+
+    sections.push(`## Writing Style (CRITICAL - MATCH EXACTLY)
+
+STYLE SUMMARY: ${wsg.styleSummary || "Unknown"}
+
+TONE: ${(wsg.toneProfile || []).join(", ")}
+
+STRUCTURAL HABITS:
+- Sentence Length: ${habits.sentenceLength || "Unknown"}
+- Formatting: ${(habits.formatting || []).join("; ")}
+- Capitalization: ${habits.capitalization || "sentence_case"}
+
+SIGNATURE PHRASES: ${(wsg.signaturePhrases || []).join("; ")}
+
+ANTI-PATTERNS (NEVER DO): ${(wsg.antiPatterns?.whatToAvoid || []).join("; ")}
+Reason: ${wsg.antiPatterns?.reason || ""}`);
+  }
+  // Fallback to old schema: autoWritingGraph
+  else if (personality.autoWritingGraph) {
     const awg = personality.autoWritingGraph;
     const wc = awg.writingCharacteristics || {};
     const habits = awg.lexicalFormattingHabits || {};
@@ -910,13 +945,13 @@ ANTI-PATTERNS (NEVER DO): ${(awg.antiPatterns || []).join("; ")}`);
 ${personality.personaPrompt}`);
   }
 
+  // Handle new schema: talCompatibilityLayer with new field names
   if (personality.talCompatibilityLayer) {
     const tcl = personality.talCompatibilityLayer;
     sections.push(`## How This Person Would React to Tal
 - Perception: ${tcl.howTheyWouldPerceiveTal || "Unknown"}
-- Messaging that resonates: ${tcl.messagingStyleThatResonates || "Unknown"}
-- Messaging that repels: ${tcl.messagingStyleThatRepels || "Unknown"}
-- Preferred tone: ${tcl.preferredTone || "Unknown"}`);
+- Resonation Angle: ${tcl.resonationAngle || "Unknown"}
+- What to Avoid: ${tcl.whatToAvoidInPost || "Unknown"}`);
   }
 
   // ---- SECTION 2: VARIATION SEED (forces different outputs) ----

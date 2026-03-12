@@ -246,7 +246,9 @@ export async function executeContentGeneration(
         profileSnapshot: personalityData.analysis?.profileSnapshot,
         personalityGraph: personalityData.analysis?.personalityGraph,
         knowledgeGraph: personalityData.analysis?.knowledgeGraph,
+        // Support both old schema (autoWritingGraph) and new schema (writingStyleGraph)
         autoWritingGraph: personalityData.analysis?.autoWritingGraph,
+        writingStyleGraph: personalityData.analysis?.writingStyleGraph,
         personaPrompt: personalityData.analysis?.personaPrompt,
         talCompatibilityLayer: personalityData.analysis?.talCompatibilityLayer,
       },
