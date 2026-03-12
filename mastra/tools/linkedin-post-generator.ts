@@ -719,7 +719,7 @@ export async function generateLinkedInPost(
 
   const genAI = new GoogleGenerativeAI(apiKey);
   const model = genAI.getGenerativeModel({
-    model: process.env.GEMINI_MODEL || "gemini-3-pro",
+    model: process.env.GEMINI_MODEL || "gemini-2.5-pro",
     generationConfig: {
       temperature: 0.8,
     },
