@@ -1071,23 +1071,91 @@ function selectChatsForPersonality(allChats: any[], personality: any, count: num
 // ============================================
 // POWERS REMOVED - Let model discover from chats
 // ============================================
-// Powers list was removed to allow more organic discovery from actual Tal conversations.
-// The model now picks what to highlight based on the chats themselves.
+// CAPABILITY THEMES - Forces variety in WHAT to highlight
+// ============================================
+
+const CAPABILITY_THEMES = [
+  {
+    name: "Job Matching",
+    instruction: "Focus on how Tal finds ONE specific relevant job instead of dumping 100 listings. The precision of matching, not the volume.",
+    chatKeywords: ["role", "job", "position", "opportunity", "apply", "hiring"]
+  },
+  {
+    name: "Salary Reality Check",
+    instruction: "Focus on salary insights - telling someone they're underpaid, giving real market rates, CTC reality checks. The uncomfortable truth about compensation.",
+    chatKeywords: ["salary", "ctc", "lpa", "underpaid", "compensation", "package", "pay"]
+  },
+  {
+    name: "Career Path Analysis",
+    instruction: "Focus on how Tal reads career trajectories and spots patterns. 'Classic founding engineer journey', 'flipkart to mvl move', recognizing career arcs.",
+    chatKeywords: ["career", "trajectory", "growth", "path", "move", "journey", "pattern"]
+  },
+  {
+    name: "Company Intel",
+    instruction: "Focus on inside knowledge about companies - culture, red flags, what it's really like to work there. The stuff you'd only know from insiders.",
+    chatKeywords: ["company", "culture", "startup", "toxic", "environment", "team"]
+  },
+  {
+    name: "Brutal Honesty",
+    instruction: "Focus on Tal's directness - calling out BS, harsh truths about career choices, roasting inflated titles. The friend who tells you what others won't.",
+    chatKeywords: ["honest", "brutal", "truth", "roast", "real", "harsh"]
+  },
+  {
+    name: "Encouragement",
+    instruction: "Focus on how Tal pushes people to apply even when they doubt themselves. Reframing experience, building confidence, 'you should go for it'.",
+    chatKeywords: ["encourage", "apply", "confidence", "try", "go for", "believe"]
+  },
+  {
+    name: "Role Decoding",
+    instruction: "Focus on translating JD jargon - what 'senior' really means, spotting lateral moves dressed as promotions, decoding corporate speak.",
+    chatKeywords: ["title", "designation", "senior", "lateral", "jd", "description"]
+  },
+  {
+    name: "Conversational Intelligence",
+    instruction: "Focus on how the conversation FEELS - like texting a smart friend, not filling forms. The personality and wit in responses.",
+    chatKeywords: ["conversation", "chat", "talk", "feel", "human", "bot"]
+  }
+];
+
+// ============================================
+// OPENER VARIANTS - Diversified, LinkedIn-friendly
+// ============================================
 
 const OPENER_VARIANTS = [
-  "a friend showed me this",
-  "a friend built this",
-  "a friend at Grapevine sent this over",
-  "the team at Grapevine has been building something",
-  "tried this for a few minutes",
-  "used this for a bit",
-  "saw this recently",
-  "got shown this by a friend",
-  "a friend working on this sent it over",
-  "shoutout to the team building this",
-  "came across an AI career agent",
-  "saw a new tool called Tal"
+  // Friend/referral style (use sparingly)
+  { text: "A friend showed me something interesting", weight: 1 },
+  { text: "A friend who works in recruiting sent this over", weight: 1 },
+
+  // Direct discovery (more natural)
+  { text: "Tried an AI career agent over the weekend", weight: 2 },
+  { text: "Was playing around with a new career tool", weight: 2 },
+  { text: "Came across Tal recently", weight: 2 },
+  { text: "Saw something interesting in the career tech space", weight: 2 },
+
+  // Observation-first (no discovery framing)
+  { text: "", weight: 3 },  // Empty = start directly with the insight
+  { text: "", weight: 3 },
+
+  // Question openers
+  { text: "What if career advice wasn't polite?", weight: 1 },
+  { text: "How much time do we waste on job portals?", weight: 1 },
+
+  // Shoutout style
+  { text: "Shoutout to whoever built this", weight: 1 },
+  { text: "The team at Grapevine is building something interesting", weight: 1 }
 ];
+
+// Helper to get weighted random opener
+function getRandomOpener(): string {
+  const totalWeight = OPENER_VARIANTS.reduce((sum, o) => sum + o.weight, 0);
+  let random = Math.random() * totalWeight;
+
+  for (const opener of OPENER_VARIANTS) {
+    random -= opener.weight;
+    if (random <= 0) return opener.text;
+  }
+  return OPENER_VARIANTS[0].text;
+}
 
 // ============================================
 // VARIATION POOLS - Force different outputs
@@ -1187,6 +1255,7 @@ interface VariationSeed {
   mood: typeof POST_MOODS[0];
   structure: typeof STRUCTURE_TEMPLATES[0];
   focus: typeof FOCUS_AREAS[0];
+  capabilityTheme: typeof CAPABILITY_THEMES[0];
   openerHint: string;
 }
 
@@ -1203,18 +1272,19 @@ function getVariationSeed(username: string): VariationSeed {
   const mood = POST_MOODS[Math.floor(Math.random() * POST_MOODS.length)];
   const structure = STRUCTURE_TEMPLATES[Math.floor(Math.random() * STRUCTURE_TEMPLATES.length)];
   const focus = FOCUS_AREAS[Math.floor(Math.random() * FOCUS_AREAS.length)];
+  const capabilityTheme = CAPABILITY_THEMES[Math.floor(Math.random() * CAPABILITY_THEMES.length)];
 
-  // Random opener each time
-  const openerIndex = Math.floor(Math.random() * OPENER_VARIANTS.length);
-  const openerHint = OPENER_VARIANTS[openerIndex];
+  // Weighted random opener
+  const openerHint = getRandomOpener();
 
   console.log(`[linkedin-post-generator] Variation for ${username}:`);
   console.log(`  Mood: ${mood.name}`);
   console.log(`  Structure: ${structure.name}`);
   console.log(`  Focus: ${focus.name}`);
-  console.log(`  Opener: "${openerHint}"`);
+  console.log(`  Capability: ${capabilityTheme.name}`);
+  console.log(`  Opener: "${openerHint || '(direct start)'}"`);
 
-  return { mood, structure, focus, openerHint };
+  return { mood, structure, focus, capabilityTheme, openerHint };
 }
 
 // ============================================
@@ -1417,7 +1487,7 @@ ${personality.personaPrompt}`);
 
   // ---- SECTION 2: VARIATION SEED (forces different outputs) ----
   const variationSeed = getVariationSeed(personality.username);
-  const { mood, structure, focus, openerHint } = variationSeed;
+  const { mood, structure, focus, capabilityTheme, openerHint } = variationSeed;
 
   sections.push(`# 🎲 VARIATION INSTRUCTIONS (MANDATORY)
 
@@ -1433,10 +1503,16 @@ ${structure.structure}
 ## FOCUS AREA: ${focus.name}
 ${focus.instruction}
 
-These are NOT suggestions. You MUST follow the mood, structure, and focus area above.
+## 🎯 CAPABILITY THEME (MOST IMPORTANT): ${capabilityTheme.name}
+${capabilityTheme.instruction}
+
+This is the PRIMARY capability to highlight in this post. Find examples of this in the chats below.
+DO NOT default to talking about onboarding or conversation style unless that IS the assigned theme.
+
+These are NOT suggestions. You MUST follow the mood, structure, focus, AND capability theme above.
 The goal is to ensure every generated post feels meaningfully different.`);
 
-  // ---- SECTION 3: TAL CONTEXT (with random power rotation) ----
+  // ---- SECTION 3: TAL CONTEXT ----
 
   sections.push(`\n# TAL - WHAT THIS PERSON EXPLORED`);
 
@@ -1455,38 +1531,36 @@ ${truncated}`);
 ${tal.lore}`);
   }
 
-  // Instructions to discover from chats organically
-  sections.push(`## WHAT TO HIGHLIGHT (DISCOVER FROM CHATS)
+  // Instructions for capability-first discovery
+  sections.push(`## FINDING THE RIGHT MOMENT FROM CHATS
 
-Read the TAL CONVERSATIONS below carefully. Pick ONE specific moment, exchange, or capability that would resonate with THIS person based on their personality and professional context.
+Your assigned capability theme is: **${capabilityTheme.name}**
 
-DO NOT default to "brutal honesty" or "directness" as the angle unless:
-1. The person's writing graph shows they value bluntness
-2. You have NOT used this angle in similar posts
+Search the chats below for examples that match this theme. Look for keywords like: ${capabilityTheme.chatKeywords.join(", ")}
 
-VARIETY IS MANDATORY. Consider these diverse angles:
-- Speed/efficiency of getting to one answer
-- The conversational/human feel
-- Specific market intelligence (salary data, company insights)
-- Encouragement when someone feels stuck
-- The humor/roasts (for people who appreciate wit)
-- Practical daily work help (leave requests, awkward messages)
-- Career trajectory predictions
-- Resume/profile feedback
+When you find a good example:
+1. Quote or paraphrase a specific moment from that chat
+2. Frame it in a way that fits this person's voice
+3. Make the post about THIS capability, not about onboarding or conversation style
 
-Pick the angle that fits THIS person's personality, not the most dramatic one.
+BALANCE RULE:
+- 70% of the post should be about the CAPABILITY (what Tal does)
+- 30% can be about the experience/interaction (how it felt)
+- Do NOT spend the whole post talking about how "conversational" or "human" it feels
 
-## OPENER SUGGESTION
-Consider starting with or weaving in: "${openerHint}"
+## OPENER GUIDANCE
+${openerHint ? `Consider starting with: "${openerHint}"` : "Start DIRECTLY with your observation or insight. No discovery framing needed."}
 
-Other strong openers (pick ONE, do NOT start with "someone"):
-- "a friend built this"
-- "a friend at Grapevine showed me this"
-- "tried this for a few minutes"
-- "the team at Grapevine has been building something"
-- "shoutout to the team behind this"
-- "came across an AI career agent"
-- "saw a new tool called Tal"
+LinkedIn-friendly openers (vary these):
+- Direct insight: "Most career tools do X. This one does Y."
+- Question: "What if [capability] actually worked?"
+- Observation: "Noticed something interesting about..."
+- Story: "Someone I know was told by an AI that..."
+
+AVOID overusing:
+- "A friend at Grapevine" (use sparingly, not every post)
+- "I was playing around with" / "I tried" (varies, don't repeat)
+- Starting with the tool name (lead with the insight instead)
 
 Do NOT start with:
 - "someone showed me..."
@@ -1527,9 +1601,10 @@ ${preview}
 ...`);
     }
 
-    sections.push(`\nThese chats were selected because they align with this person's professional context.
-Use specific moments, quotes, or observations from these chats to make the post feel grounded and real.
-Do NOT summarize all chats - pick ONE or TWO moments that would resonate with this person.`);
+    sections.push(`\nREMEMBER: Your assigned capability theme is "${capabilityTheme.name}".
+Find chats that demonstrate this capability. Look for: ${capabilityTheme.chatKeywords.join(", ")}
+Pick ONE or TWO specific moments that show this capability in action.
+Quote or paraphrase the exact exchange - make it concrete, not generic.`);
   }
 
   // ---- SECTION 3: WORD COUNT & OPTIONS ----
