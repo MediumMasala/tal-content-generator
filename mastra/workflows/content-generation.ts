@@ -246,7 +246,12 @@ export async function executeContentGeneration(
         profileSnapshot: personalityData.analysis?.profileSnapshot,
         personalityGraph: personalityData.analysis?.personalityGraph,
         knowledgeGraph: personalityData.analysis?.knowledgeGraph,
-        // Support both old schema (autoWritingGraph) and new schema (writingStyleGraph)
+        // Newest schema fields
+        writingGraph: personalityData.analysis?.writingGraph,
+        lexicalGraph: personalityData.analysis?.lexicalGraph,
+        voiceLandmines: personalityData.analysis?.voiceLandmines,
+        finalWriterGuidance: personalityData.analysis?.finalWriterGuidance,
+        // Older schemas for backward compatibility
         autoWritingGraph: personalityData.analysis?.autoWritingGraph,
         writingStyleGraph: personalityData.analysis?.writingStyleGraph,
         personaPrompt: personalityData.analysis?.personaPrompt,

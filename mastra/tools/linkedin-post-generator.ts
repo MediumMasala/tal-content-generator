@@ -13,7 +13,12 @@ export const LinkedInPostGeneratorInputSchema = z.object({
     profileSnapshot: z.any().optional(),
     personalityGraph: z.any().optional(),
     knowledgeGraph: z.any().optional(),
-    // Support both old schema (autoWritingGraph) and new schema (writingStyleGraph)
+    // Newest schema
+    writingGraph: z.any().optional(),
+    lexicalGraph: z.any().optional(),
+    voiceLandmines: z.any().optional(),
+    finalWriterGuidance: z.array(z.string()).optional(),
+    // Older schemas for backward compatibility
     autoWritingGraph: z.any().optional(),
     writingStyleGraph: z.any().optional(),
     personaPrompt: z.string().optional(),
@@ -889,8 +894,94 @@ AMBITION & RISK: ${pg.ambitionAndRisk?.inference || "Unknown"}
 WORLDVIEW: ${pg.worldviewAndInfluences?.inference || "Unknown"}`);
   }
 
-  // Handle new schema: writingStyleGraph
-  if (personality.writingStyleGraph) {
+  // Handle newest schema: writingGraph + lexicalGraph
+  if (personality.writingGraph) {
+    const wg = personality.writingGraph;
+
+    sections.push(`## Writing Style (CRITICAL - MATCH EXACTLY)
+
+DOMINANT TONE: ${wg.dominantTone || "Unknown"}
+PUBLIC THINKING STYLE: ${wg.publicThinkingStyle || "Unknown"}
+
+RHYTHM & STRUCTURE:
+- Sentence Rhythm: ${wg.sentenceRhythm || "Unknown"}
+- Paragraph Rhythm: ${wg.paragraphRhythm || "Unknown"}
+- Line Break Style: ${wg.lineBreakStyle || "Unknown"}
+- Casing: ${wg.casingPattern || "sentence_case"}
+- Punctuation: ${wg.punctuationPattern || "Unknown"}
+- Emoji/Hashtag: ${wg.emojiHashtagBehavior || "Unknown"}
+
+STYLE DIMENSIONS:
+- Abstraction vs Concreteness: ${wg.abstractionVsConcreteness || "Unknown"}
+- Directness vs Softness: ${wg.directnessVsSoftness || "Unknown"}
+- Emotional Openness vs Restraint: ${wg.emotionalOpennessVsRestraint || "Unknown"}
+- Polish vs Spontaneity: ${wg.polishVsSpontaneity || "Unknown"}
+- Narrative vs Analytical: ${wg.narrativeVsAnalytical || "Unknown"}
+
+BEHAVIORS:
+- Hook Tendency: ${wg.hookTendency || "Unknown"}
+- CTA Tendency: ${wg.ctaTendency || "Unknown"}
+- Audience Address: ${wg.audienceAddressTendency || "Unknown"}
+- Self-Promotion Comfort: ${wg.selfPromotionComfort || "Unknown"}
+- Storytelling: ${wg.storytellingBehavior || "Unknown"}
+- Conclusion Style: ${wg.conclusionStyle || "Unknown"}
+- Certainty vs Tentativeness: ${wg.certaintyVsTentativeness || "Unknown"}
+
+RECURRING MOVES: ${(wg.recurringWritingMoves || []).join("; ")}
+STRUCTURAL PATTERNS: ${(wg.recurringStructuralPatterns || []).join("; ")}
+NATURAL POST TYPES: ${(wg.naturalPostTypes || []).join(", ")}
+UNNATURAL POST TYPES: ${(wg.unnaturalPostTypes || []).join(", ")}`);
+  }
+
+  // Handle newest schema: lexicalGraph
+  if (personality.lexicalGraph) {
+    const lg = personality.lexicalGraph;
+
+    sections.push(`## Lexical Style (VOCABULARY - CRITICAL)
+
+REPEATED WORDS: ${(lg.repeatedWords || []).join(", ")}
+REPEATED PHRASES: ${(lg.repeatedPhrases || []).join("; ")}
+FAVORED TRANSITIONS: ${(lg.favoredTransitions || []).join(", ")}
+FAVORED OPENERS: ${(lg.favoredSentenceOpeners || []).join("; ")}
+FAVORED CLOSERS: ${(lg.favoredSentenceClosers || []).join("; ")}
+FRAMING PATTERNS: ${(lg.recurringFramingPatterns || []).join("; ")}
+
+VOCABULARY STYLE:
+- Plain vs Polished: ${lg.plainVsPolishedVocabulary || "Unknown"}
+- Abstract vs Concrete: ${lg.abstractVsConcreteVocabulary || "Unknown"}
+- Domain Language: ${lg.domainLanguageTendencies || "Unknown"}
+
+SIGNATURE HABITS: ${(lg.signatureLexicalHabits || []).join("; ")}
+
+✅ VOCABULARY TO LEAN INTO: ${(lg.preferredVocabularyToLeanInto || []).join(", ")}
+✅ PHRASES WORTH ECHOING: ${(lg.naturalPhrasesWorthEchoingLightly || []).join("; ")}
+❌ VOCABULARY TO AVOID: ${(lg.vocabularyToAvoidForVoiceMatch || []).join(", ")}`);
+  }
+
+  // Handle voice landmines
+  if (personality.voiceLandmines) {
+    const vl = personality.voiceLandmines;
+
+    sections.push(`## Voice Landmines (NEVER DO THESE)
+
+TONE MISMATCHES: ${(vl.toneMismatches || []).join("; ")}
+HOOK MISMATCHES: ${(vl.hookMismatches || []).join("; ")}
+STRUCTURE MISMATCHES: ${(vl.structureMismatches || []).join("; ")}
+VOCABULARY MISMATCHES: ${(vl.vocabularyMismatches || []).join("; ")}
+PROMOTIONAL MISMATCHES: ${(vl.promotionalMismatches || []).join("; ")}
+EMOTIONAL MISMATCHES: ${(vl.emotionalMismatches || []).join("; ")}
+LINKEDIN CLICHE MISMATCHES: ${(vl.linkedInClicheMismatches || []).join("; ")}`);
+  }
+
+  // Handle final writer guidance
+  if (personality.finalWriterGuidance && personality.finalWriterGuidance.length > 0) {
+    sections.push(`## Final Writer Guidance (FOLLOW THESE)
+
+${personality.finalWriterGuidance.map((g: string, i: number) => `${i + 1}. ${g}`).join("\n")}`);
+  }
+
+  // Fallback to older schema: writingStyleGraph
+  if (!personality.writingGraph && personality.writingStyleGraph) {
     const wsg = personality.writingStyleGraph;
     const habits = wsg.structuralHabits || {};
 
@@ -910,8 +1001,8 @@ SIGNATURE PHRASES: ${(wsg.signaturePhrases || []).join("; ")}
 ANTI-PATTERNS (NEVER DO): ${(wsg.antiPatterns?.whatToAvoid || []).join("; ")}
 Reason: ${wsg.antiPatterns?.reason || ""}`);
   }
-  // Fallback to old schema: autoWritingGraph
-  else if (personality.autoWritingGraph) {
+  // Fallback to oldest schema: autoWritingGraph
+  else if (!personality.writingGraph && !personality.writingStyleGraph && personality.autoWritingGraph) {
     const awg = personality.autoWritingGraph;
     const wc = awg.writingCharacteristics || {};
     const habits = awg.lexicalFormattingHabits || {};
