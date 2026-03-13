@@ -167,12 +167,28 @@ export function loadTalContext(): {
   return { systemPrompt, lore, chats };
 }
 
-export function loadRawPosts(username: string): { data: any[] } | null {
+export function loadRawPosts(username: string): any[] {
   const profile = loadProfile(username);
   if (!profile || !profile.profile?.posts) {
-    return null;
+    return [];
   }
-  return { data: profile.profile.posts };
+  return profile.profile.posts;
+}
+
+// Alias for loadProfile (for backward compatibility)
+export function loadRawProfile(username: string): any | null {
+  return loadProfile(username);
+}
+
+// Check if personality exists
+export function personalityExists(username: string): boolean {
+  const filePath = path.join(PERSONALITIES_DIR, `${username}.json`);
+  return fs.existsSync(filePath);
+}
+
+// Get personality file path
+export function getPersonalityPath(username: string): string {
+  return path.join(PERSONALITIES_DIR, `${username}.json`);
 }
 
 // Initialize on module load
