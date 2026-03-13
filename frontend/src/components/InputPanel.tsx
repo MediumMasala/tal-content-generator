@@ -1,22 +1,32 @@
 import { motion } from 'framer-motion';
-import { Sparkles, ArrowRight } from 'lucide-react';
+import { Sparkles, ArrowRight, MessageSquare } from 'lucide-react';
 import { useState } from 'react';
 
 interface InputPanelProps {
-  onSubmit: (url: string) => void;
+  onSubmit: (url: string, userTopic?: string) => void;
   isLoading: boolean;
 }
 
 const InputPanel: React.FC<InputPanelProps> = ({ onSubmit, isLoading }) => {
   const [url, setUrl] = useState('');
+  const [userTopic, setUserTopic] = useState('');
   const [isFocused, setIsFocused] = useState(false);
+  const [isTopicFocused, setIsTopicFocused] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (url.trim() && !isLoading) {
-      onSubmit(url.trim());
+      onSubmit(url.trim(), userTopic.trim() || undefined);
     }
   };
+
+  // Topic suggestions
+  const topicSuggestions = [
+    'salary insights',
+    'brutal honesty',
+    'career growth',
+    'job matching',
+  ];
 
   return (
     <motion.div
@@ -25,8 +35,8 @@ const InputPanel: React.FC<InputPanelProps> = ({ onSubmit, isLoading }) => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.3 }}
     >
-      <form onSubmit={handleSubmit} className="relative">
-        {/* Input container */}
+      <form onSubmit={handleSubmit} className="relative space-y-4">
+        {/* LinkedIn URL Input */}
         <motion.div
           className={`
             relative overflow-hidden rounded-2xl
@@ -123,14 +133,88 @@ const InputPanel: React.FC<InputPanelProps> = ({ onSubmit, isLoading }) => {
           </div>
         </motion.div>
 
+        {/* User Topic Input (Optional) */}
+        <motion.div
+          className={`
+            relative overflow-hidden rounded-xl
+            transition-all duration-500
+          `}
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5 }}
+        >
+          <div
+            className={`
+              absolute inset-0 rounded-xl p-[1px]
+              transition-opacity duration-500
+              ${isTopicFocused ? 'opacity-60' : 'opacity-20'}
+            `}
+            style={{
+              background: 'linear-gradient(135deg, rgba(139, 92, 246, 0.4) 0%, rgba(124, 58, 237, 0.2) 100%)',
+            }}
+          />
+
+          <div className="relative glass rounded-xl p-1">
+            <div className="flex items-center gap-3 px-4 py-3 bg-void-light/30 rounded-lg">
+              <MessageSquare className="w-4 h-4 text-violet-400/50" />
+              <input
+                type="text"
+                value={userTopic}
+                onChange={(e) => setUserTopic(e.target.value)}
+                onFocus={() => setIsTopicFocused(true)}
+                onBlur={() => setIsTopicFocused(false)}
+                placeholder="Topic focus (optional): e.g., salary, career growth, brutal honesty..."
+                disabled={isLoading}
+                className={`
+                  flex-1 bg-transparent text-white placeholder-white/25
+                  text-sm font-light tracking-wide
+                  focus:outline-none
+                  disabled:opacity-50 disabled:cursor-not-allowed
+                `}
+              />
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Topic suggestion chips */}
+        <motion.div
+          className="flex flex-wrap justify-center gap-2"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.7 }}
+        >
+          {topicSuggestions.map((topic) => (
+            <motion.button
+              key={topic}
+              type="button"
+              onClick={() => setUserTopic(topic)}
+              disabled={isLoading}
+              className={`
+                px-3 py-1.5 rounded-full text-xs font-light
+                transition-all duration-200
+                border border-white/10
+                ${userTopic === topic
+                  ? 'bg-violet-500/20 text-violet-300 border-violet-500/30'
+                  : 'bg-white/5 text-white/40 hover:text-white/60 hover:bg-white/10'
+                }
+                disabled:opacity-30 disabled:cursor-not-allowed
+              `}
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+            >
+              {topic}
+            </motion.button>
+          ))}
+        </motion.div>
+
         {/* Helper text */}
         <motion.p
           className="mt-4 text-center text-sm text-white/30 font-light"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.6 }}
+          transition={{ delay: 0.8 }}
         >
-          Enter a public LinkedIn profile to generate personalized content recommendations
+          Enter a public LinkedIn profile to generate personalized content
         </motion.p>
       </form>
     </motion.div>
